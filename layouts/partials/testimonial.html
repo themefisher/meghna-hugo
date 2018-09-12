@@ -1,0 +1,38 @@
+{{ if .Site.Data.testimonial.enable }}
+{{"<!-- Start Testimonial -->" | safeHTML}}
+<section id="testimonial" class="testimonial overly section bg-2" style='background-image: url("{{ .Site.Data.testimonial.bgImage | absURL }}")'>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{"<!-- testimonial wrapper -->" | safeHTML}}
+                <div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
+                    {{ range .Site.Data.testimonial.testimonialItem }}
+                    {{"<!-- testimonial single -->" | safeHTML}}
+                    <div class="item text-center">
+
+                        {{"<!-- client photo -->" | safeHTML}}
+                        <div class="client-thumb">
+                            <img src="{{ .image | absURL }}" class="img-responsive" alt="Meghna">
+                        </div>
+
+                        {{"<!-- client info -->" | safeHTML}}
+                        <div class="client-info">
+                            <div class="client-meta">
+                                <h3>{{ .name }}</h3>
+                                <span>{{ .date }}</span>
+                            </div>
+                            <div class="client-comment">
+                                <p>{{ .content }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{"<!-- /testimonial single -->" | safeHTML}}
+                    {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{"<!-- /testimonial -->" | safeHTML}}
+{{ end }}

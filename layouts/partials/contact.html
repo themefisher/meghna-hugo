@@ -1,0 +1,74 @@
+{{ if .Site.Data.contact.enable }}
+{{"<!-- Srart Contact Us -->" | safeHTML}}
+<section id="contact-us" class="contact-us section-bg">
+    <div class="container">
+        <div class="row">
+
+            {{"<!-- section title -->" | safeHTML}}
+            <div class="title text-center wow fadeIn" data-wow-duration="500ms">
+                <h2>{{ with .Site.Data.contact.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.contact.heading }} {{ . }} {{ end }}</span></h2>
+                <div class="border"></div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+
+            {{"<!-- Contact Details -->" | safeHTML}}
+            <div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
+                {{ with .Site.Data.contact.title }}<h3>{{ . }}</h3> {{ end }}
+                {{ with .Site.Data.contact.content }} <p> {{ . }} </p> {{ end }}
+                <div class="contact-details">
+                    {{ range .Site.Data.contact.contactDetails }}
+                    <div class="con-info clearfix">
+                        <i class="{{ .icon }}"></i>
+                        <span>{{ .info }}</span>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+
+            {{"<!-- Contact Form -->" | safeHTML}}
+            <div class="contact-form col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                <form id="contact-form" method="post" action="sendmail.php" role="form">
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
+                    </div>
+
+                    <div id="mail-success" class="success">
+                        Thank you. The Mailman is on His Way :)
+                    </div>
+
+                    <div id="mail-fail" class="error">
+                        Sorry, don't know what happened. Try later :(
+                    </div>
+
+                    <div id="cf-submit">
+                        <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    {{"<!-- Google Map -->" | safeHTML}}
+    <div class="google-map">
+        <div id="map-canvas" {{ with .Site.Data.contact.mapLatitude }} data-latitude="{{ . }}" {{ end }} 
+        {{ with .Site.Data.contact.mapLongitude }} data-longitude="{{ . }}" {{ end }}></div>
+    </div>
+
+</section>
+{{"<!-- /contact -->" | safeHTML}}
+{{ end }}

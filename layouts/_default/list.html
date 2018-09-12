@@ -1,0 +1,34 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+{{"<!-- Start Blog Section -->" | safeHTML}}
+<section id="blog" class="section">
+    <div class="container">
+        <div class="row">
+
+            <div class="clearfix">
+                {{ range .Data.Pages }}
+                {{"<!-- single blog post -->" | safeHTML}}
+                <article class="col-md-4 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-duration="500ms">
+                    <div class="post-block">
+                        <div class="media-wrapper">
+                            {{ with .Params.image }}<img src="{{ . | absURL }}" alt="post-image" class="img-responsive">{{ end }}
+                        </div>
+
+                        <div class="content">
+                            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                            <p>{{ .Summary }}</p>
+                            <a class="btn btn-transparent" href="{{ .Permalink }}">Read more</a>
+                        </div>
+                    </div>
+                </article>
+                {{"<!-- /single blog post -->" | safeHTML}}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{"<!-- /blog -->" | safeHTML}}
+
+{{ partial "footer.html" . }}

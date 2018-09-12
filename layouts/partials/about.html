@@ -1,0 +1,68 @@
+{{ if .Site.Data.about.enable}}
+{{"<!-- Start About Section -->" | safeHTML}}
+<section class="bg-one about section" id="about">
+    <div class="container">
+        <div class="row">
+            {{"<!-- section title -->" | safeHTML}}
+            <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+                <h2>{{ .Site.Data.about.heading}} <span class="color">{{ .Site.Data.about.headingSpan}}</span> </h2>
+                <div class="border"></div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+
+            {{ range .Site.Data.about.aboutItem }}
+            {{"<!-- About item -->" | safeHTML}}
+            <div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms">
+                <div class="block">
+                    <div class="icon-box">
+                            {{with .icon}}<i class="{{ . }}"></i>{{ end }}
+                    </div>
+                    {{"<!-- Express About Yourself -->" | safeHTML}}
+                    <div class="content text-center">
+                      {{ with .title }}<h3 class="ddd">{{ . }}</h3>{{ end }}
+                      {{ with .content}}  <p>{{ . }}</p>{{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{"<!-- /about -->" | safeHTML}}
+{{ end }}
+
+{{ if .Site.Data.about2.enable }}
+{{"<!-- about 2 -->" | safeHTML}}
+<section class="section about-2 padding-0 bg-dark">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 padding-0 ">
+                <img class="img-responsive" src="{{ .Site.Data.about2.image | absURL}}" alt="image">
+            </div>
+            <div class="col-md-6">
+                <div class="content-block">
+                   {{with .Site.Data.about2.title}} <h2>{{ . }}</h2> {{ end }}
+                   {{with .Site.Data.about2.description}} <p>{{ . }}</p> {{ end }}
+                   {{with .Site.Data.about2.description2}} <p>{{ . }}</p> {{ end }}
+                    <div class="row">
+                        {{ range .Site.Data.about2.aboutItem }}
+                        <div class="col-md-6">
+                            <div class="media">
+                                <div class="pull-left">
+                                   {{with .icon}} <i class="{{ . }}"></i> {{ end }}
+                                </div>
+                                <div class="media-body">
+                                   {{with .title}} <h4 class="media-heading">{{ . }}</h4>{{ end }}
+                                   {{ with .content}} <p>{{ . }}</p> {{ end }}
+                                </div>
+                            </div>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{"<!-- /about 2 -->" | safeHTML}}
+{{ end }}

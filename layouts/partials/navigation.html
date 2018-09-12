@@ -1,0 +1,34 @@
+{{"<!-- Fixed Navigation -->" | safeHTML}}
+<header id="navigation" class="navbar navigation">
+    <div class="container">
+        <div class="navbar-header">
+            {{"<!-- responsive nav button -->" | safeHTML}}
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            {{"<!-- /responsive nav button -->" | safeHTML}}
+
+            {{"<!-- logo -->" | safeHTML}}
+            <a class="navbar-brand logo" href="{{ .Site.BaseURL | absURL }}">
+                <img src="{{ .Site.Params.logo | absURL }}" alt="Logo" />
+            </a>
+            {{"<!-- /logo -->" | safeHTML}}
+        </div>
+
+        {{"<!-- main nav -->" | safeHTML}}
+        <nav class="collapse navbar-collapse navbar-right" role="Navigation">
+            <ul id="nav" class="nav navbar-nav navigation-menu">
+                <li><a data-scroll href="#body">{{ with .Site.Params.home }}{{ . }}{{ end }}</a></li>
+                {{ range .Site.Menus.nav }}
+                <li><a data-scroll href="#{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+            </ul>
+        </nav>
+        {{"<!-- /main nav -->" | safeHTML}}
+
+    </div>
+</header>
+{{"<!-- End Fixed Navigation -->" | safeHTML}}

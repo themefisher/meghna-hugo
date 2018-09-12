@@ -1,0 +1,76 @@
+enable : true
+heading : Our
+headingSpan : Works
+filterList :
+  - filterType : photography
+    filterTitle : Photography
+    
+  - filterType : design
+    filterTitle : Design
+    
+  - filterType : development
+    filterTitle : Development
+
+portfolioItem :
+  - types : design
+    image : images/portfolio/portfolio-1.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Tag Design
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    
+  - types : development
+    image : images/portfolio/portfolio-2.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Sound system
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    
+  - types : design development
+    image : images/portfolio/portfolio-3.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Clock Product
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    
+  - types : photography development
+    image : images/portfolio/portfolio-4.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Bottol Label
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    
+  - types : design
+    image : images/portfolio/portfolio-5.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Shopping Bag
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    
+  - types : photography
+    image : images/portfolio/portfolio-6.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Tag Design
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    
+  - types : development
+    image : images/portfolio/portfolio-7.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Business Card
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    
+  - types : design development
+    image : images/portfolio/portfolio-8.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Stationary Design
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+    
+  - types : design photography
+    image : images/portfolio/portfolio-2.jpg
+    icon : tf-ion-android-search
+    URL : #
+    title : Tag Design
+    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!

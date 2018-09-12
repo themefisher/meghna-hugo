@@ -1,0 +1,15 @@
+{{ if .Site.Params.cta.enable}}
+{{"<!-- Start Call To Action -->" | safeHTML}}
+<section class="call-to-action section-sm bg-1 overly" style='background-image: url("{{ .Site.Params.counter.bgImage | absURL }}")'>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+               {{ with .Site.Params.cta.title}} <h2>{{ . }}</h2> {{ end }}
+               {{ with .Site.Params.cta.content }} <p>{{ . }}</p> {{ end }}
+                <a href="{{ .Site.Params.cta.btnURL }}" class="btn btn-main">{{ with .Site.Params.cta.btnText }} {{ . }} {{end}}</a>
+            </div>
+        </div>
+    </div>
+</section>
+{{"<!-- Start Services Section -->" | safeHTML}}
+{{ end }}
