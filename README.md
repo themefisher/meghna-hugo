@@ -23,9 +23,9 @@ Now take a look at the exampleSite folder and you're ready to go!
 ## License
 
 This Template is released under [Creative Commons Attribution 3.0 (CC-BY-3.0) License](https://creativecommons.org/licenses/by/3.0/)
-If you want to remove the credit simply make a [donation](https://www.paypal.me/Themefisher), so that we can run our contribution to hugo community.
+If you want to remove the credit simply make a [donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GSG5G2YL3E5V4), so that we can run our contribution to hugo community.
 
-[![HELP US TO GROW](https://user-images.githubusercontent.com/16266381/45262626-1e0ce880-b43c-11e8-9698-1b95f143e240.png)](https://www.paypal.me/Themefisher)
+[![HELP US TO GROW](https://user-images.githubusercontent.com/16266381/45262626-1e0ce880-b43c-11e8-9698-1b95f143e240.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GSG5G2YL3E5V4)
 
 ## About Themefisher
 
