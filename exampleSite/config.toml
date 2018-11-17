@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Meghna | Responsive Multipurpose Parallax HTML5 Template"
-theme = "meghna"
+theme = "meghna-hugo"
 
 # Menu
 [menu]
