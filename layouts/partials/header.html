@@ -28,6 +28,10 @@
         <link rel="stylesheet" href="{{"plugins/slick-carousel/slick/slick-theme.css"|absURL}}">
 		{{"<!-- Main Stylesheet -->"|safeHTML}}
         <link rel="stylesheet" href="{{"css/style.css"|absURL}}">
+        {{ "<!-- Custom CSS -->" | safeHTML }}
+        {{ range .Site.Params.custom_css }}
+        <link rel="stylesheet" href="{{ . | absURL }}">
+        {{ end }}
 
     </head>
     {{"<!-- body start -->" | safeHTML}}
