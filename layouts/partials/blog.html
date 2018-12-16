@@ -12,7 +12,7 @@
             {{"<!-- /section title -->" | safeHTML}}
 
             <div class="clearfix">
-                {{ range .Data.Pages "Section" "blog" }}
+                {{ range .Data.Pages }}
                 {{"<!-- single blog post -->" | safeHTML}}
                 <article class="col-md-4 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-duration="500ms">
                     <div class="post-block">
