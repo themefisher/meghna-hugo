@@ -29,6 +29,10 @@
 		{{"<!-- Main Stylesheet -->"|safeHTML}}
         {{ $styles := resources.Get "css/style.css" | minify}}
         <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+        
+        {{ range .Site.Params.custom_css }}
+        <link rel="stylesheet" href="{{ . | absURL }}">
+        {{ end }}
 
     </head>
     {{"<!-- body start -->" | safeHTML}}

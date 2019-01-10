@@ -1,31 +1,33 @@
-{{ partial "header.html" . }}
-	
-{{ partial "preloader.html" . }}
-	    
-{{ partial "hero-area.html" . }}
+{{ define "main" }}
 
-{{ partial "navigation.html" . }}
+    {{ partial "header.html" . }}
+        
+    {{ partial "preloader.html" . }}
+            
+    {{ partial "hero-area.html" . }}
 
-{{ partial "about.html" . }}
+    {{ partial "navigation.html" . }}
 
-{{ partial "cta.html" . }}
+    {{ partial "about.html" . }}
 
-{{ partial "service.html" . }}
-	
-{{ partial "skill.html" . }}
+    {{ partial "cta.html" . }}
 
-{{ partial "portfolio.html" . }}
+    {{ partial "service.html" . }}
+        
+    {{ partial "skill.html" . }}
 
-{{ partial "counter.html" . }}
+    {{ partial "portfolio.html" . }}
 
-{{ partial "team.html" . }}
-		
-{{ partial "pricing.html" . }}
+    {{ partial "counter.html" . }}
 
-{{ partial "testimonial.html" . }}
+    {{ partial "team.html" . }}
+            
+    {{ partial "pricing.html" . }}
 
-{{ partial "blog.html" . }}
-		
-{{ partial "contact.html" . }}
+    {{ partial "testimonial.html" . }}
 
-{{ partial "footer.html" . }}
+    {{ partial "blog.html" . }}
+            
+    {{ partial "contact.html" . }}
+
+{{ end }}

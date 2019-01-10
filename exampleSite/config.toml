@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Meghna | Responsive Multipurpose Parallax HTML5 Template"
-theme = "meghna"
+theme = "meghna-hugo"
 
 # Menu
 [menu]
@@ -50,6 +50,7 @@ description = "Airspace Hugo theme"
 author = "Themefisher"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
+custom_css = ["css/custom.css"]
 
     # Banner Section
     [params.banner]
@@ -102,21 +103,28 @@ googleAnalitycsID = "Your ID"
         # social Icons
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-facebook"
+        url = "#"
         
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-twitter"
+        url = "#"
         
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-google-outline"
+        url = "#"
         
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-youtube"
+        url = "#"
         
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-linkedin"
+        url = "#"
         
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-dribbble-outline"
+        url = "#"
         
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-pinterest-outline"
+        url = "#"

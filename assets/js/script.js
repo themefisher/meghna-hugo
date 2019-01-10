@@ -63,7 +63,8 @@ jQuery(function ($) {
 	/*	Portfolio Filtering Hook
 	/* =========================================================================  */
 
-	var mixer = mixitup('.portfolio-items-wrapper');
+	if ($('.portfolio-items-wrapper').length)
+		mixitup('.portfolio-items-wrapper');
 
 	/* ========================================================================= */
 	/*	Testimonial Carousel
@@ -305,4 +306,6 @@ function initialize() {
 	map.setMapTypeId('roadatlas');
 }
 
-google.maps.event.addDomListener(window, "load", initialize);
+// Check init google maps only if "google" has been defined.
+if("google" in window)
+	google.maps.event.addDomListener(window, "load", initialize);

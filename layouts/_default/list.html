@@ -1,3 +1,5 @@
+{{ define "main" }}
+
 {{ partial "header.html" . }}
 
 {{ partial "navigation.html" . }}
@@ -31,4 +33,4 @@
 </section>
 {{"<!-- /blog -->" | safeHTML}}
 
-{{ partial "footer.html" . }}
+{{ end }}
