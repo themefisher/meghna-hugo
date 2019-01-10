@@ -3,6 +3,7 @@ title: "Simple Image Post"
 date: 2018-09-12T12:52:36+06:00
 image: images/blog/blog-post-1.jpg
 author: Jamica Jock
+description : "This is meta description"
 ---
 
 Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
