@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
-        <meta name="author" content="{{ $.Site.Params.author }}">
-	
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+        {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+		
 		{{ "<!-- Mobile Specific Meta -->" | safeHTML }}
         <meta name="viewport" content="width=device-width, initial-scale=1">
         {{ .Hugo.Generator }}
@@ -27,8 +27,9 @@
         <link rel="stylesheet" href="{{"plugins/slick-carousel/slick/slick.css"|absURL}}">
         <link rel="stylesheet" href="{{"plugins/slick-carousel/slick/slick-theme.css"|absURL}}">
 		{{"<!-- Main Stylesheet -->"|safeHTML}}
-        <link rel="stylesheet" href="{{"css/style.css"|absURL}}">
-        {{ "<!-- Custom CSS -->" | safeHTML }}
+        {{ $styles := resources.Get "css/style.css" | minify}}
+        <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+        
         {{ range .Site.Params.custom_css }}
         <link rel="stylesheet" href="{{ . | absURL }}">
         {{ end }}
