@@ -95,7 +95,7 @@ jQuery(function ($) {
 		to determine if there was an error or not */
 		var error = false;
 		var name = $('#name').val();
-		var email = $('#email').val();
+		var email_real = $('#email_real').val();
 		var subject = $('#subject').val();
 		var message = $('#message').val();
 
@@ -118,9 +118,9 @@ jQuery(function ($) {
 		}
 		if (email.length == 0 || email.indexOf('@') == '-1') {
 			var error = true;
-			$('#email').css("border-color", "#D8000C");
+			$('#email_real').css("border-color", "#D8000C");
 		} else {
-			$('#email').css("border-color", "#666");
+			$('#email_real').css("border-color", "#666");
 		}
 		if (subject.length == 0) {
 			var error = true;
@@ -147,7 +147,9 @@ jQuery(function ($) {
 			/* using the jquery's post(ajax) function and a lifesaver
 			function serialize() which gets all the data from the form
 			we submit it to send_email.php */
-			$.post("sendmail.php", $("#contact-form").serialize(), function (result) {
+			$.post("php/mailer.php", $("#contact-form").serialize(), function (result) {
+				//log the result from the script
+				console.log(result);
 				//and after the ajax request ends we check the text returned
 				if (result == 'sent') {
 					//if the mail is sent remove the submit paragraph

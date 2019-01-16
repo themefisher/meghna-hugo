@@ -2,8 +2,9 @@
 {{"<!-- Welcome Slider-->" | safeHTML}}
 <section class="hero-area" style='background-image: url("{{ .Site.Params.banner.bgImage | absURL }}");'>
     <div class="block">
-        <div class="video-button">
-           {{with .Site.Params.banner.icon}} <i class="{{ . }}"></i> {{ end }}
+        <div class="logo">
+        	<p><img class="logo" src="images/logo.png"></p>
+             {{with .Site.Params.banner.icon}} <i class="{{ . }}"></i> {{ end }} video-button
         </div>
        {{with .Site.Params.banner.heading}} <h1>{{ . }}</h1>{{ end }}
        {{with .Site.Params.banner.content}} <p>{{ . }}</p> {{ end }}
