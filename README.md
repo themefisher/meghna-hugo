@@ -39,11 +39,5 @@ After getting huge response from the community we (themefisher) developed a crea
 Get the theme from [here](https://themefisher.com/products/biztrox-hugo-template/) 
  
 
-## About Themefisher
-
-[Themefisher] has been creating beautiful free and premium Bootstrap and HTML5 templates since 2014.
-Visit us at https://themefisher.com/ to see other great-looking themes.
-[Themefisher]: https://themefisher.com/
-
 
 ## We are available for Hiring of your next HUGO project. Drop Us a mail [themefisher@gmail.com](mailto:themefisher@gmail.com)
