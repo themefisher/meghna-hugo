@@ -2,8 +2,6 @@
 ![screenshot](https://user-images.githubusercontent.com/5304905/51797809-69316780-2234-11e9-9c99-3a6d2476ffad.jpg)
 [Demo](https://themes.gohugo.io/theme/meghna-hugo/)
 
-Meghna is a free responsive one page business template built with HTML5/CSS3, JavaScript and JQuery. The HTML template is minimalist, lightweight and fast loading, has been shipped wrapping latest technologies and awesome design trend. Mehna has successfully passed W3C validation and speed test. The bootstrap based HTML crafted with eye-catching design(UI) and ideal for well-researched user experience (UX), perfectly suited for Business, agency, startup, corporate, portfolio, showcasing, photography studio, SME business, non-profit organizations, fashion government agencies. and many more.
-
 ## Usage
 
 Create a new Hugo site by typing
