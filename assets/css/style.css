@@ -551,6 +551,8 @@ a:hover {
   z-index: 99;
   margin-bottom: 0;
   padding: 10px;
+  position: sticky;
+  top: 0;
 }
 
 .navigation .logo {

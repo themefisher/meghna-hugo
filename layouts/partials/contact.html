@@ -1,5 +1,5 @@
 {{ if .Site.Data.contact.enable }}
-{{"<!-- Start Contact Us -->" | safeHTML}}
+{{"<!-- Srart Contact Us -->" | safeHTML}}
 <section id="contact-us" class="contact-us section-bg">
     <div class="container">
         <div class="row">
@@ -27,15 +27,14 @@
 
             {{"<!-- Contact Form -->" | safeHTML}}
             <div class="contact-form col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                <form id="contact-form" method="post" action="php/mailer.php" role="form">
+                <form id="contact-form" method="post" action="sendmail.php" role="form">
 
                     <div class="form-group">
                         <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
                     </div>
 
                     <div class="form-group">
-                        <input type="text" name="email" style="display: none;">
-			<input type="text" placeholder="Your Email" class="form-control" name="email_real" id="email">
+                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
                     </div>
 
                     <div class="form-group">
@@ -64,13 +63,11 @@
         </div>
     </div>
 
-    {{ if .Site.Data.contact.enable_maps }}
     {{"<!-- Google Map -->" | safeHTML}}
     <div class="google-map">
         <div id="map-canvas" {{ with .Site.Data.contact.mapLatitude }} data-latitude="{{ . }}" {{ end }} 
         {{ with .Site.Data.contact.mapLongitude }} data-longitude="{{ . }}" {{ end }}></div>
     </div>
-    {{ end }}
 
 </section>
 {{"<!-- /contact -->" | safeHTML}}

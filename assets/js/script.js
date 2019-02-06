@@ -2,6 +2,42 @@ jQuery(function ($) {
 	"use strict";
 
 	/* ========================================================================= */
+	/*	Page Preloader
+	/* ========================================================================= */
+
+	// Preloader js    
+	$(window).on('load', function () {
+		$('#preloader').fadeOut(700);
+	});
+
+	
+	//animation scroll js
+  var html_body = $('html, body');
+  $('nav a, .page-scroll').on('click', function () { //use page-scroll class in any HTML tag for scrolling
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        html_body.animate({
+          scrollTop: target.offset().top - 50
+        }, 1500, "easeInOutExpo");
+        return false;
+      }
+    }
+  });
+
+  //easeInOutExpo Declaration
+  jQuery.extend(jQuery.easing, {
+    easeInOutExpo: function (x, t, b, c, d) {
+      if (t == 0) return b;
+      if (t == d) return b + c;
+      if ((t /= d / 2) < 1) return c / 2 * Math.pow(2, 10 * (t - 1)) + b;
+      return c / 2 * (-Math.pow(2, -10 * --t) + 2) + b;
+    }
+  });
+
+
+	/* ========================================================================= */
 	/*	Post image slider
 	/* ========================================================================= */
 
@@ -19,17 +55,6 @@ jQuery(function ($) {
 		autoplay: true,
 		autoplaySpeed: 4000
 	});
-
-
-	/* ========================================================================= */
-	/*	Menu item highlighting
-	/* ========================================================================= */
-
-
-	$("#navigation").sticky({
-		topSpacing: 0
-	});
-
 
 	/* ========================================================================= */
 	/*	Magnific popup
@@ -53,8 +78,7 @@ jQuery(function ($) {
 	/*	Portfolio Filtering Hook
 	/* =========================================================================  */
 
-	if ($('.portfolio-items-wrapper').length)
-		mixitup('.portfolio-items-wrapper');
+	var mixer = mixitup('.portfolio-items-wrapper');
 
 	/* ========================================================================= */
 	/*	Testimonial Carousel
@@ -160,17 +184,6 @@ jQuery(function ($) {
 
 
 /* ========================================================================= */
-/*	Page Preloader
-/* ========================================================================= */
-
-// Preloader js    
-$(window).on('load', function () {
-	$('#preloader').fadeOut(700);
-});
-
-
-
-/* ========================================================================= */
 /*	Animated section
 /* ========================================================================= */
 
@@ -179,14 +192,6 @@ var wow = new WOW({
 	mobile: false // trigger animations on mobile devices (default is true)
 });
 wow.init();
-
-
-/* ========================================================================= */
-/*	Smooth Scroll
-/* ========================================================================= */
-var scroll = new SmoothScroll('a[href*="#"]');
-
-
 
 /* ========================================================================= */
 /*	Google Map Customization
@@ -307,6 +312,4 @@ function initialize() {
 	map.setMapTypeId('roadatlas');
 }
 
-// Check init google maps only if "google" has been defined.
-if("google" in window)
-	google.maps.event.addDomListener(window, "load", initialize);
+google.maps.event.addDomListener(window, "load", initialize);

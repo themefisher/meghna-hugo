@@ -8,7 +8,7 @@
 				<div class="social-icon">
 					<ul class="list-inline">
 						{{ range .Site.Params.footer.socialIcon }}
-            <li><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
+						<li><a href="#"><i class="{{ .icon }}"></i></a></li>
 						{{ end }}
 					</ul>
 				</div>
@@ -40,14 +40,10 @@
 		<script type="text/javascript" src="{{ "plugins/slick-carousel/slick/slick.min.js" | absURL}}"></script>
 		{{"<!-- Portfolio Filtering -->" | safeHTML}}
 		<script type="text/javascript" src="{{ "plugins/mixitup/mixitup.min.js" | absURL}}"></script>
-		{{"<!-- Smooth Scroll -->" | safeHTML}}
-		<script type="text/javascript" src="{{ "plugins/smooth-scroll/dist/js/smooth-scroll.min.js" | absURL}}"></script>
 		{{"<!-- Magnific popup -->" | safeHTML}}
 		<script type="text/javascript" src="{{ "plugins/magnific-popup/dist/jquery.magnific-popup.min.js" | absURL}}"></script>
 		{{"<!-- Google Map API -->" | safeHTML}}
 		<script type="text/javascript"  src="{{ .Site.Params.gmapAPI | absURL }}"></script>
-		{{"<!-- Sticky Nav -->" | safeHTML}}
-		<script type="text/javascript" src="{{ "plugins/Sticky/jquery.sticky.js" | absURL}}"></script>
 		{{"<!-- Number Counter Script -->" | safeHTML}}
 		<script type="text/javascript" src="{{ "plugins/count-to/jquery.countTo.js" | absURL}}"></script>
 		{{"<!-- wow.min Script -->" | safeHTML}}
