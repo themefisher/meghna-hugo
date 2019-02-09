@@ -1,18 +1,19 @@
 {{ if .Site.Data.contact.enable }}
-{{"<!-- Srart Contact Us -->" | safeHTML}}
+{{"<!-- Start Contact Us -->" | safeHTML}}
 <section id="contact-us" class="contact-us section-bg">
     <div class="container">
         <div class="row">
-
-            {{"<!-- section title -->" | safeHTML}}
-            <div class="title text-center wow fadeIn" data-wow-duration="500ms">
-                <h2>{{ with .Site.Data.contact.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.contact.headingSpan }} {{ . }} {{ end }}</span></h2>
-                <div class="border"></div>
+            <div class="col-lg-12">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeIn" data-wow-duration="500ms">
+                    <h2>{{ with .Site.Data.contact.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.contact.headingSpan }} {{ . }} {{ end }}</span></h2>
+                    <div class="border-meghna"></div>
+                </div>
             </div>
             {{"<!-- /section title -->" | safeHTML}}
 
             {{"<!-- Contact Details -->" | safeHTML}}
-            <div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
+            <div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
                 {{ with .Site.Data.contact.title }}<h3>{{ . }}</h3> {{ end }}
                 {{ with .Site.Data.contact.content }} <p> {{ . }} </p> {{ end }}
                 <div class="contact-details">
@@ -26,8 +27,8 @@
             </div>
 
             {{"<!-- Contact Form -->" | safeHTML}}
-            <div class="contact-form col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                <form id="contact-form" method="post" action="sendmail.php" role="form">
+            <div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                <form id="contact-form" class="form-meghna" method="post" action="sendmail.php" role="form">
 
                     <div class="form-group">
                         <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
@@ -60,12 +61,9 @@
                 </form>
             </div>
 
-        </div>
-    </div>
-
     {{"<!-- Google Map -->" | safeHTML}}
     <div class="google-map">
-        <div id="map-canvas" {{ with .Site.Data.contact.mapLatitude }} data-latitude="{{ . }}" {{ end }} 
+        <div id="map-canvas" {{ with .Site.Data.contact.mapLatitude }} data-latitude="{{ . }}" {{ end }}
         {{ with .Site.Data.contact.mapLongitude }} data-longitude="{{ . }}" {{ end }}></div>
     </div>
 

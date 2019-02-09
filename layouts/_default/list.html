@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
 {{ partial "navigation.html" . }}
 
@@ -7,28 +7,26 @@
     <div class="container">
         <div class="row">
 
-            <div class="clearfix">
-                {{ range .Data.Pages }}
-                {{"<!-- single blog post -->" | safeHTML}}
-                <article class="col-md-4 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-duration="500ms">
-                    <div class="post-block">
-                        <div class="media-wrapper">
-                            {{ with .Params.image }}<img src="{{ . | absURL }}" alt="post-image" class="img-responsive">{{ end }}
-                        </div>
-
-                        <div class="content">
-                            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                            <p>{{ .Summary }}</p>
-                            <a class="btn btn-transparent" href="{{ .Permalink }}">Read more</a>
-                        </div>
+            {{ range .Data.Pages }}
+            {{"<!-- single blog post -->" | safeHTML}}
+            <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp" data-wow-duration="500ms">
+                <div class="post-block">
+                    <div class="media-wrapper">
+                        {{ with .Params.image }}<img src="{{ . | absURL }}" alt="post-image" class="img-fluid">{{ end }}
                     </div>
-                </article>
-                {{"<!-- /single blog post -->" | safeHTML}}
-                {{ end }}
-            </div>
+
+                    <div class="content">
+                        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                        <p>{{ .Summary }}</p>
+                        <a class="btn btn-transparent" href="{{ .Permalink }}">Read more</a>
+                    </div>
+                </div>
+            </article>
+            {{"<!-- /single blog post -->" | safeHTML}}
+            {{ end }}
         </div>
     </div>
 </section>
 {{"<!-- /blog -->" | safeHTML}}
 
-{{ partial "footer.html" . }}
+{{ end }}

@@ -2,13 +2,13 @@
 <footer id="footer" class="bg-one">
 	<div class="container">
 		<div class="row wow fadeInUp" data-wow-duration="500ms">
-			<div class="col-lg-12">
+			<div class="col-xl-12">
 
 				{{"<!-- Footer Social Links -->" | safeHTML}}
 				<div class="social-icon">
 					<ul class="list-inline">
 						{{ range .Site.Params.footer.socialIcon }}
-						<li><a href="#"><i class="{{ .icon }}"></i></a></li>
+						<li class="list-inline-item"><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
 						{{ end }}
 					</ul>
 				</div>
@@ -16,7 +16,7 @@
 				{{"<!-- copyright -->" | safeHTML}}
 				<div class="copyright text-center">
 					<a href="{{ .Site.BaseURL | absURL }}">
-						<img src="{{ .Site.Params.logo | absURL }}" alt="Meghna" /> 
+						<img src="{{ .Site.Params.logo | absURL }}" alt="Meghna" />
 					</a>
 					<br>
 
@@ -31,7 +31,7 @@
 {{"<!-- /footer -->" | safeHTML}}
 
 {{"<!-- Essential Scripts -->" | safeHTML}}
-		
+
 		{{"<!-- Main jQuery -->" | safeHTML}}
 		<script type="text/javascript" src="{{ "plugins/jquery/dist/jquery.min.js" | absURL}}"></script>
 		{{"<!-- Bootstrap 3.1 -->" | safeHTML}}
@@ -60,6 +60,6 @@
 				ga('create', '{{ .Site.Params.googleAnalitycsID }}', 'auto');
 				ga('send', 'pageview');
 		</script>
-		
+
     </body>
 </html>

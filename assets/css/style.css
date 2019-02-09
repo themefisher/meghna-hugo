@@ -3,7 +3,7 @@ Template Name: Meghna Responsive HTML5/CSS3 Business Template
 Author: Themefisher
 Author URI: www.Themefisher.com
 Description: Meghna Responsive HTML5/CSS3 Portfolio Template
-Version: 1.0
+Version: 1.1
 Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive, html5, css3
 */
 /*=== MEDIA QUERY ===*/
@@ -37,6 +37,10 @@ p {
   font-family: "Quattrocento Sans", sans-serif;
 }
 
+[scroll-behavior=smooth] {
+  scroll-behavior: smooth;
+}
+
 /*=================================================================
   Basic Setup
 ==================================================================*/
@@ -49,13 +53,6 @@ p {
 ::selection {
   color: #fff;
   background: #57cbcc;
-}
-
-ol,
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 figure {
@@ -118,38 +115,6 @@ a:hover {
   color: #fff;
 }
 
-.form-control {
-  background-color: #2f383d;
-  border-radius: 0;
-  padding: 5px 10px;
-  border: 0 none;
-  color: #ddd;
-}
-
-.form-control:focus {
-  box-shadow: 0 0 0;
-}
-
-.form-control::-webkit-input-placeholder {
-  /*  Chrome, Safari, Opera  */
-  color: #ddd;
-}
-
-.form-control:-moz-placeholder {
-  /* Firefox 18- */
-  color: #ddd;
-}
-
-.form-control::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #ddd;
-}
-
-.form-control:-ms-input-placeholder {
-  /*  Internet Explorer  */
-  color: #ddd;
-}
-
 #loading-mask {
   background: #333439;
   height: 100%;
@@ -171,7 +136,7 @@ a:hover {
   width: 100%;
 }
 
-.border {
+.border-meghna {
   border-top: 2px solid rgba(236, 239, 241, 0.07);
   height: 1px;
   margin: 15px auto 0;
@@ -179,7 +144,7 @@ a:hover {
   width: 30%;
 }
 
-.border:before {
+.border-meghna:before {
   background-color: #fff;
   content: '';
   height: 6px;
@@ -236,12 +201,6 @@ a:hover {
   display: inline-block;
 }
 
-ol,
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
 figure {
   margin: 0;
@@ -298,7 +257,7 @@ a:hover {
 
 @media (max-width: 768px) {
   .section {
-    padding: 50px 0;
+    padding: 80px 0;
   }
 }
 
@@ -548,18 +507,14 @@ a:hover {
 .navigation {
   background-color: #1d2024;
   width: 100%;
-  z-index: 99;
   margin-bottom: 0;
-  padding: 10px;
-  position: sticky;
-  top: 0;
 }
 
 .navigation .logo {
   padding: 0;
 }
 
-.navigation .navigation-menu li.active a {
+.navigation .navigation-menu li a.active {
   color: #57cbcc;
 }
 
@@ -574,13 +529,27 @@ a:hover {
   color: #57cbcc;
 }
 
-.navbar-toggle {
-  border: 1px solid #fff;
+.navigation .navbar-toggler {
+  color: rgba(255,255,255,.5);
+  border-color: rgba(255,255,255,.1);
   border-radius: 0;
 }
 
-.navbar-toggle span {
-  background: #fff;
+.navigation .navbar-collapse {
+  padding: 10px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+  border-top: 5px solid transparent;
+}
+
+@media (min-width: 768px) {
+  .navigation .navbar-collapse {
+    box-shadow: none;
+    border-top: none;
+  }
+}
+
+.navbar-toggler:focus {
+  outline-color:  #57cbcc;
 }
 
 .bg-1 {
@@ -842,25 +811,40 @@ a:hover {
   padding-top: 50px;
 }
 
+@media (max-width: 768px)
+{
+  .contact-us {
+    padding-top: 80px;
+  }
+}
+
 .contact-form {
   margin-bottom: 60px;
 }
 
-.contact-form .form-control {
+.form-meghna .form-control {
   background-color: transparent;
+  border-radius: 0;
+  padding: 5px 10px;
+  color: #ddd;
   border: 1px solid rgba(236, 239, 241, 0.07);
-  height: 45px;
 }
 
-.contact-form textarea.form-control {
-  padding: 10px;
-  height: 120px;
+.form-meghna .form-control:focus
+{
+  border-color: none;
+  box-shadow: none;
 }
 
-.contact-form input:hover,
-.contact-form textarea:hover,
+.form-meghna input:hover,
+.form-meghna textarea:hover,
 #contact-submit:hover {
   border-color: #57cbcc;
+}
+
+.form-meghna ::placeholder
+{
+  color: #ddd !important;
 }
 
 #contact-submit {
@@ -885,11 +869,7 @@ a:hover {
 
 .con-info i,
 .con-info span {
-  float: left;
-}
-
-.con-info span {
-  margin: -5px 0 0 15px;
+  padding-right: 5px;
 }
 
 .error {
@@ -970,6 +950,12 @@ a:hover {
 .price-title .value {
   color: #57cbcc;
   font-size: 30px;
+}
+
+.pricing ul, .skill-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .pricing li {
@@ -2095,6 +2081,19 @@ blockquote {
 .form-group:last-child,
 .form-group:last-child input {
   margin: 0;
+}
+
+.form-control-meghna .form-control {
+  background-color: transparent;
+  padding: 5px 10px;
+  color: #ddd;
+  border: 1px solid rgba(236, 239, 241, 0.07);
+}
+
+.form-control-meghna .form-control:focus
+{
+  border-color: #57cbcc;
+  box-shadow: 0 0 0 0.2rem rgba(0, 174, 255, 0.432);
 }
 
 /*# sourceMappingURL=maps/style.css.map */
