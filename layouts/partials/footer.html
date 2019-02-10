@@ -34,8 +34,9 @@
 
 		{{"<!-- Main jQuery -->" | safeHTML}}
 		<script type="text/javascript" src="{{ "plugins/jquery/dist/jquery.min.js" | absURL}}"></script>
-		{{"<!-- Bootstrap 3.1 -->" | safeHTML}}
-		<script type="text/javascript" src="{{ "plugins/bootstrap/dist/js/bootstrap.min.js" | absURL}}"></script>
+		{{"<!-- Bootstrap 4.2 + Popper -->" | safeHTML}}
+		{{ $bs := resources.Get "js/bootstrap.bundle.js" | minify}}
+		<script type="text/javascript" src="{{ $bs.Permalink }}"></script>
 		{{"<!-- Slick Carousel -->" | safeHTML}}
 		<script type="text/javascript" src="{{ "plugins/slick-carousel/slick/slick.min.js" | absURL}}"></script>
 		{{"<!-- Portfolio Filtering -->" | safeHTML}}
