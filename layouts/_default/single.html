@@ -16,6 +16,9 @@
             <div class="col-lg-8 offset-lg-2">
                 <div class="post-single-content">
                     {{ .Content }}
+                    {{ if .Site.Data.blog.sharing}}
+                        {{ partial "share_post" . }}
+                    {{ end }}
                 </div>
             </div>
         </div>
