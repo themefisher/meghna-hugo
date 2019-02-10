@@ -49,6 +49,9 @@
 		<script type="text/javascript" src="{{ "plugins/count-to/jquery.countTo.js" | absURL}}"></script>
 		{{"<!-- wow.min Script -->" | safeHTML}}
 		<script type="text/javascript" src="{{ "plugins/wow/dist/wow.min.js" | absURL}}"></script>
+		{{"<!-- Scroll behavior polyfill -->" | safeHTML}}
+		{{ $scroll := resources.Get "js/scroll-behavior-polyfill.js" | minify}}
+		<script src="{{ $scroll.Permalink }}"></script>
 		{{"<!-- Custom js -->" | safeHTML}}
 		{{ $script := resources.Get "js/script.js" | minify}}
 		<script src="{{ $script.Permalink }}"></script>

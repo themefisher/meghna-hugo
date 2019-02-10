@@ -5,37 +5,10 @@ jQuery(function ($) {
 	/*	Page Preloader
 	/* ========================================================================= */
 
-	// Preloader js    
+	// Preloader js
 	$(window).on('load', function () {
 		$('#preloader').fadeOut(700);
 	});
-
-	
-	//animation scroll js
-  var html_body = $('html, body');
-  $('nav a, .page-scroll').on('click', function () { //use page-scroll class in any HTML tag for scrolling
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        html_body.animate({
-          scrollTop: target.offset().top - 50
-        }, 1500, "easeInOutExpo");
-        return false;
-      }
-    }
-  });
-
-  //easeInOutExpo Declaration
-  jQuery.extend(jQuery.easing, {
-    easeInOutExpo: function (x, t, b, c, d) {
-      if (t == 0) return b;
-      if (t == d) return b + c;
-      if ((t /= d / 2) < 1) return c / 2 * Math.pow(2, 10 * (t - 1)) + b;
-      return c / 2 * (-Math.pow(2, -10 * --t) + 2) + b;
-    }
-  });
-
 
 	/* ========================================================================= */
 	/*	Post image slider
@@ -118,10 +91,10 @@ jQuery(function ($) {
 		where VARIABLE is the variable we are checking (like name, email),
 		length is a JavaScript function to get the number of characters.
 		And as you can see if the num of characters is 0 we set the error
-		variable to true and show the name_error div with the fadeIn effect. 
+		variable to true and show the name_error div with the fadeIn effect.
 		if it's not 0 then we fadeOut the div( that's if the div is shown and
-		the error is fixed it fadesOut. 
-		
+		the error is fixed it fadesOut.
+
 		The only difference from these checks is the email checking, we have
 		email.indexOf('@') which checks if there is @ in the email input field.
 		This JavaScript function will return -1 if no occurrence have been found.*/
