@@ -1,0 +1,32 @@
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{else if .IsPage}}{{ .Summary | plainify}}{{ else }}{{.Site.Params.description}}{{ end }}">
+    <meta name="author" content="{{ with .Params.author }}{{ . }}{{else}}{{ with .Site.Params.author}}{{ . }}{{ end }}{{end}}">
+
+    {{ "<!-- Mobile Specific Meta -->" | safeHTML }}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ .Hugo.Generator }}
+
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{" | "}}{{ .Site.Params.Description }}{{ else if .IsPage}}{{ .Title }}{{" | "}}{{ .CurrentSection.Title }}{{else}}{{ .Title }}{{" | "}}{{ .Site.Title }}{{ end }}</title>
+
+
+    {{"<!-- Favicon -->" |safeHTML}}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ "images/favicon.ico" | absURL }}"/>
+
+    {{"<!-- CSS -->"|safeHTML}}
+    {{"<!-- Fontawesome Icon font -->"|safeHTML}}
+    <link rel="stylesheet" href="{{"plugins/themefisher-font/style.css" | absURL}}">
+    {{"<!-- bootstrap.min css -->"|safeHTML}}
+    <link rel="stylesheet" href="{{"plugins/bootstrap/dist/css/bootstrap.min.css"|absURL}}">
+    {{"<!-- Animate.css -->"|safeHTML}}
+    <link rel="stylesheet" href="{{"plugins/animate-css/animate.css"|absURL}}">
+    {{"<!-- Magnific popup css -->"|safeHTML}}
+    <link rel="stylesheet" href="{{"plugins/magnific-popup/dist/magnific-popup.css"|absURL}}">
+    {{"<!-- Slick Carousel -->"|safeHTML}}
+    <link rel="stylesheet" href="{{"plugins/slick-carousel/slick/slick.css"|absURL}}">
+    <link rel="stylesheet" href="{{"plugins/slick-carousel/slick/slick-theme.css"|absURL}}">
+    {{"<!-- Main Stylesheet -->"|safeHTML}}
+    {{ $styles := resources.Get "css/style.css" | minify}}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+
+</head>

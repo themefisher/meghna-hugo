@@ -4,21 +4,21 @@
     <div class="container">
         <div class="row">
             {{"<!-- section title -->" | safeHTML }}
-            <div class="col-md-12">
+            <div class="col-lg-12">
                 <div class="title text-center">
                     <h2>{{ with .Site.Data.skill.heading}} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.skill.headingSpan }} {{ . }} {{ end }}</span></h2>
-                    <div class="border"></div>
+                    <div class="border-meghna"></div>
                 </div>
             </div>
             {{"<!-- /section title -->" | safeHTML }}
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 {{ with .Site.Data.skill.title }} <h2> {{ . }} </h2> {{ end }}
                 {{ with .Site.Data.skill.content }} <p> {{ . }} </p> {{ end }}
-                <img class="img-responsive" src="{{ .Site.Data.skill.image | absURL }}" alt="image">
+                <img class="img-fluid" src="{{ .Site.Data.skill.image | absURL }}" alt="image">
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <ul class="skill-bar">
                     {{ range .Site.Data.skill.skillItem }}
                     <li>

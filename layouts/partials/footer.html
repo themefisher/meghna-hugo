@@ -2,13 +2,13 @@
 <footer id="footer" class="bg-one">
 	<div class="container">
 		<div class="row wow fadeInUp" data-wow-duration="500ms">
-			<div class="col-lg-12">
+			<div class="col-xl-12">
 
 				{{"<!-- Footer Social Links -->" | safeHTML}}
 				<div class="social-icon">
 					<ul class="list-inline">
 						{{ range .Site.Params.footer.socialIcon }}
-						<li><a href="#"><i class="{{ .icon }}"></i></a></li>
+						<li class="list-inline-item"><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
 						{{ end }}
 					</ul>
 				</div>
@@ -16,7 +16,7 @@
 				{{"<!-- copyright -->" | safeHTML}}
 				<div class="copyright text-center">
 					<a href="{{ .Site.BaseURL | absURL }}">
-						<img src="{{ .Site.Params.logo | absURL }}" alt="Meghna" /> 
+						<img src="{{ .Site.Params.logo | absURL }}" alt="Meghna" />
 					</a>
 					<br>
 
@@ -31,11 +31,12 @@
 {{"<!-- /footer -->" | safeHTML}}
 
 {{"<!-- Essential Scripts -->" | safeHTML}}
-		
+
 		{{"<!-- Main jQuery -->" | safeHTML}}
 		<script type="text/javascript" src="{{ "plugins/jquery/dist/jquery.min.js" | absURL}}"></script>
-		{{"<!-- Bootstrap 3.1 -->" | safeHTML}}
-		<script type="text/javascript" src="{{ "plugins/bootstrap/dist/js/bootstrap.min.js" | absURL}}"></script>
+		{{"<!-- Bootstrap 4.2 + Popper -->" | safeHTML}}
+		{{ $bs := resources.Get "js/bootstrap.bundle.js" | minify}}
+		<script type="text/javascript" src="{{ $bs.Permalink }}"></script>
 		{{"<!-- Slick Carousel -->" | safeHTML}}
 		<script type="text/javascript" src="{{ "plugins/slick-carousel/slick/slick.min.js" | absURL}}"></script>
 		{{"<!-- Portfolio Filtering -->" | safeHTML}}
@@ -48,6 +49,9 @@
 		<script type="text/javascript" src="{{ "plugins/count-to/jquery.countTo.js" | absURL}}"></script>
 		{{"<!-- wow.min Script -->" | safeHTML}}
 		<script type="text/javascript" src="{{ "plugins/wow/dist/wow.min.js" | absURL}}"></script>
+		{{"<!-- Scroll behavior polyfill -->" | safeHTML}}
+		{{ $scroll := resources.Get "js/scroll-behavior-polyfill.js" | minify}}
+		<script src="{{ $scroll.Permalink }}"></script>
 		{{"<!-- Custom js -->" | safeHTML}}
 		{{ $script := resources.Get "js/script.js" | minify}}
 		<script src="{{ $script.Permalink }}"></script>
@@ -60,6 +64,6 @@
 				ga('create', '{{ .Site.Params.googleAnalitycsID }}', 'auto');
 				ga('send', 'pageview');
 		</script>
-		
+
     </body>
 </html>

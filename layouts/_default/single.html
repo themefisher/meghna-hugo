@@ -1,11 +1,11 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
 {{ partial "navigation.html" . }}
 
 <section class="section">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center">
+            <div class="col-lg-8 offset-lg-2 text-center">
                 <h1>{{ .Title }}</h1>
                 <ul class="list-inline mb-50">
                     <li class="list-inline-item">{{ .Params.author }}</li>
@@ -13,13 +13,16 @@
                 </ul>
                 <img class="img-fluid mb-50" src="{{ .Params.image | absURL }}" alt="blog-image">
             </div>
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-lg-8 offset-lg-2">
                 <div class="post-single-content">
                     {{ .Content }}
+                    {{ if .Site.Data.blog.sharing}}
+                        {{ partial "share_post" . }}
+                    {{ end }}
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-{{ partial "footer.html" . }}
+{{ end }}

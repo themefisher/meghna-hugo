@@ -1,45 +1,42 @@
 {{"<!-- Fixed Navigation -->" | safeHTML}}
-<header id="navigation" class="navbar navigation">
-    <div class="container">
-        <div class="navbar-header">
-            {{"<!-- responsive nav button -->" | safeHTML}}
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            {{"<!-- /responsive nav button -->" | safeHTML}}
+<nav id="navigation" class="navbar navbar-expand-lg navigation sticky-top">
+        <div class="container">
 
-            {{"<!-- logo -->" | safeHTML}}
-            <a class="navbar-brand logo" href="{{ .Site.BaseURL | absURL }}">
-                <img src="{{ .Site.Params.logo | absURL }}" alt="Logo" />
-            </a>
-            {{"<!-- /logo -->" | safeHTML}}
+                {{"<!-- logo -->" | safeHTML}}
+                <a class="navbar-brand logo" href="{{ .Site.BaseURL | absURL }}">
+                        <img src="{{ .Site.Params.logo | absURL }}" alt="Logo" />
+                        <span class="pl-2 font-weight-bold">{{ .Site.Title }}</span>
+                </a>
+                {{"<!-- /logo -->" | safeHTML}}
+
+                {{"<!-- responsive nav button -->" | safeHTML}}
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+                {{"<!-- /responsive nav button -->" | safeHTML}}
+
+                {{"<!-- main nav -->" | safeHTML}}
+                {{ if .IsHome }}
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto navigation-menu">
+                                <li class="nav-item"><a class="nav-link" data-scroll href="#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
+                                {{ range $.Site.Menus.nav }}
+                                <li class="nav-item"><a class="nav-link" data-scroll href="#{{ .URL }}">{{ .Name }}</a></li>
+                                {{ end }}
+                        </ul>
+                </div>
+                {{ else }}
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto navigation-menu">
+                                <li class="nav-item"><a class="nav-link" data-scroll href="{{ $.Site.BaseURL }}#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
+                                {{ range $.Site.Menus.nav }}
+                                <li class="nav-item"><a class="nav-link" data-scroll href="{{ $.Site.BaseURL }}#{{ .URL }}">{{ .Name }}</a></li>
+                                {{ end }}
+                        </ul>
+                </div>
+                {{ end }}
+                {{"<!-- /main nav -->" | safeHTML}}
         </div>
 
-        {{"<!-- main nav -->" | safeHTML}}
-        {{ if .IsHome }}        
-        <nav class="collapse navbar-collapse navbar-right" role="Navigation">
-            <ul id="nav" class="nav navbar-nav navigation-menu">
-                <li><a data-scroll href="#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
-                {{ range $.Site.Menus.nav }}
-                <li><a data-scroll href="#{{ .URL }}">{{ .Name }}</a></li>
-                {{ end }}
-            </ul>
-        </nav>
-        {{ else }}
-        <nav class="collapse navbar-collapse navbar-right" role="Navigation">
-            <ul id="nav" class="nav navbar-nav navigation-menu">
-                <li><a data-scroll href="{{ $.Site.BaseURL }}#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
-                {{ range $.Site.Menus.nav }}
-                <li><a data-scroll href="{{ $.Site.BaseURL }}#{{ .URL }}">{{ .Name }}</a></li>
-                {{ end }}
-            </ul>
-        </nav>
-        {{ end }}
-        {{"<!-- /main nav -->" | safeHTML}}
-
-    </div>
-</header>
+</nav>
 {{"<!-- End Fixed Navigation -->" | safeHTML}}
