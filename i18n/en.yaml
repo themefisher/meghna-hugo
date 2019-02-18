@@ -27,4 +27,10 @@
 - id: commentNotify
   translation: Notify me of new comments on this post
 - id: addComment
-  translation: Add comment
+  translation: Add comments
+- id: readMore
+  translation: Read more
+- id: viewAllPost
+  translation: View All Post
+- id: share
+  translation: Share

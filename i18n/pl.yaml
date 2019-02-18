@@ -28,3 +28,9 @@
   translation: Powiadom mnie o nowych komentarzach do tego wpisu
 - id: addComment
   translation: Dodaj komentarz
+- id: readMore
+  translation: Czytaj więcej
+- id: viewAllPost
+  translation: Wyświetl wszystkie wpisy
+- id: share
+  translation: Podziel się

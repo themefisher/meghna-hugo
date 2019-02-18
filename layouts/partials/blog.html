@@ -1,12 +1,13 @@
 {{ if .Site.Data.blog.enable}}
 {{"<!-- Start Blog Section -->" | safeHTML}}
+{{ $data := index .Site.Data .Site.Language.Lang }}
 <section id="blog" class="section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 {{"<!-- section title -->" | safeHTML}}
                 <div class="title text-center wow fadeInDown">
-                    <h2> {{ with .Site.Data.blog.heading }} {{ . }} {{ end }} <span class="color"> {{ with .Site.Data.blog.headingSpan }} {{ . }} {{ end }} </span></h2>
+                    <h2> {{ with $data.blog.heading }} {{ . }} {{ end }} <span class="color"> {{ with $data.blog.headingSpan }} {{ . }} {{ end }} </span></h2>
                     <div class="border-meghna"></div>
                 </div>
             </div>
@@ -23,7 +24,7 @@
                     <div class="content">
                         <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                         <p>{{ .Summary }}</p>
-                        <a class="btn btn-transparent" href="{{ .Permalink }}">Read more</a>
+                        <a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "readMore" }}</a>
                     </div>
                 </div>
             </article>
@@ -31,7 +32,7 @@
             {{ end }}
 
             <div class="all-post text-center col-lg-12">
-                <a class="btn btn-main" href="/blog">View All Post</a>
+                <a class="btn btn-main" href="/blog">{{ i18n "viewAllPost" }}</a>
             </div>
         </div>
     </div>
