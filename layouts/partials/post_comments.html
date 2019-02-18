@@ -1,5 +1,5 @@
 {{ if .Site.Data.blog.staticmanComments.enable }}
-<section class="mt-5">
+<section class="mt-4">
     <h3>{{ i18n "comments" }}</h3>
     {{ $postSlug := .File.BaseFileName }}
     {{ $.Scratch.Add "entryId" $postSlug }}
@@ -37,10 +37,10 @@
         <div class="post-comment-header">
             <img class="post-comment-avatar" src="https://www.gravatar.com/avatar/{{ .email }}?s=70&pg&d=identicon">
             <p class="post-comment-info">
-                    <span class="post-comment-name">{{ .name }} </span>
-                    <br>
-                    <i><span class="tf-ion-forward"></span> <span>{{ ( $.Scratch.Get "parentName" ) }}</span></i>
-                    <br>
+                <span class="post-comment-name">{{ .name }} </span>
+                <br>
+                <i><span class="tf-ion-forward"></span> <span>{{ ( $.Scratch.Get "parentName" ) }}</span></i>
+                <br>
                 <a href="#commentid-{{ ._id }}" title="{{ i18n "permalinkComment" }}">
                     <time class="post-time">{{ dateFormat "02.01.2006, 15:04" .date }}</time>
                 </a>
@@ -62,12 +62,12 @@
 
 
     {{ if eq ($.Scratch.Get "hasComments") 0 }}
-    <p class="mb--50">{{ i18n "noComments" }}</p>
+    <p>{{ i18n "noComments" }}</p>
     {{ end }}
 </section>
 <div class="clearfix"></div>
-<section id="staticman-form" class="pt-4">
-    <h3 class="pt-5">{{ i18n "tellSomething" }}</h3>
+<section id="staticman-form">
+    <h3>{{ i18n "tellSomething" }}</h3>
     <script>var submitted=false;</script>
     <iframe name="hidden_iframe" id="hidden_iframe" onload='if(submitted){swal("{{ i18n "thanksForComment" }}!", "{{ i18n "commentSent" }} 😊", "success");}'></iframe>
     <form class="form-control-meghna" method="POST" action="{{ .Site.Data.blog.staticmanComments.api }}" target="hidden_iframe" onsubmit="submitted=true;">
