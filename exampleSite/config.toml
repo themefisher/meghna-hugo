@@ -1,8 +1,9 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
+DefaultContentLanguage = "en"
 title = "Meghna"
-
 theme = "meghna-hugo"
+
 
 # Menu
 [menu]
