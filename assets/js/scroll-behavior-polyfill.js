@@ -1,6 +1,6 @@
 // https://www.jsdelivr.com/package/npm/scroll-behavior-polyfill?path=dist
 /*!
-	scroll-behavior-polyfill 2.0.4
+	scroll-behavior-polyfill 2.0.6
     license: MIT (https://github.com/wessberg/scroll-behavior-polyfill/blob/master/LICENSE.md)
     Copyright © 2019 Frederik Wessberg <frederikwessberg@hotmail.com>
 */
@@ -13,6 +13,8 @@
      * @type {boolean}
      */
     var SUPPORTS_SCROLL_BEHAVIOR = "scrollBehavior" in document.documentElement.style;
+
+    
 
     /*! *****************************************************************************
     Copyright (c) Microsoft Corporation. All rights reserved.
@@ -112,6 +114,8 @@
         return value;
     }
 
+    
+
     var HALF = 0.5;
     /**
      * The easing function to use when applying the smooth scrolling
@@ -136,12 +140,12 @@
         var timeLapsed = 0;
         var distanceX = endX - startX;
         var distanceY = endY - startY;
-        var speed = Math.max(Math.abs(distanceX / 1000 * SCROLL_TIME), Math.abs(distanceY / 1000 * SCROLL_TIME));
+        var speed = Math.max(Math.abs((distanceX / 1000) * SCROLL_TIME), Math.abs((distanceY / 1000) * SCROLL_TIME));
         requestAnimationFrame(function animate(timestamp) {
             timeLapsed += timestamp - startTime;
-            var percentage = Math.max(0, Math.min(1, speed === 0 ? 0 : (timeLapsed / speed)));
-            var positionX = Math.floor(startX + (distanceX * ease(percentage)));
-            var positionY = Math.floor(startY + (distanceY * ease(percentage)));
+            var percentage = Math.max(0, Math.min(1, speed === 0 ? 0 : timeLapsed / speed));
+            var positionX = Math.floor(startX + distanceX * ease(percentage));
+            var positionY = Math.floor(startY + distanceY * ease(percentage));
             method(positionX, positionY);
             if (positionX !== endX || positionY !== endY) {
                 requestAnimationFrame(animate);
@@ -158,6 +162,8 @@
             return performance.now();
         return Date.now();
     }
+
+    
 
     var ELEMENT_ORIGINAL_SCROLL = Element.prototype.scroll;
 
@@ -267,12 +273,8 @@
                 startTime: startTime,
                 startX: startX,
                 startY: startY,
-                endX: Math.floor(kind === "scrollBy"
-                    ? startX + x
-                    : x),
-                endY: Math.floor(kind === "scrollBy"
-                    ? startY + y
-                    : y),
+                endX: Math.floor(kind === "scrollBy" ? startX + x : x),
+                endY: Math.floor(kind === "scrollBy" ? startY + y : y),
                 method: getOriginalScrollMethodForKind("scrollTo", window).bind(window)
             };
         }
@@ -284,12 +286,8 @@
                 startTime: startTime,
                 startX: startX,
                 startY: startY,
-                endX: Math.floor(kind === "scrollBy"
-                    ? startX + x
-                    : x),
-                endY: Math.floor(kind === "scrollBy"
-                    ? startY + y
-                    : y),
+                endX: Math.floor(kind === "scrollBy" ? startX + x : x),
+                endY: Math.floor(kind === "scrollBy" ? startY + y : y),
                 method: getOriginalScrollMethodForKind("scrollTo", element).bind(element)
             };
         }
@@ -446,7 +444,7 @@
         if ("nodeType" in currentElement && currentElement.nodeType === 1) {
             return currentElement.parentNode;
         }
-        if ("ShadowRoot" in window && (currentElement instanceof window.ShadowRoot)) {
+        if ("ShadowRoot" in window && currentElement instanceof window.ShadowRoot) {
             return currentElement.host;
         }
         else if (currentElement === document) {
@@ -474,8 +472,7 @@
     function isScrollable(element) {
         if (element.clientHeight < element.scrollHeight || element.clientWidth < element.scrollWidth) {
             var style = getComputedStyle(element, null);
-            return (canOverflow(style.overflowY) ||
-                canOverflow(style.overflowX));
+            return canOverflow(style.overflowY) || canOverflow(style.overflowX);
         }
         return false;
     }
@@ -516,7 +513,7 @@
     function findNearestRoot(target) {
         var currentElement = target;
         while (currentElement != null) {
-            if ("ShadowRoot" in window && (currentElement instanceof window.ShadowRoot)) {
+            if ("ShadowRoot" in window && currentElement instanceof window.ShadowRoot) {
                 // Assume this is a ShadowRoot
                 return currentElement;
             }
@@ -546,14 +543,13 @@
                 return;
             var hrefAttributeValue = e.target.getAttribute("href");
             // Only work with HTMLAnchorElements that navigates to a specific ID
-            if (hrefAttributeValue == null || !hrefAttributeValue.startsWith("#"))
+            if (hrefAttributeValue == null || !hrefAttributeValue.startsWith("#")) {
                 return;
+            }
             // Find the nearest root, whether it be a ShadowRoot or the document itself
             var root = findNearestRoot(e.target);
             // Attempt to match the selector from that root. querySelector' doesn't support IDs that start with a digit, so work around that limitation
-            var elementMatch = hrefAttributeValue.match(ID_WITH_LEADING_DIGIT_REGEXP) != null
-                ? root.getElementById(hrefAttributeValue.slice(1))
-                : root.querySelector(hrefAttributeValue);
+            var elementMatch = hrefAttributeValue.match(ID_WITH_LEADING_DIGIT_REGEXP) != null ? root.getElementById(hrefAttributeValue.slice(1)) : root.querySelector(hrefAttributeValue);
             // If no selector could be found, don't proceed
             if (elementMatch == null)
                 return;
@@ -608,9 +604,7 @@
          *   └───────────┘
          *    ┗ ━ ━ ━ ━ ┛
          */
-        if ((elementEdgeStart < scrollingEdgeStart &&
-            elementEdgeEnd > scrollingEdgeEnd) ||
-            (elementEdgeStart > scrollingEdgeStart && elementEdgeEnd < scrollingEdgeEnd)) {
+        if ((elementEdgeStart < scrollingEdgeStart && elementEdgeEnd > scrollingEdgeEnd) || (elementEdgeStart > scrollingEdgeStart && elementEdgeEnd < scrollingEdgeEnd)) {
             return 0;
         }
         /**
@@ -652,8 +646,7 @@
          *        └───────────┘   └───────────┘
          *    ┗ ━ ━ ━ ━ ┛         ┗ ━ ━ ━ ━ ┛
          */
-        if ((elementEdgeStart <= scrollingEdgeStart && elementSize <= scrollingSize) ||
-            (elementEdgeEnd >= scrollingEdgeEnd && elementSize >= scrollingSize)) {
+        if ((elementEdgeStart <= scrollingEdgeStart && elementSize <= scrollingSize) || (elementEdgeEnd >= scrollingEdgeEnd && elementSize >= scrollingSize)) {
             return elementEdgeStart - scrollingEdgeStart - scrollingBorderStart;
         }
         /**
@@ -696,8 +689,7 @@
          *        ┗ ━ ━ ━ ━ ┛         ┗ ━ ━ ━ ━ ┛
          *
          */
-        if ((elementEdgeEnd > scrollingEdgeEnd && elementSize < scrollingSize) ||
-            (elementEdgeStart < scrollingEdgeStart && elementSize > scrollingSize)) {
+        if ((elementEdgeEnd > scrollingEdgeEnd && elementSize < scrollingSize) || (elementEdgeStart < scrollingEdgeStart && elementSize > scrollingSize)) {
             return elementEdgeEnd - scrollingEdgeEnd + scrollingBorderEnd;
         }
         return 0;
@@ -711,26 +703,14 @@
         // and viewport dimensions on window.innerWidth/Height
         // https://www.quirksmode.org/mobile/viewports2.html
         // https://bokand.github.io/viewport/index.html
-        var viewportWidth = window.visualViewport != null
-            ? visualViewport.width
-            : innerWidth;
-        var viewportHeight = window.visualViewport != null
-            ? visualViewport.height
-            : innerHeight;
+        var viewportWidth = window.visualViewport != null ? visualViewport.width : innerWidth;
+        var viewportHeight = window.visualViewport != null ? visualViewport.height : innerHeight;
         var viewportX = window.scrollX != null ? window.scrollX : window.pageXOffset;
         var viewportY = window.scrollY != null ? window.scrollY : window.pageYOffset;
         var _a = target.getBoundingClientRect(), targetHeight = _a.height, targetWidth = _a.width, targetTop = _a.top, targetRight = _a.right, targetBottom = _a.bottom, targetLeft = _a.left;
         // These values mutate as we loop through and generate scroll coordinates
-        var targetBlock = block === "start" || block === "nearest"
-            ? targetTop
-            : block === "end"
-                ? targetBottom
-                : targetTop + targetHeight / 2; // block === 'center
-        var targetInline = inline === "center"
-            ? targetLeft + targetWidth / 2
-            : inline === "end"
-                ? targetRight
-                : targetLeft; // inline === 'start || inline === 'nearest
+        var targetBlock = block === "start" || block === "nearest" ? targetTop : block === "end" ? targetBottom : targetTop + targetHeight / 2; // block === 'center
+        var targetInline = inline === "center" ? targetLeft + targetWidth / 2 : inline === "end" ? targetRight : targetLeft; // inline === 'start || inline === 'nearest
         var _b = scroller.getBoundingClientRect(), height = _b.height, width = _b.width, top = _b.top, right = _b.right, bottom = _b.bottom, left = _b.left;
         var frameStyle = getComputedStyle(scroller);
         var borderLeft = parseInt(frameStyle.borderLeftWidth, 10);
@@ -741,18 +721,8 @@
         var inlineScroll = 0;
         // The property existance checks for offset[Width|Height] is because only HTMLElement objects have them, but any Element might pass by here
         // @TODO find out if the "as HTMLElement" overrides can be dropped
-        var scrollbarWidth = "offsetWidth" in scroller
-            ? scroller.offsetWidth -
-                scroller.clientWidth -
-                borderLeft -
-                borderRight
-            : 0;
-        var scrollbarHeight = "offsetHeight" in scroller
-            ? scroller.offsetHeight -
-                scroller.clientHeight -
-                borderTop -
-                borderBottom
-            : 0;
+        var scrollbarWidth = "offsetWidth" in scroller ? scroller.offsetWidth - scroller.clientWidth - borderLeft - borderRight : 0;
+        var scrollbarHeight = "offsetHeight" in scroller ? scroller.offsetHeight - scroller.clientHeight - borderTop - borderBottom : 0;
         if (scrollingElement === scroller) {
             // Handle viewport logic (document.documentElement or document.body)
             if (block === "start") {
@@ -843,9 +813,7 @@
                     : arg;
             // Find the nearest ancestor that can be scrolled
             var _a = __read(findNearestAncestorsWithScrollBehavior(this), 2), ancestorWithScroll = _a[0], ancestorWithScrollBehavior = _a[1];
-            var behavior = normalizedOptions.behavior != null
-                ? normalizedOptions.behavior
-                : ancestorWithScrollBehavior;
+            var behavior = normalizedOptions.behavior != null ? normalizedOptions.behavior : ancestorWithScrollBehavior;
             // If the behavior isn't smooth, simply invoke the original implementation and do no more
             if (behavior !== "smooth") {
                 // Assert that 'scrollIntoView' is actually defined
