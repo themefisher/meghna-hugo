@@ -3,7 +3,7 @@ Template Name: Meghna Responsive HTML5/CSS3 Business Template
 Author: Themefisher
 Author URI: www.Themefisher.com
 Description: Meghna Responsive HTML5/CSS3 Portfolio Template
-Version: 1.1
+Version: 1.2
 Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive, html5, css3
 */
 /*=== MEDIA QUERY ===*/
@@ -53,6 +53,10 @@ p {
 ::selection {
   color: #fff;
   background: #57cbcc;
+}
+
+hr {
+  border-top: 1px solid rgba(255,255,255,.1);
 }
 
 figure {
@@ -1568,6 +1572,73 @@ a:hover {
   height: auto;
 }
 
+/* Staticman Comments */
+
+#staticman-form:before {
+  display: block;
+  height: 90px;
+  margin-top: -90px;
+  visibility: hidden;
+  content: "";
+}
+
+@media (max-width: 768px) {
+  #staticman-form:before {
+    display: block;
+    height: 80px;
+    margin-top: -80px;
+    visibility: hidden;
+    content: "";
+  }
+}
+
+.post-comment {
+  background-color: #292f36;;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post-comment-header {
+  margin-bottom: 20px;
+}
+
+.post-comment-avatar {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.post-comment-info {
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.post-comment-field {
+  display: block;
+  font: inherit;
+  padding: 10px;
+  margin-top: 20px;
+  outline-color: #F76C5E;
+  width: 100%;
+}
+
+.post-comment-name {
+  color: #afbac4;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.post-time {
+  color: #737f8a;
+}
+
+input#e-mail, #hidden_iframe {
+  display: none;
+}
+
 /*=================================================================
   Footer section
 ==================================================================*/
@@ -2306,9 +2377,5 @@ background-color: #FF6600
 
 .resp-sharing-button--telegram:hover {
   background-color: #4B97D1;}
-
-.social-share {
-    padding-top: 20px;
-}
 
 /*# sourceMappingURL=maps/style.css.map */

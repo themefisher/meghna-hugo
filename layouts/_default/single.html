@@ -19,6 +19,7 @@
                     {{ if .Site.Data.blog.sharing}}
                         {{ partial "share_post" . }}
                     {{ end }}
+                    {{ partial "post_comments" . }}
                 </div>
             </div>
         </div>

@@ -34,9 +34,8 @@
 
 		{{"<!-- Main jQuery -->" | safeHTML}}
 		<script type="text/javascript" src="{{ "plugins/jquery/dist/jquery.min.js" | absURL}}"></script>
-		{{"<!-- Bootstrap 4.2 + Popper -->" | safeHTML}}
-		{{ $bs := resources.Get "js/bootstrap.bundle.js" | minify}}
-		<script type="text/javascript" src="{{ $bs.Permalink }}"></script>
+		{{"<!-- Bootstrap 4.3 + Popper -->" | safeHTML}}
+		<script type="text/javascript" src="{{ "plugins/bootstrap/dist/js/bootstrap.bundle.min.js" | absURL}}"></script>
 		{{"<!-- Slick Carousel -->" | safeHTML}}
 		<script type="text/javascript" src="{{ "plugins/slick-carousel/slick/slick.min.js" | absURL}}"></script>
 		{{"<!-- Portfolio Filtering -->" | safeHTML}}
@@ -52,6 +51,8 @@
 		{{"<!-- Scroll behavior polyfill -->" | safeHTML}}
 		{{ $scroll := resources.Get "js/scroll-behavior-polyfill.js" | minify}}
 		<script src="{{ $scroll.Permalink }}"></script>
+		{{"<!-- Sweet Alert -->" | safeHTML}}
+		<script type="text/javascript" src="{{ "plugins/sweet-alert/sweetalert.min.js" | absURL}}"></script>
 		{{"<!-- Custom js -->" | safeHTML}}
 		{{ $script := resources.Get "js/script.js" | minify}}
 		<script src="{{ $script.Permalink }}"></script>

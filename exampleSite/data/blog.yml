@@ -1,4 +1,6 @@
 enable : true
-heading : Latest
-headingSpan : Posts
 sharing : true
+staticmanComments:
+  enable: false
+  notifications: true
+  api: https://dev.staticman.net/v3/entry/github/themefisher/meghna-hugo/master/comments

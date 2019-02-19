@@ -294,3 +294,22 @@ function initialize() {
 }
 
 google.maps.event.addDomListener(window, "load", initialize);
+
+/* ========================================================================= */
+/*	Staticman comments reply
+/* ========================================================================= */
+function changeValue(elementName, newValue){
+	document.getElementsByName(elementName)[0].value=newValue;
+};
+
+/* ========================================================================= */
+/*	Honeypot
+/* ========================================================================= */
+$(document).ready(function() {
+    $('form').submit(function() {
+        if ($('input[type="text"]#e-mail').val().length > 0) {
+            $('form').attr('action', '/');
+            return false;
+        }
+    });
+});
