@@ -1,11 +1,13 @@
 {{ if .Site.Data.blog.staticmanComments.enable }}
 <section class="mt-4">
     <h3>{{ i18n "comments" }}</h3>
+
     {{ $postSlug := .File.BaseFileName }}
     {{ $.Scratch.Add "entryId" $postSlug }}
-    {{ $comments := index $.Site.Data.comments ($.Scratch.Get "entryId") }}
 
     {{ $.Scratch.Set "hasComments" 0 }}
+    {{ if .Site.Data.comments }}
+    {{ $comments := index $.Site.Data.comments ($.Scratch.Get "entryId") }}
     {{ range $comments }}
     {{ $.Scratch.Add "hasComments" 1 }}
     {{ if not .reply_to }}
@@ -59,8 +61,7 @@
     {{ end }}
     {{ end }}
     {{ end }}
-
-
+    {{ end }}
     {{ if eq ($.Scratch.Get "hasComments") 0 }}
     <p>{{ i18n "noComments" }}</p>
     {{ end }}
