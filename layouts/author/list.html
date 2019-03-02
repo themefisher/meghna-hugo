@@ -1,0 +1,72 @@
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+{{ if .Content}}
+<section class="section section-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="title text-center">
+                    <h2> {{ with i18n "aboutAuthor" }} {{ index (split . " ") 0 }} {{ end }}<span class="color"> {{ with i18n "aboutAuthor" }} {{ index (split . " ") 1 }} {{ end }} </span></h2>
+                    <div class="border-meghna"></div>
+                </div>
+                <div class="content text-center">
+                    {{ partial "author-figure" . }}
+                    <hr>
+                    {{ .Content }}
+                    <hr>
+                    <div class="list-group">
+                        {{ with .Params.github }}
+                        <div>
+                            <i class="tf-ion-social-github-outline mr-1"></i>
+                            <span>GitHub: <a href="https://github.com/{{.}}">github.com/{{.}}</a>
+                            </span>
+                        </div>
+                        {{ end }}
+
+                        {{ with .Params.facebook }}
+                        <div>
+                            <i class="tf-ion-social-facebook-outline mr-1"></i>
+                            <span>Facebook: <a href="https://facebook.com/{{.}}">facebook.com/{{.}}</a>
+                            </span>
+                        </div>
+                        {{ end }}
+
+                        {{ with .Params.twitter }}
+                        <div>
+                            <i class="tf-ion-social-twitter-outline mr-1"></i>
+                            <span>Twitter: <a href="https://twitter.com/{{.}}">twitter.com/{{.}}</a>
+                            </span>
+                        </div>
+                        {{ end }}
+
+                        {{ with .Params.instagram }}
+                        <div>
+                            <i class="tf-ion-social-instagram-outline mr-1"></i>
+                            <span>Instagram: <a href="https://instagram.com/{{.}}">instagram.com/{{.}}</a>
+                            </span>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title text-center">
+                        <h2>  {{ with i18n "authorsPosts" }} {{ index (split . " ") 0 }} {{ end }}<span class="color"> {{ with i18n "authorsPosts" }} {{ index (split . " ") 1 }} {{ end }}</h2>
+                            <div class="border-meghna"></div>
+                        </div>
+                    </div>
+                    {{ range .Data.Pages }}
+                    {{ .Render "article" }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+</section>
+{{ end }}

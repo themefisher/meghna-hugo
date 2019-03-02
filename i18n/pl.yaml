@@ -34,3 +34,17 @@
   translation: Wyświetl wszystkie wpisy
 - id: share
   translation: Podziel się
+- id: aboutAuthor
+  translation: O autorze
+- id: contact
+  translation: Kontakt
+- id: authorsPosts
+  translation: Wpisy autora
+- id: authorOfPostsOnBlog
+  translation: Autor wpisów na blogu
+- id: authorsOfPosts
+  translation: Autorzy wpisów
+- id: authorsOfPostsOnBlog
+  translation: Autorzy wpisów na blogu
+- id: blogs
+  translation: Blog
