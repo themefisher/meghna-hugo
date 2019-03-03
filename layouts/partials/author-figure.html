@@ -1,0 +1,12 @@
+<figure>
+    {{ if .Params.photo }}
+    <img class="rounded-circle img-fluid" src="{{.Params.Photo}}">
+    {{else if .Params.email}}
+    <img class="rounded-circle img-fluid" src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon">
+    {{ end }}
+    <figcaption>
+        <h5 class="font-weight-bold">
+            {{ .Params.name }}
+        </h5>
+    </figcaption>
+</figure>

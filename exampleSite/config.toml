@@ -4,6 +4,10 @@ DefaultContentLanguage = "en"
 title = "Meghna"
 theme = "meghna-hugo"
 
+[taxonomies]
+  author = "author"
+  category = "categories"
+  tag = "tags"
 
 # Menu
 [menu]

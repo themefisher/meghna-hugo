@@ -3,7 +3,7 @@ Template Name: Meghna Responsive HTML5/CSS3 Business Template
 Author: Themefisher
 Author URI: www.Themefisher.com
 Description: Meghna Responsive HTML5/CSS3 Portfolio Template
-Version: 1.2
+Version: 1.3
 Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive, html5, css3
 */
 /*=== MEDIA QUERY ===*/
@@ -39,6 +39,10 @@ p {
 
 [scroll-behavior=smooth] {
   scroll-behavior: smooth;
+}
+
+pre {
+  color: #afbac4;
 }
 
 /*=================================================================
@@ -2165,6 +2169,15 @@ blockquote {
 {
   border-color: #57cbcc;
   box-shadow: 0 0 0 0.2rem rgba(0, 174, 255, 0.432);
+}
+
+figure img {
+  display: block;
+  margin: 0 auto 5px;
+}
+
+figcaption {
+  text-align: center;
 }
 
 /*! Social sharing buttons from Sharingbuttons.io */
