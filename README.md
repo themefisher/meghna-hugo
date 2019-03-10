@@ -23,7 +23,6 @@ Meghna is a clean, unique, business website template. Built with refined busines
 - [More Hugo Themes](https://themefisher.com/hugo-themes/)
 
 ## Demo
-![screenshot](https://user-images.githubusercontent.com/5304905/51797809-69316780-2234-11e9-9c99-3a6d2476ffad.jpg)
 [Live Demo](https://themes.gohugo.io/theme/meghna-hugo/).
 
 ## Installation
