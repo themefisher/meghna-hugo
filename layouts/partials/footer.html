@@ -19,7 +19,6 @@
 						<img src="{{ .Site.Params.logo | absURL }}" alt="Meghna" />
 					</a>
 					<br>
-
 					<p>Design And Developed by <a href="{{ .Site.Params.footer.copyrightURL | absURL }}"> {{ with .Site.Params.footer.copyright }} {{ . }} {{ end }} </a>. Copyright &copy; <script>
 							document.write(new Date().getFullYear())
 						</script>. All Rights Reserved.</p>
@@ -39,7 +38,7 @@
 		{{"<!-- Slick Carousel -->" | safeHTML}}
 		<script type="text/javascript" src="{{ "plugins/slick-carousel/slick/slick.min.js" | absURL}}"></script>
 		{{"<!-- Portfolio Filtering -->" | safeHTML}}
-		<script type="text/javascript" src="{{ "plugins/mixitup/mixitup.min.js" | absURL}}"></script>
+		<script type="text/javascript" src="{{ "plugins/filterzr/jquery.filterizr.min.js" | absURL}}"></script>
 		{{"<!-- Magnific popup -->" | safeHTML}}
 		<script type="text/javascript" src="{{ "plugins/magnific-popup/dist/jquery.magnific-popup.min.js" | absURL}}"></script>
 		{{"<!-- Google Map API -->" | safeHTML}}

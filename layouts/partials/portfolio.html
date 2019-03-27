@@ -17,21 +17,19 @@
                 <div class="portfolio-filter">
                     <button type="button" data-filter="all">All</button>
                     {{ range .Site.Data.portfolio.filterList }}
-                    <button type="button" data-filter=".{{ .filterType }}">{{ .filterTitle }}</button>
+                    <button type="button" data-filter="{{ .filterType }}">{{ .filterTitle }}</button>
                     {{ end }}
                 </div>
             </div>
         </div>
-        <div class="row portfolio-items-wrapper">
+        <div class="row filtr-container">
             {{"<!-- portfolio item -->" | safeHTML}}
             {{ range .Site.Data.portfolio.portfolioItem }}
-            <div class="mix col-lg-4 {{ .types }}">
-                <div class="portfolio-block">
+            <div class="col-lg-4 filtr-item" data-category="{{ .types }}">
+                <div class="portfolio-block mb-4">
                     <img class="img-fluid" src="{{ .image | absURL}}" alt="work-image">
                     <div class="caption">
-
-                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="{{ .image | absURL}}"
-                            data-lightbox="image-1">
+                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="{{ .image | absURL}}" data-lightbox="image-1">
                             <i class="{{ .icon }}"></i>
                         </a>
                         <h4><a href="{{ .URL | absURL }}">{{ .title }}</a></h4>

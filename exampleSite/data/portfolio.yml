@@ -26,14 +26,14 @@ portfolioItem :
     title : Sound system
     description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
     
-  - types : design development
+  - types : design, development
     image : images/portfolio/portfolio-3.jpg
     icon : tf-ion-android-search
     URL : #
     title : Clock Product
     description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
     
-  - types : photography development
+  - types : photography, development
     image : images/portfolio/portfolio-4.jpg
     icon : tf-ion-android-search
     URL : #
@@ -61,14 +61,14 @@ portfolioItem :
     title : Business Card
     description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
     
-  - types : design development
+  - types : design, development
     image : images/portfolio/portfolio-8.jpg
     icon : tf-ion-android-search
     URL : #
     title : Stationary Design
     description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
     
-  - types : design photography
+  - types : design, photography
     image : images/portfolio/portfolio-2.jpg
     icon : tf-ion-android-search
     URL : #
