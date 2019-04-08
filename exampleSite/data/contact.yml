@@ -6,6 +6,8 @@ content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero,
 enable_maps : false
 mapLatitude : 51.5223477
 mapLongitude: -0.1622023
+provider: formspree
+email: hello@meghna.com
 contactDetails :
   - icon : tf-map-pin
     info : "Khaja Road, Bayzid, Chittagong, Bangladesh"
