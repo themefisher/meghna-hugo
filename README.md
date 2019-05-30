@@ -56,7 +56,7 @@ We are available for Hiring of your next HUGO project. Drop Us a mail [themefish
 
 ## Premium Themes
 
-| [![Biztrox](https://user-images.githubusercontent.com/37659754/54068875-6ab26e80-427b-11e9-876e-4670bdacb975.png)](https://themefisher.com/products/biztrox-hugo-template/)  | [![Bexer](https://user-images.githubusercontent.com/37659754/54068892-84ec4c80-427b-11e9-9952-5d455c259145.png)](https://themefisher.com/products/bexer-hugo-theme/) | [![Small Apps](https://user-images.githubusercontent.com/37659754/54068897-96cdef80-427b-11e9-8fd4-2a5b83cea6d0.png)](https://themefisher.com/products/small-apps-hugo-app-landing-theme/) |
+| [![Biztrox](https://user-images.githubusercontent.com/37659754/54068875-6ab26e80-427b-11e9-876e-4670bdacb975.png)](https://themefisher.com/products/biztrox-hugo-template/)  | [![Bexer](https://user-images.githubusercontent.com/37659754/54068892-84ec4c80-427b-11e9-9952-5d455c259145.png)](https://themefisher.com/products/bexer-hugo-theme/) | [![Small Apps](https://user-images.githubusercontent.com/37659754/58609417-50f85480-82c9-11e9-8958-e501af844294.jpg)](https://themefisher.com/products/small-apps-hugo-app-landing-theme/) |
 |:---:|:---:|:---:|
 | **Biztrox**  | **Bexer**  | **Small Apps**  |
 | [![Dtox](https://user-images.githubusercontent.com/37659754/54068836-07284100-427b-11e9-8ff2-48eec3220a26.png)](https://themefisher.com/products/dtox-hugo-theme/) | [![Agico](https://user-images.githubusercontent.com/37659754/57753899-16aa8700-770f-11e9-9a3d-d3fc45313fbd.png)](https://themefisher.com/products/agico-hugo-theme/) | [![Airspace](https://user-images.githubusercontent.com/37659754/57754161-9d5f6400-770f-11e9-8a76-778fbb9910c4.png)](https://themefisher.com/products/airspace-hugo/) |
