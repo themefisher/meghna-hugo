@@ -3,8 +3,7 @@
   src:  url('fonts/themefisher-font.eot?ug5hnh');
   src:  url('fonts/themefisher-font.eot?ug5hnh#iefix') format('embedded-opentype'),
     url('fonts/themefisher-font.ttf?ug5hnh') format('truetype'),
-    url('fonts/themefisher-font.woff?ug5hnh') format('woff'),
-    url('fonts/themefisher-font.svg?ug5hnh#themefisher-font') format('svg');
+    url('fonts/themefisher-font.woff?ug5hnh') format('woff');
   font-weight: normal;
   font-style: normal;
 }

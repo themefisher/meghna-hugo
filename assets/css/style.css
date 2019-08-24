@@ -1742,11 +1742,6 @@ input#e-mail, #hidden_iframe {
 /*=================================================================
 	Twitter Feed
 ==================================================================*/
-#twitter-feed {
-  background-image: url("../images/parallax/twitter.jpg");
-  padding-bottom: 100px;
-  padding-top: 80px;
-}
 
 .twitter-bird span {
   border: 2px solid #6cb670;
