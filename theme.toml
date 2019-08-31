@@ -5,7 +5,7 @@ description = "Hugo port of the Themefisher’s Meghna Template"
 homepage = "https://themefisher.com/hugo-themes/"
 tags = ['landing-page', 'google-analytics', 'fast', 'modern', 'minimal', 'minimalistic', 'business', 'agency-template', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap', 'blog', 'responsive', 'portfolio', 'single-page', 'dark', 'clean', 'simple', 'company', 'creative', 'contact-form', 'custom-themes', 'mobile']
 features = ['bootstrap','responsive']
-min_version = "0.48"
+min_version = "0.55"
 
 [author]
   name = "Themefisher"
