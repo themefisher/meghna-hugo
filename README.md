@@ -12,6 +12,7 @@
 </div>
 
 Meghna is a clean, unique, business website template. Built with refined business as well as corporate elements, and saturated with rich typography, Meghna is lightweight, fast-loading, responsive and W3C-validated, delivering a great first impression to visitors.
+**The images are only for demonstration purpose, Please don't use those images.**
 
 ## Table of Contents
 
