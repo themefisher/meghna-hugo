@@ -13,7 +13,7 @@
             </div>
             {{"<!-- /section title -->" | safeHTML}}
 
-            {{ range .Data.Pages }}
+            {{ range first 3 .Site.RegularPages }}
             {{"<!-- single blog post -->" | safeHTML}}
             <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp" data-wow-duration="500ms">
                 <div class="post-block">
