@@ -22,7 +22,7 @@
                     {{"<!-- Express About Yourself -->" | safeHTML}}
                     <div class="content text-center">
                         {{ with .title }}<h3 class="ddd">{{ . }}</h3>{{ end }}
-                        {{ with .content}}  <p>{{ . }}</p>{{ end }}
+                        {{ with .content}}  <p>{{ . | markdownify }}</p>{{ end }}
                     </div>
                 </div>
             </div>
