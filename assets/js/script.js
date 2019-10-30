@@ -51,7 +51,10 @@ jQuery(function ($) {
 	/*	Portfolio Filtering Hook
 	/* =========================================================================  */
 
-	var filterizd = $('.filtr-container').filterizr({});
+	var containerEl = document.querySelector('.filtr-container');
+	if (containerEl) {
+		var filterizd = $('.filtr-container').filterizr({});
+	}
 	/* ========================================================================= */
 	/*	Testimonial Carousel
 	/* =========================================================================  */
