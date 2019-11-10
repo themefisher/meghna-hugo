@@ -1,14 +1,10 @@
 <div align="center">
-
-# [Meghna Hugo](https://themefisher.com/hugo-themes/)
-
+<h1><a href="https://themefisher.com/hugo-themes/">Meghna Hugo</a></h1>
 [![GitHub stars](https://img.shields.io/github/stars/themefisher/meghna-hugo.svg)](https://github.com/themefisher/meghna-hugo/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/themefisher/meghna-hugo.svg)](https://github.com/themefisher/meghna-hugo/issues) 
 [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/themefisher/meghna-hugo.svg?maxAge=2592000)]() 
 [![GitHub forks](https://img.shields.io/github/forks/themefisher/meghna-hugo.svg)](https://github.com/themefisher/meghna-hugo/network)
-
 <img src="https://user-images.githubusercontent.com/37659754/54068559-44d79a80-4278-11e9-9601-f58d6879989c.gif" alt="screenshot" width="100%">
-
 </div>
 
 Meghna is a clean, unique, business website template. Built with refined business as well as corporate elements, and saturated with rich typography, Meghna is lightweight, fast-loading, responsive and W3C-validated, delivering a great first impression to visitors.
@@ -24,7 +20,7 @@ Meghna is a clean, unique, business website template. Built with refined busines
 - [More Hugo Themes](https://themefisher.com/hugo-themes/)
 
 ## Demo
-[Live Demo](https://themes.gohugo.io/theme/meghna-hugo/).
+[Live Demo](http://demo.themefisher.com/meghna-hugo/).
 
 ## Installation
 
@@ -36,7 +32,7 @@ $ cd themes
 $ git clone git@github.com:themefisher/meghna-hugo.git
 ```
 
-[Full Documentation](https://themes.gohugo.io/theme/meghna-hugo/blog/installation/).
+[Full Documentation](http://demo.themefisher.com/meghna-hugo/blog/installation/).
 
 ## Reporting Issues
 
@@ -62,5 +58,5 @@ We are available for Hiring of your next HUGO project. Drop Us a mail [themefish
 | **Hugo Mega Bundle**  | **Bexer**  | **Small Apps**  |
 | [![Dtox](https://user-images.githubusercontent.com/37659754/54068836-07284100-427b-11e9-8ff2-48eec3220a26.png)](https://themefisher.com/products/dtox-hugo-theme/) | [![Agico](https://user-images.githubusercontent.com/37659754/57753899-16aa8700-770f-11e9-9a3d-d3fc45313fbd.png)](https://themefisher.com/products/agico-hugo-theme/) | [![Airspace](https://user-images.githubusercontent.com/37659754/57754161-9d5f6400-770f-11e9-8a76-778fbb9910c4.png)](https://themefisher.com/products/airspace-hugo/) |
 | **Dtox** | **Agico** | **Airspace** |
-| [![Agen](https://user-images.githubusercontent.com/37659754/63633832-3a675c80-c670-11e9-8380-a7b5f8f82b76.png)](https://themefisher.com/products/agen-hugo-agency-template/) | [![Biztrox](https://user-images.githubusercontent.com/37659754/54068875-6ab26e80-427b-11e9-876e-4670bdacb975.png)](https://themefisher.com/products/biztrox-hugo-template/) |  [![Biztrox](https://user-images.githubusercontent.com/37659754/65814602-ce938900-e205-11e9-9d26-d5ad1b0cd1da.png)](https://gethugothemes.com/shop/) |
+| [![Agen](https://user-images.githubusercontent.com/37659754/63633832-3a675c80-c670-11e9-8380-a7b5f8f82b76.png)](https://themefisher.com/products/agen-hugo-agency-template/) | [![Biztrox](https://user-images.githubusercontent.com/37659754/54068875-6ab26e80-427b-11e9-876e-4670bdacb975.png)](https://themefisher.com/products/biztrox-hugo-template/) |  [![all](https://user-images.githubusercontent.com/37659754/65814602-ce938900-e205-11e9-9d26-d5ad1b0cd1da.png)](https://themefisher.com/hugo-themes/) |
 | **Agen** | **Biztrox** | **More Hugo Themes** |
