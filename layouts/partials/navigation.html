@@ -1,42 +1,45 @@
 {{"<!-- Fixed Navigation -->" | safeHTML}}
 <nav id="navigation" class="navbar navbar-expand-lg navigation sticky-top">
-        <div class="container">
+	<div class="container">
 
-                {{"<!-- logo -->" | safeHTML}}
-                <a class="navbar-brand logo" href="{{ .Site.BaseURL | absURL }}">
-                        <img src="{{ .Site.Params.logo | absURL }}" alt="Logo" />
-                        <span class="pl-2 font-weight-bold">{{ .Site.Title }}</span>
-                </a>
-                {{"<!-- /logo -->" | safeHTML}}
+		{{"<!-- logo -->" | safeHTML}}
+		<a class="navbar-brand logo" href="{{ .Site.BaseURL | absURL }}">
+			<img src="{{ .Site.Params.logo | absURL }}" alt="Logo" />
+			<span class="pl-2 font-weight-bold">{{ .Site.Title }}</span>
+		</a>
+		{{"<!-- /logo -->" | safeHTML}}
 
-                {{"<!-- responsive nav button -->" | safeHTML}}
-                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                </button>
-                {{"<!-- /responsive nav button -->" | safeHTML}}
+		{{"<!-- responsive nav button -->" | safeHTML}}
+		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+			data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		{{"<!-- /responsive nav button -->" | safeHTML}}
 
-                {{"<!-- main nav -->" | safeHTML}}
-                {{ if .IsHome }}
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto navigation-menu">
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
-                                {{ range $.Site.Menus.nav }}
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#{{ .URL }}">{{ .Name }}</a></li>
-                                {{ end }}
-                        </ul>
-                </div>
-                {{ else }}
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto navigation-menu">
-                                <li class="nav-item"><a class="nav-link" data-scroll href="{{ $.Site.BaseURL }}#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
-                                {{ range $.Site.Menus.nav }}
-                                <li class="nav-item"><a class="nav-link" data-scroll href="{{ $.Site.BaseURL }}#{{ .URL }}">{{ .Name }}</a></li>
-                                {{ end }}
-                        </ul>
-                </div>
-                {{ end }}
-                {{"<!-- /main nav -->" | safeHTML}}
-        </div>
-
+		{{"<!-- main nav -->" | safeHTML}}
+		{{ if .IsHome }}
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto navigation-menu">
+				<li class="nav-item"><a class="nav-link" data-scroll
+						href="#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
+				{{ range $.Site.Menus.nav }}
+				<li class="nav-item"><a class="nav-link" data-scroll href="#{{ .URL }}">{{ .Name }}</a></li>
+				{{ end }}
+			</ul>
+		</div>
+		{{ else }}
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto navigation-menu">
+				<li class="nav-item"><a class="nav-link" data-scroll
+						href="{{ $.Site.BaseURL }}#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
+				{{ range $.Site.Menus.nav }}
+				<li class="nav-item"><a class="nav-link" data-scroll href="{{ $.Site.BaseURL }}#{{ .URL }}">{{ .Name }}</a></li>
+				{{ end }}
+			</ul>
+		</div>
+		{{ end }}
+		{{"<!-- /main nav -->" | safeHTML}}
+	</div>
 </nav>
 {{"<!-- End Fixed Navigation -->" | safeHTML}}
