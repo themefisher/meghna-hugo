@@ -1,0 +1,22 @@
+################################# Skill ##################################
+skill:
+  enable : true
+  title : Our Skills
+  subtitle : We’ve skilled in wide range of web and Other digital market tools.
+  content : Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni explicabo cum aperiam recusandae sunt accusamus totam. Quidem quos fugiat sapiente numquam accusamus quas hic, itaque in libero reiciendis tempora!
+  image : images/about/company-growth.png
+  skill_Item :
+    - name :  Business Development
+      percent : 90%
+      
+    - name :  Analysis
+      percent : 70%
+      
+    - name :  Design
+      percent : 80%
+      
+    - name :  IOS Development
+      percent : 95%
+      
+    - name :  Andriod Development
+      percent : 75%

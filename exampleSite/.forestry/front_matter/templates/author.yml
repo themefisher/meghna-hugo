@@ -1,0 +1,21 @@
+---
+label: Author
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: email
+  label: email
+- type: field_group_list
+  name: social
+  label: social
+  fields:
+  - type: text
+    name: icon
+    label: icon
+    description: https://themify.me/themify-icons
+  - type: text
+    name: link
+    label: link

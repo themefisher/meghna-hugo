@@ -1,0 +1,22 @@
+################################# Testimonial #########################
+testimonial:
+  enable : true
+  bg_Image : images/backgrounds/bg-2.jpg
+  testimonial_Item :
+    # testimonial item loop
+    - name : Jonathon Andrew
+      image : images/team/client-1.jpg
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+      
+    # testimonial item loop
+    - name : Mark Dinn
+      image : images/team/client-2.jpg
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+      
+    # testimonial item loop
+    - name : Lemos Kail
+      image : images/team/client-1.jpg
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!

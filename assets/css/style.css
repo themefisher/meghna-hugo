@@ -60,7 +60,7 @@ pre {
 }
 
 hr {
-  border-top: 1px solid rgba(255,255,255,.1);
+  border-top: 1px solid rgba(255, 255, 255, .1);
 }
 
 figure {
@@ -96,7 +96,7 @@ a:hover {
   padding: 0 !important;
 }
 
-.mb-50{
+.mb-50 {
   margin-bottom: 50px;
 }
 
@@ -121,27 +121,6 @@ a:hover {
   background-color: #57cbcc;
   border: 1px solid transparent;
   color: #fff;
-}
-
-#loading-mask {
-  background: #333439;
-  height: 100%;
-  left: 0;
-  opacity: 1;
-  filter: alpha(opacity=100);
-  position: fixed;
-  text-align: center;
-  top: 0;
-  width: 100%;
-  z-index: 999999999;
-}
-
-.loading-img {
-  height: 100%;
-  left: 0;
-  position: fixed;
-  top: 50%;
-  width: 100%;
 }
 
 .border-meghna {
@@ -298,107 +277,17 @@ a:hover {
   background-size: cover;
 }
 
-#preloader {
+.preloader {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #fff;
-  z-index: 999;
+  background-color: #292F36;
+  z-index: 9999;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.sk-cube-grid {
-  width: 40px;
-  height: 40px;
-  margin: 100px auto;
-}
-
-.sk-cube-grid .sk-cube {
-  width: 33%;
-  height: 33%;
-  background-color: #57cbcc;
-  float: left;
-  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
-  animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
-}
-
-.sk-cube-grid .sk-cube1 {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-}
-
-.sk-cube-grid .sk-cube2 {
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
-}
-
-.sk-cube-grid .sk-cube3 {
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-}
-
-.sk-cube-grid .sk-cube4 {
-  -webkit-animation-delay: 0.1s;
-  animation-delay: 0.1s;
-}
-
-.sk-cube-grid .sk-cube5 {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-}
-
-.sk-cube-grid .sk-cube6 {
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
-}
-
-.sk-cube-grid .sk-cube7 {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-}
-
-.sk-cube-grid .sk-cube8 {
-  -webkit-animation-delay: 0.1s;
-  animation-delay: 0.1s;
-}
-
-.sk-cube-grid .sk-cube9 {
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-}
-
-@-webkit-keyframes sk-cubeGridScaleDelay {
-
-  0%,
-  70%,
-  100% {
-    -webkit-transform: scale3D(1, 1, 1);
-    transform: scale3D(1, 1, 1);
-  }
-
-  35% {
-    -webkit-transform: scale3D(0, 0, 1);
-    transform: scale3D(0, 0, 1);
-  }
-}
-
-@keyframes sk-cubeGridScaleDelay {
-
-  0%,
-  70%,
-  100% {
-    -webkit-transform: scale3D(1, 1, 1);
-    transform: scale3D(1, 1, 1);
-  }
-
-  35% {
-    -webkit-transform: scale3D(0, 0, 1);
-    transform: scale3D(0, 0, 1);
-  }
 }
 
 .title {
@@ -538,14 +427,14 @@ a:hover {
 }
 
 .navigation .navbar-toggler {
-  color: rgba(255,255,255,.5);
-  border-color: rgba(255,255,255,.1);
+  color: rgba(255, 255, 255, .5);
+  border-color: rgba(255, 255, 255, .1);
   border-radius: 0;
 }
 
 .navigation .navbar-collapse {
   padding: 10px;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
   border-top: 5px solid transparent;
 }
 
@@ -557,7 +446,7 @@ a:hover {
 }
 
 .navbar-toggler:focus {
-  outline-color:  #57cbcc;
+  outline-color: #57cbcc;
 }
 
 .bg-1 {
@@ -819,8 +708,7 @@ a:hover {
   padding-top: 50px;
 }
 
-@media (max-width: 768px)
-{
+@media (max-width: 768px) {
   .contact-us {
     padding-top: 80px;
   }
@@ -838,8 +726,7 @@ a:hover {
   border: 1px solid rgba(236, 239, 241, 0.07);
 }
 
-.form-meghna .form-control:focus
-{
+.form-meghna .form-control:focus {
   border-color: none;
   box-shadow: none;
 }
@@ -850,8 +737,7 @@ a:hover {
   border-color: #57cbcc;
 }
 
-.form-meghna ::placeholder
-{
+.form-meghna ::placeholder {
   color: #ddd !important;
 }
 
@@ -960,7 +846,8 @@ a:hover {
   font-size: 30px;
 }
 
-.pricing ul, .skill-bar {
+.pricing ul,
+.skill-bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -992,9 +879,8 @@ a:hover {
   text-align: center;
 }
 
-.portfolio-filter button {
-  border: none;
-  outline: none;
+.portfolio-filter .btn {
+  outline: 0;
   border: 1px solid rgba(236, 239, 241, 0.07);
   background: transparent;
   display: inline-block;
@@ -1005,13 +891,8 @@ a:hover {
   transition: .3s all;
 }
 
-.portfolio-filter button.mixitup-control-active {
-  border: 1px solid #57cbcc;
-  color: #57cbcc;
-}
-
-.portfolio-items-wrapper .mix {
-  padding: 5px;
+.portfolio-filter .btn.active {
+  border-color: #57cbcc;
 }
 
 .portfolio-block {
@@ -1597,7 +1478,8 @@ a:hover {
 }
 
 .post-comment {
-  background-color: #292f36;;
+  background-color: #292f36;
+  ;
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -1639,7 +1521,8 @@ a:hover {
   color: #737f8a;
 }
 
-input#e-mail, #hidden_iframe {
+input#e-mail,
+#hidden_iframe {
   display: none;
 }
 
@@ -1667,11 +1550,11 @@ input#e-mail, #hidden_iframe {
   transition: all 400ms ease-out 0s;
 }
 
-.social-icon ul li a:hover{
+.social-icon ul li a:hover {
   background: #57cbcc;
 }
 
-.social-icon ul li a:hover i{
+.social-icon ul li a:hover i {
   color: #fff;
   opacity: 1;
 }
@@ -2012,6 +1895,7 @@ blockquote {
   border-left: 5px solid #6cb670;
   font-style: italic;
   line-height: 22px;
+  padding: 20px 20px 10px 20px;
   margin: 20px 0;
 }
 
@@ -2136,8 +2020,7 @@ blockquote {
   border: 1px solid rgba(236, 239, 241, 0.07);
 }
 
-.form-control-meghna .form-control:focus
-{
+.form-control-meghna .form-control:focus {
   border-color: #57cbcc;
   box-shadow: 0 0 0 0.2rem rgba(0, 174, 255, 0.432);
 }
@@ -2164,10 +2047,10 @@ figcaption {
 }
 
 .resp-sharing-button {
-  border-radius: 5px;
+  border-radius: 0;
   transition: 25ms ease-out;
   padding: 0.5em 0.75em;
-  font-family: Helvetica Neue,Helvetica,Arial, sans-serif;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .resp-sharing-button__icon svg {
@@ -2276,9 +2159,13 @@ figcaption {
 }
 
 .resp-sharing-button--hackernews {
-background-color: #FF6600
+  background-color: #FF6600
 }
-.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+.resp-sharing-button--hackernews:hover,
+.resp-sharing-button--hackernews:focus {
+  background-color: #FB6200
+}
 
 .resp-sharing-button--vk {
   background-color: #507299
@@ -2360,6 +2247,59 @@ background-color: #FF6600
 }
 
 .resp-sharing-button--telegram:hover {
-  background-color: #4B97D1;}
+  background-color: #4B97D1;
+}
 
+
+.pagination {
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+}
+
+.pagination>li {
+  display: inline-block;
+}
+
+.pagination .page-item .page-link {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 0;
+  background-color: #26292e;
+  border: 1px solid #26292e;
+  text-align: center;
+  margin-right: 6px;
+  font-weight: 700;
+  color: #55606a;
+}
+
+.pagination .page-item .page-link:hover {
+  background: #57cbcc;
+  border-color: #57cbcc;
+  color: #fff
+}
+
+.pagination .page-item:first-child .page-link,
+.pagination .page-item:last-child .page-link {
+  border-radius: 0;
+}
+
+.pagination .page-item.active .page-link {
+  background: #57cbcc;
+  color: #fff;
+  border-color: #57cbcc;
+}
+
+#select-language {
+  background: #353b43;
+  color: #ffffff;
+  border: 0;
+}
+
+.simple-icon {
+  color: #6c7b8a;
+  padding: 10px;
+  display: block;
+}
 /*# sourceMappingURL=maps/style.css.map */

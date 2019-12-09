@@ -1,37 +1,25 @@
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="{{ if .Description }}{{ .Description }}{{else if .IsPage}}{{ .Summary | plainify}}{{ else }}{{.Site.Params.description}}{{ end }}">
-    <meta name="author" content="{{ with .Params.author }}{{ . }}{{else}}{{ with .Site.Params.author}}{{ . }}{{ end }}{{end}}">
+    <meta charset="utf-8">
+    <title>{{ .Title }}</title>
 
-    {{ "<!-- Mobile Specific Meta -->" | safeHTML }}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ "<!-- mobile responsive meta -->" | safeHTML }}
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+    {{ with .Site.Params.author }}
+    <meta name="author" content="{{ . }}">{{ end }}
     {{ hugo.Generator }}
 
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{" | "}}{{ .Site.Params.Description }}{{ else if .IsPage}}{{ .Title }}{{" | "}}{{ .CurrentSection.Title }}{{else if eq .Section "author" }}{{if .Params.name}}{{.Params.name}} | {{ i18n "authorOfPostsOnBlog" }} „{{.Site.Title}}" {{else}}{{ i18n "authorsOfPostsOnBlog" }} „{{.Site.Title}}"{{end}}{{else if eq .Section "blog" }}{{ i18n "blogs" }} | {{ .Site.Title}}{{else}}{{ .Title }}{{with .Params.Description}}{{" | " .}}{{ end }}{{ end }}</title>
-
-
-    {{"<!-- Favicon -->" |safeHTML}}
-    <link rel="shortcut icon" type="image/x-icon" href="{{ "images/favicon.ico" | absURL }}"/>
-
-    {{"<!-- CSS -->"|safeHTML}}
-    {{"<!-- Fontawesome Icon font -->"|safeHTML}}
-    <link rel="stylesheet" href="{{"plugins/themefisher-font/style.css" | absURL}}">
-    {{"<!-- bootstrap.min css -->"|safeHTML}}
-    <link rel="stylesheet" href="{{"plugins/bootstrap/dist/css/bootstrap.min.css"|absURL}}">
-    {{"<!-- Animate.css -->"|safeHTML}}
-    <link rel="stylesheet" href="{{"plugins/animate-css/animate.css"|absURL}}">
-    {{"<!-- Magnific popup css -->"|safeHTML}}
-    <link rel="stylesheet" href="{{"plugins/magnific-popup/dist/magnific-popup.css"|absURL}}">
-    {{"<!-- Slick Carousel -->"|safeHTML}}
-    <link rel="stylesheet" href="{{"plugins/slick-carousel/slick/slick.css"|absURL}}">
-    <link rel="stylesheet" href="{{"plugins/slick-carousel/slick/slick-theme.css"|absURL}}">
-    {{"<!-- Main Stylesheet -->"|safeHTML}}
-    {{ $styles := resources.Get "css/style.css" | minify}}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
-    {{ "<!-- Custom CSS -->" | safeHTML }}
-    {{ range .Site.Params.custom_css }}
-    <link rel="stylesheet" href="{{ . | absURL }}">
+    {{ "<!-- plugins -->" | safeHTML }}
+    {{ range .Site.Params.plugins.css }}
+    <link rel="stylesheet" href="{{ .URL | absURL }} ">
     {{ end }}
 
-{{- partial "head_custom.html" . }}
+    {{"<!-- Main Stylesheet -->"|safeHTML}}
+    {{ $styles := resources.Get "css/style.css" | minify}}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+
+    {{ "<!--Favicon-->" | safeHTML }}
+    <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+    <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+
 </head>

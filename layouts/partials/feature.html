@@ -1,0 +1,40 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if $data.feature.feature.enable }}
+{{ with $data.feature.feature }}
+{{"<!-- feature -->" | safeHTML}}
+<section class="section section-bg about-2 padding-0" id="feature">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 padding-0" style="background-image: url('{{ .image | relURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;">
+				<!-- <img class="img-fluid" src="{{ .image | relURL }}" alt="image"> -->
+			</div>
+			<div class="col-lg-6">
+				<div class="content-block">
+					<h2>{{ .title | markdownify }}</h2>
+					<p>{{ .content | markdownify }}</p>
+					<div class="row">
+						{{ range .feature_Item }}
+						<div class="col-lg-6">
+							<div class="media">
+								{{if .icon}}
+								<div class="align-self-start mr-3">
+									<i class="{{ .icon }}"></i>
+								</div>
+								{{ end }}
+								<div class="media-body">
+									<h4 class="media-heading">{{ .title | markdownify }}</h4>
+									<p>{{ .content | markdownify }}</p>
+								</div>
+							</div>
+						</div>
+						{{ end }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{{"<!-- /feature -->" | safeHTML}}
+{{ end }}
+{{ end }}

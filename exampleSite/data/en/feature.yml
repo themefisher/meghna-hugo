@@ -1,0 +1,22 @@
+############################# feature ###################################
+feature:
+  enable : true
+  image : images/about/about-business-man.jpg
+  title : We’re A Digital Design Agency.
+  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
+  feature_Item : 
+    - icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      title : SEO Optimized
+      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      
+    - icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      title : Easy Customization
+      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+
+    - icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+      title : SEO Optimized
+      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      
+    - icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
+      title : Easy Customization
+      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe

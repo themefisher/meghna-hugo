@@ -1,5 +1,5 @@
 {{"<!-- end Contact Area -->" | safeHTML}}
-<footer id="footer" class="bg-one">
+<footer id="footer" class="section-bg">
 	<div class="container">
 		<div class="row wow fadeInUp" data-wow-duration="500ms">
 			<div class="col-xl-12">
@@ -7,8 +7,8 @@
 				{{"<!-- Footer Social Links -->" | safeHTML}}
 				<div class="social-icon">
 					<ul class="list-inline">
-						{{ range .Site.Params.footer.socialIcon }}
-						<li class="list-inline-item"><a href="{{ .url }}"><i class="{{ .icon }}"></i></a></li>
+						{{ range .Site.Params.social_Icon }}
+						<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
 						{{ end }}
 					</ul>
 				</div>
@@ -19,9 +19,7 @@
 						<img src="{{ .Site.Params.logo | absURL }}" alt="Meghna" />
 					</a>
 					<br>
-					<p>Design And Developed by <a href="{{ .Site.Params.footer.copyrightURL | absURL }}"> {{ with .Site.Params.footer.copyright }} {{ . }} {{ end }} </a>. Copyright &copy; <script>
-							document.write(new Date().getFullYear())
-						</script>. All Rights Reserved.</p>
+					<p>{{ i18n "copyright" | markdownify }}</p>
 				</div>
 			</div>
 		</div>
@@ -30,37 +28,33 @@
 {{"<!-- /footer -->" | safeHTML}}
 
 {{"<!-- Essential Scripts -->" | safeHTML}}
-
-		{{"<!-- Main jQuery -->" | safeHTML}}
-		<script type="text/javascript" src="{{ "plugins/jquery/dist/jquery.min.js" | absURL}}"></script>
-		{{"<!-- Bootstrap 4.3 + Popper -->" | safeHTML}}
-		<script type="text/javascript" src="{{ "plugins/bootstrap/dist/js/bootstrap.bundle.min.js" | absURL}}"></script>
-		{{"<!-- Slick Carousel -->" | safeHTML}}
-		<script type="text/javascript" src="{{ "plugins/slick-carousel/slick/slick.min.js" | absURL}}"></script>
-		{{"<!-- Portfolio Filtering -->" | safeHTML}}
-		<script type="text/javascript" src="{{ "plugins/filterzr/jquery.filterizr.min.js" | absURL}}"></script>
-		{{"<!-- Magnific popup -->" | safeHTML}}
-		<script type="text/javascript" src="{{ "plugins/magnific-popup/dist/jquery.magnific-popup.min.js" | absURL}}"></script>
-		{{"<!-- Google Map API -->" | safeHTML}}
-		<script type="text/javascript"  src="{{ .Site.Params.gmapAPI | absURL }}"></script>
-		{{"<!-- Number Counter Script -->" | safeHTML}}
-		<script type="text/javascript" src="{{ "plugins/count-to/jquery.countTo.js" | absURL}}"></script>
-		{{"<!-- wow.min Script -->" | safeHTML}}
-		<script type="text/javascript" src="{{ "plugins/wow/dist/wow.min.js" | absURL}}"></script>
-		{{"<!-- Scroll behavior polyfill -->" | safeHTML}}
-		{{ $scroll := resources.Get "js/scroll-behavior-polyfill.js" | minify}}
-		<script src="{{ $scroll.Permalink }}"></script>
-		{{"<!-- Sweet Alert -->" | safeHTML}}
-		<script type="text/javascript" src="{{ "plugins/sweet-alert/sweetalert.min.js" | absURL}}"></script>
-		{{"<!-- Custom js -->" | safeHTML}}
-		{{ $script := resources.Get "js/script.js" | minify}}
-		<script src="{{ $script.Permalink }}"></script>
-		{{ "<!-- google analitycs -->" | safeHTML }}
-		<script>
-				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-				ga('create', '{{ .Site.Params.googleAnalitycsID }}', 'auto');
-				ga('send', 'pageview');
-		</script>
+{{"<!-- Google Map API -->" | safeHTML}}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ if $data.contact.contact.map.enable }}
+<script type="text/javascript"  src="{{ $data.contact.contact.map.gmapAPI | absURL }}"></script>
+{{ end }}
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.js}}
+<script src="{{ .URL | absURL }}"></script>
+{{ end }}
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+{{ "<!-- google analitycs -->" | safeHTML }}
+{{ if .Site.Params.googleAnalitycsID }}
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', '{{ .Site.Params.googleAnalitycsID }}', 'auto');
+  ga('send', 'pageview');
+</script>
+{{ end }}

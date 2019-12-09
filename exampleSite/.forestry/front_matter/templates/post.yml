@@ -1,0 +1,22 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+- type: text
+  name: author
+  label: author
+- name: description
+  type: text
+  config:
+    required: false
+  label: description
+  description: this is meta description

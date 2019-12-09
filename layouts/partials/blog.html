@@ -1,41 +1,42 @@
-{{ if .Site.Data.blog.enable}}
+{{ if gt .Site.RegularPages 0}}
 {{"<!-- Start Blog Section -->" | safeHTML}}
-{{ $data := index .Site.Data .Site.Language.Lang }}
 <section id="blog" class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                {{"<!-- section title -->" | safeHTML}}
-                <div class="title text-center wow fadeInDown">
-                    <h2> {{ with $data.blog.heading }} {{ . }} {{ end }} <span class="color"> {{ with $data.blog.headingSpan }} {{ . }} {{ end }} </span></h2>
-                    <div class="border-meghna"></div>
-                </div>
-            </div>
-            {{"<!-- /section title -->" | safeHTML}}
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				{{"<!-- section title -->" | safeHTML}}
+				<div class="title text-center wow fadeInDown">
+					<h2>{{ with i18n "blogTitle" }} {{ index (split . " ") 0 }} {{ end }}<span class="color">
+						{{ with i18n "blogTitle" }} {{ index (split . " ") 1 }} {{ end }}</span></h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+			{{"<!-- /section title -->" | safeHTML}}
 
-            {{ range first 3 .Site.RegularPages }}
-            {{"<!-- single blog post -->" | safeHTML}}
-            <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp" data-wow-duration="500ms">
-                <div class="post-block">
-                    <div class="media-wrapper">
-                        {{ with .Params.image }}<img src="{{ . | absURL }}" alt="post-image" class="img-fluid">{{ end }}
-                    </div>
+			{{ range first 3 .Site.RegularPages }}
+			{{"<!-- single blog post -->" | safeHTML}}
+			<article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp" data-wow-duration="500ms">
+				<div class="post-block">
+					<div class="media-wrapper">
+						<img src="{{ .Params.Image | absURL }}" alt="post-image" class="img-fluid">
+					</div>
 
-                    <div class="content">
-                        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                        <p>{{ .Summary }}</p>
-                        <a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "readMore" }}</a>
-                    </div>
-                </div>
-            </article>
-            {{"<!-- /single blog post -->" | safeHTML}}
-            {{ end }}
+					<div class="content">
+						<h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+						<p>{{ .Summary }}</p>
+						<a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "readMore" }}</a>
+					</div>
+				</div>
+			</article>
+			{{"<!-- /single blog post -->" | safeHTML}}
+			{{ end }}
 
-            <div class="all-post text-center col-lg-12">
-                <a class="btn btn-main" href="{{ if .Site.GetPage "/blog" }}/blog{{ else }}/posts{{end}}">{{ i18n "viewAllPost" }}</a>
-            </div>
-        </div>
-    </div>
+			<div class="all-post text-center col-lg-12">
+				<a class="btn btn-main"
+					href="{{ `blog` | absLangURL }}">{{ i18n "viewAllPost" }}</a>
+			</div>
+		</div>
+	</div>
 </section>
 {{"<!-- /blog -->" | safeHTML}}
 {{ end }}

@@ -1,0 +1,14 @@
+- id: blogTitle
+  translation: Dernier message
+- id: readMore
+  translation: Lire la suite
+- id: viewAllPost
+  translation: Voir tous les articles
+- id: share
+  translation: Partager
+- id: aboutAuthor
+  translation: À propos de l'auteur
+- id: authorsPosts
+  translation: Articles de l'auteur
+- id: copyright
+  translation: copyright et copie; 2019 [themefisher] (https://themefisher.com) tous droits réservés

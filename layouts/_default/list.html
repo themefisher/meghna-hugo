@@ -4,16 +4,26 @@
 
 {{"<!-- Start Blog Section -->" | safeHTML}}
 <section id="blog" class="section">
-    <div class="container">
-        <div class="row">
-
-            {{ range .Data.Pages }}
-            {{"<!-- single blog post -->" | safeHTML}}
-            {{ .Render "article" }}
-            {{"<!-- /single blog post -->" | safeHTML}}
-            {{ end }}
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {{"<!-- section title -->" | safeHTML}}
+        <div class="title text-center wow fadeInDown">
+          <h2>{{ with i18n "blogTitle" }} {{ index (split . " ") 0 }} {{ end }}<span class="color">
+              {{ with i18n "blogTitle" }} {{ index (split . " ") 1 }} {{ end }}</span></h2>
+          <div class="border-meghna"></div>
         </div>
+      </div>
+      {{"<!-- /section title -->" | safeHTML}}
+      {{ $paginator := .Paginate .Data.Pages }}
+      {{ range $paginator.Pages }}
+      {{ .Render "article" }}
+      {{ end }}
+      <div class="col-12">
+        {{ template "_internal/pagination.html" . }}
+      </div>
     </div>
+  </div>
 </section>
 {{"<!-- /blog -->" | safeHTML}}
 

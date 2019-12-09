@@ -1,0 +1,60 @@
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+
+<section class="section section-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 mx-auto">
+				<div class="title text-center">
+					<h2>{{ with i18n "aboutAuthor" }} {{ index (split . " ") 0 }} {{ end }}<span class="color">
+							{{ with i18n "aboutAuthor" }} {{ index (split . " ") 1 }} {{ end }} </span></h2>
+					<div class="border-meghna"></div>
+				</div>
+				<div class="content text-center">
+					<figure>
+						{{ if .Params.Photo }}
+						<img class="rounded-circle img-fluid" src="{{.Params.Photo}}">
+						{{else if .Params.Email}}
+						<img class="rounded-circle img-fluid"
+							src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon">
+						{{ end }}
+						<figcaption>
+							<h5 class="font-weight-bold">
+								{{ .Params.Name }}
+							</h5>
+						</figcaption>
+					</figure>
+					<hr>
+					{{ .Content }}
+					<hr>
+					<ul class="list-inline">
+						{{ range .Params.Social }}
+						<li class="list-inline-item"><a class="simple-icon" href="{{ .link | safeURL}}"><i
+									class="{{ .icon }}"></i></a></li>
+						{{ end }}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="title text-center">
+					<h2>{{ with i18n "authorsPosts" }} {{ index (split . " ") 0 }} {{ end }}<span class="color">
+							{{ with i18n "authorsPosts" }} {{ index (split . " ") 1 }} {{ end }}</h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+			{{ range where .Site.RegularPages "Params.author" .Title }}
+			{{ .Render "article" }}
+			{{ end }}
+		</div>
+	</div>
+</section>
+{{ end }}

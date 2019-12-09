@@ -1,0 +1,28 @@
+################################# Service #################################
+service:
+  enable : true
+  title : Our Services
+  service_Item :
+    - icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      title : WordPress Theme
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      
+    - icon : ti-layout # themify icon pack : https://themify.me/themify-icons
+      title : Responsive Design
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      
+    - icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
+      title : Media &amp; Advertisement
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      
+    - icon : ti-palette # themify icon pack : https://themify.me/themify-icons
+      title : Graphic Design
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      
+    - icon : ti-package # themify icon pack : https://themify.me/themify-icons
+      title : Apps Development
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      
+    - icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
+      title : Networking
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.

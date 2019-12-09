@@ -1,0 +1,64 @@
+############################### team ############################
+team:
+  enable : true
+  title : Our Team
+  team_Member :
+    # team member loop
+    - image : images/team/team-1.jpg
+      name : Abul Mal Muhit
+      designation : CEO/Founder
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      social_Icon :
+        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        
+    # team member loop
+    - image : images/team/team-2.jpg
+      name : Frank Miller
+      designation : Manager
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      social_Icon :
+        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        
+    # team member loop
+    - image : images/team/team-3.jpg
+      name : Michael Jonson
+      designation : Web Developer
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      social_Icon :
+        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        
+    # team member loop
+    - image : images/team/team-4.jpg
+      name : Mo. Kha. Alamgir
+      designation : SEO Specialist
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      social_Icon :
+        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "#"
+        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
+          link : "#"

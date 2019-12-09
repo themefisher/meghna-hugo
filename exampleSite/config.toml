@@ -1,137 +1,180 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-DefaultContentLanguage = "en"
+################################# Default configuration ###################
+baseURL = "https://examplesite.com"
 title = "Meghna"
 theme = "meghna-hugo"
-summaryLength = 10
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "15"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+# default content language
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+# disable language
+disableLanguages = [""]
 
-[taxonomies]
-  author = "author"
-  category = "categories"
-  tag = "tags"
+############################# Plugins ##########################
+# css plugins
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+URL = "plugins/animate-css/animate.css"
+[[params.plugins.css]]
+URL = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+URL = "plugins/slick/slick.css"
 
-# Menu
-[menu]
-    [[menu.nav]]
-    name = "About Us"
-    URL = "about"
-    weight = 2
+# js plugins
+[[params.plugins.js]]
+URL = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+URL = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+URL = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+URL = "plugins/wow/wow.min.js"
 
-    [[menu.nav]]
-    name = "Service"
-    URL = "services"
-    weight = 3
-
-    [[menu.nav]]
-    name = "Portfolio"
-    URL = "portfolio"
-    weight = 4
-
-    [[menu.nav]]
-    name = "Team"
-    URL = "our-team"
-    weight = 5
-
-    [[menu.nav]]
-    name = "Pricing"
-    URL = "pricing"
-    weight = 6
-
-    [[menu.nav]]
-    name = "Blog"
-    URL = "blog"
-    weight = 7
-
-    [[menu.nav]]
-    name = "Contact"
-    URL = "contact-us"
-    weight = 8
-
-# Site params
+############################# Default Parameters ##########################
 [params]
-home= "Home"
 logo = "images/logo.png"
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 # Meta data
 description = "Responsive Multipurpose Parallax HTML5 Template"
 author = "Themefisher"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
-custom_css = ["css/custom.css"]
+# post share
+postShare = true
 
-    # Banner Section
-    [params.banner]
-    enable = true
-    bgImage = "images/slider/hero-area.jpg"
-    icon = "tf-ion-play"
-    heading = "Experience the new reality"
-    content= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
-    btn = true
-    btnText="Explore Us"
-    btnURL="#services"
+# preloader
+[params.preloader]
+enable = true
+preloader = "images/logo.png"
 
-    # call to action
-    [params.cta]
-    enable = true
-    title = "Great Design & Incredible Features"
-    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
-    btnURL = "#"
-    btnText = "Start a project with us"
+############################# social icons ##########################
+[[params.social_Icon]]
+icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+link = "#"
 
-    # counter
-    [params.counter]
-    enable = true
-    bgImage = "images/backgrounds/bg-1.jpg"
-        [[params.counter.counterItem]]
-        title = "Happy Clients"
-        icon = "tf-ion-android-happy"
-        count = "320"
+[[params.social_Icon]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+link = "#"
 
-        [[params.counter.counterItem]]
-        title = "Projects completed"
-        icon = "tf-ion-archive"
-        count = "565"
+[[params.social_Icon]]
+icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
+link = "#"
 
-        [[params.counter.counterItem]]
-        title = "Positive feedback"
-        icon = "tf-ion-thumbsup"
-        count = "95"
+[[params.social_Icon]]
+icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+link = "#"
 
-        [[params.counter.counterItem]]
-        title = "Cups of Coffee"
-        icon = "tf-ion-coffee"
-        count = "2500"
+[[params.social_Icon]]
+icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
+link = "#"
 
-    # footer
-    [params.footer]
-        copyright = "Themefisher"
-        copyrightURL = "http://www.themefisher.com"
+[[params.social_Icon]]
+icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
+link = "#"
 
-        # social Icons
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-facebook"
-        url = "#"
+################################# language ################################
+[Languages]
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-twitter"
-        url = "#"
+  ################################ English Language ########################
+  [Languages.en]
+  languageName = "En"
+  languageCode = "en-us"
+  contentDir = "content/english"
+  weight = 1
+  home = "Home"
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-google-outline"
-        url = "#"
+  # Menu
+  [Languages.en.menu]
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-youtube"
-        url = "#"
+    [[Languages.en.menu.main]]
+    name = "About Us"
+    URL = "about"
+    weight = 1
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-linkedin"
-        url = "#"
+    [[Languages.en.menu.main]]
+    name = "Service"
+    URL = "services"
+    weight = 2
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-dribbble-outline"
-        url = "#"
+    [[Languages.en.menu.main]]
+    name = "Portfolio"
+    URL = "portfolio"
+    weight = 3
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-pinterest-outline"
-        url = "#"
+    [[Languages.en.menu.main]]
+    name = "Team"
+    URL = "team"
+    weight = 4
+
+    [[Languages.en.menu.main]]
+    name = "Pricing"
+    URL = "pricing"
+    weight = 5
+
+    [[Languages.en.menu.main]]
+    name = "Blog"
+    URL = "blog"
+    weight = 6
+
+    [[Languages.en.menu.main]]
+    name = "Contact"
+    URL = "contact"
+    weight = 7
+
+
+
+  ################################ France Language ########################
+  [Languages.fr]
+  languageName = "Fr"
+  languageCode = "fr-fr"
+  contentDir = "content/french"
+  weight = 2
+  home = "Home"
+
+  # Menu
+  [Languages.fr.menu]
+
+    [[Languages.fr.menu.main]]
+    name = "About Us"
+    URL = "about"
+    weight = 1
+
+    [[Languages.fr.menu.main]]
+    name = "Service"
+    URL = "services"
+    weight = 2
+
+    [[Languages.fr.menu.main]]
+    name = "Portfolio"
+    URL = "portfolio"
+    weight = 3
+
+    [[Languages.fr.menu.main]]
+    name = "Team"
+    URL = "team"
+    weight = 4
+
+    [[Languages.fr.menu.main]]
+    name = "Pricing"
+    URL = "pricing"
+    weight = 5
+
+    [[Languages.fr.menu.main]]
+    name = "Blog"
+    URL = "blog"
+    weight = 6
+
+    [[Languages.fr.menu.main]]
+    name = "Contact"
+    URL = "contact"
+    weight = 7

@@ -3,9 +3,12 @@
 	<div class="container">
 
 		{{"<!-- logo -->" | safeHTML}}
-		<a class="navbar-brand logo" href="{{ .Site.BaseURL | absURL }}">
-			<img src="{{ .Site.Params.logo | absURL }}" alt="Logo" />
-			<span class="pl-2 font-weight-bold">{{ .Site.Title }}</span>
+		<a class="navbar-brand logo" href="{{ .Site.BaseURL | relLangURL }}">
+			{{ if .Site.Params.logo }}
+			<img class="img-fluid" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
+			{{ else }}
+			{{ .Site.Title }}
+			{{ end }}
 		</a>
 		{{"<!-- /logo -->" | safeHTML}}
 
@@ -21,25 +24,46 @@
 		{{ if .IsHome }}
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto navigation-menu">
-				<li class="nav-item"><a class="nav-link" data-scroll
-						href="#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
-				{{ range $.Site.Menus.nav }}
-				<li class="nav-item"><a class="nav-link" data-scroll href="#{{ .URL }}">{{ .Name }}</a></li>
+				<li class="nav-item"><a class="nav-link" href="#body">{{ with .Site.Params.home }}{{ . }}{{ end }}</a></li>
+				{{ range .Site.Menus.main }}
+				<li class="nav-item"><a class="nav-link" href="#{{ .URL }}">{{ .Name }}</a></li>
 				{{ end }}
 			</ul>
 		</div>
 		{{ else }}
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto navigation-menu">
-				<li class="nav-item"><a class="nav-link" data-scroll
-						href="{{ $.Site.BaseURL }}#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
-				{{ range $.Site.Menus.nav }}
-				<li class="nav-item"><a class="nav-link" data-scroll href="{{ $.Site.BaseURL }}#{{ .URL }}">{{ .Name }}</a></li>
+				<li class="nav-item"><a class="nav-link" href="{{ .Site.BaseURL | relLangURL }}#body">{{ with .Site.Params.home }}{{ . }}{{ end }}</a></li>
+				{{ range .Site.Menus.main }}
+				<li class="nav-item"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}#{{ .URL }}">{{ .Name }}</a></li>
 				{{ end }}
 			</ul>
 		</div>
 		{{ end }}
 		{{"<!-- /main nav -->" | safeHTML}}
+
+		
+    <!-- Language List -->
+    {{- if .Site.IsMultiLingual }}
+    <select id="select-language" onchange="location = this.value;">
+      {{ $siteLanguages := .Site.Languages}}
+      {{ $pageLang := .Page.Lang}}
+      {{ range .Page.AllTranslations }}
+      {{ $translation := .}}
+      {{ range $siteLanguages }}
+      {{ if eq $translation.Lang .Lang }}
+      {{ $selected := false }}
+      {{ if eq $pageLang .Lang}}
+      <option id="{{ $translation.Language }}" value="{{ $translation.URL }}" selected>{{ .LanguageName }}
+      </option>
+      {{ else }}
+      <option id="{{ $translation.Language }}" value="{{ $translation.URL }}">{{ .LanguageName }}</option>
+      {{ end }}
+      {{ end }}
+      {{ end }}
+      {{ end }}
+    </select>
+    {{ end }}
 	</div>
 </nav>
 {{"<!-- End Fixed Navigation -->" | safeHTML}}
