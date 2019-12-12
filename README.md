@@ -6,7 +6,7 @@
 # Easy Setup (Hugo + Netlify + Forestry)
 Build your website with meghna hugo theme by following this easy steps (No Coding Required)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DbZKmZIPBLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![meghna hugo installation](http://img.youtube.com/vi/DbZKmZIPBLg/0.jpg)](http://www.youtube.com/watch?v=DbZKmZIPBLg "meghna hugo installation")
 
 In this tutorial we will show you to make your website live without buying any hosting and touching a single line of code.
 
