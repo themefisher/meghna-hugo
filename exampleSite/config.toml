@@ -41,6 +41,46 @@ URL = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 URL = "plugins/wow/wow.min.js"
 
+############################# Navigation ##################################
+[menu]
+
+  [[menu.main]]
+  name = "About Us"
+  URL = "about"
+  weight = 1
+
+  [[menu.main]]
+  name = "Service"
+  URL = "services"
+  weight = 2
+
+  [[menu.main]]
+  name = "Portfolio"
+  URL = "portfolio"
+  weight = 3
+
+  [[menu.main]]
+  name = "Team"
+  URL = "team"
+  weight = 4
+
+  [[menu.main]]
+  name = "Pricing"
+  URL = "pricing"
+  weight = 5
+
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  weight = 6
+
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 7
+
+
+
 ############################# Default Parameters ##########################
 [params]
 logo = "images/logo.png"
@@ -93,88 +133,10 @@ link = "#"
   weight = 1
   home = "Home"
 
-  # Menu
-  [Languages.en.menu]
-
-    [[Languages.en.menu.main]]
-    name = "About Us"
-    URL = "about"
-    weight = 1
-
-    [[Languages.en.menu.main]]
-    name = "Service"
-    URL = "services"
-    weight = 2
-
-    [[Languages.en.menu.main]]
-    name = "Portfolio"
-    URL = "portfolio"
-    weight = 3
-
-    [[Languages.en.menu.main]]
-    name = "Team"
-    URL = "team"
-    weight = 4
-
-    [[Languages.en.menu.main]]
-    name = "Pricing"
-    URL = "pricing"
-    weight = 5
-
-    [[Languages.en.menu.main]]
-    name = "Blog"
-    URL = "blog"
-    weight = 6
-
-    [[Languages.en.menu.main]]
-    name = "Contact"
-    URL = "contact"
-    weight = 7
-
-
-
   ################################ France Language ########################
   [Languages.fr]
   languageName = "Fr"
   languageCode = "fr-fr"
   contentDir = "content/french"
   weight = 2
-  home = "Home"
-
-  # Menu
-  [Languages.fr.menu]
-
-    [[Languages.fr.menu.main]]
-    name = "About Us"
-    URL = "about"
-    weight = 1
-
-    [[Languages.fr.menu.main]]
-    name = "Service"
-    URL = "services"
-    weight = 2
-
-    [[Languages.fr.menu.main]]
-    name = "Portfolio"
-    URL = "portfolio"
-    weight = 3
-
-    [[Languages.fr.menu.main]]
-    name = "Team"
-    URL = "team"
-    weight = 4
-
-    [[Languages.fr.menu.main]]
-    name = "Pricing"
-    URL = "pricing"
-    weight = 5
-
-    [[Languages.fr.menu.main]]
-    name = "Blog"
-    URL = "blog"
-    weight = 6
-
-    [[Languages.fr.menu.main]]
-    name = "Contact"
-    URL = "contact"
-    weight = 7
+  home = "Accueil"
