@@ -1,12 +1,7 @@
-<div align="center">
-<h1><a href="https://gethugothemes.com/products/meghna-hugo-theme/">Meghna Hugo</a></h1>
-
-</div>
-
 # Easy Setup (Hugo + Netlify + Forestry)
 Build your website with meghna hugo theme by following this easy steps (No Coding Required)
 
-[![meghna hugo installation](http://img.youtube.com/vi/DbZKmZIPBLg/0.jpg)](http://www.youtube.com/watch?v=DbZKmZIPBLg "meghna hugo installation")
+<a href="http://www.youtube.com/watch?v=DbZKmZIPBLg" title="meghna hugo installation" rel="nofollow"><img width="100%" src="https://camo.githubusercontent.com/61f5ab511f89fe75970cd04f93c7579f0ba19c99/687474703a2f2f696d672e796f75747562652e636f6d2f76692f44625a4b6d5a4950424c672f302e6a7067" alt="meghna hugo installation" data-canonical-src="http://img.youtube.com/vi/DbZKmZIPBLg/0.jpg" style="max-width:100%;"></a>
 
 In this tutorial we will show you to make your website live without buying any hosting and touching a single line of code.
 
