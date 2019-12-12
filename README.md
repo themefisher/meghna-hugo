@@ -1,33 +1,60 @@
 <div align="center">
-<h1><a href="https://themefisher.com/hugo-themes/">Meghna Hugo</a></h1>
-<img src="https://user-images.githubusercontent.com/37659754/54068559-44d79a80-4278-11e9-9601-f58d6879989c.gif" alt="screenshot" width="100%">
+<h1><a href="https://gethugothemes.com/products/meghna-hugo-theme/">Meghna Hugo</a></h1>
+
 </div>
 
-Meghna is a clean, unique, business website template. Built with refined business as well as corporate elements, and saturated with rich typography, Meghna is lightweight, fast-loading, responsive and W3C-validated, delivering a great first impression to visitors.
+# Easy Setup (Hugo + Netlify + Forestry)
+Build your website with meghna hugo theme by following this easy steps (No Coding Required)
 
-Meghna is now support [forestry CMS](https://forestry.io/), and every settings and template has been included. Just connect with forestry and it will be amazing.
-**The images are only for demonstration purpose, Please don't use those images.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DbZKmZIPBLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+In this tutorial we will show you to make your website live without buying any hosting and touching a single line of code.
+
+### What you need !!
+
+1. Git acccount (Ex: Github, Gitlab etc ) . In our case we use github.
+2. [Netlify](https://www.netlify.com/) account to host files and add custom domain .
+3. [Forestry](https://forestry.io/) account to maintain whole project without code.
+
+
+### Step 1 : Fork or Clone repository
+
+First we will fork this [meghna hugo](https://github.com/themefisher/meghna-hugo) template.
+
+### Step 2 : Add your repository in Forestry
+
+Go to your [forestry](https://forestry.io/)  account and click on `import your site now`. declare your config.toml file [`exampleSite/config.toml`] and fill up basic settings . Mark everything is done then go to configuration to change the base url . You can put any url but this have to similar as netlify . So for now put a name which you are going to put in netlify as netlify subdomain.
+
+### Step 3 : Setup and host website with Netlify
+
+Here comes the last step . Go to your [netlify](https://www.netlify.com/) account and click add new site . Choose your git repository to import your website in netlify .  And now you can see the forked `meghna hugo` theme. select it and follow the steps. Then go to `site settings` for change the site name and put your subdoamin name here what you puted on forestry as base url. save it and go to `deploy` from top menu, Wait a while and click on `site preview` or just simply go to the subdomain you puted as base url. **BOOM! Your site is live.** Now you can go to forestry and add, remove or customize every setting and content.
+
+> If you face any issue regarding the installation feel free to onen [open a new issue](https://github.com/themefisher/meghna-hugo/issues)
 
 ## Table of Contents
 
 - [Demo](#demo)
-- [Installation](#installation)
+- [Installation (Old Way)](#installation)
 - [Reporting Issues](#reporting-issues)
 - [Technical Support or Questions](#technical-support-or-questions)
 - [Licensing](#licensing)
 - [More Hugo Themes](https://themefisher.com/hugo-themes/)
 
 ## Demo
-[Live Demo](http://demo.themefisher.com/meghna-hugo/).
+
+<img src="https://user-images.githubusercontent.com/37659754/54068559-44d79a80-4278-11e9-9601-f58d6879989c.gif" alt="screenshot" width="100%">
+
+**The images are only for demonstration purpose, Please don't use those images.**
+
+[Live Demo](http://demo.themefisher.com/meghna-hugo/)
 
 ## Installation
-
-Navigate to your themes folder in your Hugo site and use the following commands:
+At the top we have shown an easy hugo installation. but still if you think you want to go with the traditional way then use the following commands:
 
 ```
-$ mkdir themes
-$ cd themes
 $ git clone git@github.com:themefisher/meghna-hugo.git
+$ cd mehghna-hugo/exampleSite/
+$ hugo server --themesDir ../..
 ```
 
 [Full Documentation](http://demo.themefisher.com/meghna-hugo/blog/installation/).
