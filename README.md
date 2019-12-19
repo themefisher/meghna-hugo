@@ -18,7 +18,7 @@ First we will fork this [meghna hugo](https://github.com/themefisher/meghna-hugo
 
 ### Step 2 : Add your repository in Forestry
 
-Go to your [forestry](https://bit.ly/forestry-account)  account and click on `import your site now`. declare your config.toml file [`exampleSite/config.toml`] and fill up basic settings . Mark everything is done then go to configuration to change the base url . You can put any url but this have to similar as netlify . So for now put a name which you are going to put in netlify as netlify subdomain.
+Go to your [forestry](https://bit.ly/forestry-account)  account and click on `import your site now`. declare your config.toml file [`exampleSite/`] and fill up basic settings . Mark everything is done then go to configuration to change the base url . You can put any url but this have to similar as netlify . So for now put a name which you are going to put in netlify as netlify subdomain.
 
 ### Step 3 : Setup and host website with Netlify
 
@@ -73,10 +73,10 @@ We are available for Hiring of your next HUGO project. Drop Us a mail [themefish
 
 ## Premium Themes
 
-| [![Mega-Bundle-HUGO](https://user-images.githubusercontent.com/37659754/63633830-30ddf480-c670-11e9-8a8b-04a142f8ffc1.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![Bexer](https://user-images.githubusercontent.com/37659754/54068892-84ec4c80-427b-11e9-9952-5d455c259145.png)](https://themefisher.com/products/bexer-hugo-theme/) | [![orbitor](https://user-images.githubusercontent.com/37659754/68539222-411d8a00-03aa-11ea-8858-ede3e405657f.png)](https://gethugothemes.com/products/orbitor/) |
+| [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![Biztrox](https://gethugothemes.com/wp-content/uploads/2019/12/Biztrox.png)](https://gethugothemes.com/products/hugo-business-theme/) | [![bexer](https://gethugothemes.com/wp-content/uploads/2019/06/hugo-theme-bexer.jpg)](https://gethugothemes.com/products/bexer-hugo-theme/) |
 |:---:|:---:|:---:|
-| **Hugo Mega Bundle**  | **Bexer**  | **Orbitor**  |
-| [![red-lab](https://user-images.githubusercontent.com/37659754/68538974-17169880-03a7-11ea-9ff9-ef15706dc1a7.png)](https://gethugothemes.com/products/redlab-hugo/) | [![Agico](https://user-images.githubusercontent.com/37659754/57753899-16aa8700-770f-11e9-9a3d-d3fc45313fbd.png)](https://themefisher.com/products/agico-hugo-theme/) | [![enov](https://user-images.githubusercontent.com/37659754/68539205-0fa4be80-03aa-11ea-85aa-625cf5a79600.png)](https://gethugothemes.com/products/enov-hugo/) |
-| **Red Lab** | **Agico** | **Enov** |
-| [![Agen](https://user-images.githubusercontent.com/37659754/63633832-3a675c80-c670-11e9-8380-a7b5f8f82b76.png)](https://themefisher.com/products/agen-hugo-agency-template/) | [![Biztrox](https://user-images.githubusercontent.com/37659754/54068875-6ab26e80-427b-11e9-876e-4670bdacb975.png)](https://themefisher.com/products/biztrox-hugo-template/) |  [![all](https://user-images.githubusercontent.com/37659754/68989626-b6d69980-0873-11ea-8543-d8a3c5544040.jpg)](https://gethugothemes.com/shop/) |
-| **Agen** | **Biztrox** | **More Hugo Themes** |
+| **Hugo Mega Bundle**  | **Biztrox**  | **Bexer**  |
+| [![Enov](https://gethugothemes.com/wp-content/uploads/2019/09/enov-business-template.jpg)](https://gethugothemes.com/products/enov-hugo/) | [![Vixcon](https://gethugothemes.com/wp-content/uploads/edd/2019/09/vixcon-conference-meetup-template-thumbnail.jpg)](https://gethugothemes.com/products/vixcon-hugo/) | [![Orbitor](https://gethugothemes.com/wp-content/uploads/edd/2019/09/orbitor-software-company-website-template.jpg)](https://gethugothemes.com/products/orbitor/) |
+| **Enov** | **Vixcon** | **Orbitor** |
+| [![Agen](https://gethugothemes.com/wp-content/uploads/edd/2019/09/agen-hugo-theme.jpg)](https://gethugothemes.com/products/agen-hugo/) | [![Navigator](https://gethugothemes.com/wp-content/uploads/edd/2019/08/Navigator.jpg)](https://gethugothemes.com/products/navigator/) | [![all](https://gethugothemes.com/wp-content/uploads/2019/12/get-more-hugo-themes.png)](https://gethugothemes.com/shop/) |
+| **Agen** | **Navigator** | **More Hugo Themes** |
