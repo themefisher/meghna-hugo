@@ -48,7 +48,7 @@ At the top we have shown an easy hugo installation. but still if you think you w
 
 ```
 $ git clone git@github.com:themefisher/meghna-hugo.git
-$ cd mehghna-hugo/exampleSite/
+$ cd meghna-hugo/exampleSite/
 $ hugo server --themesDir ../..
 ```
 

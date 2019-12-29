@@ -12,7 +12,7 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 # disable language
-disableLanguages = [""]
+disableLanguages = []
 
 ############################# Plugins ##########################
 # css plugins
