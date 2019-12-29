@@ -41,7 +41,7 @@ Here comes the last step . Go to your [netlify](https://bit.ly/netlify-account) 
 
 **The images are only for demonstration purpose, Please don't use those images.**
 
-[Live Demo](http://demo.themefisher.com/meghna-hugo/)
+[Live Demo](http://demo.themefisher.com/meghna-hugo/en/)
 
 ## Installation
 At the top we have shown an easy hugo installation. but still if you think you want to go with the traditional way then use the following commands:
@@ -52,7 +52,7 @@ $ cd meghna-hugo/exampleSite/
 $ hugo server --themesDir ../..
 ```
 
-[Full Documentation](http://demo.themefisher.com/meghna-hugo/blog/installation/).
+[Full Documentation](http://demo.themefisher.com/meghna-hugo/en/blog/installation/).
 
 ## Reporting Issues
 
