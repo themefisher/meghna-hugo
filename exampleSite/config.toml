@@ -8,9 +8,6 @@ paginate = "6"
 summaryLength = "15"
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
-# default content language
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
 # disable language
 disableLanguages = []
 
