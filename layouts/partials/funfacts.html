@@ -3,7 +3,7 @@
 {{ if $data.funfacts.funfacts.enable }}
 {{ with $data.funfacts.funfacts }}
 {{"<!-- Start Counter Section -->" | safeHTML}}
-<section id="counter" class="parallax-section bg-1 section overly" style='background-image: url("{{ .bg_Image | relURL }}")'>
+<section id="counter" class="parallax-section bg-1 section overly" style='background-image: url("{{ .bg_Image | absURL }}")'>
     <div class="container">
         <div class="row">
             {{ range .counter_Item }}

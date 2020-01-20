@@ -39,42 +39,40 @@ URL = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 URL = "plugins/wow/wow.min.js"
 
 ############################# Navigation ##################################
-[menu]
+[[menu.main]]
+name = "About Us"
+URL = "about"
+weight = 1
 
-  [[menu.main]]
-  name = "About Us"
-  URL = "about"
-  weight = 1
+[[menu.main]]
+name = "Service"
+URL = "services"
+weight = 2
 
-  [[menu.main]]
-  name = "Service"
-  URL = "services"
-  weight = 2
+[[menu.main]]
+name = "Portfolio"
+URL = "portfolio"
+weight = 3
 
-  [[menu.main]]
-  name = "Portfolio"
-  URL = "portfolio"
-  weight = 3
+[[menu.main]]
+name = "Team"
+URL = "team"
+weight = 4
 
-  [[menu.main]]
-  name = "Team"
-  URL = "team"
-  weight = 4
+[[menu.main]]
+name = "Pricing"
+URL = "pricing"
+weight = 5
 
-  [[menu.main]]
-  name = "Pricing"
-  URL = "pricing"
-  weight = 5
+[[menu.main]]
+name = "Blog"
+URL = "blog"
+weight = 6
 
-  [[menu.main]]
-  name = "Blog"
-  URL = "blog"
-  weight = 6
-
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 7
+[[menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 7
 
 
 
@@ -119,21 +117,19 @@ link = "#"
 icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
 link = "#"
 
-################################# language ################################
-[Languages]
 
-  ################################ English Language ########################
-  [Languages.en]
-  languageName = "En"
-  languageCode = "en-us"
-  contentDir = "content/english"
-  weight = 1
-  home = "Home"
+################################ English Language ########################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
 
-  ################################ France Language ########################
-  [Languages.fr]
-  languageName = "Fr"
-  languageCode = "fr-fr"
-  contentDir = "content/french"
-  weight = 2
-  home = "Accueil"
+################################ France Language ########################
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
+weight = 2
+home = "Accueil"

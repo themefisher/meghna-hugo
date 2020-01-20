@@ -3,7 +3,7 @@
 {{ if $data.cta.cta.enable}}
 {{ with $data.cta.cta}}
 {{"<!-- Start Call To Action -->" | safeHTML}}
-<section class="call-to-action section-sm bg-1 overly" style='background-image: url("{{ .bg_Image | relURL }}")'>
+<section class="call-to-action section-sm bg-1 overly" style='background-image: url("{{ .bg_Image | absURL }}")'>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">

@@ -6,8 +6,8 @@
 <section class="section section-bg about-2 padding-0" id="feature">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-6 padding-0" style="background-image: url('{{ .image | relURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;">
-				<!-- <img class="img-fluid" src="{{ .image | relURL }}" alt="image"> -->
+			<div class="col-lg-6 padding-0" style="background-image: url('{{ .image | absURL }}'); background-size: cover; background-position: top center; background-repeat: no-repeat; min-height: 400px;">
+				<!-- <img class="img-fluid" src="{{ .image | absURL }}" alt="image"> -->
 			</div>
 			<div class="col-lg-6">
 				<div class="content-block">
