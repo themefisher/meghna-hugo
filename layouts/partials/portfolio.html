@@ -21,30 +21,36 @@
 				<div class="btn-group portfolio-filter btn-group-toggle justify-content-center d-flex flex-wrap"
 					data-toggle="buttons">
 					<label class="btn active">
-						<input type="radio" name="shuffle-filter" value="all" checked="checked" />All
+						<input type="radio" name="shuffle-filter" value="all" checked="checked" />{{ i18n "all"}}
 					</label>
-					{{ range .filter_List }}
+					{{ $categories := slice }}
+					{{ range .portfolio_item }}
+					{{ range .categories }}
+					{{ $categories = $categories | append . }}
+					{{ end }}
+					{{ end }}
+					{{ range ( $categories | uniq ) }}
 					<label class="btn">
-						<input type="radio" name="shuffle-filter" value="{{.filter_Type}}" />{{ .filter_Title }}
+						<input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . | humanize }}
 					</label>
 					{{ end }}
 				</div>
 			</div>
 		</div>
 
-		<div class="row shuffle-wrapper">
+		<div class="row shuffle-wrapper justify-content-center">
 			{{"<!-- portfolio item -->" | safeHTML}}
-			{{ range .portfolio_Item }}
+			{{ range .portfolio_item }}
 			<div class="col-lg-4 shuffle-item"
-				data-groups="[{{range $index, $element:= .types }}{{if eq $index 0}} {{else}},{{end}}&quot;{{.}}&quot;{{ end }}]">
+				data-groups="[{{range $index, $element:= .categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
 				<div class="portfolio-block mb-4">
-					<img class="img-fluid" src="{{ .image | relURL }}" alt="work-image">
+					<img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
 					<div class="caption">
 						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="{{ .image | relURL }}"
 							data-lightbox="image-1">
 							<i class="ti-search"></i>
 						</a>
-						<h4 class="mt-3"><a href="{{ .URL | relURL }}">{{ .title }}</a></h4>
+						<h4 class="mt-3"><a href="{{ .link | safeURL }}">{{ .name }}</a></h4>
 						<p>{{ .content | markdownify }}</p>
 					</div>
 				</div>

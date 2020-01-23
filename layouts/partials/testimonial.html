@@ -4,19 +4,21 @@
 {{ with $data.testimonial.testimonial }}
 {{"<!-- Start Testimonial -->" | safeHTML}}
 <section id="testimonial" class="testimonial overly section bg-2"
-	style='background-image: url("{{ .bg_Image | absURL }}")'>
+	style='background-image: url("{{ .bg_image_webp | absURL }}")'>
+	<!-- this image is for trigger this section fallback background image -->
+	<img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'" src="{{ .bg_image_webp | absURL }}" />
 	<div class="container">
 		<div class="row">
 			<div class="col-xl-12">
 				{{"<!-- testimonial wrapper -->" | safeHTML}}
 				<div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
-					{{ range .testimonial_Item }}
+					{{ range .testimonial_item }}
 					{{"<!-- testimonial single -->" | safeHTML}}
 					<div class="item text-center">
 
 						{{"<!-- client photo -->" | safeHTML}}
 						<div class="client-thumb">
-							<img src="{{ .image | relURL }}" class="img-fluid" alt="{{ .name }}">
+							<img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
 						</div>
 
 						{{"<!-- client info -->" | safeHTML}}

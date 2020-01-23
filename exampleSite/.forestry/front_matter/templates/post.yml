@@ -8,15 +8,17 @@ fields:
 - type: datetime
   name: date
   label: date
+- type: text
+  name: author
+  label: author
+  description: 'Ex: John Doe'
+- type: file
+  name: image_webp
+  label: image webp
 - type: file
   name: image
   label: image
 - type: text
-  name: author
-  label: author
-- name: description
-  type: text
-  config:
-    required: false
+  name: description
   label: description
-  description: this is meta description
+  description: meta description

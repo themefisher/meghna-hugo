@@ -14,7 +14,7 @@
 
 		{{"<!-- responsive nav button -->" | safeHTML}}
 		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
-			data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+			data-target="#navigation" aria-controls="navigation" aria-expanded="false"
 			aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -22,7 +22,7 @@
 
 		{{"<!-- main nav -->" | safeHTML}}
 		{{ if .IsHome }}
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<div class="collapse navbar-collapse" id="navigation">
 			<ul class="navbar-nav ml-auto navigation-menu">
 				<li class="nav-item"><a class="nav-link" href="#body">{{ with .Site.Params.home }}{{ . }}{{ end }}</a></li>
 				{{ range .Site.Menus.main }}
@@ -31,7 +31,7 @@
 			</ul>
 		</div>
 		{{ else }}
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<div class="collapse navbar-collapse" id="navigation">
 			<ul class="navbar-nav ml-auto navigation-menu">
 				<li class="nav-item"><a class="nav-link" href="{{ .Site.BaseURL | relLangURL }}#body">{{ with .Site.Params.home }}{{ . }}{{ end }}</a></li>
 				{{ range .Site.Menus.main }}

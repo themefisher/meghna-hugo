@@ -1,7 +1,8 @@
 ############################# call to action ##############################
 cta:
   enable : true
-  bg_Image : "images/backgrounds/bg-1.jpg"
+  bg_image : "images/backgrounds/bg-white-wall.jpg"
+  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
   title : "Great Design & Incredible Features"
   content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
   button:

@@ -7,7 +7,7 @@
 				{{"<!-- Footer Social Links -->" | safeHTML}}
 				<div class="social-icon">
 					<ul class="list-inline">
-						{{ range .Site.Params.social_Icon }}
+						{{ range .Site.Params.social }}
 						<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
 						{{ end }}
 					</ul>
@@ -15,8 +15,8 @@
 
 				{{"<!-- copyright -->" | safeHTML}}
 				<div class="copyright text-center">
-					<a href="{{ .Site.BaseURL | absURL }}">
-						<img src="{{ .Site.Params.logo | absURL }}" alt="Meghna" />
+					<a href="{{ .Site.BaseURL | absLangURL }}">
+						<img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}" />
 					</a>
 					<br>
 					<p>{{ i18n "copyright" | markdownify }}</p>
@@ -27,21 +27,22 @@
 </footer>
 {{"<!-- /footer -->" | safeHTML}}
 
-{{"<!-- Essential Scripts -->" | safeHTML}}
-{{"<!-- Google Map API -->" | safeHTML}}
-{{ $data := index .Site.Data .Site.Language.Lang }}
-{{ if $data.contact.contact.map.enable }}
-<script type="text/javascript"  src="{{ $data.contact.contact.map.gmapAPI | absURL }}"></script>
+{{ "<!-- Google Map API -->" | safeHTML }}
+{{ if .Site.Params.map.enable }}
+<script src="{{ .Site.Params.map.gmap_api | safeURL }}"></script>
 {{ end }}
+
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
-<script src="{{ .URL | absURL }}"></script>
+<script src="{{ .link | absURL }}"></script>
 {{ end }}
+
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
+
 {{ "<!-- google analitycs -->" | safeHTML }}
-{{ if .Site.Params.googleAnalitycsID }}
+{{ with .Site.Params.google_analitycs_id }}
 <script>
   (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
@@ -54,7 +55,7 @@
     a.src = g;
     m.parentNode.insertBefore(a, m)
   })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-  ga('create', '{{ .Site.Params.googleAnalitycsID }}', 'auto');
+  ga('create', '{{ . }}', 'auto');
   ga('send', 'pageview');
 </script>
 {{ end }}

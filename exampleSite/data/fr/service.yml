@@ -2,27 +2,33 @@
 service:
   enable : true
   title : Our Services
-  service_Item :
-    - icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      title : WordPress Theme
+  service_item :
+    # service item loop
+    - name : WordPress Theme
+      icon : ti-world # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
       
-    - icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      title : Responsive Design
+    # service item loop
+    - name : Responsive Design
+      icon : ti-layout # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
       
-    - icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      title : Media &amp; Advertisement
+    # service item loop
+    - name : Media &amp; Advertisement
+      icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
       
-    - icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      title : Graphic Design
+    # service item loop
+    - name : Graphic Design
+      icon : ti-palette # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
       
-    - icon : ti-package # themify icon pack : https://themify.me/themify-icons
-      title : Apps Development
+    # service item loop
+    - name : Apps Development
+      icon : ti-package # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
       
-    - icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      title : Networking
+    # service item loop
+    - name : Networking
+      icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
       content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.

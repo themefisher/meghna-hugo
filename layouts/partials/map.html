@@ -1,0 +1,9 @@
+{{ if .Site.Params.map.enable }}
+{{"<!-- Google Map -->" | safeHTML}}
+<div class="google-map">
+	<div id="map" data-latitude="{{ .Site.Params.map.map_latitude }}"
+	data-longitude="{{ .Site.Params.map.map_longitude }}"
+	data-marker="{{ .Site.Params.map.map_marker | absURL }}"
+	data-marker-name="{{ .Site.Title }}"></div>
+</div>
+{{ end }}

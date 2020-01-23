@@ -1,25 +1,26 @@
 <head>
-    <meta charset="utf-8">
-    <title>{{ .Title }}</title>
+	<meta charset="utf-8">
+	<title>{{ .Title }}</title>
 
-    {{ "<!-- mobile responsive meta -->" | safeHTML }}
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-    {{ with .Site.Params.author }}
-    <meta name="author" content="{{ . }}">{{ end }}
-    {{ hugo.Generator }}
+	{{ "<!-- mobile responsive meta -->" | safeHTML }}
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description"
+		content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+	{{ with .Site.Params.author }}
+	<meta name="author" content="{{ . }}">{{ end }}
+	{{ hugo.Generator }}
 
-    {{ "<!-- plugins -->" | safeHTML }}
-    {{ range .Site.Params.plugins.css }}
-    <link rel="stylesheet" href="{{ .URL | absURL }} ">
-    {{ end }}
+	{{ "<!-- plugins -->" | safeHTML }}
+	{{ range .Site.Params.plugins.css }}
+	<link rel="stylesheet" href="{{ .link | absURL }} ">
+	{{ end }}
 
-    {{"<!-- Main Stylesheet -->"|safeHTML}}
-    {{ $styles := resources.Get "css/style.css" | minify}}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+	{{"<!-- Main Stylesheet -->"|safeHTML}}
+	{{ $styles := resources.Get "css/style.css" | minify}}
+	<link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
-    {{ "<!--Favicon-->" | safeHTML }}
-    <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
-    <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+	{{ "<!--Favicon-->" | safeHTML }}
+	<link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+	<link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
 
 </head>

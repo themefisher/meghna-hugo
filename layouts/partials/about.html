@@ -5,7 +5,7 @@
 {{"<!-- Start About Section -->" | safeHTML}}
 <section class="bg-one about section" id="about">
 	<div class="container">
-		<div class="row">
+		<div class="row justify-content-center">
 			<div class="col-lg-12">
 				{{"<!-- section title -->" | safeHTML}}
 				<div class="title text-center wow fadeIn" data-wow-duration="1500ms">
@@ -16,7 +16,7 @@
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
 
-			{{ range .about_Item }}
+			{{ range .about_item }}
 			{{"<!-- About item -->" | safeHTML}}
 			<div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms">
 				<div class="block">
@@ -25,7 +25,7 @@
 					</div>
 					{{"<!-- Express About Yourself -->" | safeHTML}}
 					<div class="content text-center">
-						<h3 class="ddd">{{ .title }}</h3>
+						<h3>{{ .title }}</h3>
 						<p>{{ .content | markdownify }}</p>
 					</div>
 				</div>

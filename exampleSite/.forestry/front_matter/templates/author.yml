@@ -6,6 +6,9 @@ fields:
   name: title
   label: title
 - type: text
+  name: image
+  label: image
+- type: text
   name: email
   label: email
 - type: field_group_list
@@ -15,7 +18,6 @@ fields:
   - type: text
     name: icon
     label: icon
-    description: https://themify.me/themify-icons
   - type: text
     name: link
     label: link

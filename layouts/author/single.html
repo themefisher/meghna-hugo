@@ -13,15 +13,15 @@
 				</div>
 				<div class="content text-center">
 					<figure>
-						{{ if .Params.Photo }}
-						<img class="rounded-circle img-fluid" src="{{.Params.Photo}}">
+						{{ if .Params.Image }}
+						<img class="rounded-circle img-fluid" src="{{.Params.Image | relURL }}">
 						{{else if .Params.Email}}
 						<img class="rounded-circle img-fluid"
 							src="https://www.gravatar.com/avatar/{{ md5 .Params.email }}?s=128&pg&d=identicon">
 						{{ end }}
 						<figcaption>
 							<h5 class="font-weight-bold">
-								{{ .Params.Name }}
+								{{ .Title }}
 							</h5>
 						</figcaption>
 					</figure>
@@ -39,7 +39,6 @@
 		</div>
 	</div>
 </section>
-
 
 <section class="section">
 	<div class="container">

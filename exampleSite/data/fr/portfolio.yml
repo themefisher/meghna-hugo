@@ -2,67 +2,75 @@
 portfolio:
   enable : true
   title : Our Works
-  filter_List :
-    - filter_Type : photography
-      filter_Title : Photography
-      
-    - filter_Type : design
-      filter_Title : Design
-      
-    - filter_Type : development
-      filter_Title : Development
-
-  portfolio_Item :
-    - types : ["design"]
+  portfolio_item :
+    # portfolio item loop
+    - name : Tag Design
       image : images/portfolio/portfolio-1.jpg
-      URL : #
-      title : Tag Design
+      image_webp : images/portfolio/portfolio-1.webp
+      categories : ["design"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : "#"
       
-    - types : ["development"]
+    # portfolio item loop
+    - name : Sound system
       image : images/portfolio/portfolio-2.jpg
-      URL : #
-      title : Sound system
+      image_webp : images/portfolio/portfolio-2.webp
+      categories : ["development"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : "#"
       
-    - types : ["design", "development"]
+    # portfolio item loop
+    - name : Clock Product
       image : images/portfolio/portfolio-3.jpg
-      URL : #
-      title : Clock Product
+      image_webp : images/portfolio/portfolio-3.webp
+      categories : ["design", "development"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : "#"
       
-    - types : ["photography", "development"]
+    # portfolio item loop
+    - name : Bottol Label
       image : images/portfolio/portfolio-4.jpg
-      URL : #
-      title : Bottol Label
+      image_webp : images/portfolio/portfolio-4.webp
+      categories : ["photography", "development"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : "#"
       
-    - types : ["design"]
+    # portfolio item loop
+    - name : Shopping Bag
       image : images/portfolio/portfolio-5.jpg
-      URL : #
-      title : Shopping Bag
+      image_webp : images/portfolio/portfolio-5.webp
+      categories : ["design"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : "#"
       
-    - types : ["photography"]
+    # portfolio item loop
+    - name : Tag Design
       image : images/portfolio/portfolio-6.jpg
-      URL : #
-      title : Tag Design
+      image_webp : images/portfolio/portfolio-6.webp
+      categories : ["photography"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : "#"
       
-    - types : ["development"]
+    # portfolio item loop
+    - name : Business Card
       image : images/portfolio/portfolio-7.jpg
-      URL : #
-      title : Business Card
+      image_webp : images/portfolio/portfolio-7.webp
+      categories : ["development"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : "#"
       
-    - types : ["design", "development"]
+    # portfolio item loop
+    - name : Stationary Design
       image : images/portfolio/portfolio-8.jpg
-      URL : #
-      title : Stationary Design
+      image_webp : images/portfolio/portfolio-8.webp
+      categories : ["design", "development"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : "#"
       
-    - types : ["design", "photography"]
+    # portfolio item loop
+    - name : Tag Design
       image : images/portfolio/portfolio-2.jpg
-      URL : #
-      title : Tag Design
+      image_webp : images/portfolio/portfolio-2.webp
+      categories : ["design", "photography"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : "#"

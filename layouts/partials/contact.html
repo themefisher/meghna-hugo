@@ -21,7 +21,7 @@
 				<h3>{{ .subtitle | markdownify }}</h3>
 				<p> {{ .content | markdownify }} </p>
 				<div class="contact-details">
-					{{ range .contact_Details }}
+					{{ range .contact_details }}
 					<div class="con-info clearfix">
 						<i class="{{ .icon }}"></i>
 						<span>{{ .info }}</span>
@@ -32,7 +32,7 @@
 
 			{{"<!-- Contact Form -->" | safeHTML}}
 			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-				<form id="contact-form" class="form-meghna" method="post" action="{{ .form_Action | safeURL }}" role="form">
+				<form id="contact-form" class="form-meghna" method="post" action="{{ .form_action | safeURL }}" role="form">
 					<input name="e-mail" type="text" id="e-mail" autocomplete="off">
 					<div class="form-group">
 						<input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
@@ -47,21 +47,12 @@
 						<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
 					</div>
 					<div id="cf-submit">
-						<button type="submit" id="contact-submit" class="btn btn-transparent btn-block" value="Submit">Submit</button>
+						<button type="submit" id="contact-submit" class="btn btn-transparent btn-block" value="Submit">{{ i18n "submit" }}</button>
 					</div>
 				</form>
 			</div>
 		</div>
 	</div>
-
-	{{ if .map.enable }}
-	{{ with .map }}
-	{{"<!-- Google Map -->" | safeHTML}}
-	<div class="google-map">
-		<div id="map-canvas" data-latitude="{{ .mapLatitude }}" data-longitude="{{ .mapLongitude }}"></div>
-	</div>
-	{{ end }}
-	{{ end }}
 </section>
 {{"<!-- /contact -->" | safeHTML}}
 {{ end }}
