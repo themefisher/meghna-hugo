@@ -89,9 +89,9 @@ logo = "images/logo.png"
 description = "Responsive Multipurpose Parallax HTML5 Template"
 author = "Themefisher"
 # Google Analitycs
-google_analitycs_id = "Your ID"
+google_analitycs_id = "" # Your ID
 # post share
-postShare = true
+post_share = true
 
 # preloader
 [params.preloader]
@@ -100,7 +100,7 @@ preloader = "images/logo.png"
 
 # google map
 [params.map]
-enable = true
+enable = false
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
