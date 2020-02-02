@@ -3,6 +3,10 @@ about:
   enable: true
   title: About Us
   about_item:
+  - icon: ''
+    title: Cost-effective
+    content: Due to our efficiency and our geographical location, your application
+      will be developed at best-cost
   - icon: ti-ruler-pencil
     title: Experienced engineers
     content: With our own team of experienced software developers and quality engineers,
