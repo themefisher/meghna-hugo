@@ -4,8 +4,8 @@ team:
   title: Our Team
   team_member:
   - name: Amir Ebrahimkhani
-    image_webp: images/team/team-55.webp
-    image: images/team/team-55.jpg
+    image_webp: images/team-55.webp
+    image: images/team-55.jpg
     designation: Project Manager
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
