@@ -7,11 +7,8 @@ team:
     image_webp: images/team-55.webp
     image: images/team-55.jpg
     designation: Project Manager
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
-      ullam, culpa odio.
+    content: ''
     social:
-    - icon: ti-facebook
-      link: "#"
     - icon: ti-twitter-alt
       link: "#"
     - icon: ti-linkedin
