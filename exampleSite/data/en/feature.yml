@@ -17,10 +17,11 @@ feature:
     content: |-
       Vouchers for certain amounts of development hours per month can be purchased. Vouchers of 80, 120 or 160 hours are possible. Vouchers are paid upfront before the start of each month.+ The amount of software development hours is committed by Manifera for the month it is purchased.
       – It might not always be possible to indicate the amount of development hours needed per month.
-  - title: SEO Optimized
+  - title: 3. Time and Materials
     icon: ti-stats-up
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
+    content: |2-
+       The budget required is based on actual spent development effort and ‘materials’ costs (like software libraries). During the quotation stage, we will provide you with an indicative expected budget based upon your ideas and requirements. You might want to use this engagement form when the requirements of your application are not fully clear yet.+ You only pay for the real hours spent and ‘materials’ used.
+      – Even though we provide you with an indicative expected budget, the actual required budget might be significantly different from that.
   - title: Easy Customization
     icon: ti-announcement
     content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
