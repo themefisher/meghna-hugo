@@ -31,11 +31,8 @@ team:
     image_webp: images/team-66.webp
     image: images/team-66.jpg
     designation: Team Leader
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
-      ullam, culpa odio.
+    content: ''
     social:
-    - icon: ti-facebook
-      link: "#"
     - icon: ti-twitter-alt
       link: "#"
     - icon: ti-linkedin
