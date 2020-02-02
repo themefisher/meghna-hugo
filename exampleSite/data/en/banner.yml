@@ -1,7 +1,7 @@
 ---
 banner:
   enable: true
-  bg_image_webp: images/backgrounds/Dragon.webp
+  bg_image_webp: images/Dragon.webp
   bg_image: images/Dragon.jpg
   icon: ''
   title: Paisley Digital
