@@ -1,8 +1,8 @@
 ---
 banner:
   enable: true
-  bg_image_webp: images/Dragon.webp
-  bg_image: images/Dragon.jpg
+  bg_image_webp: images/Hand-Banner.webp
+  bg_image: images/Hand-Banner.jpg
   icon: ''
   title: We provide our clients with Offshore Software Development teams and Custom
     Made Web, Mobile and Desktop Application Development.
