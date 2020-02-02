@@ -3,7 +3,7 @@ about:
   enable: true
   title: About Us
   about_item:
-  - icon: ''
+  - icon: ti-cup
     title: Cost-effective
     content: Due to our efficiency and our geographical location, your application
       will be developed at best-cost
