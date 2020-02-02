@@ -4,11 +4,12 @@ banner:
   bg_image_webp: images/Dragon.webp
   bg_image: images/Dragon.jpg
   icon: ''
-  title: Paisley Digital
-  content: |-
-    Paisley is an outsourcing software development company with its headquarters in Newzealand and a development office in Turkey. On this basis, Paisley can provide its services at attractive prices, working with a team of highly skilled and motivated engineers.
-    We provide our clients with Offshore Software Development teams and Custom Made Web, Mobile and Desktop Application Development.
-    As an outsourcing software company for the Netherlands, Australia and the USA we help our clients with flexible up/down scaling of their software development capacities at best cost. This enables our clients to serve their clients in the best possible ways.
+  title: We provide our clients with Offshore Software Development teams and Custom
+    Made Web, Mobile and Desktop Application Development.
+  content: Paisley is an outsourcing software development company with its headquarters
+    in Newzealand and a development office in Turkey. On this basis, Paisley can provide
+    its services at attractive prices, working with a team of highly skilled and motivated
+    engineers.
   button:
     enable: true
     label: Explore Us
