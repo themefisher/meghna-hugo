@@ -3,7 +3,7 @@ feature:
   enable: true
   image: images/about/about-business-man.jpg
   image_webp: images/about/about-business-man.webp
-  title: We’re A softwarel Developement Agency.
+  title: We’re A Softwarel Developement Agency.
   content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora
     itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.
   feature_item:
