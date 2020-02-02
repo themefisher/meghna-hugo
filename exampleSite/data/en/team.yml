@@ -3,10 +3,10 @@ team:
   enable: true
   title: Our Team
   team_member:
-  - name: Amir Ebrahimkhani
-    image_webp: images/team/team-55.webp
-    image: images/team/team-55.webp
-    designation: CEO/Founder
+  - name: Frank Miller
+    image_webp: images/team/team-2.webp
+    image: images/team/team-2.jpg
+    designation: Manager
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
     social:
@@ -18,10 +18,10 @@ team:
       link: "#"
     - icon: ti-dribbble
       link: "#"
-  - name: Frank Miller
-    image_webp: images/team/team-2.webp
-    image: images/team/team-2.jpg
-    designation: Manager
+  - name: Amir Ebrahimkhani
+    image_webp: images/team/team-55.webp
+    image: images/team/team-55.webp
+    designation: CEO/Founder
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
     social:
