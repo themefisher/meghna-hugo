@@ -33,10 +33,10 @@ team:
       link: "#"
     - icon: ti-dribbble
       link: "#"
-  - name: Michael Jonson
+  - name: Meysam Tamkin
     image_webp: images/team/team-3.webp
     image: images/team/team-3.jpg
-    designation: Web Developer
+    designation: Team Leader
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
     social:
