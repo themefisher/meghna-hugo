@@ -22,7 +22,8 @@ feature:
     content: |2-
        The budget required is based on actual spent development effort and ‘materials’ costs (like software libraries). During the quotation stage, we will provide you with an indicative expected budget based upon your ideas and requirements. You might want to use this engagement form when the requirements of your application are not fully clear yet.+ You only pay for the real hours spent and ‘materials’ used.
       – Even though we provide you with an indicative expected budget, the actual required budget might be significantly different from that.
-  - title: Easy Customization
+  - title: 4. Fixed price project
     icon: ti-announcement
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
+    content: |-
+      Based on your ideas and requirements we provide you with the budget estimate and the planning. As the name ‘Fixed Price’ implies both this budget and the planning stay fixed (if the requirements do not change significantly). The budget will be paid in parts linked to mutually agreed milestones.+ Budget related risk is out of your hands since the price will be as agreed upon.
+      – Normally this comes with a higher price as to cater for unforeseen activities.As a flexible company, it is possible to deviate from the above indicated engagement models. Tell us your ideas about engagement and we are more than happy to discuss further on this.
