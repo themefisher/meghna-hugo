@@ -34,8 +34,8 @@ team:
     - icon: ti-dribbble
       link: "#"
   - name: Meysam Tamkin
-    image_webp: images/team/team-3.webp
-    image: images/team/team-3.jpg
+    image_webp: images/team-66.webp
+    image: images/team-66.jpg
     designation: Team Leader
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
