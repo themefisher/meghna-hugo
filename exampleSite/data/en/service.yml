@@ -6,10 +6,9 @@ service:
   - name: Back-End
     icon: ti-world
     content: Java, Java script
-  - name: Responsive Design
+  - name: Front-End
     icon: ti-layout
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    content: Angular, React
   - name: Media &amp; Advertisement
     icon: ti-blackboard
     content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
