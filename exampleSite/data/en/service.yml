@@ -9,7 +9,7 @@ service:
   - name: Front-End
     icon: ti-layout
     content: Angular, React
-  - name: Media &amp; Advertisement
+  - name: DevOps/DevSecOps
     icon: ti-blackboard
     content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
       facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
