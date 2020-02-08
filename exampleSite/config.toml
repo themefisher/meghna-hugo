@@ -4,7 +4,7 @@ disqusShortname = ""
 paginate = "6"
 summaryLength = "15"
 theme = "meghna-hugo"
-title = "Meghna"
+title = "Paisley Digital"
 [Languages.en]
 contentDir = "content/english"
 home = "Home"
