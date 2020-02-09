@@ -6,13 +6,13 @@ funfacts:
   counter_item:
   - title: Happy Clients
     icon: ti-face-smile
-    count: "320"
+    count: "15"
   - title: Projects completed
     icon: ti-archive
-    count: "350"
+    count: "25"
   - title: Positive feedback
     icon: ti-thumb-up
-    count: "158"
+    count: "15"
   - title: Cups of Coffee
     icon: ti-gift
-    count: "250"
+    count: "20"
