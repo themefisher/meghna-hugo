@@ -49,7 +49,7 @@ weight = 7
 author = "Themefisher"
 description = "Responsive Multipurpose Parallax HTML5 Template"
 google_analitycs_id = ""
-logo = "images/logo-gradiant-01.png.png"
+logo = "images/logo-gradiant-02.png"
 post_share = true
 [params.map]
 enable = false
@@ -87,7 +87,7 @@ link = "plugins/lazy-load/lozad.min.js"
 link = "plugins/google-map/map.js"
 [params.preloader]
 enable = true
-preloader = "images/logo-paisley-3.png"
+preloader = "images/logo-gradiant-02.png"
 [[params.social]]
 icon = "ti-facebook"
 link = "#"
