@@ -18,13 +18,13 @@ portfolio:
     - Banking/Payment
     content: 'Card  / Bill payment /  PFM '
     link: ''
-  - name: Sound system
+  - name: Telecome Solution
     image: images/portfolio/portfolio-2.jpg
     image_webp: images/portfolio/portfolio-2.webp
     categories:
-    - development
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    link: "#"
+    - Telecome
+    content: Portal / Self Service / VAS Portal
+    link: https://www.rightel.ir/en
   - name: Clock Product
     image: images/portfolio/portfolio-3.jpg
     image_webp: images/portfolio/portfolio-3.webp
