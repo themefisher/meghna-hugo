@@ -3,13 +3,13 @@ contact:
   enable: true
   title: Contact Us
   subtitle: Contact Details
-  content: Nosrat, nabshe setayesh
+  content: Digital nomads distributed across the globe
   form_action: "#"
   contact_details:
   - icon: ti-location-pin
     info: 'Turkey, '
   - icon: ti-mobile
-    info: 'Phone: +989 912 799 2192'
+    info: 'Phone: +880-31-000-000'
   - icon: ti-printer
     info: 'Fax: +880-31-000-000'
   - icon: ti-email
