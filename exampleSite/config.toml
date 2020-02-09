@@ -49,7 +49,7 @@ weight = 7
 author = "Themefisher"
 description = "Responsive Multipurpose Parallax HTML5 Template"
 google_analitycs_id = ""
-logo = "images/logo-gradiant-02.png1"
+logo = "images/logo-gradiant-02.png"
 post_share = true
 [params.map]
 enable = false
