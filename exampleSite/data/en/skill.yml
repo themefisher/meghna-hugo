@@ -15,8 +15,8 @@ skill:
   skill_item:
   - name: Back-End
     percent: 90%
-  - name: Analysis
-    percent: 70%
+  - name: Front-End
+    percent: 80%
   - name: Design
     percent: 80%
   - name: IOS Development
