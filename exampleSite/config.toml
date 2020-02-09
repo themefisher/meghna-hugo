@@ -20,7 +20,7 @@ weight = 2
 [[menu.main]]
 URL = "about"
 name = "About Us"
-weight = 3
+weight = 1
 [[menu.main]]
 URL = "contact"
 name = "Contact"
@@ -36,7 +36,7 @@ weight = 5
 [[menu.main]]
 URL = "team"
 name = "Team"
-weight = 2
+weight = 3
 [[menu.main]]
 URL = "portfolio"
 name = "Portfolio"
@@ -44,7 +44,7 @@ weight = 4
 [[menu.main]]
 URL = "services"
 name = "Service"
-weight = 1
+weight = 2
 [params]
 author = "Themefisher"
 description = "Paisley Digital Services"
