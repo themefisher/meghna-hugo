@@ -5,7 +5,7 @@ banner:
   bg_image: images/Banner-09.jpg
   icon: ''
   title: ''
-  content: "Paisley is a digital product development company.     \n    \n"
+  content: "\n    \n"
   button:
     enable: true
     label: Explore Us
