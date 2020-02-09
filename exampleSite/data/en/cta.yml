@@ -1,8 +1,8 @@
 ---
 cta:
   enable: true
-  bg_image: images/Banner-05.jpg
-  bg_image_webp: images/Banner-05.webp
+  bg_image: images/Banner-wall.jpg
+  bg_image_webp: images/Banner-wall.webp
   title: OUR VISION
   content: "is to help your company being competitive in the local and world markets
     by developing software applications at best price, at high quality and according
