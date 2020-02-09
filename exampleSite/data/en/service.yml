@@ -8,9 +8,9 @@ service:
     content: Providing a software application based on exactly your requirements and
       ideas to fulfill your specific business needs. From UI/UX design, via development
       all the way to deployment, we take care of the whole cycle.
-  - name: Front-End
+  - name: OFFSHORE SOFTWARE DEVELOPMENT TEAM
     icon: ti-layout
-    content: Angular, React
+    content: Providing you with your own dedicated team of experienced software developers.
   - name: DevOps/DevSecOps
     icon: ti-blackboard
     content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
