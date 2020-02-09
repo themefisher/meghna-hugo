@@ -17,7 +17,7 @@ skill:
     percent: 90%
   - name: Front-End
     percent: 85%
-  - name: IOS Development
-    percent: 85%
   - name: Andriod Development
     percent: 85%
+  - name: IOS Development
+    percent: 75%
