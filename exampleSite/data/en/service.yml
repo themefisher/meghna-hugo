@@ -11,10 +11,10 @@ service:
   - name: OFFSHORE SOFTWARE DEVELOPMENT TEAM
     icon: ti-layout
     content: Providing you with your own dedicated team of experienced software developers.
-  - name: DevOps/DevSecOps
+  - name: WEB APPLICATION DEVELOPMENT
     icon: ti-blackboard
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    content: "\nWe build powerful and scalable web apps that are custom made using
+      the latest technologies. "
   - name: Apps Development
     icon: ti-package
     content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
