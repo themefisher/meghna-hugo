@@ -15,7 +15,8 @@ service:
     icon: ti-blackboard
     content: "\nWe build powerful and scalable web apps that are custom made using
       the latest technologies. "
-  - name: Apps Development
+  - name: MOBILE APPLICATION DEVELOPMENT
     icon: ti-package
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    content: |-
+      MOBILE APPLICATION DEVELOPMENT
+      We design and develop functional and interactive mobile apps, for both iOS and Android.
