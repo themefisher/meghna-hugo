@@ -3,15 +3,14 @@ skill:
   enable: true
   title: Developement Tools
   subtitle: We’ve skilled in wide range of web and Other digital market tools.
-  content: |2-
+  content: |2
 
     - Configuration Management: GitHub, Gitlab, Bitbucket, SVN.
     - Project Management: Basecamp, Trello, Pivotal Tracker.
     - Issue tracking: Jira, Redmine, Easy Redmine.
     - Agile Scrum: Jira, Trello, Pivotal Tracker.
     - Communication: Skype, Slack, Google Hangouts.
-    - If the tools you use are not mentioned here, don’t worry, we are flexible in discussing using the same tools as you use as well.
-  image: images/about/company-growth.webp
+  image: ''
   skill_item:
   - name: Back-End
     percent: 90%
