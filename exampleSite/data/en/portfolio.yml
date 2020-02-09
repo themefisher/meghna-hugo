@@ -15,8 +15,8 @@ portfolio:
     image: ''
     image_webp: ''
     categories:
-    - Banking
-    content: Payment / Bill payment /  / PFM / Cards
+    - Banking/Payment
+    content: 'Card  / Bill payment /  PFM '
     link: ''
   - name: Sound system
     image: images/portfolio/portfolio-2.jpg
