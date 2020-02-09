@@ -6,9 +6,9 @@ portfolio:
   - name: Banking Products
     image: images/portfolio/portfolio-1.jpg
     image_webp: images/portfolio/portfolio-1.webp
-    categories: []
-    content: Omni channel / Online Banking Solutions / Payment / Bill payment / Retail
-      and Corporate Banking / PFM / Cards
+    categories:
+    - Banking
+    content: Omni channel / Online Banking Solutions
     link: http://my.bmi.ir
   - name: Sound system
     image: images/portfolio/portfolio-2.jpg
