@@ -8,13 +8,15 @@ portfolio:
     image_webp: images/portfolio/portfolio-1.webp
     categories:
     - Banking
-    content: Online Banking Solutions / Omni Channel Platform
+    content: Online Banking Solutions / Omni Channel Platform / Retail and Corporate
+      Banking
     link: http://my.bmi.ir
-  - name: ''
+  - name: Payment Solution
     image: ''
     image_webp: ''
-    categories: ''
-    content: " / Payment / Bill payment / Retail and Corporate Banking / PFM / Cards"
+    categories:
+    - Banking
+    content: Payment / Bill payment /  / PFM / Cards
     link: ''
   - name: Sound system
     image: images/portfolio/portfolio-2.jpg
