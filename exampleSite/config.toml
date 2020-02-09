@@ -18,25 +18,33 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 5
-[[menu.main]]
-URL = "team"
-name = "Team"
-weight = 3
-[[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 4
+URL = "about"
+name = "About Us"
+weight = 1
 [[menu.main]]
 URL = "services"
 name = "Service"
 weight = 2
 [[menu.main]]
-URL = "about"
-name = "About Us"
-weight = 1
+URL = "portfolio"
+name = "Portfolio"
+weight = 3
+[[menu.main]]
+URL = "team"
+name = "Team"
+weight = 4
+[[menu.main]]
+URL = "pricing"
+name = "Pricing"
+weight = 5
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 6
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 7
 [params]
 author = "Themefisher"
 description = "Responsive Multipurpose Parallax HTML5 Template"
@@ -79,7 +87,7 @@ link = "plugins/lazy-load/lozad.min.js"
 link = "plugins/google-map/map.js"
 [params.preloader]
 enable = true
-preloader = "images/logo-gradiant-02.png"
+preloader = "images/logo-gradiant-03.png"
 [[params.social]]
 icon = "ti-facebook"
 link = "#"
