@@ -1,13 +1,13 @@
 ---
 cta:
   enable: true
-  bg_image: images/backgrounds/bg-white-wall.jpg
-  bg_image_webp: images/backgrounds/bg-white-wall.webp
+  bg_image: images/Banner-05.jpg
+  bg_image_webp: images/Banner-05.webp
   title: OUR VISION
-  content: Our vision is to help your company being competitive in the local and world
-    markets by developing software applications at best price, at high quality and
-    according to the agreed plan.Our services are provided in an environment based
-    upon trust and mutual respect.
+  content: "is to help your company being competitive in the local and world markets
+    by developing software applications at best price, at high quality and according
+    to the agreed plan.  \n\nOur services are provided in an environment based upon
+    trust and mutual respect."
   button:
     enable: true
     label: Start a project with us
