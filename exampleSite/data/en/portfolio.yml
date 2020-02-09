@@ -3,13 +3,13 @@ portfolio:
   enable: false
   title: Our Works
   portfolio_item:
-  - name: Tag Design
+  - name: Banking Products
     image: images/portfolio/portfolio-1.jpg
     image_webp: images/portfolio/portfolio-1.webp
-    categories:
-    - design
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    link: "#"
+    categories: []
+    content: Omni channel / Online Banking Solutions / Payment / Bill payment / Retail
+      and Corporate Banking / PFM / Cards
+    link: http://my.bmi.ir
   - name: Sound system
     image: images/portfolio/portfolio-2.jpg
     image_webp: images/portfolio/portfolio-2.webp
