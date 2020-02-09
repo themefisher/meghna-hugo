@@ -5,9 +5,9 @@ banner:
   bg_image: images/Banner-06.jpg
   icon: ''
   title: Paisley Digital Services
-  content: Paisley is an outsourcing software development company. On this basis,
-    Paisley can provide its services at attractive prices, working with a team of
-    highly skilled and motivated engineers.
+  content: "Paisley is a digital product development company. \nPaisley can provide
+    its services at attractive prices, working with a team of highly skilled and motivated
+    engineers."
   button:
     enable: true
     label: Explore Us
