@@ -3,9 +3,11 @@ service:
   enable: true
   title: Our Services
   service_item:
-  - name: Back-End
+  - name: CUSTOM SOFTWARE DEVELOPMENT
     icon: ti-world
-    content: Java, Java script
+    content: Providing a software application based on exactly your requirements and
+      ideas to fulfill your specific business needs. From UI/UX design, via development
+      all the way to deployment, we take care of the whole cycle.
   - name: Front-End
     icon: ti-layout
     content: Angular, React
@@ -13,15 +15,7 @@ service:
     icon: ti-blackboard
     content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
       facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-  - name: Graphic Design
-    icon: ti-palette
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
   - name: Apps Development
     icon: ti-package
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-  - name: Networking
-    icon: ti-pulse
     content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
       facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
