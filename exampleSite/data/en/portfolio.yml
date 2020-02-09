@@ -25,14 +25,15 @@ portfolio:
     - Telecome
     content: Portal / Self Service / VAS Portal
     link: https://www.rightel.ir/en
-  - name: Clock Product
+  - name: Logistic Solution
     image: images/portfolio/portfolio-3.jpg
     image_webp: images/portfolio/portfolio-3.webp
     categories:
     - design
     - development
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    link: "#"
+    content: Geographic data and information Analysis / Development of Intelligent
+      Transportation System / Development of Shipment and Parcel Tracking System
+    link: https://tipaxco.com/
   - name: Bottol Label
     image: images/portfolio/portfolio-4.jpg
     image_webp: images/portfolio/portfolio-4.webp
