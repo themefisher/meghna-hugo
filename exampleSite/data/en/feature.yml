@@ -3,9 +3,8 @@ feature:
   enable: true
   image: images/features-banner.jpg
   image_webp: images/features-banner.webp
-  title: We’re A Softwarel Developement Agency.
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora
-    itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.
+  title: FORMS OF ENGAGEMENT
+  content: ''
   feature_item:
   - title: 1. Offshore Software Development Team
     icon: ti-world
