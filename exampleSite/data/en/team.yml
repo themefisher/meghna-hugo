@@ -22,12 +22,8 @@ team:
   - name: Meysam Tamkin
     image_webp: images/team-66.webp
     image: images/team-66.jpg
-    designation: Team Leader
+    designation: Solution Architect
     content: ''
     social:
-    - icon: ti-twitter-alt
-      link: "#"
     - icon: ti-linkedin
-      link: "#"
-    - icon: ti-dribbble
-      link: "#"
+      link: https://www.linkedin.com/in/mtamkin/
