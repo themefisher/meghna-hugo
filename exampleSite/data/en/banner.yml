@@ -8,5 +8,5 @@ banner:
   content: "\n    \n"
   button:
     enable: true
-    label: Explore Us
+    label: EXPLORE US
     link: "#services"
