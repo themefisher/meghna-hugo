@@ -12,8 +12,8 @@ portfolio:
       Banking
     link: http://my.bmi.ir
   - name: Payment Solution
-    image: images/portfolio-payment.jpg
-    image_webp: images/portfolio-payment.webp
+    image: images/portfolio-payment-01.jpg
+    image_webp: images/portfolio-payment-01.webp
     categories:
     - Banking/Payment
     content: 'Card  / Bill payment /  PFM '
