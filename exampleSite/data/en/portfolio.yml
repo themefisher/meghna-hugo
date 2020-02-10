@@ -39,7 +39,7 @@ portfolio:
     image_webp: images/portfolio/portfolio-4.webp
     categories:
     - ERP
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-    link: BPMS and Framework Development / Plugin Development / Process Application
+    content: BPMS and Framework Development / Plugin Development / Process Application
       Development / Project Management System / CRM / HR Management Software / Helpdesk
       Ticketing System
+    link: ''
