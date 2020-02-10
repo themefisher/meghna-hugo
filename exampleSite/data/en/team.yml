@@ -9,12 +9,8 @@ team:
     designation: Project Manager
     content: ''
     social:
-    - icon: ti-twitter-alt
-      link: "#"
     - icon: ti-linkedin
-      link: "#"
-    - icon: ti-dribbble
-      link: "#"
+      link: https://www.linkedin.com/in/amir-ebrahimkhani-a8b19994/
   - name: Jahan Zenedine
     image_webp: images/team-77.webp
     image: images/team-77.jpg
