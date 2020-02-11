@@ -29,8 +29,7 @@ portfolio:
     image: images/portfolio/portfolio-3.jpg
     image_webp: images/portfolio/portfolio-3.webp
     categories:
-    - design
-    - development
+    - Logistic
     content: Geographic data and information Analysis / Development of Intelligent
       Transportation System / Development of Shipment and Parcel Tracking System
     link: https://tipaxco.com/
