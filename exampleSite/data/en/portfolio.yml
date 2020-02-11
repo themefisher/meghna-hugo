@@ -4,8 +4,8 @@ portfolio:
   title: Our Works
   portfolio_item:
   - name: Banking Products
-    image: images/portfolio/portfolio-1.jpg
-    image_webp: images/portfolio/portfolio-1.webp
+    image: images/portfolio-banking.jpg
+    image_webp: images/portfolio-banking.webp
     categories:
     - Banking
     content: Online Banking Solutions / Omni Channel Platform / Retail and Corporate
