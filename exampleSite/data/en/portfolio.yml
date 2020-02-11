@@ -15,7 +15,13 @@ portfolio:
     image: images/portfolio-payment-01.jpg
     image_webp: images/portfolio-payment-01.webp
     categories: []
-    content: 'Card  / Bill payment /  PFM '
+    content: Card  / Bill payment
+    link: ''
+  - name: PFM
+    image: images/portfolio-PFM.jpg
+    image_webp: images/portfolio-PFM.webp
+    categories: ''
+    content: Personal Finance Management
     link: ''
   - name: Telecom Solutions
     image: images/portfolio-telecome.jpg
