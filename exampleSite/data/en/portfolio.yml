@@ -4,39 +4,43 @@ portfolio:
   title: Our Works
   portfolio_item:
   - name: Banking Products
-    image: images/portfolio/portfolio-1.jpg
-    image_webp: images/portfolio/portfolio-1.webp
+    image: images/portfolio-banking.jpg
+    image_webp: images/portfolio-banking.webp
     categories:
-    - Banking
+    - Banking/payment
     content: Online Banking Solutions / Omni Channel Platform / Retail and Corporate
       Banking
     link: http://my.bmi.ir
-  - name: Payment Solution
+  - name: Payment Solutions
     image: images/portfolio-payment-01.jpg
     image_webp: images/portfolio-payment-01.webp
-    categories:
-    - Banking/Payment
-    content: 'Card  / Bill payment /  PFM '
+    categories: []
+    content: Card  / Bill payment
     link: ''
-  - name: Telecome Solution
-    image: images/portfolio/portfolio-2.jpg
-    image_webp: images/portfolio/portfolio-2.webp
+  - name: PFM
+    image: images/portfolio-PFM.jpg
+    image_webp: images/portfolio-PFM.webp
+    categories: ''
+    content: Personal Finance Management
+    link: ''
+  - name: Telecom Solutions
+    image: images/portfolio-telecome.jpg
+    image_webp: images/portfolio-telecome.webp
     categories:
-    - Telecome
+    - Telecom
     content: Portal / Self Service / VAS Portal
     link: https://www.rightel.ir/en
-  - name: Logistic Solution
-    image: images/portfolio/portfolio-3.jpg
-    image_webp: images/portfolio/portfolio-3.webp
+  - name: Logistic Solutions
+    image: images/portfolio-logistic.jpg
+    image_webp: images/portfolio-logistic.webp
     categories:
-    - design
-    - development
+    - Logistic
     content: Geographic data and information Analysis / Development of Intelligent
       Transportation System / Development of Shipment and Parcel Tracking System
     link: https://tipaxco.com/
-  - name: ERP Solution
-    image: images/portfolio/portfolio-4.jpg
-    image_webp: images/portfolio/portfolio-4.webp
+  - name: ERP Solutions
+    image: images/portfolio-BPMS.jpg
+    image_webp: images/portfolio-BPMS.webp
     categories:
     - ERP
     content: BPMS and Framework Development / Plugin Development / Process Application
