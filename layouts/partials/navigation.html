@@ -5,7 +5,7 @@
 		{{"<!-- logo -->" | safeHTML}}
 		<a class="navbar-brand logo" href="{{ .Site.BaseURL | relLangURL }}">
 			{{ if .Site.Params.logo }}
-			<img width="20%" class="img-fluid" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
+			<img width="85px" class="img-fluid" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
 			{{ else }}
 			{{ .Site.Title }}
 			{{ end }}
