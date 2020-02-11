@@ -11,21 +11,21 @@ portfolio:
     content: Online Banking Solutions / Omni Channel Platform / Retail and Corporate
       Banking
     link: http://my.bmi.ir
-  - name: Payment Solution
+  - name: Payment Solutions
     image: images/portfolio-payment-01.jpg
     image_webp: images/portfolio-payment-01.webp
     categories:
     - Banking/Payment
     content: 'Card  / Bill payment /  PFM '
     link: ''
-  - name: Telecome Solution
+  - name: Telecome Solutions
     image: images/portfolio/portfolio-2.jpg
     image_webp: images/portfolio/portfolio-2.webp
     categories:
     - Telecome
     content: Portal / Self Service / VAS Portal
     link: https://www.rightel.ir/en
-  - name: Logistic Solution
+  - name: Logistic Solutions
     image: images/portfolio/portfolio-3.jpg
     image_webp: images/portfolio/portfolio-3.webp
     categories:
