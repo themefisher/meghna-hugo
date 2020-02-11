@@ -14,8 +14,7 @@ portfolio:
   - name: Payment Solutions
     image: images/portfolio-payment-01.jpg
     image_webp: images/portfolio-payment-01.webp
-    categories:
-    - Banking/Payment
+    categories: []
     content: 'Card  / Bill payment /  PFM '
     link: ''
   - name: Telecom Solutions
