@@ -371,8 +371,12 @@ a:hover {
   opacity: 0;
 }
 
+div.service-icon.text-center {
+  min-height: 530px;
+}
+
 .logo {
-  margin-top: 0px;
+  margin-top: 0;
   display: inline-block;
 }
 
