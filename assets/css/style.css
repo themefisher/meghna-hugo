@@ -579,6 +579,7 @@ div.service-block.text-center {
   border-bottom: 2px solid transparent;
   transition: .5s all;
   margin-bottom: 20px;
+  min-height: 600px;
 }
 
 .about .block:hover {
