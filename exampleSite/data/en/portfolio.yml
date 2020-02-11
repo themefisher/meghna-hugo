@@ -7,7 +7,7 @@ portfolio:
     image: images/portfolio-banking.jpg
     image_webp: images/portfolio-banking.webp
     categories:
-    - Banking
+    - Banking/payment
     content: Online Banking Solutions / Omni Channel Platform / Retail and Corporate
       Banking
     link: http://my.bmi.ir
@@ -19,8 +19,8 @@ portfolio:
     content: 'Card  / Bill payment /  PFM '
     link: ''
   - name: Telecome Solutions
-    image: images/portfolio/portfolio-2.jpg
-    image_webp: images/portfolio/portfolio-2.webp
+    image: images/portfolio-telecome.jpg
+    image_webp: images/portfolio-telecome.webp
     categories:
     - Telecome
     content: Portal / Self Service / VAS Portal
