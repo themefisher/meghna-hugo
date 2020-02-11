@@ -20,7 +20,8 @@ portfolio:
   - name: Telecom Solutions
     image: images/portfolio-telecome.jpg
     image_webp: images/portfolio-telecome.webp
-    categories: []
+    categories:
+    - Telecom
     content: Portal / Self Service / VAS Portal
     link: https://www.rightel.ir/en
   - name: Logistic Solutions
