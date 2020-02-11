@@ -45,7 +45,7 @@ weight = 2
 author = "Themefisher"
 description = "Paisley Digital Services"
 google_analitycs_id = ""
-logo = "images/logo-gradiant-01.png"
+logo = "images/logo-gradiant-03.png"
 post_share = true
 [params.map]
 enable = false
