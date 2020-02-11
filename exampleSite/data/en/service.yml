@@ -6,16 +6,14 @@ service:
   - name: CUSTOM SOFTWARE DEVELOPMENT
     icon: ti-world
     content: Providing a software application based on exactly your requirements and
-      ideas to fulfill your specific business needs. From UI/UX design, via development
-      all the way to deployment, we take care of the whole cycle.
+      ideas to fulfill your specific business needs.
   - name: OFFSHORE SOFTWARE DEVELOPMENT TEAM
     icon: ti-layout
     content: Providing you with your own dedicated team of experienced software developers.
   - name: MOBILE APPLICATION DEVELOPMENT
     icon: ti-package
-    content: |-
-      MOBILE APPLICATION DEVELOPMENT
-      We design and develop functional and interactive mobile apps, for both iOS and Android.
+    content: We design and develop functional and interactive mobile apps, for both
+      iOS and Android.
   - name: WEB APPLICATION DEVELOPMENT
     icon: ti-blackboard
     content: "\nWe build powerful and scalable web apps that are custom made using
