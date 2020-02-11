@@ -34,8 +34,8 @@ portfolio:
       Transportation System / Development of Shipment and Parcel Tracking System
     link: https://tipaxco.com/
   - name: ERP Solutions
-    image: images/portfolio/portfolio-4.jpg
-    image_webp: images/portfolio/portfolio-4.webp
+    image: images/portfolio-BPMS.jpg
+    image_webp: images/portfolio-BPMS.webp
     categories:
     - ERP
     content: BPMS and Framework Development / Plugin Development / Process Application
