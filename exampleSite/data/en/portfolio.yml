@@ -26,8 +26,8 @@ portfolio:
     content: Portal / Self Service / VAS Portal
     link: https://www.rightel.ir/en
   - name: Logistic Solutions
-    image: images/portfolio/portfolio-3.jpg
-    image_webp: images/portfolio/portfolio-3.webp
+    image: images/portfolio-logistic.jpg
+    image_webp: images/portfolio-logistic.webp
     categories:
     - Logistic
     content: Geographic data and information Analysis / Development of Intelligent
