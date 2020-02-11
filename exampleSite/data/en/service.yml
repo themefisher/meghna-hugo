@@ -6,8 +6,7 @@ service:
   - name: CUSTOM SOFTWARE DEVELOPMENT
     icon: ti-world
     content: Providing a software application based on exactly your requirements and
-      ideas to fulfill your specific business needs. From UI/UX design, via development
-      all the way to deployment, we take care of the whole cycle.
+      ideas to fulfill your specific business needs.
   - name: OFFSHORE SOFTWARE DEVELOPMENT TEAM
     icon: ti-layout
     content: Providing you with your own dedicated team of experienced software developers.
