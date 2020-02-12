@@ -1,4 +1,4 @@
-baseURL = "https://paisley-digital.netlify.com/"
+baseURL = "https://paisley.digital/"
 disableLanguages = ["Fr"]
 disqusShortname = ""
 paginate = "6"
