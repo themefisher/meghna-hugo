@@ -20,7 +20,7 @@ team:
     content: Tech Leader
     social:
     - icon: ti-email
-      link: jzinedine@gmail.com
+      link: 'mailto: jzinedine@gmail.com'
     - icon: ti-linkedin
       link: https://www.linkedin.com/in/jzinedine/
   - name: Meysam Tamkin
