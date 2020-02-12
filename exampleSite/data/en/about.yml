@@ -5,8 +5,11 @@ about:
   about_item:
   - icon: ti-cup
     title: Cost-effective
-    content: Due to our efficiency and our geographical location, your application
-      will be developed at best-cost
+    content: 'Due to our efficiency, our geographical location, agile building and
+      manual and automated leverage testing your application will be developed at
+      best-cost.
+
+'
   - icon: ti-ruler-pencil
     title: Experienced engineers
     content: With our own team of experienced software developers and quality engineers,
