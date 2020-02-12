@@ -4,8 +4,10 @@ banner:
   bg_image_webp: images/Banner-09.webp
   bg_image: images/Banner-09.jpg
   icon: ''
-  title: ''
-  content: "\n    \n"
+  title: PAISLEY DIGITAL SERVICES
+  content: "\n    \nPAISLEY IS A DIGITAL PRODUCT DEVELOPMENT COMPANY.  \nPAISLEY CAN
+    PROVIDE ITS SERVICES AT ATTRACTIVE PRICES,  \nWORKING WITH A TEAM OF HIGHLY SKILLED
+    ENGINEERS. "
   button:
     enable: true
     label: EXPLORE US
