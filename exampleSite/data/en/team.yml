@@ -26,8 +26,10 @@ team:
   - name: Meysam Tamkin
     image_webp: images/team-66.webp
     image: images/team-66.jpg
-    designation: Solution Architect
-    content: ''
+    designation: ''
+    content: Solution Architect
     social:
+    - icon: ti-email
+      link: meysam.tamkin@gmail.com
     - icon: ti-linkedin
       link: https://www.linkedin.com/in/mtamkin/
