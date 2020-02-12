@@ -30,6 +30,6 @@ team:
     content: Solution Architect
     social:
     - icon: ti-email
-      link: meysam.tamkin@gmail.com
+      link: 'mailto: meysam.tamkin@gmail.com'
     - icon: ti-linkedin
       link: https://www.linkedin.com/in/mtamkin/
