@@ -7,10 +7,8 @@ contact:
   form_action: "#"
   contact_details:
   - icon: ti-location-pin
-    info: 'Turkey, '
+    info: Turkey
   - icon: ti-mobile
     info: 'Phone: +880-31-000-000'
-  - icon: ti-printer
-    info: 'Fax: +880-31-000-000'
   - icon: ti-email
     info: 'Email: hello@pasiley.com'

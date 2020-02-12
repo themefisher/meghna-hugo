@@ -6,26 +6,30 @@ team:
   - name: Amir Ebrahimkhani
     image_webp: images/team-55.webp
     image: images/team-55.jpg
-    designation: Project Manager
-    content: amir.ebrahimkhani@gmail.com
+    designation: ''
+    content: Project Manager
     social:
     - icon: ti-email
-      link: ''
+      link: 'mailto: amir.ebrahimkhani@gmail.com'
     - icon: ti-linkedin
       link: https://www.linkedin.com/in/aebrahimkhani/
   - name: Jahan Zinedine
     image_webp: images/team-77.webp
     image: images/team-77.jpg
-    designation: Tech Leader
-    content: ''
+    designation: ''
+    content: Tech Leader
     social:
+    - icon: ti-email
+      link: 'mailto: jzinedine@gmail.com'
     - icon: ti-linkedin
       link: https://www.linkedin.com/in/jzinedine/
   - name: Meysam Tamkin
     image_webp: images/team-66.webp
     image: images/team-66.jpg
-    designation: Solution Architect
-    content: ''
+    designation: ''
+    content: Solution Architect
     social:
+    - icon: ti-email
+      link: 'mailto: meysam.tamkin@gmail.com'
     - icon: ti-linkedin
       link: https://www.linkedin.com/in/mtamkin/
