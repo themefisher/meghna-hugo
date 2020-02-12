@@ -16,9 +16,11 @@ team:
   - name: Jahan Zinedine
     image_webp: images/team-77.webp
     image: images/team-77.jpg
-    designation: Tech Leader
-    content: ''
+    designation: ''
+    content: Tech Leader
     social:
+    - icon: ti-email
+      link: jzinedine@gmail.com
     - icon: ti-linkedin
       link: https://www.linkedin.com/in/jzinedine/
   - name: Meysam Tamkin
