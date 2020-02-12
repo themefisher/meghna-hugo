@@ -18,7 +18,7 @@ portfolio:
     content: Card  / Bill payment
     link: ''
   - name: PFM
-    image: images/portfolio-PFM.jpg1
+    image: images/portfolio-PFM.jpg
     image_webp: images/portfolio-PFM.webp
     categories: ''
     content: Personal Finance Management
