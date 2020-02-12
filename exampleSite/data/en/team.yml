@@ -10,7 +10,7 @@ team:
     content: Project Manager
     social:
     - icon: ti-email
-      link: amir.ebrahimkhani@gmail.com
+      link: 'mailto: amir.ebrahimkhani@gmail.com'
     - icon: ti-linkedin
       link: https://www.linkedin.com/in/aebrahimkhani/
   - name: Jahan Zinedine
