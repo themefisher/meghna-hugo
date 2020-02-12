@@ -6,11 +6,11 @@ team:
   - name: Amir Ebrahimkhani
     image_webp: images/team-55.webp
     image: images/team-55.jpg
-    designation: Project Manager
-    content: amir.ebrahimkhani@gmail.com
+    designation: ''
+    content: Project Manager
     social:
     - icon: ti-email
-      link: ''
+      link: amir.ebrahimkhani@gmail.com
     - icon: ti-linkedin
       link: https://www.linkedin.com/in/aebrahimkhani/
   - name: Jahan Zinedine
