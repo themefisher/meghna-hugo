@@ -7,7 +7,7 @@ contact:
   form_action: "#"
   contact_details:
   - icon: ti-location-pin
-    info: Turkey
+    info: Turkey, Antalya
   - icon: ti-mobile
     info: 'Phone: +880-31-000-000'
   - icon: ti-email
