@@ -3,7 +3,7 @@ contact:
   enable: true
   title: Contact Us
   subtitle: Contact Details
-  content: Digital nomads distributed across the globe
+  content: We are digital nomads distributed across the globe
   form_action: "#"
   contact_details:
   - icon: ti-location-pin
