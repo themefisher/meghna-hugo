@@ -20,7 +20,8 @@ portfolio:
   - name: PFM
     image: images/portfolio-PFM.jpg
     image_webp: images/portfolio-PFM.webp
-    categories: ''
+    categories:
+    - PFM
     content: Personal Finance Management
     link: ''
   - name: Telecom Solutions
