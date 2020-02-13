@@ -3,14 +3,12 @@ contact:
   enable: true
   title: Contact Us
   subtitle: Contact Details
-  content: Digital nomads distributed across the globe
+  content: We are digital nomads distributed across the globe
   form_action: "#"
   contact_details:
   - icon: ti-location-pin
-    info: 'Turkey, '
+    info: Antalya, Turkey
   - icon: ti-mobile
     info: 'Phone: +880-31-000-000'
-  - icon: ti-printer
-    info: 'Fax: +880-31-000-000'
   - icon: ti-email
-    info: 'Email: hello@pasiley.com'
+    info: 'Email: hello@pasiley.digital'
