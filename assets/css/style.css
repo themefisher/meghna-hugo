@@ -506,6 +506,7 @@ div.service-block.text-center {
   text-transform: capitalize;
   font-weight: 700;
   margin-bottom: 20px;
+  margin-top: 700px;
 }
 
 @media (max-width: 480px) {
