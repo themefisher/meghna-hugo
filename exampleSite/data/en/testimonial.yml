@@ -4,7 +4,7 @@ testimonial:
   bg_image: images/backgrounds/bg-testimonial.jpg
   bg_image_webp: images/backgrounds/bg-testimonial.webp
   testimonial_item:
-  - name: Jonathon Andrew
+  - name: Jonathon Andrew1
     image: images/client/client-1.jpg
     image_webp: images/client/client-1.webp
     date: Dec 26, 2018
