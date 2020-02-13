@@ -505,8 +505,8 @@ div.service-block.text-center {
   color: #01ffff;
   text-transform: capitalize;
   font-weight: 700;
-  margin-bottom: 20px;
-  margin-top: 432px;
+  margin-bottom: 30px;
+  margin-top: 340px;
 }
 
 @media (max-width: 480px) {
@@ -518,7 +518,7 @@ div.service-block.text-center {
 .hero-area .block p {
   color: #fff;
   font-size: 20px;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
 }
 
