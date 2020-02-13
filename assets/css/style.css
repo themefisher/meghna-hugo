@@ -501,12 +501,12 @@ div.service-block.text-center {
 }
 
 .hero-area .block h1 {
-  font-size: 54px;
-  color: #009999;
+  font-size: 40px;
+  color: #01ffff;
   text-transform: capitalize;
   font-weight: 700;
   margin-bottom: 20px;
-  margin-top: 700px;
+  margin-top: 430px;
 }
 
 @media (max-width: 480px) {
