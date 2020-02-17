@@ -506,7 +506,7 @@ div.service-block.text-center {
   text-transform: capitalize;
   font-weight: 700;
   margin-bottom: 30px;
-  margin-top: 340px;
+  margin-top: 15px;
 }
 
 @media (max-width: 480px) {
@@ -523,7 +523,7 @@ div.service-block.text-center {
 }
 
 .hero-area .block .btn-transparent {
-  margin-top: 400px;
+  margin-top: 55px;
   border-color: #fff;
   padding: 14px 50px;
   font-size: 18px;
