@@ -82,4 +82,4 @@ enable = true
 preloader = "images/preloader-01.png"
 [[params.social]]
 icon = "ti-linkedin"
-link = "#"
+link = "linkedin.com/company/paisley-digital"
