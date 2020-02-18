@@ -1,6 +1,6 @@
 ---
 team:
-  enable: true
+  enable: false
   title: Our Team
   team_member:
   - name: Amir Ebrahimkhani
