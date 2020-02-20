@@ -9,7 +9,7 @@ portfolio:
       image_webp : images/portfolio/portfolio-1.webp
       categories : ["design"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-      link : "#"
+      link : "https://themefisher.com"
       
     # portfolio item loop
     - name : Sound system
@@ -17,7 +17,7 @@ portfolio:
       image_webp : images/portfolio/portfolio-2.webp
       categories : ["development"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
-      link : "#"
+      link : ""
       
     # portfolio item loop
     - name : Clock Product
