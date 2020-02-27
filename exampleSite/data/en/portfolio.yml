@@ -13,7 +13,7 @@ portfolio:
     link: http://my.bmi.ir
   - name: Payment Solutions
     image: images/portfolio/portfolio-payment-01.jpg
-    image_webp: images/portfolio-payment-01.webp
+    image_webp: images/portfolio/portfolio-payment-01.webp
     categories: []
     content: Card  / Bill payment
     link: ''
