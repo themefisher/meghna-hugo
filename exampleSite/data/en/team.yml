@@ -4,8 +4,8 @@ team:
   title: Our Team
   team_member:
   - name: Amir Ebrahimkhani
-    image_webp: images/team-55.webp
-    image: images/team-55.jpg
+    image_webp: images/team/-team-1.webp
+    image: images/team/-team-1.jpg
     designation: ''
     content: Project Manager
     social:
@@ -14,8 +14,8 @@ team:
     - icon: ti-linkedin
       link: https://www.linkedin.com/in/aebrahimkhani/
   - name: Jahan Zinedine
-    image_webp: images/team-77.webp
-    image: images/team-77.jpg
+    image_webp: images//team/-team-3.webp
+    image: images/team/-team-3.jpg
     designation: ''
     content: Tech Leader
     social:
@@ -24,8 +24,8 @@ team:
     - icon: ti-linkedin
       link: https://www.linkedin.com/in/jzinedine/
   - name: Meysam Tamkin
-    image_webp: images/team-66.webp
-    image: images/team-66.jpg
+    image_webp: images/team/-team-2.webp
+    image: images/team/-team-2.jpg
     designation: ''
     content: Solution Architect
     social:
