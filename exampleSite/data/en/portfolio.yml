@@ -19,14 +19,14 @@ portfolio:
     link: ''
   - name: PFM
     image: images/portfolio/portfolio-PFM.jpg
-    image_webp: images/portfolio-PFM.webp
+    image_webp: images/portfolio/portfolio-PFM.webp
     categories:
     - PFM
     content: Personal Finance Management
     link: ''
   - name: Telecom Solutions
     image: images/portfolio/portfolio-telecome.jpg
-    image_webp: images/portfolio-telecome.webp
+    image_webp: images/portfolio/portfolio-telecome.webp
     categories:
     - Telecom
     content: Portal / Self Service / VAS Portal
