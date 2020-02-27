@@ -25,7 +25,7 @@ portfolio:
     content: Personal Finance Management
     link: ''
   - name: Telecom Solutions
-    image: images/portfolio-telecome.jpg
+    image: images/portfolio/portfolio-telecome.jpg
     image_webp: images/portfolio-telecome.webp
     categories:
     - Telecom
