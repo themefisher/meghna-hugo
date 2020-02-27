@@ -4,8 +4,8 @@ team:
   title: Our Team
   team_member:
   - name: Amir Ebrahimkhani
-    image_webp: images/team/-team-1.webp
-    image: images/team/-team-1.jpg
+    image_webp: images/team/team-1.webp
+    image: images/team/team-1.jpg
     designation: ''
     content: Project Manager
     social:
