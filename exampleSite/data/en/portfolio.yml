@@ -12,13 +12,13 @@ portfolio:
       Banking
     link: http://my.bmi.ir
   - name: Payment Solutions
-    image: images/portfolio-payment-01.jpg
+    image: images/portfolio/portfolio-payment-01.jpg
     image_webp: images/portfolio-payment-01.webp
     categories: []
     content: Card  / Bill payment
     link: ''
   - name: PFM
-    image: images/portfolio-PFM.jpg
+    image: images/portfolio/portfolio-PFM.jpg
     image_webp: images/portfolio-PFM.webp
     categories:
     - PFM
