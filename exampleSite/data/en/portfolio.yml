@@ -4,7 +4,7 @@ portfolio:
   title: Our Works
   portfolio_item:
   - name: Banking Products
-    image: images/portfolio-banking.jpg
+    image: images/portfolio/portfolio-banking.jpg
     image_webp: images/portfolio-banking.webp
     categories:
     - Banking/payment
