@@ -1,8 +1,8 @@
 ---
 banner:
   enable: true
-  bg_image_webp: images/Banner-08.webp
-  bg_image: images/Banner-08.jpg
+  bg_image_webp: images/Banner/Main-Banner-01.webp
+  bg_image: images/Banner/Main-Banner-01.jpg
   icon: ''
   title: PAISLEY DIGITAL SERVICES
   content: "\n    \nPAISLEY IS A DIGITAL PRODUCT DEVELOPMENT COMPANY.  \nPAISLEY CAN
