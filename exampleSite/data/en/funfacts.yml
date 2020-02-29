@@ -1,8 +1,8 @@
 ---
 funfacts:
   enable: true
-  bg_image: " images/Banner/Wall-Banner-02.jpg"
-  bg_image_webp: " images/Banner/Wall-Banner-02.webp"
+  bg_image: " images/Banner/Wall-Banner-03.jpg"
+  bg_image_webp: " images/Banner/Wall-Banner-03.webp"
   counter_item:
   - title: Happy Clients
     icon: ti-face-smile
