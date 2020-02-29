@@ -1,8 +1,8 @@
 ---
 feature:
   enable: true
-  image: images/features-banner.jpg
-  image_webp: images/features-banner.webp
+  image: images/Banner/features-Banner-01.jpg
+  image_webp: images/Banner/features-Banner-01.webp
   title: FORMS OF ENGAGEMENT
   content: ''
   feature_item:

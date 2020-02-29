@@ -4,44 +4,44 @@ portfolio:
   title: Our Works
   portfolio_item:
   - name: Banking Products
-    image: images/portfolio-banking.jpg
-    image_webp: images/portfolio-banking.webp
+    image: images/portfolio/portfolio-banking.jpg
+    image_webp: images/portfolio/portfolio-banking.webp
     categories:
     - Banking/payment
     content: Online Banking Solutions / Omni Channel Platform / Retail and Corporate
       Banking
     link: http://my.bmi.ir
   - name: Payment Solutions
-    image: images/portfolio-payment-01.jpg
-    image_webp: images/portfolio-payment-01.webp
+    image: images/portfolio/portfolio-payment-01.jpg
+    image_webp: images/portfolio/portfolio-payment-01.webp
     categories: []
     content: Card  / Bill payment
     link: ''
   - name: PFM
-    image: images/portfolio-PFM.jpg
-    image_webp: images/portfolio-PFM.webp
+    image: images/portfolio/portfolio-PFM.jpg
+    image_webp: images/portfolio/portfolio-PFM.webp
     categories:
     - PFM
     content: Personal Finance Management
     link: ''
   - name: Telecom Solutions
-    image: images/portfolio-telecome.jpg
-    image_webp: images/portfolio-telecome.webp
+    image: images/portfolio/portfolio-telecome.jpg
+    image_webp: images/portfolio/portfolio-telecome.webp
     categories:
     - Telecom
     content: Portal / Self Service / VAS Portal
     link: https://www.rightel.ir/en
   - name: Logistic Solutions
-    image: images/portfolio-logistic.jpg
-    image_webp: images/portfolio-logistic.webp
+    image: images/portfolio/portfolio-logistic.jpg
+    image_webp: images/portfolio/portfolio-logistic.webp
     categories:
     - Logistic
     content: Geographic data and information Analysis / Development of Intelligent
       Transportation System / Development of Shipment and Parcel Tracking System
     link: https://tipaxco.com/
   - name: ERP Solutions
-    image: images/portfolio-BPMS.jpg
-    image_webp: images/portfolio-BPMS.webp
+    image: images/portfolio/portfolio-BPMS.jpg
+    image_webp: images/portfolio/portfolio-BPMS.webp
     categories:
     - ERP
     content: BPMS and Framework Development / Plugin Development / Process Application
