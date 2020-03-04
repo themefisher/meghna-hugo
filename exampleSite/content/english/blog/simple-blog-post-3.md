@@ -1,8 +1,8 @@
 ---
 title: PROPERTY INVENTORY PLATFORM
 date: 
-image_webp: images/blog/blog-post-1.webp
-image: images/blog/blog-post-1.jpg
+image_webp: "/images/blog-Inventory-01-1.webp"
+image: "/images/blog-Inventory-01-1.jpg"
 author: Paisley Digital
 description: This is meta description
 
