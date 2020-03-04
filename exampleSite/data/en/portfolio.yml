@@ -26,15 +26,13 @@ portfolio:
   - name: Telecom Solutions
     image: images/portfolio/portfolio-telecome.jpg
     image_webp: images/portfolio/portfolio-telecome.webp
-    categories:
-    - Telecom
+    categories: []
     content: Portal / Self Service / VAS Portal
     link: https://www.rightel.ir/en
   - name: Logistic Solutions
     image: images/portfolio/portfolio-logistic.jpg
     image_webp: images/portfolio/portfolio-logistic.webp
-    categories:
-    - Logistic
+    categories: []
     content: Geographic data and information Analysis / Development of Intelligent
       Transportation System / Development of Shipment and Parcel Tracking System
     link: https://tipaxco.com/
