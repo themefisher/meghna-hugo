@@ -1,3 +1,4 @@
+---
 - id: blogTitle
   translation: Latest Post
 - id: readMore
@@ -15,4 +16,5 @@
 - id: all
   translation: All
 - id: copyright
-  translation: copyright &copy; 2020 [**Paisley Digital**](https://paisley-digital.netlify.com/) all right reserved
+  translation: copyright &copy; 2020 [**Paisley Digital**](https://paisley.digital/)
+    all right reserved

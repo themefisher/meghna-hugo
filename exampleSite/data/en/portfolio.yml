@@ -1,13 +1,12 @@
 ---
 portfolio:
   enable: true
-  title: Our Works
+  title: Blog
   portfolio_item:
   - name: Banking Products
     image: images/portfolio/portfolio-banking.jpg
     image_webp: images/portfolio/portfolio-banking.webp
-    categories:
-    - Banking/payment
+    categories: []
     content: Online Banking Solutions / Omni Channel Platform / Retail and Corporate
       Banking
     link: http://my.bmi.ir
@@ -27,23 +26,20 @@ portfolio:
   - name: Telecom Solutions
     image: images/portfolio/portfolio-telecome.jpg
     image_webp: images/portfolio/portfolio-telecome.webp
-    categories:
-    - Telecom
+    categories: []
     content: Portal / Self Service / VAS Portal
     link: https://www.rightel.ir/en
   - name: Logistic Solutions
     image: images/portfolio/portfolio-logistic.jpg
     image_webp: images/portfolio/portfolio-logistic.webp
-    categories:
-    - Logistic
+    categories: []
     content: Geographic data and information Analysis / Development of Intelligent
       Transportation System / Development of Shipment and Parcel Tracking System
     link: https://tipaxco.com/
   - name: ERP Solutions
     image: images/portfolio/portfolio-BPMS.jpg
     image_webp: images/portfolio/portfolio-BPMS.webp
-    categories:
-    - ERP
+    categories: []
     content: BPMS and Framework Development / Plugin Development / Process Application
       Development / Project Management System / CRM / HR Management Software / Helpdesk
       Ticketing System
