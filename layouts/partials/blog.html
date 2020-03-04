@@ -1,17 +1,17 @@
 {{ if gt .Site.RegularPages 0}}
 {{"<!-- Start Blog Section -->" | safeHTML}}
-<!--<section id="blog" class="section">
+<section id="blog" class="section">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-12">
-				{{"&lt;!&ndash; section title &ndash;&gt;" | safeHTML}}
+				{{"<!-- section title -->" | safeHTML}}
 				<div class="title text-center wow fadeInDown">
 					<h2>{{ with i18n "blogTitle" }} {{ index (split . " ") 0 }} {{ end }}<span class="color">
 						{{ with i18n "blogTitle" }} {{ index (split . " ") 1 }} {{ end }}</span></h2>
 					<div class="border-meghna"></div>
 				</div>
 			</div>
-			{{"&lt;!&ndash; /section title &ndash;&gt;" | safeHTML}}
+			{{"<!-- /section title -->" | safeHTML}}
 
 			{{ range first 3 .Site.RegularPages }}
 			{{ .Render "article"}}
@@ -23,6 +23,6 @@
 			</div>
 		</div>
 	</div>
-</section>-->
+</section>
 {{"<!-- /blog -->" | safeHTML}}
 {{ end }}
