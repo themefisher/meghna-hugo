@@ -1,18 +1,40 @@
 ---
-title: "Simple Blog Post"
-date: 2018-09-12T12:52:36+06:00
+title: PROPERTY INVENTORY PLATFORM
+date: 
 image_webp: images/blog/blog-post-1.webp
 image: images/blog/blog-post-1.jpg
-author: John Doe
-description : "This is meta description"
+author: Paisley Digital
+description: This is meta description
+
 ---
+The Property Inventory Software is a complete property inventory solution. This has been especially designed to enable you to streamline the entire process of inventory including client management, manage numerous input types, business management and most especially, designed to be easily customized by the user.
 
-Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+### **The Property Inventory Inspector Software will be able to:**
 
-Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+* Eliminate offsite works and administration
+* Create inventory reports faster and more consistently
+* Customize your property inventory reports
+* Create, edit and then save property inventories
+* Compile landlord’s detailed record of the condition of the property which is said to be vital in providing landlords’ case in case dispute on tenancy occurs with tenant
+* Drag and drop a room to create layouts of individual properties
+* Add content description making use of fixture lists that can be edited using this property inventory software
 
-> Design is not just what it looks like and feels like. Design is how it works.
+  #### **Property Inventory Software Features**
 
-Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+  Having all these features and benefits of the software allows you to save time in doing such overwhelming reporting and inventories. Go paperless, and you can also protect the environment. It is Eco-friendly because it minimizes the use of paper to create reports and documents no matter it needs to be viewed by multiple users.
 
-Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+
+* Saves Time
+* User-Friendly
+* Side by Side Reports for Inventory
+* Compliance Aware
+* Stand Out from Crowd
+* Accurate Inventory Lists
+* Location Mapping
+* Professional Templates
+* Voice Recognition Feature
+* Add Photos, Layouts and Detailed Description of the Property
+* Create Disclaimer and Declaration
+* Android and iOS Compatibility
+* 360° photos integrated
+* Track items using QR or barcodes
