@@ -22,8 +22,6 @@ The Property Inventory Software is a complete property inventory solution. This 
   #### **Property Inventory Software Features**
 
   Having all these features and benefits of the software allows you to save time in doing such overwhelming reporting and inventories. Go paperless, and you can also protect the environment. It is Eco-friendly because it minimizes the use of paper to create reports and documents no matter it needs to be viewed by multiple users.
-
-
 * Saves Time
 * User-Friendly
 * Side by Side Reports for Inventory
