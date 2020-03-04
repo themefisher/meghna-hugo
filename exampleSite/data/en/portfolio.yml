@@ -6,8 +6,7 @@ portfolio:
   - name: Banking Products
     image: images/portfolio/portfolio-banking.jpg
     image_webp: images/portfolio/portfolio-banking.webp
-    categories:
-    - Banking/payment
+    categories: []
     content: Online Banking Solutions / Omni Channel Platform / Retail and Corporate
       Banking
     link: http://my.bmi.ir
