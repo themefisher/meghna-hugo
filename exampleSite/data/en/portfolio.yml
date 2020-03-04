@@ -1,7 +1,7 @@
 ---
 portfolio:
   enable: true
-  title: Our Works
+  title: Blog
   portfolio_item:
   - name: Banking Products
     image: images/portfolio/portfolio-banking.jpg
