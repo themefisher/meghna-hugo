@@ -39,8 +39,7 @@ portfolio:
   - name: ERP Solutions
     image: images/portfolio/portfolio-BPMS.jpg
     image_webp: images/portfolio/portfolio-BPMS.webp
-    categories:
-    - ERP
+    categories: []
     content: BPMS and Framework Development / Plugin Development / Process Application
       Development / Project Management System / CRM / HR Management Software / Helpdesk
       Ticketing System
