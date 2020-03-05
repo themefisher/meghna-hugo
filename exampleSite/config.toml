@@ -30,7 +30,7 @@ URL = "team"
 name = "Team"
 weight = 4
 [[menu.main]]
-URL = "Blog"
+URL = "portfolio"
 name = "Blog"
 weight = 3
 [[menu.main]]
