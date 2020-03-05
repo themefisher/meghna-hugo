@@ -1,8 +1,8 @@
 ---
 title: 'OPEN SOURCE IDENTITY & ACCESS MGMT SOLUTION '
 date: 
-image_webp: images/blog/blog-post-2.webp
-image: images/blog/blog-post-2.jpg
+image_webp: "/images/blog-keyclock-01.webp"
+image: "/images/blog-keyclock-01.jpg"
 author: Paisley Digital
 description: This is meta description
 
