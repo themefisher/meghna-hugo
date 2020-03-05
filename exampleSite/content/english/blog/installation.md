@@ -1,5 +1,5 @@
 ---
-title: Personal Finance Management
+title: PERSONAL FINANCE MANAGEMENT
 date: 
 author: Paisley
 image_webp: "/images/blog-PFM-01.webp"
