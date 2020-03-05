@@ -1,7 +1,7 @@
 ---
 title: PERSONAL FINANCE MANAGEMENT
 date: 
-author: Paisley
+author: Paisley Digital
 image_webp: "/images/blog-PFM-01.webp"
 image: "/images/blog-PFM-01.jpg"
 description: This is meta description
