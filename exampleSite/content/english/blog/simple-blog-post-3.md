@@ -19,7 +19,7 @@ The Property Inventory Software is a complete property inventory solution. This 
 * Drag and drop a room to create layouts of individual properties
 * Add content description making use of fixture lists that can be edited using this property inventory software
 
-  ### **Main features supported by our logistic solution:**
+  ### **Main features supported by our Property Inventory Inspector solution:**
 * Saves Time
 * User-Friendly
 * Side by Side Reports for Inventory
