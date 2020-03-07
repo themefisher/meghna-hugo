@@ -7,7 +7,7 @@ author: Paisley Digital
 description: This is meta description
 
 ---
-The Property Inventory Software is a complete property inventory solution. This has been especially designed to enable you to streamline the entire process of inventory including client management, manage numerous input types, business management and most especially, designed to be easily customized by the user.
+##### The Property Inventory Software is a complete property inventory solution. This has been especially designed to enable you to streamline the entire process of inventory including client management, manage numerous input types, business management and most especially, designed to be easily customized by the user.
 
 ### **The Property Inventory Inspector Software will be able to:**
 
