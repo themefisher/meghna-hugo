@@ -1,5 +1,5 @@
 ---
-title: PERSONAL FINANCE MANAGEMENT
+title: PERSONAL FINANCE MANAGEMENT SOLUTION
 date: 
 author: Paisley Digital
 image_webp: "/images/blog-PFM-01.webp"
@@ -9,7 +9,7 @@ description: This is meta description
 ---
 Paisley's Personal Financial Management (PFM) is a software solution that helps to manage money more efficiently and make better financial decisions. It enables users to categorize their transactions and add accounts from multiple FIs into a single view. PFM also typically includes data visualizations to provide actionable insights that help users navigate and shape their financial lives more intuitively.
 
-### **The Personal Finance Management  Software will be able to:**
+### **Main features supported by our PFM solution:**
 
 * Transaction analysis
 
