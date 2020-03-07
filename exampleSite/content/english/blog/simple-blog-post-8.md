@@ -1,5 +1,5 @@
 ---
-title: 'OPEN SOURCE IDENTITY & ACCESS MGMT SOLUTION '
+title: 'IDENTITY & ACCESS MANAGEMENT SOLUTION '
 date: 
 image_webp: "/images/blog-keyclock-01.webp"
 image: "/images/blog-keyclock-01.jpg"
@@ -7,9 +7,9 @@ author: Paisley Digital
 description: This is meta description
 
 ---
-[Keycloak](http://www.keycloak.org/) is an open source project developed and maintained by the RedHat Community. Keycloak is an open source Identity and Access Management solution aimed at modern applications and services. It makes it easy to secure applications and services with little to no code." We offer you a broad set of features, like SSO, authentication and authorization, social login, multi-factor authentication and centralized user management.
+##### [Keycloak](http://www.keycloak.org/) is an open source project developed and maintained by the RedHat Community. Keycloak is an open source Identity and Access Management solution aimed at modern applications and services. It makes it easy to secure applications and services with little to no code." We offer you a broad set of features, like SSO, authentication and authorization, social login, multi-factor authentication and centralized user management.
 
-### **Main features supported by Keycloak:**
+### **Main features supported by our Keycloak solution:**
 
 * **Single sign-on (SSO)** – the user authenticates themselves by entering their credentials (usually user name and password, but other scenarios are also possible) in Keycloak and information regarding user identity and their credentials is exchanged using OpenId Connect protocol
 * **Single sign-out** – logging out of one app results in logging out of all integrated systems
