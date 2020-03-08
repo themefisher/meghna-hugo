@@ -1,82 +1,33 @@
 ---
-title: "How To Setup Meghna Hugo"
-date: 2018-09-12T14:51:12+06:00
-author: Mark Dinn
-image_webp: images/blog/meghna.webp
-image: images/blog/meghna.jpg
-description : "This is meta description"
+title: PERSONAL FINANCE MANAGEMENT SOLUTION
+date: 
+author: Paisley Digital
+image_webp: "/images/blog-PFM-01.webp"
+image: "/images/blog-PFM-01.jpg"
+description: This is meta description
+
 ---
+##### Paisley's Personal Financial Management (PFM) is a software solution that helps to manage money more efficiently and make better financial decisions. It enables users to categorize their transactions and add accounts from multiple FIs into a single view. PFM also typically includes data visualizations to provide actionable insights that help users navigate and shape their financial lives more intuitively.
 
-## Install this template by following those simple steps:
+### **Main features supported by our PFM solution:**
 
-### STEP-1 : Hugo installation
+* Transaction analysis
 
-Check this link below for install hugo on your computer.
-[hugo install documentation](https://gohugo.io/getting-started/installing/)
+Automatic categorization of transactions/ Intuitive Visualizations
 
-### STEP-2 : Create your project
+* Budgeting
+* Goal setting and tracking
+* Expense planning
+* Notifications across all devices
+* Contextual offerings
+* Card-Linked Offers (CLO)
+* External account aggregation
+* Net worth analysis and wealth management
+* Proactive notifications with actionable insights
+* Community comparison
+* Timeline
+* Instant payments and transfers
+* Goal-oriented smart savings
+* Customizable interface
 
-Hugo provides a `new` command to create a new website.
-
-```
-hugo new site <new_project>
-```
-
-### STEP-3 : Install the theme
-Run this command
-```
-hugo new site meghna-hugo
-```
-and then go to the themes folder inside of meghna-hugo folder. You can also use this command ```cd meghna-hugo/themes``` for going to this folder.
-Then run the command 
-```
-git clone git@github.com:themefisher/meghna-hugo.git
-```
-
-Alternatively, you can [download the theme as .zip](https://github.com/themefisher/meghna-hugo/archive/master.zip) file and extract it in the `themes` directory
-
-After that you need to go to the `meghna-hugo/exampleSite` folder and copy or cut all the elements, and now go back to the root folder and paste it here.
-
-open the command prompt again and run `cd ../` command for go back to the root folder.
-
-### STEP-4 : Host locally
-
-Launching the website locally by using the following command:
-
-```
-hugo serve
-```
-
-Go to `http://localhost:1313`
-
-Or you can check this video documentation for installing this template:
-{{< youtube 3O3qvDoVp5g >}}
-
-### STEP-5 : Basic configuration
-
-When building the website, you can set a theme by using `--theme` option. However, we suggest you modify the configuration file (`config.toml`) and set the theme as the default.
-
-```toml
-# Change the default theme to be use when building the site with Hugo
-theme = "meghna-hugo"
-```
-
-### STEP-6 : Create your first content pages
-
-```
-hugo new blog/post-name.md
-```
-
-### STEP-7 : Build the website
-
-When your site is ready to deploy, run the following command:
-
-```
-hugo
-
-# You can also create a minified version by using this command:
-hugo--minify
-
-```
-
-A `public` folder will be generated, containing all static content and assets for your website. It can now be deployed on any web server.
+Paisley PFM forms the essence of the digital banking experience. The tool offers omnichannel access to the full suite of banking features, being seamlessly integrated with core banking systems. PFM categorizes transactions automatically with precise accuracy. It can aggregate accounts from other institutions, from banks to utilities, insurance, airlines and more. By providing the intelligence, learning and analytics to guide users to sounder financial decisions, PFM ultimately establishes stronger engagement between customers and their bank.
