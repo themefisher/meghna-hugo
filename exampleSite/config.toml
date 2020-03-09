@@ -20,15 +20,15 @@ weight = 2
 [[menu.main]]
 URL = "blog"
 name = "Products"
-weight = "6"
+weight = "5"
 [[menu.main]]
 URL = "about"
 name = "About Us"
 weight = 1
 [[menu.main]]
 URL = "contact"
-name = "Contact"
-weight = 5
+name = "Contact Us"
+weight = 6
 [[menu.main]]
 URL = "team"
 name = "Team"
