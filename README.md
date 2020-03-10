@@ -5,7 +5,7 @@ Build your website with meghna hugo theme by following this easy steps (No Codin
 
 In this tutorial we will show you to make your website live without buying any hosting and touching a single line of code.
 
-### What you need !!
+### What you need !! 
 
 1. Git acccount (Ex: Github, Gitlab etc ) . In our case we use github.
 2. [Netlify](https://bit.ly/netlify-account) account to host files and add custom domain .
