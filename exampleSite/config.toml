@@ -18,29 +18,29 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.main]]
-URL = "blog"
-name = "Products"
-weight = "6"
-[[menu.main]]
 URL = "about"
 name = "About Us"
 weight = 1
 [[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 5
+URL = "services"
+name = "Service"
+weight = 2
+[[menu.main]]
+URL = "portfolio"
+name = "Our Work"
+weight = 3
 [[menu.main]]
 URL = "team"
 name = "Team"
 weight = 4
 [[menu.main]]
-URL = "portfolio"
-name = "Blog"
-weight = 3
+URL = "blog"
+name = "Products"
+weight = "5"
 [[menu.main]]
-URL = "services"
-name = "Service"
-weight = 2
+URL = "contact"
+name = "Contact Us"
+weight = 6
 [params]
 author = "Themefisher"
 description = "Paisley Digital Services"

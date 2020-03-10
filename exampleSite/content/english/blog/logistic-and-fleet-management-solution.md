@@ -1,5 +1,5 @@
 +++
-author = "Paisley Digital"
+author = "Robert Abrahamian"
 date = ""
 description = ""
 image = "/images/blog-logistic-01.jpg"
