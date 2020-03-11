@@ -11,4 +11,4 @@ cta:
   button:
     enable: true
     label: Start a project with us
-    link: "#portfolio"
+    link: "#contact"
