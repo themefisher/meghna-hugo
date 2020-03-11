@@ -1,6 +1,6 @@
 ---
 portfolio:
-  enable: true
+  enable: false
   title: Our Work
   portfolio_item:
   - name: Banking Products
