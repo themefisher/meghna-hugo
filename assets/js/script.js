@@ -9,12 +9,12 @@ jQuery(function ($) {
 		$('.preloader').fadeOut(100);
 	});
 
+	/* ========================================================================= */
+	/*	lazy load initialize
+	/* ========================================================================= */
 
-	// lazy load initialize
 	const observer = lozad(); // lazy loads elements with default selector as ".lozad"
 	observer.observe();
-
-
 
 	/* ========================================================================= */
 	/*	Magnific popup
@@ -34,10 +34,11 @@ jQuery(function ($) {
 		fixedContentPos: false,
 		fixedBgPos: true
 	});
+
 	/* ========================================================================= */
 	/*	Portfolio Filtering Hook
 	/* =========================================================================  */
-  function filter(){
+
 	var containerEl = document.querySelector('.shuffle-wrapper');
 	if (containerEl) {
 		var Shuffle = window.Shuffle;
@@ -52,10 +53,8 @@ jQuery(function ($) {
 				myShuffle.filter(input.value);
 			}
 		});
-	}}
-	$(window).on('scroll', function () {
-		filter();
-	});
+	}
+
 	/* ========================================================================= */
 	/*	Testimonial Carousel
 	/* =========================================================================  */
@@ -66,8 +65,6 @@ jQuery(function ($) {
 		autoplay: true,
 		autoplaySpeed: 4000
 	});
-
-
 
 	/* ========================================================================= */
 	/*	animation scroll js

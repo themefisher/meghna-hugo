@@ -185,6 +185,14 @@ a:hover {
   display: inline-block;
 }
 
+.btn {
+  cursor: pointer;
+}
+
+.btn.focus,
+.btn:focus {
+  box-shadow: none;
+}
 
 figure {
   margin: 0;
