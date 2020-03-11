@@ -9,7 +9,7 @@ In this tutorial we will show you to make your website live without buying any h
 
 1. Git acccount (Ex: Github, Gitlab etc ) . In our case we use github.
 2. [Netlify](https://bit.ly/netlify-account) account to host files and add custom domain .
-3. [Forestry](https://bit.ly/forestry-account) account to maintain whole project without code.
+3. [Forestry](https://bit.ly/forestry-account) account to maintain whole project without code..
 
 
 ### Step 1 : Fork or Clone repository
