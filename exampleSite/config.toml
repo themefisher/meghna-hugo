@@ -26,8 +26,8 @@ URL = "services"
 name = "Service"
 weight = 2
 [[menu.main]]
-URL = "portfolio"
-name = "Our Work"
+URL = "blog"
+name = "Our Solution"
 weight = 3
 [[menu.main]]
 URL = "team"
