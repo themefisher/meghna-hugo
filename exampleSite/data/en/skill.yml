@@ -11,6 +11,7 @@ skill:
     - Agile Scrum: Jira, Trello.
     - Communication: Skype, Slack, Google Hangouts.
   image: ''
+
   skill_item:
   - name: Back-End
     percent: 90%

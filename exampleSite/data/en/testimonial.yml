@@ -1,27 +1,24 @@
 ---
 testimonial:
   enable: true
-  bg_image: images/backgrounds/bg-testimonial.jpg
-  bg_image_webp: images/backgrounds/bg-testimonial.webp
+  bg_image: images/Banner/Banner-testimonial-03.jpg
+  bg_image_webp: images/Banner/Banner-testimonial-03.webp
   testimonial_item:
-  - name: Jonathon Andrew
-    image: images/client/client-1.jpg
-    image_webp: images/client/client-1.webp
-    date: Dec 26, 2018
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
-      minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi
-      aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
-  - name: Mark Dinn
-    image: images/client/client-2.jpg
-    image_webp: images/client/client-2.webp
-    date: Dec 26, 2018
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
-      minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi
-      aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
-  - name: Lemos Kail
-    image: images/client/client-1.jpg
-    image_webp: images/client/client-1.webp
-    date: Dec 26, 2018
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
-      minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi
-      aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+  - name: Bob at ALBsports Leage
+    image: images/client/client-01.jpg
+    image_webp: images/client/client-01.webp
+    date: From USA
+    content:  Simply amazing!  Not often you find a freelancer that has passion for what he does
+      but also has the heart of a teacher. Good attention to detail, goes above and beyond what you ask for,
+      great communicator... there is just too much to mention here.  I will continue to hire for future projects!
+  - name: Jarod K
+    image: images/client/client-02.jpg
+    image_webp: images/client/client-02.webp
+    date: From USA
+    content: I am very happy with Jahan's work.  It was efficient, and did the job perfectly.
+      Even better, he spent much more time than he originally thought it would take to help me integrate the code he wrote.
+  - name: Kristen G
+    image: images/client/client-03.jpg
+    image_webp: images/client/client-03.webp
+    date: From Australia
+    content:  fantastic to work with. great communication. would recommend.

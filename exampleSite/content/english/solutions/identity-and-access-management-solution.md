@@ -1,5 +1,5 @@
 ---
-title: 'IDENTITY & ACCESS MANAGEMENT SOLUTION '
+title: 'IDENTITY and ACCESS MANAGEMENT SOLUTION '
 date: 
 image_webp: "/images/blog-keyclock-01.webp"
 image: "/images/blog-keyclock-01.jpg"
