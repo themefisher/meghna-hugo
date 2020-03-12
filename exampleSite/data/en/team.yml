@@ -14,8 +14,8 @@ team:
     - icon: ti-linkedin
       link: https://www.linkedin.com/in/aebrahimkhani/
   - name: Jahan Zinedine
-    image_webp: images//team/team-5.webp
-    image: images/team/team-5.jpg
+    image_webp: images//team/team-3.webp
+    image: images/team/team-3.jpg
     designation: ''
     content: Tech Leader
     social:
