@@ -29,30 +29,32 @@
                     {{ end }}
                 </div>
             </div>
+            <p>Tell us about your project: <a href="mailto:hello@paisley.com?cc=jahan@paisley.com.com&subject=Mail">Send Email</a>
 
             {{"<!-- Contact Form --> " | safeHTML}}
 
-			<form id="contact-form" class="form-meghna" method="post"  data-netlify="true" role="form" data-netlify-recaptcha="true">
-				<input name="e-mail" type="text" id="e-mail" autocomplete="off">
-				<div class="form-group">
-					<input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
-				</div>
-				<div class="form-group">
-					<input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
-				</div>
-				<div class="form-group">
-					<input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
-				</div>
-				<div class="form-group">
-					<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
-				</div>
-				<div id="cf-submit">
-					<button type="submit" id="contact-submit" class="btn btn-transparent btn-block" value="Submit">{{ i18n "submit" }}</button>
-				</div>
+
 			</form>
-            {{"<!-- /contact --> " | safeHTML}}
             {{ end }}
             {{ end }}
+            <html>
+            <head>
+                <style>
+                    .main-content {
+                        width: 60%;
+                        height: 400px;
+                        padding: 20px;
+                        line-height: 28px;
+                    }
+                    footer {
+                        padding: 10px 20px;
+                    }
+                    a {
+                        color: #00aaff;
+                    }
+                </style>
+
+
         </div>
     </div>
 </section>
