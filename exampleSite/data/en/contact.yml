@@ -9,6 +9,6 @@ contact:
   - icon: ti-location-pin
     info: Antalya, Turkey
   - icon: ti-mobile
-    info: 'Phone: +31-06-216-777-34'
-  - icon: ti-email
-    info: 'Email: hello@pasiley.digital'
+    info: 'Phone: +90-06-216-777-34'
+  - #icon: ti-email
+    info:
