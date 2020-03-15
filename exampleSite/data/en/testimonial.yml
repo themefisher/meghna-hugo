@@ -4,7 +4,7 @@ testimonial:
   bg_image: images/Banner/Banner-testimonial-03.jpg
   bg_image_webp: images/Banner/Banner-testimonial-03.webp
   testimonial_item:
-  - name: Bob at ALBsports League
+  - name: Bob at ABL Sports Leagues
     image: images/client/client-01.jpg
     image_webp: images/client/client-01.webp
     date: From US
