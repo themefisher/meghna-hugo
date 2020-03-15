@@ -4,21 +4,21 @@ testimonial:
   bg_image: images/Banner/Banner-testimonial-03.jpg
   bg_image_webp: images/Banner/Banner-testimonial-03.webp
   testimonial_item:
-  - name: Bob at ALBsports Leage
+  - name: Bob at ALBsports League
     image: images/client/client-01.jpg
     image_webp: images/client/client-01.webp
-    date: From USA
-    content:  Simply amazing!  Not often you find a freelancer that has passion for what he does
-      but also has the heart of a teacher. Good attention to detail, goes above and beyond what you ask for,
-      great communicator... there is just too much to mention here.  I will continue to hire for future projects!
+    date: From US
+    content:  Simply Amazing! Not often you find a freelancer that has passion for what he does
+      but also has the heart of a teacher. Good attention to details, goes above and beyond what you asked for,
+      Great Communicator... There is just too much to mention here.  I will continue to hire for future projects!
   - name: Jarod K
     image: images/client/client-02.jpg
     image_webp: images/client/client-02.webp
-    date: From USA
+    date: From US
     content: I am very happy with Jahan's work.  It was efficient, and did the job perfectly.
       Even better, he spent much more time than he originally thought it would take to help me integrate the code he wrote.
-  - name: Kristen G
+  - name: Kirsten G
     image: images/client/client-03.jpg
     image_webp: images/client/client-03.webp
     date: From Australia
-    content:  fantastic to work with. great communication. would recommend.
+    content:  Fantastic to work with. Great Communication. Would Recommend.
