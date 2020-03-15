@@ -7,8 +7,8 @@ contact:
   form_action: "#"
   contact_details:
   - icon: ti-location-pin
-    info: Antalya, Turkey
+    info: Wellington ,New Zealand
   - icon: ti-mobile
-    info: 'Phone: +90-06-216-777-34'
+    info: 'Phone: +64-21-163-45-96'
   - #icon: ti-email
     info:
