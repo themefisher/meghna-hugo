@@ -15,7 +15,7 @@ html {
 body {
     background-color: #353b43;
     font-family: "Roboto", sans-serif;
-    color: #737f8a;
+    color: #D3DFEA;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -889,7 +889,7 @@ a:hover {
     font-size: 16px;
     padding: 6px 20px;
     font-weight: 700;
-    color: #737f8a;
+    color: #D3DFEA;
     transition: .3s all;
 }
 
