@@ -678,7 +678,6 @@ a:hover {
 
 .call-to-action p {
     font-size: 20px;
-    color: #01e7ff;
 }
 
 .call-to-action .btn-main {
@@ -798,7 +797,7 @@ a:hover {
 .counters-item {
     padding: 25px 0;
     margin-bottom: 10px;
-    background: #292F36;
+    background: #292F36e6;
 }
 
 .counters-item i {
@@ -971,7 +970,7 @@ a:hover {
   Services section
 ==================================================================*/
 .service-block {
-    padding: 60px 20px;
+    padding: 60px 20px 20px;
     border-left: 1px solid rgba(236, 239, 241, 0.07);
     border-top: 1px solid rgba(236, 239, 241, 0.07);
     margin-bottom: 40px;

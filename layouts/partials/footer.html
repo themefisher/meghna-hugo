@@ -5,19 +5,19 @@
 			<div class="col-xl-12">
 
 				{{"<!-- Footer Social Links -->" | safeHTML}}
-				<div class="social-icon">
-					<ul class="list-inline">
-						{{ range .Site.Params.social }}
-						<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
-						{{ end }}
-					</ul>
-				</div>
+<!--				<div class="social-icon">-->
+<!--					<ul class="list-inline">-->
+<!--						{{ range .Site.Params.social }}-->
+<!--						<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>-->
+<!--						{{ end }}-->
+<!--					</ul>-->
+<!--				</div>-->
 
 				{{"<!-- copyright -->" | safeHTML}}
 				<div class="copyright text-center">
-					<a href="{{ .Site.BaseURL | absLangURL }}">
-						<img width="10%" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}" />
-					</a>
+<!--					<a href="{{ .Site.BaseURL | absLangURL }}">-->
+<!--						<img width="10%" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}" />-->
+<!--					</a>-->
 					<br>
 					<p>{{ i18n "copyright" | markdownify }}</p>
 				</div>

@@ -4,40 +4,69 @@
 {{ with $data.testimonial.testimonial }}
 {{"<!-- Start Testimonial -->" | safeHTML}}
 <section id="testimonial" class="testimonial overly section bg-2"
-	style='background-image: url("{{ .bg_image_webp | absURL }}")'>
-	<!-- this image is for trigger this section fallback background image -->
-	<img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'" src="{{ .bg_image_webp | absURL }}" />
-	<div class="container">
-		<div class="row">
-			<div class="col-xl-12">
-				{{"<!-- testimonial wrapper -->" | safeHTML}}
-				<div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
-					{{ range .testimonial_item }}
-					{{"<!-- testimonial single -->" | safeHTML}}
-					<div class="item text-center">
+         style='background-image: url("{{ .bg_image_webp | absURL }}")'>
+    <!-- this image is for trigger this section fallback background image -->
+    <img style="display: none;"
+         onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'"
+         src="{{ .bg_image_webp | absURL }}"/>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                {{"<!-- testimonial wrapper --> " | safeHTML}}
+                <div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
+                    {{ range .testimonial_item }}
+                    {{"<!-- testimonial single --> " | safeHTML}}
+                    <div class="item text-center">
 
-						{{"<!-- client photo -->" | safeHTML}}
-						<div class="client-thumb">
-							<img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
-						</div>
+                        {{"<!-- client photo --> " | safeHTML}}
+                        <div class="client-thumb">
+                            <img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}"
+                                 onerror="this.onerror=null;this.src='{{ .image | absURL }}'" alt="{{ .name }}">
+                        </div>
 
-						{{"<!-- client info -->" | safeHTML}}
-						<div class="client-info">
-							<div class="client-meta">
-								<h3>{{ .name }}</h3>
-								<span>{{ .date }}</span>
-							</div>
-							<div class="client-comment">
-								<p>{{ .content | markdownify }}</p>
-							</div>
-						</div>
-					</div>
-					{{"<!-- /testimonial single -->" | safeHTML}}
-					{{ end }}
-				</div>
-			</div>
-		</div>
-	</div>
+                        {{"<!-- client info --> " | safeHTML}}
+                        <div class="client-info">
+                            <div class="client-meta">
+                                <h3>{{ .name }}</h3>
+                                <span>{{ .date }}</span>
+                            </div>
+                            <div class="client-comment">
+                                <p>{{ .content | markdownify }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{"<!-- /testimonial single --> " | safeHTML}}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+
+
+        {{ if $data.funfacts.funfacts.enable }}
+        {{ with $data.funfacts.funfacts }}
+        {{"<!-- Start Counter Section --> " | safeHTML}}
+        <section id="counter" class="parallax-section bg-1 section">
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    {{ range .counter_item }}
+                    <div class="col-lg-3 col-md-6 col-12 text-center wow fadeInDown" data-wow-duration="500ms">
+                        <div class="counters-item">
+                            <i class="{{ .icon }}"></i>
+                            <span class="count" data-count="{{ .count }}">0</span>
+                            <h3>{{ .title | markdownify }}</h3>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </section>
+        {{"<!-- /Counter Section --> " | safeHTML}}
+        {{ end }}
+        {{ end }}
+
+
+    </div>
 </section>
 {{"<!-- /testimonial -->" | safeHTML}}
 {{ end }}
