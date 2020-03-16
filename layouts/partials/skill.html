@@ -29,8 +29,8 @@
 					{{ $.Scratch.Set "counter" 0 }}
 					{{ range $index, $element:= .skill_item }}
 					{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-					<li>
-						<p><span>{{if lt $index 9}}0{{end}}{{$.Scratch.Get `counter`}}- </span>{{ .name }}</p>
+					<li class="mb-3">
+						<p class="text-uppercase">{{ .name }}</p>
 						<div class="progress">
 							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
 								style="width:{{ .percent }}">

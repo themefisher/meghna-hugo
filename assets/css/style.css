@@ -371,9 +371,6 @@ a:hover {
     opacity: 0;
 }
 
-div.service-block.text-center {
-    min-height: 460px;
-}
 
 .logo {
     margin-top: 0;
@@ -584,18 +581,7 @@ div.service-block.text-center {
     border-bottom: 2px solid transparent;
     transition: .5s all;
     margin-bottom: 20px;
-}
-
-@media (min-width: 768px) {
-    .about .block {
-        min-height: 460px;
-    }
-}
-
-@media (min-width: 992px) {
-    .about .block {
-        min-height: 530px;
-    }
+    height: 100%;
 }
 
 .about .block:hover {
@@ -989,12 +975,19 @@ div.service-block.text-center {
     border-left: 1px solid rgba(236, 239, 241, 0.07);
     border-top: 1px solid rgba(236, 239, 241, 0.07);
     margin-bottom: 40px;
-    box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
+    box-shadow: 2px 2px 5px rgba(44, 44, 44, .3), 0 0 0px 4px rgba(255, 255, 255, .7);
+    height: 100%;
 }
 
 .service-block .service-icon {
     margin-bottom: 10px;
     font-size: 50px;
+}
+
+.service-block h3 {
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+    overflow: hidden;
 }
 
 /*=================================================================
@@ -1174,8 +1167,9 @@ div.service-block.text-center {
 .client-thumb img {
     border-radius: 50%;
     margin: 0 auto;
-    max-width: 115px;
-    width: 100%;
+    width: 115px;
+    height: 115px;
+    object-fit: cover;
 }
 
 .client-meta {
@@ -1261,10 +1255,16 @@ div.service-block.text-center {
 .post-block {
     background-color: #292F36;
     margin-bottom: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .post-block .content {
     padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .post-block .content h3 {
@@ -1272,6 +1272,12 @@ div.service-block.text-center {
     font-size: 20px;
     line-height: 1.5;
     text-transform: capitalize;
+}
+
+.post-block .btn-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
 }
 
 .note .media-wrapper {
