@@ -292,10 +292,10 @@ a:hover {
 }
 
 .title h2 {
-  text-transform: capitalize;
   font-weight: 700;
   font-size: 38px;
   color: #fff;
+  text-transform: uppercase;
 }
 
 .title h2 span {
@@ -463,11 +463,12 @@ div.service-block.text-center {
 
 .hero-area {
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .hero-area:before {
@@ -517,16 +518,16 @@ div.service-block.text-center {
 
 .hero-area .block p {
   color: #fff;
-  font-size: 20px;
-  width: 100%;
+  font-size: 26px;
+  width: 60%;
   margin: 0 auto;
+  font-weight: 700;
 }
 
 .hero-area .block .btn-transparent {
   margin-top: 55px;
   border-color: #fff;
   padding: 14px 50px;
-  font-size: 18px;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px;
