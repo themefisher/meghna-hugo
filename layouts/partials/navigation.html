@@ -3,13 +3,13 @@
 	<div class="container">
 
 		{{"<!-- logo -->" | safeHTML}}
-		<a class="navbar-brand logo" href="{{ .Site.BaseURL | relLangURL }}">
-			{{ if .Site.Params.logo }}
-			<img width="65px" class="img-fluid" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
-			{{ else }}
-			{{ .Site.Title }}
-			{{ end }}
-		</a>
+<!--		<a class="navbar-brand logo" href="{{ .Site.BaseURL | relLangURL }}">-->
+<!--			{{ if .Site.Params.logo }}-->
+<!--			<img width="65px" class="img-fluid" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">-->
+<!--			{{ else }}-->
+<!--			{{ .Site.Title }}-->
+<!--			{{ end }}-->
+<!--		</a>-->
 		{{"<!-- /logo -->" | safeHTML}}
 
 		{{"<!-- responsive nav button -->" | safeHTML}}
@@ -23,19 +23,27 @@
 		{{"<!-- main nav -->" | safeHTML}}
 		{{ if .IsHome }}
 		<div class="collapse navbar-collapse" id="navigation">
-			<ul class="navbar-nav ml-auto navigation-menu">
-				<li class="nav-item"><a class="nav-link" href="#body">{{ with .Site.Params.home }}{{ . }}{{ end }}</a></li>
+			<ul class="navbar-nav mx-auto navigation-menu">
+				<li class="nav-item">
+					<a class="nav-link text-uppercase" href="#body">{{ with .Site.Params.home }}{{ . }}{{ end }}</a>
+				</li>
 				{{ range .Site.Menus.main }}
-				<li class="nav-item"><a class="nav-link" href="#{{ .URL }}">{{ .Name }}</a></li>
+				<li class="nav-item">
+					<a class="nav-link text-uppercase" href="#{{ .URL }}">{{ .Name }}</a>
+				</li>
 				{{ end }}
 			</ul>
 		</div>
 		{{ else }}
 		<div class="collapse navbar-collapse" id="navigation">
 			<ul class="navbar-nav ml-auto navigation-menu">
-				<li class="nav-item"><a class="nav-link" href="{{ .Site.BaseURL | relLangURL }}#body">{{ with .Site.Params.home }}{{ . }}{{ end }}</a></li>
+				<li class="nav-item">
+					<a class="nav-link text-uppercase" href="{{ .Site.BaseURL | relLangURL }}#body">{{ with .Site.Params.home }}{{ . }}{{ end }}</a>
+				</li>
 				{{ range .Site.Menus.main }}
-				<li class="nav-item"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}#{{ .URL }}">{{ .Name }}</a></li>
+				<li class="nav-item">
+					<a class="nav-link text-uppercase" href="{{ $.Site.BaseURL | relLangURL }}#{{ .URL }}">{{ .Name }}</a>
+				</li>
 				{{ end }}
 			</ul>
 		</div>
