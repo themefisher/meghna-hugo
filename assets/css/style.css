@@ -15,7 +15,7 @@ html {
 body {
     background-color: #353b43;
     font-family: "Roboto", sans-serif;
-    color: #D3DFEA;
+    color: #737f8a;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -678,6 +678,7 @@ a:hover {
 
 .call-to-action p {
     font-size: 20px;
+    color: #01e7ff;
 }
 
 .call-to-action .btn-main {
@@ -699,7 +700,7 @@ a:hover {
 }
 
 .call-to-action-2 p {
-    color: #fff;
+    color: #D3DFEA;
 }
 
 .call-to-action-2 .btn-main {
@@ -889,7 +890,7 @@ a:hover {
     font-size: 16px;
     padding: 6px 20px;
     font-weight: 700;
-    color: #D3DFEA;
+    color: #737f8a;
     transition: .3s all;
 }
 
