@@ -76,7 +76,11 @@ name = "Contact"
 URL = "contact"
 weight = 7
 
-
+#### external / static link ####
+[[menu.static]]
+name = "Themefisher"
+URL = "https://themefisher.com/"
+weight = 7
 
 ############################# Default Parameters ##########################
 [params]
