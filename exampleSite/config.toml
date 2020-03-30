@@ -1,4 +1,4 @@
-baseURL = "https://ionsat.netlify.com/fr/"
+baseURL = "https://ionsat.netlify.com/"
 disableLanguages = ["En"]
 disqusShortname = ""
 paginate = "6"
