@@ -22,7 +22,7 @@ static = []
 [[menu.main]]
 URL = "test"
 name = "Test"
-weight = "8"
+weight = "7"
 [[menu.main]]
 URL = "about"
 name = "About Us"
@@ -50,7 +50,7 @@ weight = 6
 [[menu.main]]
 URL = "contact"
 name = "Contact"
-weight = 7
+weight = "8"
 [params]
 author = "Themefisher"
 description = "Responsive Multipurpose Parallax HTML5 Template"
