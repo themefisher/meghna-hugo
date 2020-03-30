@@ -9,5 +9,5 @@ banner:
     à rester en basse atmosphère.
   button:
     enable: true
-    label: Explore Us
+    label: Notre projet
     link: "#services"
