@@ -32,8 +32,8 @@ URL = "portfolio"
 name = "Portfolio"
 weight = 3
 [[menu.main]]
-URL = "Qui sommes nous ?"
-name = "Qui sommes nous ?"
+URL = "Notre Equipe"
+name = "Notre Equipe"
 weight = 4
 [[menu.main]]
 URL = "pricing"
