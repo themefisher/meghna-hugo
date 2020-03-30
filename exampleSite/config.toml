@@ -2,7 +2,7 @@ baseURL = "https://ionsat.netlify.com/"
 disableLanguages = ["En"]
 disqusShortname = ""
 paginate = "6"
-summaryLength = "15"
+summaryLength = "16"
 theme = "meghna-hugo"
 title = "Meghna"
 [Languages.en]
