@@ -17,6 +17,8 @@ home = "Accueil"
 languageCode = "fr-fr"
 languageName = "Fr"
 weight = "2"
+[menu]
+static = []
 [[menu.main]]
 URL = "about"
 name = "About Us"
@@ -44,10 +46,6 @@ weight = 6
 [[menu.main]]
 URL = "contact"
 name = "Contact"
-weight = 7
-[[menu.static]]
-URL = "https://themefisher.com/"
-name = "Themefisher"
 weight = 7
 [params]
 author = "Themefisher"
