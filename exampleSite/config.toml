@@ -10,7 +10,7 @@ contentDir = "content/english"
 home = "Home"
 languageCode = "en-us"
 languageName = "En"
-weight = 1
+weight = "2"
 [Languages.fr]
 contentDir = "content/french"
 home = "Accueil"
