@@ -16,7 +16,7 @@ contentDir = "content/french"
 home = "Accueil"
 languageCode = "fr-fr"
 languageName = "Fr"
-weight = "1"
+weight = "2"
 [[menu.main]]
 URL = "about"
 name = "About Us"
