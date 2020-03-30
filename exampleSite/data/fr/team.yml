@@ -1,7 +1,7 @@
 ---
 team:
   enable: true
-  title: Qui sommes nous ?
+  title: 'Notre équipe '
   team_member:
   - name: Abul Mal Muhit
     image_webp: images/team/team-1.webp
