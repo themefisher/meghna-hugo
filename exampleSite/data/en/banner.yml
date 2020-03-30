@@ -4,8 +4,8 @@ banner:
   bg_image_webp: images/backgrounds/hero-area.webp
   bg_image: images/backgrounds/espace.jpg
   icon: ''
-  title: Experience the new reality
-  content: Bonjour, je m'appelle yohan et je tente des choses !
+  title: 'Ionsat '
+  content: Un satellite par l'Ecole polytechnique
   button:
     enable: true
     label: Explore Us
