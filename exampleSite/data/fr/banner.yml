@@ -1,8 +1,8 @@
 ---
 banner:
   enable: true
-  bg_image_webp: images/backgrounds/hero-area.webp
-  bg_image: images/backgrounds/espace.jpg
+  # bg_image_webp: images/backgrounds/hero-area.webp
+  bg_image_webp: images/backgrounds/espace_black.jpg
   icon: ''
   title: Ionsat
   content: Le seul satellite étudiant construit par des étudiants de Polytechnique

@@ -1,0 +1,3 @@
+[submodule "exampleSite/themes/meghna-hugo"]
+	path = exampleSite/themes/meghna-hugo
+	url = git@github.com:yoh-an/meghna-hugo.git
