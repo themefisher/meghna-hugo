@@ -1,18 +1,66 @@
-################################# Default configuration ###################
-baseURL = "https://examplesite.com"
-title = "Meghna"
-theme = "meghna-hugo"
-# post pagination
-paginate = "6"
-# post excerpt
-summaryLength = "15"
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
-# disable language
+baseURL = "https://pemablog-netlify.com"
 disableLanguages = []
-
-############################# Plugins ##########################
-# css plugins
+disqusShortname = ""
+paginate = "6"
+summaryLength = "15"
+theme = "meghna-hugo"
+title = "Pema Blog"
+[Languages.en]
+contentDir = "content/english"
+home = "Home"
+languageCode = "en-us"
+languageName = "En"
+weight = 1
+[Languages.fr]
+contentDir = "content/french"
+home = "Accueil"
+languageCode = "fr-fr"
+languageName = "Fr"
+weight = 2
+[[menu.main]]
+URL = "about"
+name = "About Us"
+weight = 1
+[[menu.main]]
+URL = "services"
+name = "Service"
+weight = 2
+[[menu.main]]
+URL = "portfolio"
+name = "Portfolio"
+weight = 3
+[[menu.main]]
+URL = "team"
+name = "Team"
+weight = 4
+[[menu.main]]
+URL = "pricing"
+name = "Pricing"
+weight = 5
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 6
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 7
+[[menu.static]]
+URL = "https://themefisher.com/"
+name = "Themefisher"
+weight = 7
+[params]
+author = "Themefisher"
+description = "Responsive Multipurpose Parallax HTML5 Template"
+google_analitycs_id = ""
+logo = "images/logo.png"
+post_share = true
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -23,8 +71,6 @@ link = "plugins/magnific-popup/magnific-popup.css"
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
-
-# js plugins
 [[params.plugins.js]]
 link = "plugins/jquery/jquery.min.js"
 [[params.plugins.js]]
@@ -39,111 +85,24 @@ link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
-
-############################# Navigation ##################################
-[[menu.main]]
-name = "About Us"
-URL = "about"
-weight = 1
-
-[[menu.main]]
-name = "Service"
-URL = "services"
-weight = 2
-
-[[menu.main]]
-name = "Portfolio"
-URL = "portfolio"
-weight = 3
-
-[[menu.main]]
-name = "Team"
-URL = "team"
-weight = 4
-
-[[menu.main]]
-name = "Pricing"
-URL = "pricing"
-weight = 5
-
-[[menu.main]]
-name = "Blog"
-URL = "blog"
-weight = 6
-
-[[menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 7
-
-#### external / static link ####
-[[menu.static]]
-name = "Themefisher"
-URL = "https://themefisher.com/"
-weight = 7
-
-############################# Default Parameters ##########################
-[params]
-logo = "images/logo.png"
-# Meta data
-description = "Responsive Multipurpose Parallax HTML5 Template"
-author = "Themefisher"
-# Google Analitycs
-google_analitycs_id = "" # Your ID
-# post share
-post_share = true
-
-# preloader
 [params.preloader]
 enable = true
 preloader = "images/logo.png"
-
-# google map
-[params.map]
-enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
-
-############################# social icons ##########################
 [[params.social]]
-icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-facebook"
 link = "#"
-
 [[params.social]]
-icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-twitter-alt"
 link = "#"
-
 [[params.social]]
-icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-youtube"
 link = "#"
-
 [[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-linkedin"
 link = "#"
-
 [[params.social]]
-icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-dribbble"
 link = "#"
-
 [[params.social]]
-icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-pinterest"
 link = "#"
-
-
-################################ English Language ########################
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
-weight = 1
-home = "Home"
-
-################################ France Language ########################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-home = "Accueil"
