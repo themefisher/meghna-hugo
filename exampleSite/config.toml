@@ -80,7 +80,7 @@ weight = 7
 [[menu.static]]
 name = "Themefisher"
 URL = "https://themefisher.com/"
-weight = 7
+weight = 8
 
 ############################# Default Parameters ##########################
 [params]
