@@ -3,13 +3,13 @@ service:
   enable: true
   title: Our Services
   service_item:
-  - name: CUSTOM SOFTWARE DEVELOPMENT
+  - name: API DESIGNING and DEVELOPMENT
     icon: ti-world
+    content: Providing you the best quality API's with dedicated team of experienced software developers.
+  - name: CUSTOM SOFTWARE DEVELOPMENT
+    icon: ti-layout
     content: Providing a software application based on exactly your requirements and
       ideas to fulfill your specific business needs.
-  - name: 'OFFSHORE SOFTWARE DEVELOPMENT '
-    icon: ti-layout
-    content: Providing you with your own dedicated team of experienced software developers.
   - name: MOBILE APPLICATION DEVELOPMENT
     icon: ti-package
     content: We design and develop functional and interactive mobile apps, for both
