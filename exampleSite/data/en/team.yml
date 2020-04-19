@@ -3,7 +3,7 @@ team:
   enable: true
   title: Our Team
   team_member:
-  - name: Amir Ebrahimkhani
+  - name: Amir
     image_webp: images/team/team-1.webp
     image: images/team/team-1.jpg
     designation: ''
@@ -13,7 +13,7 @@ team:
       link: 'mailto: amir.ebrahimkhani@gmail.com'
     - icon: ti-linkedin
       link: https://www.linkedin.com/in/aebrahimkhani/
-  - name: Jahan Zinedine
+  - name: Jahan
     image_webp: images//team/team-3.webp
     image: images/team/team-3.jpg
     designation: ''
@@ -23,7 +23,7 @@ team:
       link: 'mailto: jzinedine@gmail.com'
     - icon: ti-linkedin
       link: https://www.linkedin.com/in/jzinedine/
-  - name: Meysam Tamkin
+  - name: Meysam
     image_webp: images/team/team-2.webp
     image: images/team/team-2.jpg
     designation: ''
