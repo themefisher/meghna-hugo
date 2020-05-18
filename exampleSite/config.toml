@@ -1,10 +1,10 @@
-baseURL = "https://examplesite1534234frdfdscdv.com"
+baseURL = "https://farm6media.com"
 disableLanguages = []
 disqusShortname = ""
 paginate = "6"
 summaryLength = "15"
 theme = "meghna-hugo"
-title = "Meghna"
+title = "Farm 6 Media Test Site # 2"
 [Languages.en]
 contentDir = "content/english"
 copyright = "copyright &copy; 2019 [gethugothemes](https://gethugothemes.com) all right reserved"
