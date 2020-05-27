@@ -88,8 +88,8 @@ logo = "images/logo.png"
 # Meta data
 description = "Responsive Multipurpose Parallax HTML5 Template"
 author = "Themefisher"
-# Google Analitycs
-google_analitycs_id = "" # Your ID
+# Google Analytics
+google_analytics_id = "" # Your ID
 # post share
 post_share = true
 
