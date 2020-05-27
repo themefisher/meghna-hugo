@@ -18,20 +18,20 @@
 					<li class="nav-item"><a class="nav-link" href="#body">{{ .Site.Params.home }}</a></li>
 					{{ if .IsHome }}
 					{{ range .Site.Menus.main }}
-					<li class="nav-item"><a class="nav-link" href="#{{ .URL }}">{{ .Name }}</a></li>
+					<li class="nav-item"><a class="nav-link" href="#{{ .URL }}">{{ i18n .Name }}</a></li>
 					{{ end }}
 
 					{{ else }}
 
 					{{ range .Site.Menus.main }}
-					<li class="nav-item"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}#{{ .URL }}">{{ .Name }}</a>
+					<li class="nav-item"><a class="nav-link" href="{{ $.Site.BaseURL | relLangURL }}#{{ .URL }}">{{ i18n .Name }}</a>
 					</li>
 					{{ end }}
 					{{ end }}
 					
 
 					{{ range .Site.Menus.static }}
-					<li class="nav-item"><a class="nav-link" target="_blank" href="{{ .URL }}">{{ .Name }}</a>
+					<li class="nav-item"><a class="nav-link" target="_blank" href="{{ .URL }}">{{ i18n .Name }}</a>
 					</li>
 					{{ end }}
 					
