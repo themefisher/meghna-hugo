@@ -42,37 +42,37 @@ link = "plugins/google-map/map.js"
 
 ############################# Navigation ##################################
 [[menu.main]]
-name = "About Us"
+name = "about"
 URL = "about"
 weight = 1
 
 [[menu.main]]
-name = "Service"
+name = "services"
 URL = "services"
 weight = 2
 
 [[menu.main]]
-name = "Portfolio"
+name = "portfolio"
 URL = "portfolio"
 weight = 3
 
 [[menu.main]]
-name = "Team"
+name = "team"
 URL = "team"
 weight = 4
 
 [[menu.main]]
-name = "Pricing"
+name = "pricing"
 URL = "pricing"
 weight = 5
 
 [[menu.main]]
-name = "Blog"
+name = "blog"
 URL = "blog"
 weight = 6
 
 [[menu.main]]
-name = "Contact"
+name = "contact"
 URL = "contact"
 weight = 7
 
