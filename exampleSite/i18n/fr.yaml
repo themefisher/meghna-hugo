@@ -14,3 +14,17 @@
   translation: Soumettre
 - id: all
   translation: All
+- id: about
+  translation: À propos
+- id: services
+  translation: Services
+- id: portfolio
+  translation: Portfolio
+- id: team
+  translation: Équipe
+- id: pricing
+  translation: Tarification
+- id: blog
+  translation: Blog
+- id: contact
+  translation: Contact

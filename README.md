@@ -56,7 +56,7 @@ $ cd meghna-hugo/exampleSite/
 $ hugo server --themesDir ../..
 ```
 
-[Full Documentation](http://demo.themefisher.com/meghna-hugo/en/blog/installation/).
+[Full Documentation](https://documentation.themefisher.com/docs/meghna-hugo/hugo-installation/).
 
 ## Reporting Issues
 
