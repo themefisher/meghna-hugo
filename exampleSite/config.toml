@@ -78,7 +78,7 @@ weight = 7
 
 #### external / static link ####
 [[menu.static]]
-name = "Themefisher"
+name = "themefisher"
 URL = "https://themefisher.com/"
 weight = 8
 

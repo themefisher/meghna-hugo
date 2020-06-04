@@ -10,8 +10,6 @@
   translation: About author
 - id: authorsPosts
   translation: Author's posts
-- id: submit
-  translation: Submit
 - id: all
   translation: All
 - id: about
@@ -28,3 +26,5 @@
   translation: Blog
 - id: contact
   translation: Contact
+- id: themefisher
+  translation: Themefisher

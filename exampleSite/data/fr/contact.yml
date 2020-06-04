@@ -4,14 +4,9 @@ contact:
   title : Contact Us
   subtitle : Contact Details
   content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
-  form_action: "#" #contact form works with https://formspree.io
-  map:
-    enable : true
-    gmap_api : "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-    map_latitude : 51.5223477
-    map_longitude: -0.1622023
 
-  contact_details :
+  # Contact details
+  contact_list:
     - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
       info : "Khaja Road, Bayzid, Chittagong, Bangladesh"
       
@@ -23,3 +18,14 @@ contact:
       
     - icon : ti-email # themify icon pack : https://themify.me/themify-icons
       info : "Email: hello@meghna.com"
+
+
+  # Contact form
+  contact_form:
+    enable : true
+    form_action : "#" #contact form works with https://formspree.io
+    name : "votre nom"
+    email : "Votre email"
+    subject : "Matière"
+    message : "Message"
+    submit : "Soumettre"
