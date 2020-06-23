@@ -3,12 +3,10 @@ title: "Meysam Tamkin"
 image: ""
 email: "meysam@paisley.digital"
 social:
-  - icon : "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-    link : "#"
-  - icon : "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-    link : "#"
+  - icon : "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+    link : "https://www.linkedin.com/in/mtamkin/"
   - icon : "ti-github" # themify icon pack : https://themify.me/themify-icons
-    link : "#"
+    link : "https://github.com/meysam"
 ---
 
 I am a Full-Stack Developer with more than a decade of experience. In my experience, I was
