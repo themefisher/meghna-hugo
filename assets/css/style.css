@@ -1273,6 +1273,7 @@ a:hover {
     font-size: 20px;
     line-height: 1.5;
     text-transform: capitalize;
+    color: white;
 }
 
 .post-block .btn-container {
