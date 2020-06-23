@@ -1266,6 +1266,7 @@ a:hover {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 .post-block .content h3 {
@@ -1273,7 +1274,6 @@ a:hover {
     font-size: 20px;
     line-height: 1.5;
     text-transform: capitalize;
-    color: white;
 }
 
 .post-block .btn-container {
