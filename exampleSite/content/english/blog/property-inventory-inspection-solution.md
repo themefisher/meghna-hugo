@@ -1,6 +1,6 @@
 ---
 title: PROPERTY INVENTORY INSPECTOR SOLUTION
-date: 
+date: 2020-01-22T13:23:10+01:00
 image_webp: "/images/blog-Inventory-01-1.webp"
 image: "/images/blog-Inventory-01-1.jpg"
 author: Paisley Digital

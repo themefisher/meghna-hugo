@@ -1,6 +1,6 @@
 ---
 title: 'IDENTITY AND ACCESS MANAGEMENT SOLUTION '
-date: 
+date: 2020-04-22T13:23:10+01:00
 image_webp: "/images/blog-keyclock-01.webp"
 image: "/images/blog-keyclock-01.jpg"
 author: Paisley Digital

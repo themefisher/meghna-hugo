@@ -2326,4 +2326,10 @@ figcaption {
     display: block;
 }
 
+img[src*="#blogpost"] {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
 /*# sourceMappingURL=maps/style.css.map */

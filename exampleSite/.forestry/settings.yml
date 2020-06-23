@@ -5,17 +5,17 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Solution
+  label: Blog Post
 - type: directory
-  path: exampleSite/content/english/solutions
-  label: Solution (en)
+  path: exampleSite/content/english/blog
+  label: Post (en)
   create: documents
   match: "**/*"
   new_doc_ext: '20191203072044'
   templates:
   - post
 - type: directory
-  path: exampleSite/content/french/solutions
+  path: exampleSite/content/french/blog
   label: Post (fr)
   create: documents
   match: "**/*"

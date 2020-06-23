@@ -1,6 +1,6 @@
 +++
 author = "Robert Abrahamian"
-date = ""
+date =2020-03-22T13:23:10+01:00
 description = ""
 image = "/images/blog-logistic-01.jpg"
 image_webp = "/images/blog-logistic-01.webp"

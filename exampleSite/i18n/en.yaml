@@ -1,10 +1,10 @@
 ---
 - id: blogTitle
-  translation: Our Solutions
+  translation: Latest Post
 - id: readMore
   translation: Read more
 - id: viewAllPost
-  translation: View All Solutions
+  translation: View All Posts
 - id: share
   translation: Share
 - id: aboutAuthor

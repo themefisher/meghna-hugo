@@ -1,6 +1,6 @@
 ---
 title: PERSONAL FINANCE MANAGEMENT SOLUTION
-date: 
+date: 2020-02-22T13:23:10+01:00
 author: Paisley Digital
 image_webp: "/images/blog-PFM-01.webp"
 image: "/images/blog-PFM-01.jpg"
