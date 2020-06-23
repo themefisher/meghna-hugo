@@ -4,4 +4,4 @@
   
 [build.environment]
   HUGO_VERSION = "0.71.1"
-  HUGO_THEME = "Meghna-Hugo"
+  HUGO_THEME = "repo"
