@@ -47,22 +47,22 @@ Here is the Github [link](https://github.com/Paisley-Digital/commons) for the in
    * clone the project
 
 ```shell script
- git clone [https://github.com/Paisley-Digital/commons.git](https://github.com/Paisley-Digital/commons.git)
+ git clone https://github.com/Paisley-Digital/commons.git
 ```
 
 
-> This is a separate project that you can add as a maven dependency on your major project. For that, you should only copy and past security classes on your app and use it.
+> This is a separate project that you can add as a maven dependency on your major project. For that, you should only copy and paste security classes on your app and use it.
 
 
 
 *   [SecurityProperties.java](https://github.com/Paisley-Digital/commons/blob/master/src/main/java/digital/paisley/security/SecurityProperties.java) and [ResourceServerConfiguration.java](https://github.com/Paisley-Digital/commons/blob/master/src/main/java/digital/paisley/security/ResourceServerConfiguration.java):
     *   To load a set of related properties from a YAML file, we created this bean. (Like API matcher)
-    *   To configure the required CORs configuration and enable or disable the security of the application.
+    *   To configure the required CORS configuration and enable or disable the security of the application.
 *   [SecurityContextUtils.java](https://github.com/Paisley-Digital/commons/blob/master/src/main/java/digital/paisley/security/SecurityContextUtils.java) :
-    *   The **SecurityContext **and **SecurityContextHolder **are two fundamental classes of Spring Security. The `SecurityContext `is used to store the details of the currently authenticated user, also known as a principle. So, if you have to get the username or any other user details, you need to get this `SecurityContext `first. The `SecurityContextHolder `is a helper class, which provides access to the security context. This class is a wrapper to store Username and roles.
+    *   The  *SecurityContext* and  *SecurityContextHolder* are two fundamental classes of Spring Security. The `SecurityContext` is used to store the details of the currently authenticated user, also known as a principle. So, if you have to get the username or any other user details, you need to get this `SecurityContext` first. The `SecurityContextHolder` is a helper class, which provides access to the security context. This class is a wrapper to store Username and roles.
 *   [OAuth2RestTemplateConfigurer.java](https://github.com/Paisley-Digital/commons/blob/master/src/main/java/digital/paisley/security/OAuth2RestTemplateConfigurer.java)
     *   For secured microservice to microservice call
-*   [JwtAccessTokenCustomizer.jav](https://github.com/Paisley-Digital/commons/blob/master/src/main/java/digital/paisley/security/JwtAccessTokenCustomizer.java)
+*   [JwtAccessTokenCustomizer.java](https://github.com/Paisley-Digital/commons/blob/master/src/main/java/digital/paisley/security/JwtAccessTokenCustomizer.java)
     *   This class implements` JwtAccessTokenConverterConfigurer` to have oAuth2.0 features(extract token) for Spring boot microservices.
     *   This class assumes, that you have defined a Protocol Mapper in Keycloak to map user property 'username' to a claim named 'user_name' in the access token
 
@@ -107,4 +107,4 @@ Here is the Github [link](https://github.com/Paisley-Digital/commons) for the in
 
 ### **4. Conclusion**
 
-   In this post series, we have developed a Spring Boot application and secured it with Keycloak and Spring Security.  We have built classes to integrate Spring Security and OAuth wit out using the Keycloak library. If you want to replace Keycloak with other OAuth implementation, you should be modified only application.yml on Spring Boot.    
+   In this post series, we have developed a Spring Boot application and secured it with Keycloak and Spring Security.  We have built classes to integrate Spring Security and OAuth without using the Keycloak library. If you want to replace Keycloak with other OAuth implementation, you should be modified only application.yml on Spring Boot.    
