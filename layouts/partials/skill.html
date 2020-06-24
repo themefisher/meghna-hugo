@@ -21,7 +21,7 @@
 				<h2>{{ .subtitle | markdownify }}</h2>
 				<p> {{ .content | markdownify }}</p>
 				{{ with .image }}
-				<img class="img-fluid" src="{{ . | absURL }}" alt="image">
+				<img class="img-fluid lozad" data-src="{{ . | absURL }}" alt="image">
 				{{ end }}
 			</div>
 			<div class="col-lg-6">
