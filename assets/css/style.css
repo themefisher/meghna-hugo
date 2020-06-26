@@ -417,6 +417,7 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
   color: #57cbcc;
+  background-color: #353b43;
 }
 
 .navbar-toggler:focus {
