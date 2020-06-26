@@ -38,5 +38,5 @@
 {{ end }}
 
 {{ "<!-- Main Script -->" | safeHTML }}
-{{ $script := resources.Get "js/script.js" | minify}}
-<script src="{{ $script.Permalink }}"></script>
+{{ $script := resources.Get "js/script.js" | minify | fingerprint "sha384"}
+<script src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>
