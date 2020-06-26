@@ -1,4 +1,4 @@
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := index site.Data site.Language.Lang }}
 
 {{ if $data.pricing.pricing.enable }}
 {{ with $data.pricing.pricing }}

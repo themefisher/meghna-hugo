@@ -1,4 +1,4 @@
-{{ if gt .Site.RegularPages 0}}
+{{ if gt site.RegularPages 0}}
 {{"<!-- Start Blog Section -->" | safeHTML}}
 <section id="blog" class="section">
 	<div class="container">
@@ -13,7 +13,7 @@
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
 
-			{{ range first 3 (where .Site.RegularPages "Section" "==" "blog")}}
+			{{ range first 3 (where site.RegularPages "Section" "==" "blog")}}
 			{{ .Render "article"}}
 			{{ end }}
 
