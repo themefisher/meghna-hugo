@@ -1,4 +1,4 @@
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := index site.Data site.Language.Lang }}
 
 {{ if $data.testimonial.testimonial.enable }}
 {{ with $data.testimonial.testimonial }}

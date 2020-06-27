@@ -50,7 +50,7 @@
 					<div class="border-meghna"></div>
 				</div>
 			</div>
-			{{ range where .Site.RegularPages "Params.author" .Title }}
+			{{ range where site.RegularPages "Params.author" .Title }}
 			{{ .Render "article" }}
 			{{ end }}
 		</div>

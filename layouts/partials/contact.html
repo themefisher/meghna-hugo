@@ -1,4 +1,4 @@
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := index site.Data site.Language.Lang }}
 
 {{ if $data.contact.contact.enable }}
 {{ with $data.contact.contact }}
@@ -20,7 +20,7 @@
 			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
 				<h3>{{ .subtitle | markdownify }}</h3>
 				<p> {{ .content | markdownify }} </p>
-				
+
 				{{ if .contact_form.enable }}
 				<div class="contact-details">
 					{{ range .contact_list }}
