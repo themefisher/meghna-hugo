@@ -7,7 +7,7 @@
 				{{"<!-- Footer Social Links -->" | safeHTML}}
 				<div class="social-icon">
 					<ul class="list-inline">
-						{{ range .Site.Params.social }}
+						{{ range site.Params.social }}
 						<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
 						{{ end }}
 					</ul>
@@ -15,11 +15,11 @@
 
 				{{"<!-- copyright -->" | safeHTML}}
 				<div class="copyright text-center">
-					<a href="{{ .Site.BaseURL | absLangURL }}">
-						<img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}" />
+					<a href="{{ site.Home.Permalink }}">
+						<img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" />
 					</a>
 					<br>
-					<p>{{ .Site.Params.copyright | markdownify }}</p>
+					<p>{{ site.Params.copyright | markdownify }}</p>
 				</div>
 			</div>
 		</div>
@@ -28,15 +28,15 @@
 {{"<!-- /footer -->" | safeHTML}}
 
 {{ "<!-- Google Map API -->" | safeHTML }}
-{{ if .Site.Params.map.enable }}
-<script src="{{ .Site.Params.map.gmap_api | safeURL }}"></script>
+{{ if site.Params.map.enable }}
+<script src="{{ site.Params.map.gmap_api | safeURL }}"></script>
 {{ end }}
 
 {{ "<!-- JS Plugins -->" | safeHTML }}
-{{ range .Site.Params.plugins.js}}
+{{ range site.Params.plugins.js}}
 <script src="{{ .link | absURL }}"></script>
 {{ end }}
 
 {{ "<!-- Main Script -->" | safeHTML }}
-{{ $script := resources.Get "js/script.js" | minify}}
-<script src="{{ $script.Permalink }}"></script>
+{{ $script := resources.Get "js/script.js" | minify | fingerprint "sha384"}
+<script src="{{ $script.Permalink }}" integrity="{{ $script.Data.Integrity }}"></script>

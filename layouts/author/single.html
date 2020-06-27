@@ -7,8 +7,8 @@
 		<div class="row">
 			<div class="col-lg-10 mx-auto">
 				<div class="title text-center">
-					<h2>{{ with i18n "aboutAuthor" }} {{ index (split . " ") 0 }} {{ end }}<span class="color">
-							{{ with i18n "aboutAuthor" }} {{ index (split . " ") 1 }} {{ end }} </span></h2>
+					<h2>{{ with i18n "aboutAuthor" }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+							{{ with i18n "aboutAuthor" }} {{ index (split . " ") 1 | safeHTML }} {{ end }} </span></h2>
 					<div class="border-meghna"></div>
 				</div>
 				<div class="content text-center">
@@ -45,12 +45,12 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="title text-center">
-					<h2>{{ with i18n "authorsPosts" }} {{ index (split . " ") 0 }} {{ end }}<span class="color">
-							{{ with i18n "authorsPosts" }} {{ index (split . " ") 1 }} {{ end }}</h2>
+					<h2>{{ with i18n "authorsPosts" }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+							{{ with i18n "authorsPosts" }} {{ index (split . " ") 1 | safeHTML }} {{ end }}</h2>
 					<div class="border-meghna"></div>
 				</div>
 			</div>
-			{{ range where .Site.RegularPages "Params.author" .Title }}
+			{{ range where site.RegularPages "Params.author" .Title }}
 			{{ .Render "article" }}
 			{{ end }}
 		</div>
