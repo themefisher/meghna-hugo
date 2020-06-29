@@ -1,9 +1,9 @@
 <section class="sticky-top navigation">
 	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-dark">
-			<a class="navbar-brand p-0" href="{{ site.BaseURL | relLangURL }}">
+			<a class="navbar-brand p-0" href="{{ .Site.BaseURL | relLangURL }}">
 				{{ if site.Params.logo }}
-				<img class="img-fluid" src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}">
+				<img class="lozad img-fluid" data-src="{{ site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
 				{{ else }}
 				{{ site.Title }}
 				{{ end }}
@@ -28,7 +28,6 @@
 					</li>
 					{{ end }}
 					{{ end }}
-
 
 					{{ range site.Menus.static }}
 					<li class="nav-item"><a class="nav-link" target="_blank" href="{{ .URL }}">{{ i18n .Name }}</a>
