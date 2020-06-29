@@ -24,7 +24,7 @@
 					{{ else }}
 
 					{{ range site.Menus.main }}
-					<li class="nav-item"><a class="nav-link" href="{{ $site.BaseURL | relLangURL }}#{{ .URL }}">{{ i18n .Name }}</a>
+					<li class="nav-item"><a class="nav-link" href="{{ site.BaseURL | relLangURL }}#{{ .URL }}">{{ i18n .Name }}</a>
 					</li>
 					{{ end }}
 					{{ end }}
