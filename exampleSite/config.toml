@@ -106,6 +106,10 @@ map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
 map_marker = "images/marker.png"
 
+# navigation
+[params.navigation]
+static_target = "_blank"
+
 ############################# social icons ##########################
 [[params.social]]
 icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
