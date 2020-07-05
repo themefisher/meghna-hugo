@@ -35,7 +35,7 @@ Here comes the last step . Go to your [netlify](https://bit.ly/netlify-account) 
 - [Demo](#demo)
 - [Installation (Old Way)](#installation)
 - [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions)
+- [Technical Support or Questions](#technical-support-or-questions-(paid))
 - [Licensing](#licensing)
 - [More Hugo Themes](https://themefisher.com/hugo-themes/)
 
@@ -63,7 +63,7 @@ $ hugo server --themesDir ../..
 We use GitHub Issues as the official bug tracker for the Meghna Template. Please Search [existing issues](https://github.com/themefisher/meghna-hugo/issues). It’s possible someone has already reported the same problem.
 If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/meghna-hugo/issues)
 
-## Technical Support or Questions
+## Technical Support or Questions (Paid)
 
 If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.  
 
