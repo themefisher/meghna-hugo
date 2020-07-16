@@ -88,15 +88,15 @@ You can check out the full [source code](https://github.com/Paisley-Digital/gene
 
     - Create a client named `paisley-client(you can change to your name)`
     
-        ![Create Client](/images/blog/keycloak/add-client.png#blogpost)
+        ![Add Client](/images/blog/keycloak/add-client.png#blogpost)
 
     - Go to the created client and change the access type to `confidential` and enable all those OAuth flows that are required for our scenarios just below the access type field.
         
-        ![Create Client](/images/blog/keycloak/client-setting.png#blogpost)
+        ![Client Setting](/images/blog/keycloak/client-setting.png#blogpost)
             
     - Create a role in this case we created `CUSTOMER` role in `paisley-client` client.
 
-        ![Create Client](/images/blog/keycloak/add-roles.png#blogpost)
+        ![Add Role](/images/blog/keycloak/add-roles.png#blogpost)
             
    - Go to the client, choose `paisley-client,` and select the Mappers tab to create a mapper for Username according to the attached recorded scree.	
       - Enter `Username` in Name field
@@ -104,19 +104,19 @@ You can check out the full [source code](https://github.com/Paisley-Digital/gene
       - Enter `username` in Property field
       - Enter `user_name` in Token Claim Name
 
-        ![Create Client](/images/blog/keycloak/mapper-client.png#blogpost)   
+        ![Client Mapping](/images/blog/keycloak/mapper-client.png#blogpost)   
 
    - Create a user 
         
-        ![Create Client](/images/blog/keycloak/add-user.png#blogpost)
+        ![Add User](/images/blog/keycloak/add-user.png#blogpost)
 
    - Add a role to user
         
-        ![Create Client](/images/blog/keycloak/user-role-mapping.png#blogpost)
+        ![Add Role to User](/images/blog/keycloak/user-role-mapping.png#blogpost)
 
    - Impersonate and set a password for user
         
-        ![Create Client](/images/blog/keycloak/user-impersonate.png#blogpost)
+        ![Set Password by Impersonation](/images/blog/keycloak/user-impersonate.png#blogpost)
         
         ![Create Client](/images/blog/keycloak/account-page.png#blogpost)
 
