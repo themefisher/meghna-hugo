@@ -11,15 +11,13 @@ description : "I'd like to explain how to use Keycloak to secure Your Rest API i
 
 ### Set up a Spring Boot application 
 
-In previous articles, we have explored some cool Keycloak features and set it up.
+In previous article, we have explored some cool Keycloak features have it up and running.
 
-Since the API security has been important, In this article, we’re going to cover the basics of integrating the Keycloak server and how to **connect a Spring Boot application** to it.
+In this article, we’re going to cover the basics of integrating the Keycloak server and how to **connect and secure a Spring Boot application** with it.
 
-To begin with, I'd like to explain how to use Keycloak **to secure Your Rest API in Spring Boot, Spring Security**.
+To begin with, I'd like to explain how to use Keycloak **to secure Your Rest API in Spring Boot integrated with Spring Security**.
 
 In this section, we will explain how to:
-
-
 
 *   Set up a Spring Boot application for Keycloak;
 *   Configure the Keycloak integration with Spring Boot
@@ -42,28 +40,27 @@ Although there are numerous ways of integrating Keycloak on your app, I’d sele
 
 For this reason, we should create some classes to integrate and extract the token from Keycloak.
 
-Here is the Github [link](https://github.com/Paisley-Digital/commons) for the integrating OAuth protocol to fill roles and other necessary fields into the Spring Security Context.
+Here is the Github [link](https://github.com/Paisley-Digital/cross-cutting) for the integrating OAuth protocol to fill roles and other necessary fields into the Spring Security Context.
 
    * clone the project
 
 ```shell script
- git clone https://github.com/Paisley-Digital/commons.git
+ git clone https://github.com/Paisley-Digital/cross-cutting.git
 ```
 
 
-> This is a separate project that you can add as a maven dependency on your major project. For that, you should only copy and paste security classes on your app and use it.
+> This is a separate project that you can add as a maven dependency on your main project. Otherwise you can copy and paste security classes on your app and just use it.
 
 
-
-*   [SecurityProperties.java](https://github.com/Paisley-Digital/commons/blob/master/src/main/java/digital/paisley/security/SecurityProperties.java) and [ResourceServerConfiguration.java](https://github.com/Paisley-Digital/commons/blob/master/src/main/java/digital/paisley/security/ResourceServerConfiguration.java):
+*   [SecurityProperties.java](https://github.com/Paisley-Digital/cross-cutting/blob/master/src/main/java/digital/paisley/security/SecurityProperties.java) and [ResourceServerConfiguration.java](https://github.com/Paisley-Digital/cross-cutting/blob/master/src/main/java/digital/paisley/security/ResourceServerConfiguration.java):
     *   To load a set of related properties from a YAML file, we created this bean. (Like API matcher)
     *   To configure the required CORS configuration and enable or disable the security of the application.
-*   [SecurityContextUtils.java](https://github.com/Paisley-Digital/commons/blob/master/src/main/java/digital/paisley/security/SecurityContextUtils.java) :
+*   [SecurityContextUtils.java](https://github.com/Paisley-Digital/cross-cutting/blob/master/src/main/java/digital/paisley/security/SecurityContextUtils.java) :
     *   The  *SecurityContext* and  *SecurityContextHolder* are two fundamental classes of Spring Security. The `SecurityContext` is used to store the details of the currently authenticated user, also known as a principle. So, if you have to get the username or any other user details, you need to get this `SecurityContext` first. The `SecurityContextHolder` is a helper class, which provides access to the security context. This class is a wrapper to store Username and roles.
-*   [OAuth2RestTemplateConfigurer.java](https://github.com/Paisley-Digital/commons/blob/master/src/main/java/digital/paisley/security/OAuth2RestTemplateConfigurer.java)
+*   [OAuth2RestTemplateConfigurer.java](https://github.com/Paisley-Digital/cross-cutting/blob/master/src/main/java/digital/paisley/security/OAuth2RestTemplateConfigurer.java)
     *   For secured microservice to microservice call
-*   [JwtAccessTokenCustomizer.java](https://github.com/Paisley-Digital/commons/blob/master/src/main/java/digital/paisley/security/JwtAccessTokenCustomizer.java)
-    *   This class implements` JwtAccessTokenConverterConfigurer` to have oAuth2.0 features(extract token) for Spring boot microservices.
+*   [JwtAccessTokenCustomizer.java](https://github.com/Paisley-Digital/cross-cutting/blob/master/src/main/java/digital/paisley/security/JwtAccessTokenCustomizer.java)
+    *   This class implements` JwtAccessTokenConverterConfigurer` to have OAuth2.0 features(extract token) for Spring boot microservices.
     *   This class assumes, that you have defined a Protocol Mapper in Keycloak to map user property 'username' to a claim named 'user_name' in the access token
 
 
@@ -74,12 +71,13 @@ Here is the Github [link](https://github.com/Paisley-Digital/commons) for the in
     These dependencies are necessary to add to your pom file. Also, you can add other dependencies that you need.
 
     *   `Spring-boot-starter-web`
-    *   `Spring-boot-starter-oauth2-clien`
+    *   `Spring-boot-starter-oauth2-client`
         *   By adding that, it will secure your app with OAuth 2.0 by default.
     *   `Spring-boot-starter-oauth2-resource-server`
         *   This gives us all of the sensible defaults and auto-configuration of other starters.
     *   `Spring-boot-starter-security` 
         *   For using Spring Security.
+        
 *   Configure Keycloak In [application.yml](https://github.com/Paisley-Digital/embryo/blob/master/src/main/resources/application.yml)
     *   `rest.security.enabled`
         *   We can disable/enable security on spring boot
@@ -100,11 +98,13 @@ Here is the Github [link](https://github.com/Paisley-Digital/commons) for the in
 
     We want to implement a controller and use `PreAuthorize` annotation for protecting our resources. The <code>PreAuthorize<strong> </strong></code>checks the given expression before invoking the method.
 
-      ![App Properties](/images/blog/keycloak/preauthorize.png#blogpost)
+      ![Preauthorize Annotation](/images/blog/keycloak/preauthorize.png#blogpost)
 
     You can find this code [here](https://github.com/Paisley-Digital/embryo/blob/master/src/main/java/digital/paisley/embryo/controllers/ApiController.java).
 
 
 ### **4. Conclusion**
 
-   In this post series, we have developed a Spring Boot application and secured it with Keycloak and Spring Security.  We have built classes to integrate Spring Security and OAuth without using the Keycloak library. If you want to replace Keycloak with other OAuth implementation, you should be modified only application.yml on Spring Boot.    
+   In this post series, we have developed a Spring Boot application and secured it with Keycloak and Spring Security.  
+   We have built classes to integrate Spring Security and OAuth without using the Keycloak library. 
+   If you want to replace Keycloak with other OAuth implementation, you only need to modify application.yml on Spring Boot.
