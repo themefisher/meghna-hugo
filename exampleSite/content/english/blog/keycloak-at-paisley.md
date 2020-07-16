@@ -1,8 +1,8 @@
 ---
 title: "Our Keycloak Experience at Paisley Digital"
 date: 2020-05-22T13:23:10+01:00
-image_webp: /images/blog/keycloak/security-concept.webp
-image: /images/blog/keycloak/security-concept.jpg
+image_webp: https://www.paisley.digital/images/blog/keycloak/security-concept.webp
+image: https://www.paisley.digital/images/blog/keycloak/security-concept.jpg
 author: Meysam Tamkin - Jahan Zinedine
 description : "In this article, I’d like to introduce Keycloak"
 
@@ -66,8 +66,8 @@ You can check out the full [source code](https://github.com/Paisley-Digital/gene
 		- Find public interface tag and replace 127.0.0.1 with 0.0.0.0 if you want it to bind to all network interfaces 
 			```xml  
 			<interface  name="public">  
-			 <inet-address  value="${jboss.bind.address:0.0.0.0}"/>
-			 </interface>
+			   <inet-address  value="${jboss.bind.address:0.0.0.0}"/>
+			</interface>
 			 ```
 
 	- Run `$keycloak_path/bin/standalone.sh` to start Keycloak server
@@ -84,19 +84,19 @@ You can check out the full [source code](https://github.com/Paisley-Digital/gene
 
 	- You can customize the created realm in the redirected page with options provided.
 
-	    ![Add Realm](/images/blog/keycloak/add-realm.png#blogpost)
+	    ![Add Realm](https://www.paisley.digital/images/blog/keycloak/add-realm.png#blogpost)
 
     - Create a client named `paisley-client(you can change to your name)`
     
-        ![Add Client](/images/blog/keycloak/add-client.png#blogpost)
+        ![Add Client](https://www.paisley.digital/images/blog/keycloak/add-client.png#blogpost)
 
     - Go to the created client and change the access type to `confidential` and enable all those OAuth flows that are required for our scenarios just below the access type field.
         
-        ![Client Setting](/images/blog/keycloak/client-setting.png#blogpost)
+        ![Client Setting](https://www.paisley.digital/images/blog/keycloak/client-setting.png#blogpost)
             
     - Create a role in this case we created `CUSTOMER` role in `paisley-client` client.
 
-        ![Add Role](/images/blog/keycloak/add-roles.png#blogpost)
+        ![Add Role](https://www.paisley.digital/images/blog/keycloak/add-roles.png#blogpost)
             
    - Go to the client, choose `paisley-client,` and select the Mappers tab to create a mapper for Username according to the attached recorded scree.	
       - Enter `Username` in Name field
@@ -104,25 +104,25 @@ You can check out the full [source code](https://github.com/Paisley-Digital/gene
       - Enter `username` in Property field
       - Enter `user_name` in Token Claim Name
 
-        ![Client Mapping](/images/blog/keycloak/mapper-client.png#blogpost)   
+        ![Client Mapping](https://www.paisley.digital/images/blog/keycloak/mapper-client.png#blogpost)   
 
    - Create a user 
         
-        ![Add User](/images/blog/keycloak/add-user.png#blogpost)
+        ![Add User](https://www.paisley.digital/images/blog/keycloak/add-user.png#blogpost)
 
    - Add a role to user
         
-        ![Add Role to User](/images/blog/keycloak/user-role-mapping.png#blogpost)
+        ![Add Role to User](https://www.paisley.digital/images/blog/keycloak/user-role-mapping.png#blogpost)
 
    - Impersonate and set a password for user
         
-        ![Set Password by Impersonation](/images/blog/keycloak/user-impersonate.png#blogpost)
+        ![Set Password by Impersonation](https://www.paisley.digital/images/blog/keycloak/user-impersonate.png#blogpost)
         
-        ![Create Client](/images/blog/keycloak/account-page.png#blogpost)
+        ![Create Client](https://www.paisley.digital/images/blog/keycloak/account-page.png#blogpost)
 
    - Get the client secret from client page/credentials tab
    
-        ![Create Client](/images/blog/keycloak/client-credential.png#blogpost)  
+        ![Create Client](https://www.paisley.digital/images/blog/keycloak/client-credential.png#blogpost)  
      
    - Test getting a token from curl:
         ```shell script
