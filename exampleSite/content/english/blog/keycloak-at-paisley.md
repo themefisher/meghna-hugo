@@ -3,7 +3,7 @@ title: "Our Keycloak Experience at Paisley Digital"
 date: 2020-05-22T13:23:10+01:00
 image_webp: https://www.paisley.digital/images/blog/keycloak/security-concept.webp
 image: https://www.paisley.digital/images/blog/keycloak/security-concept.jpg
-author: Meysam Tamkin - Jahan Zinedine
+author: Meysam Tamkin
 description : "In this article, I’d like to introduce Keycloak"
 
 ---
