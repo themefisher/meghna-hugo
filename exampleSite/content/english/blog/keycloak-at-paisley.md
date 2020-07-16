@@ -1,9 +1,9 @@
 ---
-title: "Keycloak @Paisley"
+title: "Our Keycloak Experience at Paisley Digital"
 date: 2020-05-22T13:23:10+01:00
 image_webp: /images/blog/keycloak/security-concept.webp
 image: /images/blog/keycloak/security-concept.jpg
-author: Meysam Tamkin
+author: Meysam Tamkin - Jahan Zinedine
 description : "In this article, I’d like to introduce Keycloak"
 
 ---
@@ -11,26 +11,28 @@ description : "In this article, I’d like to introduce Keycloak"
 
 ## Overview
 
-In this article, I’d like to introduce [Keycloak](https://www.keycloak.org/) as **a solution to manage authentication and authorization** that we used at Paisley. Although there are a few Identity and Access management systems I think highly of, but I’d pick Keycloak.
+In this article, I’d like to introduce [Keycloak](https://www.keycloak.org/) as **a solution to manage authentication and authorization** that we have extensive experience using it at Paisley Digital. 
+
 Keycloak is an open-source project developed and maintained by the **RedHat Community**.
 
 > “Keycloak is an open-source Identity and Access Management solution
 > aimed at modern applications and services. It makes it easy to secure
 > applications and services with little to no code.”
 
-Besides, it has many other attractive features, including User Federation, Identity Brokering and Social Login, and so on.Before doing setup Keycloak and Spring Boot, let's sum up what we have done so far.
-First, I’m going to set Keycloak up with basic configuration and will talk about the main features of Keycloak.
-Finally, I will configure and develop a secure Spring Boot application.
+Besides, it has many other attractive features, including User Federation, Identity Brokering and Social Login, and so on. 
 
-You can check out the full[ source code](https://github.com/Paisley-Digital/genesis) of the demo project we're going to build on GitHub.
+First, I’m going to set Keycloak up with basic configuration and will talk about main features.
+Finally, I will configure and develop a Spring Boot application secured by Keycloak.
 
-***Let's get started!***
+You can check out the full [source code](https://github.com/Paisley-Digital/genesis) of the demo project we're going to build on GitHub.
 
+**Let's get started!**
   
 
 ### Keycloak
  1. What is Keycloak?
-	IAM or IdM(Identity Management) is a framework used to authenticate user identity and privileges. Keycloak is an identity and access management solution (IAM) for numerous applications and services, developed by RedHat, the world’s biggest Open Source software producer. The server comprises all important applications that an IAM solution needs to provide.
+	IAM(Identity Access Managemet) or IdM(Identity Management) is a framework used to authenticate user identity and privileges. Keycloak is an identity and access management solution (IAM) for numerous applications and services, developed by RedHat, the world’s biggest Open Source software producer. 
+	The server comprises all important applications that an IAM solution needs to provide.
 	
  2. Advantage of Keycloak
 
@@ -55,7 +57,7 @@ You can check out the full[ source code](https://github.com/Paisley-Digital/gene
 
  3. Keycloak Setup Process
 
-	> The installation process is based on its[ official manual](https://www.keycloak.org/docs/latest/getting_started/index.html).
+	> The installation process is based on its [official manual](https://www.keycloak.org/docs/latest/getting_started/index.html).
 
 	- [Download and unzip the installation file](https://downloads.jboss.org/keycloak/9.0.0/keycloak-9.0.0.zip)
 
@@ -76,7 +78,7 @@ You can check out the full[ source code](https://github.com/Paisley-Digital/gene
 
 	- Restart the server
 **
-**	- Go to[ https://SERVER_ADDRESS:8443/auth/admin/master/console/](https://paisley.digital:8443/auth/admin/master/console/)
+**	- Go to [https://SERVER_ADDRESS:8443/auth/admin/master/console/](https://paisley.digital:8443/auth/admin/master/console/)
 		> You can set it up on a dev machine on AWS or GC
 	- To add a Realm go to [https://SERVER_ADDRESS:8443/auth/admin/master/console/#/realms/master](https://paisley.digital:8443/auth/admin/master/console/) and add a realm, in our case we will add `paisley(your realm name)` realm for the development environment.
 
@@ -84,7 +86,7 @@ You can check out the full[ source code](https://github.com/Paisley-Digital/gene
 
 	    ![Add Realm](/images/blog/keycloak/add-realm.png#blogpost)
 
-    - Create a client named `paisley-client(you can change to your name) `
+    - Create a client named `paisley-client(you can change to your name)`
     
         ![Create Client](/images/blog/keycloak/add-client.png#blogpost)
 
@@ -145,7 +147,9 @@ You can check out the full[ source code](https://github.com/Paisley-Digital/gene
      }
         ```
     
-        - The above token can be decoded on[ jwt.io](http://jwt.io/) website
+        - The above token can be decoded on [jwt.io](http://jwt.io/) website
 
-   - Go to https://your-host:8443/auth/realms/your-realm/.well-known/openid-configuration to find the issuer URL. Issuer URL is https://your-hostl:8443/auth/realms/your-realm/.well-known/openid-configuration in this case, open it and copy public key, we need it for spring-boot configuration. Mind the format of public key string in application.yml, there are prefix and suffix stuff and a line break as \n which above string will be enclosed in between.
+   - Go to https://your-host:8443/auth/realms/your-realm/.well-known/openid-configuration to find the issuer URL. 
+     Issuer URL is https://your-hostl:8443/auth/realms/your-realm/.well-known/openid-configuration in this case, open it and copy public key, we need it for spring-boot configuration. 
+     Mind the format of public key string in application.yml, there are prefix and suffix stuff and a line break as \n which above string will be enclosed in between.
     
