@@ -22,3 +22,11 @@ testimonial:
     image_webp: images/client/client-03.webp
     date: From Australia
     content:  Fantastic to work with. Great Communication. Would Recommend.
+  - name: Andy Hayes, Lead Performance Engineer at Bank of America
+    image: images/client/client-01.jpg
+    image_webp: images/client/client-01.webp    
+    date: From US
+    content:  Amir did everything I asked for in a timely manner and he also helped to solve problems that I had not envisioned.  
+       His knowledge of the subject and his analysis of my problem allowed him to contribute more than just coding, 
+       which was extra value I did not know that I would need.  So I highly recommend Amir as a solution architect and Java developer for complex applications.  
+       I will continue to work with him whenever possible.
