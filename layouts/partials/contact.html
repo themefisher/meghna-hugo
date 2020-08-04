@@ -10,7 +10,7 @@
 				{{"<!-- section title -->" | safeHTML}}
 				<div class="title text-center wow fadeIn" data-wow-duration="500ms">
 					<h2>{{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
-						{{ with .title }} {{ index (split . " ") 1 | safeHTML }} {{ end }}</span></h2>
+							{{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
 					<div class="border-meghna"></div>
 				</div>
 			</div>
@@ -51,7 +51,8 @@
 						<textarea rows="6" placeholder="{{ .message }}" class="form-control" name="message" id="message"></textarea>
 					</div>
 					<div id="cf-submit">
-						<button type="submit" id="contact-submit" class="btn btn-transparent btn-block" value="{{ .submit }}">{{ .submit }}</button>
+						<button type="submit" id="contact-submit" class="btn btn-transparent btn-block"
+							value="{{ .submit }}">{{ .submit }}</button>
 					</div>
 				</form>
 			</div>

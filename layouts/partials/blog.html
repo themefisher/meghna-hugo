@@ -6,8 +6,8 @@
 			<div class="col-lg-12">
 				{{"<!-- section title -->" | safeHTML}}
 				<div class="title text-center wow fadeInDown">
-					<h2>{{ with i18n "blogTitle" }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
-						{{ with i18n "blogTitle" }} {{ index (split . " ") 1 | safeHTML }} {{ end }}</span></h2>
+					<h2> {{ with i18n "blogTitle" }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+							{{ with i18n "blogTitle" }} {{ index (split . " ") 1 | safeHTML }} {{ end }} </span></h2>
 					<div class="border-meghna"></div>
 				</div>
 			</div>
@@ -18,8 +18,7 @@
 			{{ end }}
 
 			<div class="all-post text-center col-lg-12">
-				<a class="btn btn-main"
-					href="{{ `blog` | absLangURL }}">{{ i18n "viewAllPost" }}</a>
+				<a class="btn btn-main" href="{{ `blog` | absLangURL }}">{{ i18n "viewAllPost" }}</a>
 			</div>
 		</div>
 	</div>
