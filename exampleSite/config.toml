@@ -1,0 +1,156 @@
+################################# Default configuration ###################
+baseURL = "https://examplesite.com"
+title = "Meghna"
+theme = "meghna-hugo"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "15"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = []
+
+############################# Plugins ##########################
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
+
+# js plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/lazy-load/lozad.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/map.js"
+
+############################# Navigation ##################################
+[[menu.main]]
+name = "about"
+URL = "about"
+weight = 1
+
+[[menu.main]]
+name = "services"
+URL = "services"
+weight = 2
+
+[[menu.main]]
+name = "portfolio"
+URL = "portfolio"
+weight = 3
+
+[[menu.main]]
+name = "team"
+URL = "team"
+weight = 4
+
+[[menu.main]]
+name = "pricing"
+URL = "pricing"
+weight = 5
+
+[[menu.main]]
+name = "blog"
+URL = "blog"
+weight = 6
+
+[[menu.main]]
+name = "contact"
+URL = "contact"
+weight = 7
+
+#### external / static link ####
+[[menu.static]]
+name = "themefisher"
+URL = "https://themefisher.com/"
+weight = 8
+
+############################# Default Parameters ##########################
+[params]
+logo = "images/logo.png"
+# Meta data
+description = "Responsive Multipurpose Parallax HTML5 Template"
+author = "Themefisher"
+# Google Analytics
+google_analytics_id = "" # Your ID
+# post share
+post_share = true
+
+# preloader
+[params.preloader]
+enable = true
+preloader = "images/logo.png"
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+# google map
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+
+############################# social icons ##########################
+[[params.social]]
+icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+
+################################ English Language ########################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+
+################################ France Language ########################
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
+weight = 2
+home = "Accueil"
+copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"

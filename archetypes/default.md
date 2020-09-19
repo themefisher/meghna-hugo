@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
@@ -8,3 +9,7 @@ author: Vincent Hall
 description: ""
 ---
 
+=======
++++
++++
+>>>>>>> 0b063793743f16e0c9b66fccd6f02cdeb00fb76f
