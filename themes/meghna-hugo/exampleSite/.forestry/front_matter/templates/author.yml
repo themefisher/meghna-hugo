@@ -1,0 +1,23 @@
+---
+label: Author
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: image
+  label: image
+- type: text
+  name: email
+  label: email
+- type: field_group_list
+  name: social
+  label: social
+  fields:
+  - type: text
+    name: icon
+    label: icon
+  - type: text
+    name: link
+    label: link

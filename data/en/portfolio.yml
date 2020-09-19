@@ -1,0 +1,133 @@
+#################################### portfolio ###############################
+portfolio:
+  enable : true
+  title : PRODUCTS
+  portfolio_item :
+    # portfolio item loop
+    - name : Pet Stain & Odour Remover
+      image : images/portfolio/petstain.png
+      image_webp : images/portfolio/petstain.webp
+      categories : ["pets"]
+      content : Probac Pet Stain & Odour Remover removes unpleasant odours and stains quickly. For more information head over to the Blog page.
+      link : "pets"
+      
+    # portfolio item loop
+    - name : Tile & Floor Cleaner
+      image : images/products/t_f.jpg
+      image_webp : images/products/t_f.webp
+      categories : ["floor&wall"]
+      content : Cleans with a residual effect for up to three days!!
+      link : "floor&wall"
+      
+    # portfolio item loop
+    - name : Bathroom Cleaner
+      image : images/products/bathroom.png
+      image_webp : images/products/bathroom.webp
+      categories : ["bathroom", "floor&wall"]
+      content : Digests and destroys all harmful bacteria in the bathroom with a residual         effect of up to three days!
+      link : "#"
+      
+    # portfolio item loop
+    - name : Carpet & Upholstery Cleaner
+      image : images/products/carpet.png
+      image_webp : images/products/carpet.webp
+      categories : ["carpets", "upholstery"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Kitchen Cleaner
+      image : images/products/kitchen.png
+      image_webp : images/products/kitchen.webp
+      categories : ["kitchen"]
+      content : Lorleanerem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Laundry Auto Liquid
+      image : images/products/laundry.png
+      image_webp : images/laundry.webp
+      categories : ["laundry"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Outdoor & Bin Cleaner
+      image : images/products/o_b.png
+      image_webp : images/products/o_b.webp
+      categories : ["kennels","wastebins"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Dishwashing Liquid
+      image : images/products/dishwash.png
+      image_webp : images/products/dishwash.webp
+      categories : ["kitchen"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Toilet Cleaner
+      image : images/products/toilet.png
+      image_webp : images/products/toilet.webp
+      categories : ["toilet","bathroom"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+
+    # portfolio item loop
+    - name : Drain Maintenance Cleaner
+      image : images/products/drain.jpg
+      image_webp : images/products/drain.webp
+      categories : ["drain"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+
+    # portfolio item loop
+    - name : Grey Water Treatment
+      image : images/products/grey-water.jpg
+      image_webp : images/products/grey-water.webp
+      categories : ["waste water"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+
+    # portfolio item loop
+    - name : Laundry Pre-Wash Treatment
+      image : images/products/laundry-pre.jpg
+      image_webp : images/products/laundry-pre.webp
+      categories : ["laundry"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+
+    # portfolio item loop
+    - name : Pure Gold Stops Itch Spray
+      image : images/products/puregold-stops.jpg
+      image_webp : images/products/puregold-stops.webp
+      categories : ["hair care"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+
+    # portfolio item loop
+    - name : Pure Gold Stops Itch Spray
+      image : images/products/puregold-style.jpg
+      image_webp : images/products/puregold-style.webp
+      categories : ["hair care"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+
+    # portfolio item loop
+    - name : Pure Gold Stops Itch Spray
+      image : images/products/septic.jpg
+      image_webp : images/products/septic.webp
+      categories : ["septic","drain"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      link : "#"
+
+    # portfolio item loop
+    - name : Liquid Hand Soap
+      image : images/products/handwash-bottle.jpg
+      image_webp : images/products/handwash-bottle.webp
+      categories : ["kitchen","bathroom"]
+      content : Head over to the blog page for more information.
+      link : "#"   
+    

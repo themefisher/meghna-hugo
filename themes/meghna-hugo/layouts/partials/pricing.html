@@ -1,0 +1,51 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.pricing.pricing.enable }}
+{{ with $data.pricing.pricing }}
+{{"<!-- Start Pricing section -->" | safeHTML}}
+<section id="pricing" class="pricing section">
+  <div class="container">
+    <div class="row justify-content-center">
+
+      {{"<!-- section title -->" | safeHTML}}
+      <div class="col-lg-12">
+        <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
+					<h2>{{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+            {{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
+          <div class="border-meghna"></div>
+        </div>
+      </div>
+      {{"<!-- /section title -->" | safeHTML}}
+
+      {{ range .pricing_table }}
+      {{"<!-- single pricing table -->" | safeHTML}}
+      <div class="col-lg-3 col-md-6 col-12 text-center wow fadeInUp" data-wow-duration="200ms">
+        <div class="price-item">
+
+          {{"<!-- plan name & value -->" | safeHTML}}
+          <div class="price-title">
+            <h3>{{ .name }}</h3>
+            <p><strong class="value">{{ .price }}</strong>/ {{ .unit }}</p>
+          </div>
+
+          {{"<!-- plan description -->" | safeHTML}}
+          <ul>
+            {{ range .services }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+
+          {{"<!-- signup button -->" | safeHTML}}
+          {{ with .button }}
+          <a class="btn btn-transparent" href="{{ .link | safeURL }}">{{ .label }}</a>
+          {{ end }}
+        </div>
+      </div>
+      {{"<!-- end single pricing table -->" | safeHTML}}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{"<!-- /pricing -->" | safeHTML}}
+{{ end }}
+{{ end }}

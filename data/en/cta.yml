@@ -1,0 +1,11 @@
+############################# call to action ##############################
+cta:
+  enable : true
+  bg_image : "images/backgrounds/bg-white-wall.jpg"
+  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
+  title : "Products that work as nature intended"
+  content : "**Probac products are designed to cleanup after us in exactly the same way that nature does and in a way that doesn't put harmful chemicals into our rivers and the sea.**"
+  button:
+    enable : true
+    label : "Contact us"
+    link : "#contact"

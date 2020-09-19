@@ -1,0 +1,9 @@
+############################# feature ###################################
+feature:
+  enable : true
+  image : images/about/fiord1.jpg
+  image_webp : images/about/fiord1.webp
+  title : Supplying earth friendly cleaning and maintenece products to the city of Port Elizabeth.
+  content : "**We supply to the city of Port Elizabeth and can meet at a convenient place in order to drop off goods.
+If you are coming to Port Elizabeth and would like to meet in order to collect products, please contact Vincent in order to arrange a time and place.**"
+  

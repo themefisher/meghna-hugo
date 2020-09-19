@@ -1,0 +1,12 @@
+############################### Banner ################################
+banner:
+  enable : true
+  bg_image_webp : "images/backgrounds/dawn1.webp"
+  bg_image : "images/backgrounds/dawn1.jpg"
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  title : "**ENVIRO SAFE**"
+  content : "**Discover a healthier more natural way of cleaning**"
+  button:
+    enable : true
+    label : "Find Out More"
+    link : "#about"

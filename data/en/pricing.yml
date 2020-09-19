@@ -1,0 +1,64 @@
+##################################### pricing ##############################
+pricing:
+  enable : false
+  title : Our Plans
+  pricing_table :
+    # pricing table loop
+    - name : Free
+      price : $99
+      unit : month
+      services:
+        - 1GB Disk Space
+        - 10 Email Account
+        - Script Installer
+        - 1 GB Storage
+        - 10 GB Bandwidth
+        - 24/7 Tech Support
+      button:
+        label : "Signup"
+        link : "#"
+      
+    # pricing table loop
+    - name : Silver
+      price : $149
+      unit : month
+      services:
+        - 1GB Disk Space
+        - 10 Email Account
+        - Script Installer
+        - 1 GB Storage
+        - 10 GB Bandwidth
+        - 24/7 Tech Support
+      button:
+        label : "Signup"
+        link : "#"
+        
+    # pricing table loop
+    - name : Gold
+      price : $199
+      unit : month
+      services:
+        - 1GB Disk Space
+        - 10 Email Account
+        - Script Installer
+        - 1 GB Storage
+        - 10 GB Bandwidth
+        - 24/7 Tech Support
+      button:
+        label : "Signup"
+        link : "#"
+        
+    # pricing table loop
+    - name : Platinum
+      price : $299
+      unit : month
+      services:
+        - 1GB Disk Space
+        - 10 Email Account
+        - Script Installer
+        - 1 GB Storage
+        - 10 GB Bandwidth
+        - 24/7 Tech Support
+      button:
+        label : "Signup"
+        link : "#"

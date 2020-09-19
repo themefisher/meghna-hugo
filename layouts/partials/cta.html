@@ -1,0 +1,25 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.cta.cta.enable}}
+{{ with $data.cta.cta}}
+{{"<!-- Start Call To Action -->" | safeHTML}}
+<section id="cta" class="call-to-action section-sm bg-1 overly" style='background-image: url("{{ .bg_image_webp | absURL }}")'>
+	<!-- this image is for trigger this section fallback background image -->
+	<img class="lozad" style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'" data-src="{{ .bg_image_webp | absURL }}" />
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>{{ .title | markdownify }}</h2>
+				<p>{{ .content | markdownify }}</p>
+				{{ if .button.enable }}
+				{{ with .button }}
+				<a href="{{ .link }}" class="btn btn-main page-scroll">{{ .label }}</a>
+				{{ end }}
+				{{ end }}
+			</div>
+		</div>
+	</div>
+</section>
+{{"<!-- Start Services Section -->" | safeHTML}}
+{{ end }}
+{{ end }}

@@ -1,0 +1,9 @@
+################################# Service #################################
+service:
+  enable : false
+  title : products
+  service_item :
+    # service item loop
+    - name : products
+      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
