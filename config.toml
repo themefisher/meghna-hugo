@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://examplesite.com"
+baseURL = "/"
 title = "escortcvh"
 theme = "meghna-hugo"
 # post pagination
