@@ -37,7 +37,7 @@ Here comes the last step . Go to your [netlify](https://bit.ly/netlify-account) 
 - [Reporting Issues](#reporting-issues)
 - [Technical Support or Questions](#technical-support-or-questions-(paid))
 - [Licensing](#licensing)
-- [More Hugo Themes](https://themefisher.com/hugo-themes/)
+- [More Hugo Themes](https://gethugothemes.com/hugo-themes/)
 
 ## Demo
 
@@ -56,7 +56,7 @@ $ cd meghna-hugo/exampleSite/
 $ hugo server --themesDir ../..
 ```
 
-[Full Documentation](https://documentation.themefisher.com/docs/meghna-hugo/hugo-installation/).
+[Full Documentation](https://docs.gethugothemes.com/meghna-hugo/).
 
 ## Reporting Issues
 
@@ -67,10 +67,18 @@ If your problem or idea is not addressed yet, [open a new issue](https://github.
 
 If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.  
 
-## Licensing
+## Support Us (Author) 
+This project needs you! If you would like to support this project's further development, the creator of this project or the continuous maintenance of this project, feel free to donate. Your donation is highly appreciated . Thank you!
 
-This Theme is released under [Creative Commons Attribution 3.0 (CC-BY-3.0) License](https://creativecommons.org/licenses/by/3.0/)
-If you want to remove the credit simply make a [donation](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GSG5G2YL3E5V4), so that we can run our contribution to hugo community.
+* **[Donate $10](https://www.paypal.me/themefisher/10USD)**: Thank's for creating this project, here's a tea (or some juice) for you!
+* **[Donate $20](https://www.paypal.me/themefisher/20USD)**: Wow, I am stunned. Let me take you to the movies!
+* **[Donate $30](https://www.paypal.me/themefisher/30USD)**: I really appreciate your work, let's grab some lunch!
+* **[Donate $40](https://www.paypal.me/themefisher/40USD)**: That's some awesome stuff you did right there, dinner is on me!
+* **[Donate $50](https://www.paypal.me/themefisher/50USD)**: I really really want to support this project, great job!
+* **[Donate $100](https://www.paypal.me/themefisher/100USD)**: You are the man! This project saved me hours (if not days) of struggle and hard work, simply awesome!
+* **[Donate $1500](https://www.paypal.me/themefisher/2799USD)**: Go buddy, buy Macbook Pro for yourself!
+
+Of course, you can also choose what you want to donate, all donations are awesome ! 
 
 ## Hire Us
 We are available for Hiring of your next HUGO project. Drop Us a mail [mehedi@themefisher.com](mailto:mehedi@themefisher.com)
