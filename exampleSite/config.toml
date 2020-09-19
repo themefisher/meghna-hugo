@@ -98,6 +98,11 @@ post_share = true
 enable = true
 preloader = "images/logo.png"
 
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
 # google map
 [params.map]
 enable = true
