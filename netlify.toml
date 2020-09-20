@@ -1,4 +1,4 @@
 [build]
   publish = "public"
-  command = "cd hugo --gc --themesDir ../.."
+  command = "cd themes && hugo --gc --themesDir ../.."
   
