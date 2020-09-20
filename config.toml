@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://vinceph1.netlify.app"
+baseURL = ""
 title = "Envirosafe"
 theme = "meghna-hugo"
 # post pagination
