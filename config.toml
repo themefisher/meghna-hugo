@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "/"
+baseURL = "https://vinceph7.netlify.app"
 title = "escortcvh"
 theme = "meghna-hugo"
 # post pagination
@@ -7,9 +7,9 @@ paginate = "15"
 # post excerpt
 summaryLength = "20"
 # disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
+disqusShortname = "http-vinceph7-netlify-app" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = []
+disableLanguages = ["fr"]
 
 ############################# Plugins ##########################
 # css plugins
