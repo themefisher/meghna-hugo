@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://vinceph7.netlify.app"
-title = "escortcvh"
+title = "Envirosafe"
 theme = "meghna-hugo"
 # post pagination
 paginate = "15"
