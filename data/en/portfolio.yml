@@ -116,7 +116,7 @@ portfolio:
       link : "#"
 
     # portfolio item loop
-    - name : Pure Gold Stops Itch Spray
+    - name : Septic Systems MaintenenceCleaner
       image : images/products/septic.jpg
       image_webp : images/products/septic.webp
       categories : ["septic","drain"]

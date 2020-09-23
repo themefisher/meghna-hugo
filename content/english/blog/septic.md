@@ -7,4 +7,4 @@ image: images/blog/septic.png
 description : "This is meta description"
 draft: true
 ---
-
+A product that will keep your septic system bright and shiny.
