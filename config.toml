@@ -7,7 +7,7 @@ paginate = "15"
 # post excerpt
 summaryLength = "20"
 # disqus short name
-disqusShortname = "http-vinceph7-netlify-app" # get your shortname form here : https://disqus.com
+disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = ["fr"]
 
