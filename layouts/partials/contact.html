@@ -16,33 +16,14 @@
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
 
-			{{"<!-- Contact Details -->" | safeHTML}}
-			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
-				<h3>{{ .subtitle | markdownify }}</h3>
-				<p> {{ .content | markdownify }} </p>
-
-				{{ if .contact_form.enable }}
-				<div class="contact-details">
-					{{ range .contact_list }}
-					<div class="con-info clearfix">
-						<i class="{{ .icon }}"></i>
-						<span>{{ .info }}</span>
-					</div>
-					{{ end }}
-				</div>
-				{{ end }}
-			</div>
-
 			{{"<!-- Contact Form -->" | safeHTML}}
 			{{ if .contact_form.enable }}
 			{{ with .contact_form }}
+			<div class="col-lg-3"></div>
 			<div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
 				<form id="contact-form" class="form-meghna" method="post" action="{{ .form_action }}" role="form">
 					<div class="form-group">
 						<input type="text" placeholder="{{ .name }}" class="form-control" name="name" id="name">
-					</div>
-					<div class="form-group">
-						<input type="email" placeholder="{{ .email }}" class="form-control" name="email" id="email">
 					</div>
 					<div class="form-group">
 						<input type="text" placeholder="{{ .subject }}" class="form-control" name="subject" id="subject">
