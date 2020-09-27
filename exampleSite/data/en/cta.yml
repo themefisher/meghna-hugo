@@ -1,8 +1,8 @@
 ############################# call to action ##############################
 cta:
   enable : true
-  bg_image : "images/backgrounds/bg.png"
-  bg_image_webp : "images/backgrounds/bg.png"
+  bg_image : "images/backgrounds/bg-theme.png"
+  bg_image_webp : "images/backgrounds/bg-theme.png"
   title : "Create your own server with us"
   content : "Just click the button to get started."
   button:
