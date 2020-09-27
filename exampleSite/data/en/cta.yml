@@ -1,11 +1,11 @@
 ############################# call to action ##############################
 cta:
   enable : true
-  bg_image : "images/backgrounds/bg-white-wall.jpg"
-  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
-  title : "Great Design & Incredible Features"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+  bg_image : "images/backgrounds/bg.png"
+  bg_image_webp : "images/backgrounds/bg.png"
+  title : "Create your own server with us"
+  content : "Just click the button to get started."
   button:
     enable : true
-    label : "Start a project with us"
-    link : "#contact"
+    label : "Start a server with us"
+    link : "https://technoservs.ichbinkour.eu"
