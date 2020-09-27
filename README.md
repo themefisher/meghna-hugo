@@ -68,11 +68,6 @@ If your problem or idea is not addressed yet, [open a new issue](https://github.
 If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.  
 
 
-## Licensing
-
-This Theme is released under [Creative Commons Attribution 3.0 (CC-BY-3.0) License](https://creativecommons.org/licenses/by/3.0/)
-If you want to remove the credit simply make a Donation , so that we can run our contribution to hugo community.
-
 ### Donate Us (Author) 
 This project needs you! If you would like to support this project's further development, the creator of this project or the continuous maintenance of this project, feel free to donate. Your donation is highly appreciated . Thank you!
 
