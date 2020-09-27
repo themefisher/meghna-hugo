@@ -1,12 +1,13 @@
-############################### Banner ################################
+---
 banner:
-  enable : true
-  bg_image_webp : "https://vonguru.fr/wp-content/uploads/2020/06/gaming.jpg"
-  bg_image : "https://vonguru.fr/wp-content/uploads/2020/06/gaming.jpg"
-  icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "Experience the new reality"
-  content : "Want to have a custom made ready to use gaming server in 5 minutes ?"
+  enable: true
+  bg_image_webp: https://vonguru.fr/wp-content/uploads/2020/06/gaming.jpg
+  bg_image: https://vonguru.fr/wp-content/uploads/2020/06/gaming.jpg
+  icon: ''
+  title: Experience the new reality
+  content: Want to have a custom made ready to use gaming server in 5 minutes ?
   button:
-    enable : true
-    label : "For sure"
-    URL : "https://technoservs.ichbinkour.eu"
+    enable: true
+    label: For sure
+    URL: https://technoservs.ichbinkour.eu
+    link: https://technoservs.ichbinkour.eu
