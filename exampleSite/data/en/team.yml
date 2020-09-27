@@ -26,11 +26,10 @@ team:
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
   - name: Jeremie Bruhwiler
-    image_webp: images/team/team-3.webp
-    image: images/team/team-3.jpg
+    image_webp: https://cdn.local.epitech.eu/userprofil/profilview/jeremie.bruhwiler.jpg
+    image: https://cdn.local.epitech.eu/userprofil/profilview/jeremie.bruhwiler.jpg
     designation: Front-end Developer
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
-      ullam, culpa odio.
+    content: ''
   - name: Auguste Ziegler
     image_webp: images/team/team-4.webp
     image: images/team/team-4.jpg
