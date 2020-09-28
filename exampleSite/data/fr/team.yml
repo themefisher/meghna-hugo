@@ -3,7 +3,7 @@ team:
   enable: true
   title: Our Team
   team_member:
-  - name: Abul Mal Muhit
+  - name: Clement touquet
     image_webp: images/team/team-1.webp
     image: images/team/clement.jpg
     designation: Fondateur SIO
