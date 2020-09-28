@@ -46,11 +46,12 @@ team:
       link: "#"
     - icon: ti-dribbble
       link: "#"
-  - name: Mo. Kha. Alamgir
+  - name: Kevin Chaigneau
     image_webp: images/team/kevin.webp
     image: images/team/kevin.jpg
     designation: 'Spécialiste dans tout et rien '
-    content: 'Contenu intéressant '
+    content: 'Toujours à la recherche d''un contenu pertinent.. Malheureusement cherche
+      encore '
     social:
     - icon: ti-facebook
       link: "#"
