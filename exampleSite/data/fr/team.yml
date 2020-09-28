@@ -4,7 +4,7 @@ team:
   title: Our Team
   team_member:
   - name: Clement touquet
-    image_webp: images/team/team-1.webp
+    image_webp: images/team/clement.webp
     image: images/team/clement.jpg
     designation: Fondateur SIO
     content: Ce jeune possède un incroyable talent dans la programmation
