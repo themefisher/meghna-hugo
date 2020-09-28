@@ -1,7 +1,7 @@
 ---
 team:
   enable: true
-  title: Our Team
+  title: Dream team
   team_member:
   - name: Clement touquet
     image_webp: images/team/clement.webp
