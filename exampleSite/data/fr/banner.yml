@@ -9,5 +9,5 @@ banner:
     là pour vous aider à la mettre !
   button:
     enable: true
-    label: Explore Us
+    label: Voir plus
     link: "#services"
