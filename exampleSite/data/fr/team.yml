@@ -47,11 +47,10 @@ team:
     - icon: ti-dribbble
       link: "#"
   - name: Mo. Kha. Alamgir
-    image_webp: images/team/team-4.webp
-    image: images/team/team-4.jpg
-    designation: SEO Specialist
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
-      ullam, culpa odio.
+    image_webp: images/team/kevin.webp
+    image: images/team/kevin.jpg
+    designation: 'Spécialiste dans tout et rien '
+    content: 'Contenu intéressant '
     social:
     - icon: ti-facebook
       link: "#"
