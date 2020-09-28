@@ -17,12 +17,11 @@ team:
       link: "#"
     - icon: ti-dribbble
       link: "#"
-  - name: Frank Miller
-    image_webp: images/team/team-2.webp
+  - name: Yann Carrié
+    image_webp: images/team/yann.webp
     image: images/team/team-2.jpg
-    designation: Manager
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
-      ullam, culpa odio.
+    designation: 'En apprentissage du réseau  '
+    content: Jeune étudiant à la recherche d'un job dans les câbles
     social:
     - icon: ti-facebook
       link: "#"
