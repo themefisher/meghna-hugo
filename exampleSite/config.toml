@@ -43,43 +43,50 @@ link = "plugins/google-map/map.js"
 ############################# Navigation ##################################
 [[menu.main]]
 name = "about"
-URL = "about"
+pre = "#"
+url = "about"
 weight = 1
 
 [[menu.main]]
 name = "services"
-URL = "services"
+pre = "#"
+url = "services"
 weight = 2
 
 [[menu.main]]
 name = "portfolio"
-URL = "portfolio"
+pre = "#"
+url = "portfolio"
 weight = 3
 
 [[menu.main]]
 name = "team"
-URL = "team"
+pre = "#"
+url = "team"
 weight = 4
 
 [[menu.main]]
 name = "pricing"
-URL = "pricing"
+pre = "#"
+url = "pricing"
 weight = 5
 
 [[menu.main]]
 name = "blog"
-URL = "blog"
+pre = "#"
+url = "blog"
 weight = 6
 
 [[menu.main]]
 name = "contact"
-URL = "contact"
+pre = "#"
+url = "contact"
 weight = 7
 
-#### external / static link ####
-[[menu.static]]
+[[menu.main]]
 name = "themefisher"
-URL = "https://themefisher.com/"
+pre = ""
+url = "https://themefisher.com/"
 weight = 8
 
 ############################# Default Parameters ##########################

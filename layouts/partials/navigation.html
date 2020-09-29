@@ -15,25 +15,11 @@
 
 			<div class="collapse navbar-collapse" id="navigation">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a class="nav-link" href="#body">{{ site.Params.home }}</a></li>
-					{{ if .IsHome }}
 					{{ range site.Menus.main }}
-					<li class="nav-item"><a class="nav-link" href="#{{ .URL }}">{{ i18n .Name }}</a></li>
-					{{ end }}
-
-					{{ else }}
-
-					{{ range site.Menus.main }}
-					<li class="nav-item"><a class="nav-link" href="{{ site.BaseURL | relLangURL }}#{{ .URL }}">{{ i18n .Name }}</a>
+					<li class="nav-item">
+            <a class="nav-link" href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
 					</li>
 					{{ end }}
-					{{ end }}
-
-					{{ range site.Menus.static }}
-					<li class="nav-item"><a class="nav-link" target="_blank" href="{{ .URL }}">{{ i18n .Name }}</a>
-					</li>
-					{{ end }}
-
 				</ul>
 				<!-- Language List -->
 				{{- if site.IsMultiLingual }}
