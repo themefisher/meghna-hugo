@@ -22,8 +22,6 @@ Go to your [Forestry](https://bit.ly/forestry-account) account and click on `imp
 
 **Or just click this button for import to forestry** [![import to forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=themefisher/meghna-hugo&engine=hugo&version=0.60.1&config=exampleSite)
 
-[![import to forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=themefisher/meghna-hugo&engine=hugo&version=0.60.1&config=exampleSite)
-
 Now mark everything as done. Then go to configuration to change the base url. You can put any url but this have to be similar as netlify. So, for now, put a name which you are going to put in netlify as netlify subdomain.
 
 ### Step 3 : Setup and host website with Netlify
