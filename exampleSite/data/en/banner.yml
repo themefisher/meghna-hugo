@@ -2,7 +2,7 @@
 banner:
   enable: true
   bg_image_webp: images/backgrounds/hero-area.webp
-  bg_image: images/backgrounds/hero-area.jpg
+  bg_image: https://www.gettyimages.in/detail/photo/close-up-of-coffee-cup-on-table-royalty-free-image/1250476781
   icon: ''
   title: Calcutta Comparatists 1919
   content: 'A platform for scholars of Humanities and Social Sciences. And of course
