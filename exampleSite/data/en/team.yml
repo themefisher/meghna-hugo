@@ -10,7 +10,7 @@ team:
     content: something
     social:
     - icon: ti-facebook
-      link: ''
+      link: "#"
   - name: Kingshuk Bandyaopadhyay
     image_webp: "/images/team/Kinshuk.webp"
     image: "/images/team/Kinshuk.jpg"
