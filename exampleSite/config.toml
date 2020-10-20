@@ -25,11 +25,6 @@ pre = "#"
 url = "about"
 weight = 1
 [[menu.main]]
-name = "services"
-pre = "#"
-url = "services"
-weight = 2
-[[menu.main]]
 name = "portfolio"
 pre = "#"
 url = "portfolio"
@@ -39,11 +34,6 @@ name = "team"
 pre = "#"
 url = "team"
 weight = 4
-[[menu.main]]
-name = "pricing"
-pre = "#"
-url = "pricing"
-weight = 5
 [[menu.main]]
 name = "blog"
 pre = "#"
@@ -64,7 +54,7 @@ author = "Themefisher"
 description = "Responsive Multipurpose Parallax Hugo Template"
 google_analytics_id = ""
 logo = "images/logo.png"
-post_share = true
+post_share = false
 [params.cookies]
 enable = false
 expire_days = 2
