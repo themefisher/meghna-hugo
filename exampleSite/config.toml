@@ -90,7 +90,7 @@ link = "plugins/lazy-load/lozad.min.js"
 link = "plugins/google-map/map.js"
 [params.preloader]
 enable = false
-preloader = "images/logo.png"
+preloader = "images/logo.jpg"
 [[params.social]]
 icon = "ti-facebook"
 link = "https://www.facebook.com/groups/2707532549532643/?ref=share"
