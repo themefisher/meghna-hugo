@@ -20,3 +20,8 @@ fields:
 - type: text
   name: description
   label: description
+- name: related_tags
+  type: tag_list
+  default: []
+  label: Related Tags
+  description: Tag any keyword related to this lecture
