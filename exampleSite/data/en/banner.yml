@@ -1,8 +1,8 @@
 ---
 banner:
   enable: true
-  bg_image_webp: https://media.gettyimages.com/photos/closeup-of-coffee-cup-on-table-picture-id1250476781?s=2048x2048
-  bg_image: https://media.gettyimages.com/photos/closeup-of-coffee-cup-on-table-picture-id1250476781?s=2048x2048
+  bg_image_webp: "/images/cover.webp"
+  bg_image: "/images/cover.jpg"
   icon: ''
   title: Calcutta Comparatists 1919
   content: 'A platform for scholars of Humanities and Social Sciences. And of course
