@@ -16,7 +16,9 @@ team:
     image: "/images/team/Pratim.jpg"
     designation: Chief Coordinator
     content: something
-    social: ''
+    social:
+    - icon: ti-facebook
+      link: ''
   - name: Aratrika Ganguly
     image_webp: "/images/team/Aratrika.webp"
     image: "/images/team/Aratrika.jpg"
