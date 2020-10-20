@@ -5,7 +5,7 @@ description = ""
 draft = true
 image = ""
 image_webp = ""
-title = "Sample Lectur"
+title = "Sample Lecture"
 
 +++
 This is a sample lecture
