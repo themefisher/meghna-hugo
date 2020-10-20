@@ -3,6 +3,12 @@ team:
   enable: true
   title: Our Team
   team_member:
+  - name: Pratim
+    image_webp: "/images/team/Pratim.webp"
+    image: "/images/team/Pratim.jpg"
+    designation: Chief Coordinator
+    content: something
+    social: ''
   - name: Aratrika Ganguly
     image_webp: "/images/team/Aratrika.webp"
     image: "/images/team/Aratrika.jpg"
