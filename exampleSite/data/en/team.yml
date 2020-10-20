@@ -3,6 +3,14 @@ team:
   enable: true
   title: Our Team
   team_member:
+  - name: Suparna Mondal
+    image_webp: "/images/team/Suparna.webp"
+    image: "/images/team/Suparna.jpg"
+    designation: Chief Coordinator
+    content: ''
+    social:
+    - icon: ti-facebook
+      link: "#"
   - name: Suman Paul
     image_webp: "/images/team/Suman.webp"
     image: "/images/team/Suman.jpg"
