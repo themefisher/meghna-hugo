@@ -1,0 +1,22 @@
+---
+label: Lectures
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image_webp
+  label: image_webp
+- type: file
+  name: image
+  label: image
+- type: text
+  name: author
+  label: author
+- type: text
+  name: description
+  label: description
