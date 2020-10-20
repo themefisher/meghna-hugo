@@ -48,7 +48,7 @@ weight = "5"
 name = "themefisher"
 pre = ""
 url = "https://themefisher.com/"
-weight = 8
+weight = "6"
 [params]
 author = "Themefisher"
 description = "Responsive Multipurpose Parallax Hugo Template"
