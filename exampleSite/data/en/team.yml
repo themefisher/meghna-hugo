@@ -8,7 +8,9 @@ team:
     image: "/images/team/Jemima.jpg"
     designation: Chief Coordinator
     content: something
-    social: ''
+    social:
+    - icon: ti-facebook
+      link: "#"
   - name: Pratim
     image_webp: "/images/team/Pratim.webp"
     image: "/images/team/Pratim.jpg"
@@ -28,8 +30,4 @@ team:
     - icon: ti-facebook
       link: "#"
     - icon: ti-twitter-alt
-      link: "#"
-    - icon: ti-linkedin
-      link: "#"
-    - icon: ti-dribbble
       link: "#"
