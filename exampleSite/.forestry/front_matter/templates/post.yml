@@ -22,3 +22,5 @@ fields:
   name: description
   label: description
   description: meta description
+pages:
+- exampleSite/data/Lectures/sample-lectur.md
