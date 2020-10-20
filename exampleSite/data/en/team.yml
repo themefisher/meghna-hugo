@@ -3,7 +3,7 @@ team:
   enable: true
   title: Our Team
   team_member:
-  - name: Jemima
+  - name: Jemima Nasrin
     image_webp: "/images/team/Jemima.webp"
     image: "/images/team/Jemima.jpg"
     designation: Chief Coordinator
