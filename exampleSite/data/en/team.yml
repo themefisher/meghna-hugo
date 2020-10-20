@@ -4,8 +4,8 @@ team:
   title: Our Team
   team_member:
   - name: Aratrika Ganguly
-    image_webp: ''
-    image: ''
+    image_webp: "/images/team/Aratrika.webp"
+    image: "/images/team/Aratrika.jpg"
     designation: Chief Coordinator
     content: 'PhD Research Scholar in the Department of Comparative Indian Language
       and Literature at University of Calcutta. She has done her MPhil and Masters
