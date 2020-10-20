@@ -3,6 +3,12 @@ team:
   enable: true
   title: Our Team
   team_member:
+  - name: Jemima
+    image_webp: "/images/team/Jemima.webp"
+    image: "/images/team/Jemima.jpg"
+    designation: Chief Coordinator
+    content: something
+    social: ''
   - name: Pratim
     image_webp: "/images/team/Pratim.webp"
     image: "/images/team/Pratim.jpg"
