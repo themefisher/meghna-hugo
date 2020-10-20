@@ -3,6 +3,14 @@ team:
   enable: true
   title: Our Team
   team_member:
+  - name: Poonam Mukherjee
+    image_webp: "/images/team/Poonam.webp"
+    image: "/images/team/Poonam.jpg"
+    designation: Chief Coordinator
+    content: something
+    social:
+    - icon: ti-facebook
+      link: ''
   - name: Kingshuk Bandyaopadhyay
     image_webp: "/images/team/Kinshuk.webp"
     image: "/images/team/Kinshuk.jpg"
