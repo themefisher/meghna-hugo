@@ -3,6 +3,14 @@ team:
   enable: true
   title: Our Team
   team_member:
+  - name: Kingshuk Bandyaopadhyay
+    image_webp: "/images/team/Kinshuk.webp"
+    image: "/images/team/Kinshuk.jpg"
+    designation: ''
+    content: ''
+    social:
+    - icon: ti-facebook
+      link: "#"
   - name: Jemima Nasrin
     image_webp: "/images/team/Jemima.webp"
     image: "/images/team/Jemima.jpg"
