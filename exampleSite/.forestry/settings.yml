@@ -5,6 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
+  label: Lectures
+- type: directory
+  path: exampleSite/content/english/lectures
+  label: Lectures (en)
+  create: all
+  match: "**/*"
+- type: heading
   label: Blog Post
 - type: directory
   path: exampleSite/content/english/blog
