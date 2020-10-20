@@ -20,6 +20,11 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.main]]
+name = "lectures"
+pre = "#"
+url = "lectures"
+weight = "1"
+[[menu.main]]
 name = "about"
 pre = "#"
 url = "about"
@@ -34,11 +39,6 @@ name = "team"
 pre = "#"
 url = "team"
 weight = 4
-[[menu.main]]
-name = "blog"
-pre = "#"
-url = "blog"
-weight = 6
 [[menu.main]]
 name = "contact"
 pre = "#"
