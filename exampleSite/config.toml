@@ -7,14 +7,14 @@ theme = "meghna-hugo"
 title = "Calcom"
 [Languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2020"
+copyright = "Copyright &copy; 2020 Calcutta Comparatists 1919"
 home = "Home"
 languageCode = "en-us"
 languageName = "En"
 weight = 1
 [Languages.fr]
 contentDir = "content/french"
-copyright = "Copyright &copy; 2020"
+copyright = "Copyright &copy; 2020 Calcutta Comparatists 1919"
 home = "Accueil"
 languageCode = "fr-fr"
 languageName = "Fr"
