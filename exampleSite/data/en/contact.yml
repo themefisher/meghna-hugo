@@ -3,9 +3,9 @@ contact:
   enable: true
   title: Contact Us
   subtitle: Contact Details
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero,
-    provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores
-    dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
+  content: |-
+    All the world’s a stage, And all the men and women merely players;
+    They have their exits and their entrances, And one man in his time plays many parts, His acts being seven ages.
   contact_list:
   - icon: ti-location-pin
     info: world wide web
