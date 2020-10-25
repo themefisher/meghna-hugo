@@ -141,7 +141,8 @@ jQuery(function ($) {
 });
 function downloadEvent(){
 	var subject = $('#subject').val();
-	var subject = $('#description').val();
+	var description = $('#description').val();
+	var location = $('#location').val();
 	var begin = $('#start-date').val();
 	var end = $('#end-date').val();
 	var cal = ics();
