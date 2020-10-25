@@ -145,7 +145,7 @@ function downloadEvent(){
 	var location = $('#location').val();
 	var begin = $('#start-date').val();
 	var end = $('#end-date').val();
-	var filename = $('filename').val();
+	var filename = $('#filename').val();
 	if(filename==='')
 		filename= subject;
 	if(description==='')
