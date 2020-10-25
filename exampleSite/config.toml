@@ -20,7 +20,7 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.main]]
-name = "lectures"
+name = "Lectures"
 pre = ""
 url = "lectures"
 weight = 1
