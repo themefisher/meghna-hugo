@@ -4,7 +4,7 @@ disqusShortname = ""
 paginate = "6"
 summaryLength = "15"
 theme = "meghna-hugo"
-title = "Calcom"
+title = "Calcomp"
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 Calcutta Comparatists 1919"
