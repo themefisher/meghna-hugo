@@ -41,6 +41,16 @@ fields:
   type: boolean
   label: All day Event
   description: Check if its an all day event
+- name: image_webp
+  type: file
+  config:
+    maxSize: 64
+  label: image_webp
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: image
 - name: event_speakers
   type: field_group_list
   fields:
