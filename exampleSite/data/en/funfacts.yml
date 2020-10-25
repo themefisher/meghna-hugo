@@ -4,9 +4,9 @@ funfacts:
   bg_image: images/book-wal.jpg
   bg_image_webp: images/book-wal.webp
   counter_item:
-  - title: Happy Clients
-    icon: ti-face-smile
-    count: "320"
+  - title: Lectures Completed
+    icon: ti-blackboard
+    count: "21"
   - title: Positive feedback
     icon: ti-thumb-up
     count: "158"
