@@ -17,9 +17,9 @@ fields:
     display_utc: false
   label: Event Start Date
   description: Event or lecture start date and time
-- name: event_end_data
+- name: event_end_date
   type: datetime
-  label: Event End Data
+  label: Event End Date
   description: Event or lecture end date and time
   config:
     required: true
