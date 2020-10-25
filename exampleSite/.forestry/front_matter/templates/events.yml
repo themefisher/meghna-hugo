@@ -60,6 +60,15 @@ fields:
     config:
       maxSize: 64
     label: Speaker image
+  - name: bio
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: bio
   config:
     min: 
     max: 
@@ -90,5 +99,10 @@ fields:
     schema:
       format: markdown
   label: calendar description
+- name: location
+  type: text
+  config:
+    required: false
+  label: location
 pages:
 - exampleSite/content/english/events/writing-new-material-histories-cement-and-concrete-in-south-asia.md
