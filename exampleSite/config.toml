@@ -30,15 +30,15 @@ pre = ""
 url = "blog"
 weight = 2
 [[menu.main]]
+name = "Who Are We"
+pre = "#"
+url = "about"
+weight = 3
+[[menu.main]]
 name = "Team Calcomp"
 pre = "#"
 url = "team"
 weight = 4
-[[menu.main]]
-name = "What We Do"
-pre = "#"
-url = "about"
-weight = 3
 [[menu.main]]
 name = "Contact Us"
 pre = "#"
