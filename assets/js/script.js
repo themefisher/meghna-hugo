@@ -139,3 +139,6 @@ jQuery(function ($) {
 	});
 
 });
+function downloadEvent(){
+
+}
