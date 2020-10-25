@@ -1,4 +1,6 @@
 ---
+- id: upcomingSectionTitle
+  translation: Upcoming Events or Lectures
 - id: blogTitle
   translation: Latest Post
 - id: lectureTitle
