@@ -2,7 +2,6 @@
 author = "Ragini Kapoor"
 date = ""
 description = ""
-draft = true
 image = "/images/a-comparative-study-of-sanskrit-and-greek-poetics.jpg"
 image_webp = "/images/a-comparative-study-of-sanskrit-and-greek-poetics.webp"
 related_tags = []
