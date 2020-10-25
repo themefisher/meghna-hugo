@@ -17,6 +17,7 @@
         <div class="post-single-content">
           {{ .Content }}
         </div>
+        <button class="ti-calendar" onclick="downloadEvent()">Block Calender</button>
         {{ if site.Params.post_share }}
         {{ partial "post-share.html" . }}
         {{ end }}
