@@ -1,5 +1,7 @@
 +++
 all_day_event = false
+calendar_description = "join us for an insightful evening conversation with Meenakshi and the people at CC1919"
+calendar_filename = "Cement and Concrete in South Asia"
 description = "Writing New Material Histories: Cement and Concrete in South Asia"
 event_end_data = "2020-10-28T15:30:00.000+00:00"
 event_end_date = 2020-10-28T15:30:00Z
@@ -11,4 +13,4 @@ tags = []
 title = "Writing New Material Histories: Cement and Concrete in South Asia"
 
 +++
-**Lorem Ipsum** is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+join us for an insightful evening conversation with Meenakshi and the people at CC1919
