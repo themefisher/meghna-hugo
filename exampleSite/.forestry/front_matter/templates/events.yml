@@ -82,5 +82,10 @@ fields:
   default: []
   label: Tags
   description: Related Tags
+- name: description
+  type: text
+  config:
+    required: false
+  label: description
 pages:
 - exampleSite/content/english/events/Sample Upcoming Event.md
