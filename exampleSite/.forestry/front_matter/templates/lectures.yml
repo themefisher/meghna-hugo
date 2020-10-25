@@ -25,3 +25,5 @@ fields:
   default: []
   label: Related Tags
   description: Tag any keyword related to this lecture
+pages:
+- exampleSite/content/english/lectures/was-gorky-spiritual-a-study-based-on-his-writings-between-1917-18.md
