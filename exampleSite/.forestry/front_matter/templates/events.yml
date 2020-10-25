@@ -6,7 +6,7 @@ fields:
 - name: event_name
   type: text
   config:
-    required: false
+    required: true
   label: Event Name
   description: Name of the event or lecture
 - name: event_description
@@ -22,7 +22,7 @@ fields:
 - name: event_start_date
   type: datetime
   config:
-    required: false
+    required: true
     date_format: 
     time_format: 
     display_utc: false
@@ -33,7 +33,7 @@ fields:
   label: Event End Data
   description: Event or lecture end date and time
   config:
-    required: false
+    required: true
     date_format: 
     time_format: 
     display_utc: false
@@ -69,16 +69,7 @@ fields:
   label: Event Speakers
   description: Speakers at the event or lecture
 - name: tags
-  type: field_group_list
-  fields:
-  - name: event_tag
-    type: tag_list
-    default: []
-    label: Event Tag
-    description: Related keyword for the event or lecture
-  config:
-    min: 
-    max: 
-    labelField: 
+  type: tag_list
+  default: []
   label: Tags
-  description: Event Tags
+  description: Related Tags
