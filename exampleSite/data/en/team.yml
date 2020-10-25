@@ -12,8 +12,8 @@ team:
     - icon: ti-facebook
       link: "#"
   - name: Suman Paul
-    image_webp: "/images/team/Suman.webp"
-    image: "/images/team/Suman.jpg"
+    image_webp: "/images/team/Suman-new.webp"
+    image: "/images/team/Suman-new.jpg"
     designation: Chief Coordinator
     content: something
     social:
