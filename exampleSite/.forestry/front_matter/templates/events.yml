@@ -60,18 +60,17 @@ fields:
       required: false
     label: speaker name
     description: Event speaker name
+  - name: speaker_image_webp
+    type: file
+    config:
+      maxSize: 64
+    label: Speaker image webp
+    description: Speaker image
   - name: speaker_image
     type: file
     config:
       maxSize: 64
     label: Speaker image
-    description: Speaker image
-  - name: speaker_image_external
-    type: text
-    config:
-      required: false
-    label: Speaker image external
-    description: Speaker image external
   config:
     min: 
     max: 
