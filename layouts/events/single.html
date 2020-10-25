@@ -18,11 +18,12 @@
           {{ .Content }}
         </div>
         <input type="hidden" id="subject" value="{{.Title }}"/>
-        <input type="hidden" id="description" value="{{ .Params.calendar_description | .Content }}"/>
+        <input type="hidden" id="cl-description" value="{{ .Params.calendar_description }}"/>
+        <input type="hidden" id="description" value="{{ .Content }}"/>
         <input type="hidden" id="location" value="Kolkata, IN"/>
         <input type="hidden" id="start-date" value="{{.Params.event_start_date }}"/>
         <input type="hidden" id="end-date" value="{{.Params.event_end_date }}"/>
-        <input type="hidden" id="filename" value="{{ .Params.calendar_filename | .Title }}"/>
+        <input type="hidden" id="filename" value="{{ .Params.calendar_filename }}"/>
         <button class="clndr btn btn-main" onclick="downloadEvent()">
         <i class="ti-calendar"></i>Block Calender</button>
         {{ if site.Params.post_share }}
