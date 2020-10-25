@@ -8,6 +8,16 @@ fields:
     required: false
   label: Event Name
   description: Name of the event or lecture
+- name: event_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Event Description
+  description: Event or lecture description
 - name: event_date
   type: datetime
   config:
@@ -31,16 +41,6 @@ fields:
   type: boolean
   label: All day Event
   description: Check if its an all day event
-- name: event_description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Event Description
-  description: Event or lecture description
 - name: event_speakers
   type: field_group_list
   fields:
@@ -50,9 +50,26 @@ fields:
       required: false
     label: speaker
     description: Event speaker
+  - name: speaker_image
+    type: file
+    config:
+      maxSize: 64
+    label: Speaker image
+    description: Speaker image
+  - name: speaker_image_external
+    type: text
+    config:
+      required: false
+    label: Speaker image external
+    description: Speaker image external
   config:
     min: 
     max: 
     labelField: 
   label: Event Speakers
   description: Speakers at the event or lecture
+- name: related_tags
+  type: tag_list
+  default: []
+  label: Related Tags
+  description: Related tags for the lecture or event
