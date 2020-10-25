@@ -10,4 +10,4 @@ title = "A Comparative Study of Sanskrit and Greek Poetics"
 +++
 Check out the lecture here
 
-{{< youtube 3O3qvDoVp5g >}}
+{{< youtube xncvQ4dZ9MU >}}
