@@ -17,7 +17,13 @@
         <div class="post-single-content">
           {{ .Content }}
         </div>
-        <button class="clndr btn btn-main" onclick="downloadEvent()"><i class="ti-calendar"></i>Block Calender</button>
+        <input type="hidden" id="subject" value="{{.Title }}"/>
+        <input type="hidden" id="description" value="{{.Content }}"/>
+        <input type="hidden" id="location" value="Kolkata, IN"/>
+        <input type="hidden" id="start-date" value="{{.Params.event_start_date }}"/>
+        <input type="hidden" id="end-date" value="{{.Params.event_end_date }}"/>
+        <button class="clndr btn btn-main" onclick="downloadEvent()">
+        <i class="ti-calendar"></i>Block Calender</button>
         {{ if site.Params.post_share }}
         {{ partial "post-share.html" . }}
         {{ end }}

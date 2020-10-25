@@ -140,5 +140,12 @@ jQuery(function ($) {
 
 });
 function downloadEvent(){
-
+	var subject = $('#subject').val();
+	var subject = $('#description').val();
+	var begin = $('#start-date').val();
+	var end = $('#end-date').val();
+	var cal = ics();
+	cal.addEvent(subject, description, location, begin, end);
+	//cal.addEvent(subject, description, location, begin, end); // yes, you can have multiple events :-)
+	cal.download(filename)
 }
