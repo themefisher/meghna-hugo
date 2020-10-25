@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+{{ partial "navigation.html" . }}
+
+{{"<!-- Start Author Section -->" | safeHTML}}
+<section id="author" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {{"<!-- section title -->" | safeHTML}}
+        <div class="title text-center wow fadeInDown">
+          <h2>Authors and Lecturers</h2>
+          <div class="border-meghna"></div>
+        </div>
+      </div>
+      {{"<!-- /section title -->" | safeHTML}}
+      {{ $paginator := .Paginate .Data.Pages }}
+      {{ range $paginator.Pages }}
+      {{ .Render "article" }}
+      {{ end }}
+      <div class="col-12">
+        {{ template "_internal/pagination.html" . }}
+      </div>
+    </div>
+  </div>
+</section>
+{{"<!-- /blog -->" | safeHTML}}
+
+{{ end }}
