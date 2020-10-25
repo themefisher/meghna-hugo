@@ -40,7 +40,7 @@ pre = "#"
 url = "about"
 weight = 3
 [[menu.main]]
-name = "contact"
+name = "Contact Us"
 pre = "#"
 url = "contact"
 weight = 5
