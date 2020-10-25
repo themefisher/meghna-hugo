@@ -9,8 +9,15 @@
       <div class="col-12">
         {{"<!-- section title -->" | safeHTML}}
         <div class="title text-center wow fadeInDown">
-          <h2>{{ with i18n "upcomingSectionTitle" }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
-              {{ with i18n "upcomingSectionTitle" }} {{ index (split . " ") 1 | safeHTML }} {{ end }}</span></h2>
+          <h2>{{ with i18n "upcomingSectionTitle" }} {{ index (split . " ") 0 | safeHTML }} {{ end }}
+            <span class="color">
+              {{ with i18n "upcomingSectionTitle" }} {{ index (split . " ") 1 | safeHTML }} {{ end }}
+            </span>
+              {{ with i18n "upcomingSectionTitle" }} {{ index (split . " ") 2 | safeHTML }} {{ end }}
+            <span class="color">
+              {{ with i18n "upcomingSectionTitle" }} {{ index (split . " ") 4 | safeHTML }} {{ end }}
+            </span>
+          </h2>
           <div class="border-meghna"></div>
         </div>
       </div>
