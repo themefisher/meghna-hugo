@@ -44,12 +44,12 @@ fields:
 - name: event_speakers
   type: field_group_list
   fields:
-  - name: speaker
+  - name: speaker_name
     type: text
     config:
       required: false
-    label: speaker
-    description: Event speaker
+    label: speaker name
+    description: Event speaker name
   - name: speaker_image
     type: file
     config:
@@ -68,8 +68,17 @@ fields:
     labelField: 
   label: Event Speakers
   description: Speakers at the event or lecture
-- name: related_tags
-  type: tag_list
-  default: []
-  label: Related Tags
-  description: Related tags for the lecture or event
+- name: tags
+  type: field_group_list
+  fields:
+  - name: event_tag
+    type: tag_list
+    default: []
+    label: Event Tag
+    description: Related keyword for the event or lecture
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Tags
+  description: Event Tags
