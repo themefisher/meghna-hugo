@@ -1,10 +1,10 @@
-baseURL = "https://calcomp.com"
-disableLanguages = ["Fr"]
+baseURL = "https://calcom.com"
+disableLanguages = [ ]
 disqusShortname = ""
 paginate = "6"
 summaryLength = "15"
 theme = "meghna-hugo"
-title = "Calcomp1919"
+title = "Calcom"
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 Calcutta Comparatists 1919"
@@ -20,30 +20,35 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.main]]
-name = "Lectures"
-pre = ""
+name = "lectures"
+pre = "#"
 url = "lectures"
-weight = 1
+weight = "1"
 [[menu.main]]
-name = "Blog"
-pre = ""
+name = "blog"
+pre = "#"
 url = "blog"
-weight = 2
+weight = "2"
 [[menu.main]]
-name = "Who Are We"
+name = "about"
 pre = "#"
 url = "about"
-weight = 3
+weight = "3"
 [[menu.main]]
-name = "Team Calcomp"
+name = "team"
 pre = "#"
 url = "team"
-weight = 4
+weight = "4"
 [[menu.main]]
-name = "Contact Us"
+name = "contact"
 pre = "#"
 url = "contact"
-weight = 5
+weight = "5"
+[[menu.main]]
+name = "themefisher"
+pre = ""
+url = "https://themefisher.com/"
+weight = "6"
 [params]
 author = "Themefisher"
 description = "Responsive Multipurpose Parallax Hugo Template"
@@ -94,7 +99,7 @@ icon = "ti-twitter-alt"
 link = "https://twitter.com/1919Calcutta?s=09"
 [[params.social]]
 icon = "ti-youtube"
-link = "https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q"
+link = "#"
 [[params.social]]
 icon = "ti-instagram"
 link = "https://www.instagram.com/invites/contact/?i=1n2k0271ntjlf&utm_content=io0z4gk"
