@@ -3,22 +3,11 @@ label: Events
 hide_body: false
 display_field: event_name
 fields:
-- name: event_name
+- name: title
   type: text
   config:
-    required: true
-  label: Event Name
-  description: Name of the event or lecture
-- name: event_description
-  type: textarea
-  default: ''
-  config:
     required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Event Description
-  description: Event or lecture description
+  label: title
 - name: event_start_date
   type: datetime
   config:
