@@ -21,7 +21,7 @@ languageName = "Fr"
 weight = 2
 [[menu.main]]
 name = "Lectures"
-pre = "/"
+pre = ""
 url = "lectures"
 weight = 1
 [[menu.main]]
