@@ -1,6 +1,7 @@
+---
 - id: blogTitle
   translation: Latest Post
-  id: lectureTitle
+- id: lectureTitle
   translation: Recent Lectures
 - id: readMore
   translation: Read more
