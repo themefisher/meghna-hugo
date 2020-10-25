@@ -76,5 +76,19 @@ fields:
   config:
     required: false
   label: description
+- name: calendar_filename
+  type: text
+  config:
+    required: false
+  label: calendar filename
+- name: calendar_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: calendar description
 pages:
 - exampleSite/content/english/events/writing-new-material-histories-cement-and-concrete-in-south-asia.md
