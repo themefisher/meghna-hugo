@@ -73,3 +73,5 @@ fields:
   default: []
   label: Tags
   description: Related Tags
+pages:
+- exampleSite/content/english/events/Sample Upcoming Event.md
