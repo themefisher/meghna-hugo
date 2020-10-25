@@ -9,6 +9,7 @@ event_speakers = []
 event_start_date = 2020-10-28T13:30:00Z
 image = ""
 image_webp = ""
+location = "Kolkata, IN"
 tags = []
 title = "Writing New Material Histories: Cement and Concrete in South Asia"
 
