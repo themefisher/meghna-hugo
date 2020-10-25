@@ -20,35 +20,30 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.main]]
-name = "lectures"
-pre = ""
-url = "lectures"
-weight = "1"
-[[menu.main]]
-name = "blog"
-pre = ""
-url = "blog"
-weight = "2"
+name = "contact"
+pre = "#"
+url = "contact"
+weight = 5
 [[menu.main]]
 name = "team"
 pre = "#"
 url = "team"
-weight = "3"
+weight = 4
 [[menu.main]]
 name = "about"
 pre = "#"
 url = "about"
-weight = "4"
+weight = 3
 [[menu.main]]
-name = "contact"
+name = "blog"
 pre = "#"
-url = "contact"
-weight = "5"
+url = "blog"
+weight = 2
 [[menu.main]]
-name = "themefisher"
-pre = ""
-url = "https://themefisher.com/"
-weight = "6"
+name = "lectures"
+pre = "#"
+url = "lectures"
+weight = 1
 [params]
 author = "Themefisher"
 description = "Responsive Multipurpose Parallax Hugo Template"
