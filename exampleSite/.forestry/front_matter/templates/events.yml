@@ -77,5 +77,4 @@ fields:
     required: false
   label: description
 pages:
-- exampleSite/content/english/events/Sample Upcoming Event.md
 - exampleSite/content/english/events/writing-new-material-histories-cement-and-concrete-in-south-asia.md
