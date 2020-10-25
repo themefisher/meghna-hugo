@@ -9,8 +9,10 @@ sections:
 - type: directory
   path: exampleSite/content/english/events
   label: Upcoming Events
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - events
 - type: heading
   label: Lectures
 - type: directory
