@@ -1,0 +1,27 @@
+{{ if gt site.RegularPages 0}}
+{{"<!-- Start Upcoming Section -->" | safeHTML}}
+<section id="Lecture" class="section">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-12">
+				{{"<!-- section title -->" | safeHTML}}
+				<div class="title text-center wow fadeInDown">
+					<h2> {{ with i18n "lectureTitle" }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+							{{ with i18n "lectureTitle" }} {{ index (split . " ") 1 | safeHTML }} {{ end }} </span></h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+			{{"<!-- /section title -->" | safeHTML}}
+
+			{{ range first 3 (where site.RegularPages "Section" "==" "lectures")}}
+			{{ .Render "article"}}
+			{{ end }}
+
+			<div class="all-post text-center col-lg-12">
+				<a class="btn btn-main" href="{{ `upcoming` | absLangURL }}">{{ i18n "viewAllLectures" }}</a>
+			</div>
+		</div>
+	</div>
+</section>
+{{"<!-- /upcoming -->" | safeHTML}}
+{{ end }}
