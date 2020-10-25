@@ -1,4 +1,6 @@
 ---
+- id: viewAllLectures
+  translation: View All Lectures
 - id: blogTitle
   translation: Latest Post
 - id: lectureTitle
