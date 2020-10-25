@@ -8,6 +8,6 @@ related_tags = []
 title = "A Comparative Study of Sanskrit and Greek Poetics"
 
 +++
-Check out the lecture here 
+Check out the lecture here
 
-{{< youtube [xncvQ4dZ9MU](https://youtu.be/xncvQ4dZ9MU "https://youtu.be/xncvQ4dZ9MU") >}}
+{{< youtube 3O3qvDoVp5g >}}
