@@ -3,14 +3,14 @@ about:
   enable: true
   title: Who Are We
   about_item:
-  - icon: ti-wand
-    title: We're Comparatists
-    content: We encourage scholars and students of Literature and Social Science to
-      share their research interests and ideas in our platform we help them to comment,
-      connect and communicate with each other.
   - icon: ti-thought
     title: We're Comparatists
     content: we are an independent academic forum for young comparatists. It carries
       the legacy of the Modern Indian Languages department which was initiated in
       1919. Our forum provides a space for literary comparison between Indian languages
       and literatures.
+  - icon: ti-wand
+    title: We're Comparatists
+    content: We encourage scholars and students of Literature and Social Science to
+      share their research interests and ideas in our platform we help them to comment,
+      connect and communicate with each other.
