@@ -70,6 +70,8 @@ link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
 [[params.plugins.js]]
+link = "plugins/ics/FileSaver.min.js"
+[[params.plugins.js]]
 link = "plugins/ics/ics.min.js"
 [[params.plugins.js]]
 link = "plugins/jquery/jquery.min.js"
