@@ -1,6 +1,4 @@
 ---
-- id: viewAllLectures
-  translation: View All Lectures
 - id: blogTitle
   translation: Latest Post
 - id: lectureTitle
@@ -9,6 +7,8 @@
   translation: Read more
 - id: viewAllPost
   translation: View All Post
+- id: viewAllLectures
+  translation: View All Lectures
 - id: share
   translation: Share
 - id: aboutAuthor
