@@ -26,7 +26,7 @@ url = "lectures"
 weight = 1
 [[menu.main]]
 name = "Blog"
-pre = "/"
+pre = ""
 url = "blog"
 weight = 2
 [[menu.main]]
