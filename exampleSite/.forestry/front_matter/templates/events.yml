@@ -1,6 +1,6 @@
 ---
 label: Events
-hide_body: true
+hide_body: false
 display_field: event_name
 fields:
 - name: event_name
