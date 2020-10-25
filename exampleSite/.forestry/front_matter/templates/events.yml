@@ -1,4 +1,58 @@
 ---
 label: Events
 hide_body: false
-fields: []
+fields:
+- name: event_name
+  type: text
+  config:
+    required: false
+  label: Event Name
+  description: Name of the event or lecture
+- name: event_date
+  type: datetime
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: Event Date
+  description: Event or lecture date
+- name: event_duration
+  type: number
+  label: Event Duration
+  description: event or lecture duration in hrs
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: all_day_event
+  type: boolean
+  label: All day Event
+  description: Check if its an all day event
+- name: event_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Event Description
+  description: Event or lecture description
+- name: event_speakers
+  type: field_group_list
+  fields:
+  - name: speaker
+    type: text
+    config:
+      required: false
+    label: speaker
+    description: Event speaker
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Event Speakers
+  description: Speakers at the event or lecture
