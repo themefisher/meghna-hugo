@@ -33,7 +33,7 @@ weight = "2"
 name = "Lectures"
 pre = ""
 url = "lectures"
-weight = 2
+weight = "3"
 [[menu.main]]
 name = "Who are we"
 pre = "#"
