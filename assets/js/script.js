@@ -143,6 +143,7 @@ function downloadEvent(){
 	var subject = $('#subject').val();
 	var description = $('#description').val();
 	//description = $('.post-single-content').html();
+	description = description.replace(/\n/g , '\\n');
 	description = description.replace(/\r\n/g , '\\n');
 	description = description.replace(/<br>/g , '\\n');
 	var location = $('#location').val();
