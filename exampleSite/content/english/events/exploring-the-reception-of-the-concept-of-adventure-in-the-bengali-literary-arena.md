@@ -4,7 +4,6 @@ calendar_description = ""
 calendar_filename = "Concept of Adventure in Bengali Literature"
 description = "Exploring the Reception of the Concept of Adventure in the Bengali Literary Arena"
 disable_download = false
-draft = true
 event_end_date = 2020-10-29T15:30:00Z
 event_start_date = 2020-10-29T13:30:00Z
 image = "/images/29oct.jpg"
