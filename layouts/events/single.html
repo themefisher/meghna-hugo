@@ -21,10 +21,11 @@
           {{ range $speakers }}
           {{ $imagewbp := .speaker_image_webp }}
           {{ $image := .speaker_image }}
+          {{ $name := .speaker_name }}
             <div class="mb-2">
               {{with .speaker_image}}
                 <div class="client-thumb speaker">
-                  <img class="img-fluid lozad" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ .speaker_name }}">
+                  <img class="img-fluid lozad" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ $name }}">
                 </div>
               {{end}}
               <div class="bio"><span>{{.speaker_name}}</span>, {{.bio}}</div>
