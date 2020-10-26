@@ -15,8 +15,8 @@ tags = ["Adventure", " Literature"]
 title = "Exploring the Reception of the Concept of Adventure in the Bengali Literary Arena"
 [[event_speakers]]
 bio = "Assistant Professor, Dept of English Sikkim University"
-speaker_image = ""
-speaker_image_webp = ""
+speaker_image = "/images/client/client-1.jpg"
+speaker_image_webp = "/images/client/client-1.webp"
 speaker_name = "Saswati Saha"
 
 +++
