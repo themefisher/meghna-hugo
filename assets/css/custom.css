@@ -22,4 +22,9 @@
 }
 .speaker{
     width:12%;
+    display: inline-block;
+}
+.bio{
+    display: inline-block;
+    color:white;
 }
