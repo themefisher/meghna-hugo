@@ -13,12 +13,12 @@
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
 
-			{{ range first 3 (where site.RegularPages "Section" "==" "events")}}
+			{{ range first 3 (where site.RegularPages "Section" "==" "events").event_start_date}}
 			{{ .Render "upcoming"}}
 			{{ end }}
 
 			<div class="all-post text-center col-lg-12">
-				<a class="btn btn-main" href="{{ `upcoming` | absLangURL }}">{{ i18n "viewAllLectures" }}</a>
+				<a class="btn btn-main" href="{{ `event` | absLangURL }}">{{ i18n "viewAllLectures" }}</a>
 			</div>
 		</div>
 	</div>
