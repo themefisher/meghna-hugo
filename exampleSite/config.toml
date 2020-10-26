@@ -48,7 +48,7 @@ weight = "5"
 name = "Contact Us"
 pre = "#"
 url = "contact"
-weight = 5
+weight = "6"
 [params]
 author = "Themefisher"
 description = "Responsive Multipurpose Parallax Hugo Template"
