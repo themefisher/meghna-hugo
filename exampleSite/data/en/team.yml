@@ -6,8 +6,12 @@ team:
   - name: Suparna Mondal
     image_webp: "/images/team/Suparna.webp"
     image: "/images/team/Suparna.jpg"
-    designation: Chief Coordinator
-    content: ''
+    designation: Creative member & Co-founder
+    content: 'She is an independent researcher and translator. She has completed her
+      Masters in Comparative Literature from the Department of Comparative Literature,
+      Jadavpur University. Previously she studied BA in Bangla Literature from Visva-Bharati.
+      She has also done a certificate course on ‘Translation as a Skill’ from CENTIL,
+      Jadavpur University. '
     social:
     - icon: ti-facebook
       link: "#"
@@ -41,16 +45,22 @@ team:
   - name: Jemima Nasrin
     image_webp: "/images/team/Jemima.webp"
     image: "/images/team/Jemima.jpg"
-    designation: Chief Coordinator
-    content: something
+    designation: 'Coordinator & Co-founder '
+    content: She is currently enrolled as a Ph.D. student in the Department of English
+      at the University of Calcutta. She completed her Masters from the University
+      of Burdwan. She has presented a few papers in National and International level
+      seminars. Her areas of interest include Culture Studies, South Asian History,
+      Comparative Literature, Folk Literature etc
     social:
     - icon: ti-facebook
       link: "#"
   - name: Pratim Das
     image_webp: "/images/team/Pratim.webp"
     image: "/images/team/Pratim.jpg"
-    designation: Chief Coordinator
-    content: something
+    designation: Coordinator & Co-founder
+    content: |-
+      Pratim Das is a PhD research scholar in the Dept. of Comparative Indian Language and Literature, University of Calcutta. His research area for PhD is Indian Travelogues on South East Asia. He did his MPhil from Dept. MIL & LS, University of Calcutta. His interest lies in the area of South East Asia,
+      Travelogues, Coolie Literature, Migration, Dalit literature, Children’s Literature, Vaishnava Literature, Literary criticism, and Folk culture.
     social:
     - icon: ti-facebook
       link: ''
