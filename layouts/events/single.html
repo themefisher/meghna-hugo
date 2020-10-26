@@ -10,8 +10,8 @@
         <ul class="list-inline mb-50">
           <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Params.event_start_date }}</li>
         </ul>
-        {{if isset .Params "Image"}}
-          <img class="img-fluid mb-50 lozad" data-src="{{ .Params.image | absURL }}" alt="blog-image">
+        {{if isset .Params "image"}}
+          <img class="img-fluid mb-50 lozad" data-src="{{ . | absURL }}" alt="blog-image">
         {{end}}
       </div>
       <div class="col-lg-8 offset-lg-2 mb-3">
