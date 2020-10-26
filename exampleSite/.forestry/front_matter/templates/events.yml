@@ -90,15 +90,6 @@ fields:
   config:
     required: false
   label: calendar filename
-- name: calendar_description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: calendar description
 - name: location
   type: text
   config:
