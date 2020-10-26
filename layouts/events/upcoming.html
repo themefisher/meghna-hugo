@@ -1,9 +1,7 @@
 <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp mb-4" data-wow-duration="500ms">
     <div class="post-block">
       <div class="media-wrapper">
-        {{ with .image_webp }}
-        <img class="img-fluid lozad" data-src="{{ .image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .image | absURL }}'">
-         {{ end }}
+        <img class="img-fluid lozad" data-src="{{ .Params.image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.image | absURL }}'">
       </div>
   
       <div class="content">
