@@ -11,8 +11,8 @@
           <!-- <li class="list-inline-item"><a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.Author }}</a></li> -->
           <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Params.event_start_date }}</li>
         </ul>
-        {{ with .Params.image }}
-          <img class="img-fluid mb-50 lozad" data-src="{{ .Params.image | absURL }}" alt="blog-image">
+        {{ with .Params.Image }}
+          <img class="img-fluid mb-50 lozad" data-src="{{ .Params.Image | absURL }}" alt="blog-image">
         {{end}}
       </div>
       <div class="col-lg-8 offset-lg-2 mb-3">
