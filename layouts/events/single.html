@@ -25,7 +25,7 @@
           {{ template "_internal/disqus.html" . }}
         </div>
       </div>
-      <div class="col-lg-8 offset-lg-2 text-center">
+      <div class="col-lg-8 offset-lg-2">
         <input type="hidden" id="subject" value="{{.Title }}"/>
         <input type="hidden" id="cl-description" value="{{ .Params.calendar_description }}"/>
         <input type="hidden" id="description" value="{{ .Content }}"/>
