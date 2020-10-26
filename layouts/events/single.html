@@ -10,7 +10,7 @@
         <ul class="list-inline mb-50">
           <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Params.event_start_date }}</li>
         </ul>
-          <img class="img-fluid mb-50 lozad" data-src="{{ .Params.image | absURL }}" alt="blog-image">
+          <img class="img-fluid mb-50 lozad" data-src="{{ .Params.image | absURL }}" alt="event-image">
       </div>
       {{ $speakers := .Params.event_speakers }}
       {{ if gt ( len $speakers) 0 }}
@@ -21,10 +21,8 @@
           {{ range $speakers }}
             <div class="mb-2">
               {{with .speaker_image}}
-              {{ $imagewebp := .speaker_image }}
-              {{ $image := .speaker_image }}
                 <div class="client-thumb speaker">
-                  <img class="img-fluid lozad" data-src="{{ $imagewebp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ .speaker_name }}">
+                  <img class="img-fluid lozad" data-src="{{ $speakers.speaker_image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ $speakers.speaker_image | absURL }}'" alt="{{ .speaker_name }}">
                 </div>
               {{end}}
               <div class="bio">{{.speaker_name}}, {{.bio}}</div>
