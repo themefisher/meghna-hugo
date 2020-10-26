@@ -11,14 +11,14 @@
           <!-- <li class="list-inline-item"><a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.Author }}</a></li> -->
           <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Params.event_start_date }}</li>
         </ul>
-        {{ if (isset .Params "image") }}
-          <img class="img-fluid mb-50 lozad" data-src="{{ .Params.Image | absURL }}" alt="blog-image">
+        {{ with .Params.image }}
+          <img class="img-fluid mb-50 lozad" data-src="{{ .Params.image | absURL }}" alt="blog-image">
         {{end}}
       </div>
       {{ range .Params.event_speakers }}
         <div class="col-lg-8 offset-lg-2">
           Speakers
-          {{.Speaker_name}} {{.Bio}}
+          {{.speaker_name}} {{.bio}}
         </div>
       {{end}}
       <div class="col-lg-8 offset-lg-2">
