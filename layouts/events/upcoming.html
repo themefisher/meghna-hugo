@@ -1,8 +1,12 @@
 <article class="col-lg-4 col-md-6 col-12 clearfix wow fadeInUp mb-4" data-wow-duration="500ms">
     <div class="post-block">
-      <div class="media-wrapper">
-        <img class="img-fluid lozad" data-src="{{ .Params.Image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ .Params.Image | absURL }}'">
-      </div>
+      {{ $imagewbp := .Params.Image_webp }}
+      {{ $image := .Params.Image }}
+      {{with .Params.Image_webp}}
+        <div class="media-wrapper">
+          <img class="img-fluid lozad" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'">
+        </div>
+      {{end}}
       <div class="content">
         <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
         <p>{{ .Summary }}</p>
