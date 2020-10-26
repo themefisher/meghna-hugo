@@ -30,7 +30,7 @@
                   <img class="img-fluid lozad" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ $name }}">
                 </div>
               {{end}}
-              <div class="bio"><span>{{.speaker_name}}</span> {{.bio}}</div>
+              <div class="bio"><span>{{.speaker_name}}</span>, {{.bio}}</div>
             </div>
           {{end}}
         </div>

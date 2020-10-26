@@ -28,3 +28,6 @@
     display: inline-block;
     color:white;
 }
+.bio span{
+    font-size: 1.2rem;
+}
