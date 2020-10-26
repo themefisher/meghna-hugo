@@ -9,4 +9,6 @@
 
 [[plugins]]
 package = "netlify-plugin-hashfiles"
+
+[[plugins]]
 package = "netlify-plugin-is-website-vulnerable"
