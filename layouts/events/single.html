@@ -21,7 +21,7 @@
           {{ range $speakers }}
             <div class="mb-2">
               {{with .speaker_image}}
-              {{ $imagewebp := .speaker_Image_webp }}
+              {{ $imagewebp := .speaker_image }}
               {{ $image := .speaker_image }}
                 <div class="client-thumb speaker">
                   <img class="img-fluid lozad" data-src="{{ $imagewebp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ .speaker_name }}">
