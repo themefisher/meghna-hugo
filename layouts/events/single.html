@@ -19,13 +19,15 @@
             Speakers
           </h4>
           {{ range $speakers }}
+          {{ $imagewbp := .speaker_image_webp }}
+          {{ $image := .speaker_image }}
             <div class="mb-2">
               {{with .speaker_image}}
                 <div class="client-thumb speaker">
-                  <img class="img-fluid lozad" data-src="{{ $speakers.speaker_image_webp | absURL }}" onerror="this.onerror=null;this.src='{{ $speakers.speaker_image | absURL }}'" alt="{{ .speaker_name }}">
+                  <img class="img-fluid lozad" data-src="{{ $imagewbp | absURL }}" onerror="this.onerror=null;this.src='{{ $image | absURL }}'" alt="{{ .speaker_name }}">
                 </div>
               {{end}}
-              <div class="bio">{{.speaker_name}}, {{.bio}}</div>
+              <div class="bio"><span>{{.speaker_name}}</span>, {{.bio}}</div>
             </div>
           {{end}}
         </div>
