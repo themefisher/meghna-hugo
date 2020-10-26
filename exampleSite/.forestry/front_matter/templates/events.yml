@@ -104,5 +104,8 @@ fields:
   config:
     required: false
   label: location
+- name: disable_download
+  type: boolean
+  label: disable download
 pages:
 - exampleSite/content/english/events/writing-new-material-histories-cement-and-concrete-in-south-asia.md
