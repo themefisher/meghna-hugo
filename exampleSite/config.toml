@@ -43,7 +43,7 @@ weight = "4"
 name = "Team Calcomp"
 pre = "#"
 url = "team"
-weight = 4
+weight = "5"
 [[menu.main]]
 name = "Contact Us"
 pre = "#"
