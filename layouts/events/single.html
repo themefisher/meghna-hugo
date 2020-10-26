@@ -40,7 +40,7 @@
           {{ template "_internal/disqus.html" . }}
         </div>
       </div>
-      {{if !.Params.disable_download}}
+      {{if not .Params.disable_download}}
         <div class="col-lg-8 offset-lg-2">
           <input type="hidden" id="subject" value="{{.Title }}"/>
           <input type="hidden" id="cl-description" value="{{ .Params.calendar_description }}"/>
