@@ -1,6 +1,4 @@
 ---
-- id: ViewAllEvents
-  translation: View all upcoming events & lectures
 - id: upcomingSectionTitle
   translation: Upcoming Events & Lectures
 - id: blogTitle
@@ -13,6 +11,8 @@
   translation: View All Post
 - id: viewAllLectures
   translation: View All Lectures
+- id: ViewAllEvents
+  translation: View all upcoming events & lectures
 - id: share
   translation: Share
 - id: aboutAuthor
