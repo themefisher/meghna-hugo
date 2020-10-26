@@ -16,9 +16,16 @@
         {{end}}
       </div>
       {{ range .Params.event_speakers }}
-        <div class="col-lg-8 offset-lg-2">
-          Speakers
-          {{.speaker_name}} {{.bio}}
+        <div class="col-lg-8 offset-lg-2 mb-3">
+          <h4>
+            Speakers
+          </h4>
+          <div>
+            <div class="client-thumb speaker">
+              <img class="img-fluid lozad" data-src="/images/client/client-1.webp" onerror="this.onerror=null;this.src='\/images\/client\/client-1.jpg'" alt="Lemos Kail" src="/images/client/client-1.webp" data-loaded="true">
+            </div>
+            <div class="bio">{{.speaker_name}} {{.bio}}</div>
+          </div>
         </div>
       {{end}}
       <div class="col-lg-8 offset-lg-2">
