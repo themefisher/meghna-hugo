@@ -8,14 +8,14 @@ disable_link = true
 event_end_data = "2020-10-28T15:30:00.000+00:00"
 event_end_date = 2020-10-28T15:30:00Z
 event_start_date = 2020-10-28T13:30:00Z
-image = ""
-image_webp = ""
+image = "/images/28oct.jpg"
+image_webp = "/images/28oct.webp"
 location = "Kolkata, IN"
 meeting_link = "https://bit.ly/CC-Lecture"
 tags = []
 title = "Writing New Material Histories: Cement and Concrete in South Asia"
 [[event_speakers]]
-bio = "Jnu, researcher, construction history "
+bio = "Researcher in construction history at Jawaharlal Nehru University"
 speaker_image = ""
 speaker_image_webp = ""
 speaker_name = "Meenakshi"
