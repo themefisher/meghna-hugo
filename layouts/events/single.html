@@ -17,7 +17,7 @@
           Speakers
         </h4>
         {{ range .Params.event_speakers }}
-          <div>
+          <div class="mb-2">
             <div class="client-thumb speaker">
               <img class="img-fluid lozad" data-src="/images/client/client-1.webp" onerror="this.onerror=null;this.src='\/images\/client\/client-1.jpg'" alt="Lemos Kail" src="/images/client/client-1.webp" data-loaded="true">
             </div>
@@ -37,19 +37,22 @@
           {{ template "_internal/disqus.html" . }}
         </div>
       </div>
-      {{if not .Params.disable_download}}
         <div class="col-lg-8 offset-lg-2">
-          <input type="hidden" id="subject" value="{{.Title }}"/>
-          <input type="hidden" id="description" value="{{ .Content }}"/>
-          <input type="hidden" id="location" value="{{.Params.location }}"/>
-          <input type="hidden" id="start-date" value="{{.Params.event_start_date }}"/>
-          <input type="hidden" id="end-date" value="{{.Params.event_end_date }}"/>
-          <input type="hidden" id="filename" value="{{ .Params.calendar_filename }}"/>
-          <button class="clndr btn btn-main" onclick="downloadEvent()">
-              <i class="ti-calendar"></i>Add to Calendar
-          </button>
+          {{if not .Params.disable_link}}
+            <a href={{.Params.meeting_link}} class="btn btn-main" target="_blank"><i class="ti-link"></i>Join</a>
+          {{end}}
+          {{if not .Params.disable_download}}
+            <input type="hidden" id="subject" value="{{.Title }}"/>
+            <input type="hidden" id="description" value="{{ .Params.meeting_link }}"/>
+            <input type="hidden" id="location" value="{{.Params.location }}"/>
+            <input type="hidden" id="start-date" value="{{.Params.event_start_date }}"/>
+            <input type="hidden" id="end-date" value="{{.Params.event_end_date }}"/>
+            <input type="hidden" id="filename" value="{{ .Params.calendar_filename }}"/>
+            <button class="clndr btn btn-main" onclick="downloadEvent()">
+                <i class="ti-calendar"></i>Add to Calendar
+            </button>
+          {{ end }}
         </div>
-      {{ end }}
     </div>
   </div>
 </section>

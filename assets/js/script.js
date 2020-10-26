@@ -142,10 +142,11 @@ jQuery(function ($) {
 function downloadEvent(){
 	var subject = $('#subject').val();
 	var description = $('#description').val();
+	description = 'Please join here ' + description;
 	//description = $('.post-single-content').html();
-	description = description.replace(/\n/g , '\\n');
-	description = description.replace(/\r\n/g , '\\n');
-	description = description.replace(/<br>/g , '\\n');
+	// description = description.replace(/\n/g , '\\n');
+	// description = description.replace(/\r\n/g , '\\n');
+	// description = description.replace(/<br>/g , '\\n');
 	var location = $('#location').val();
 	var begin = $('#start-date').val();
 	var end = $('#end-date').val();
