@@ -20,30 +20,34 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.main]]
-name = "Lectures"
-pre = ""
-url = "lectures"
-weight = 1
+name = "Our Work"
+url = "counter"
+weight = 4
 [[menu.main]]
-name = "Blog"
-pre = ""
-url = "blog"
-weight = 2
+name = "Contact Us"
+pre = "#"
+url = "contact"
+weight = 6
+[[menu.main]]
+name = "Team Calcomp"
+pre = "#"
+url = "team"
+weight = 5
 [[menu.main]]
 name = "Who are we"
 pre = "#"
 url = "about"
 weight = 3
 [[menu.main]]
-name = "Team Calcomp"
-pre = "#"
-url = "team"
-weight = 4
+name = "Blog"
+pre = ""
+url = "blog"
+weight = 2
 [[menu.main]]
-name = "Contact Us"
-pre = "#"
-url = "contact"
-weight = 5
+name = "Lectures"
+pre = ""
+url = "lectures"
+weight = 1
 [params]
 author = "Themefisher"
 description = "Responsive Multipurpose Parallax Hugo Template"
