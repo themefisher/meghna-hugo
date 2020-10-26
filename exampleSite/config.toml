@@ -20,15 +20,15 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.main]]
+name = "Blog"
+pre = ""
+url = "blog"
+weight = "1"
+[[menu.main]]
 name = "Lectures"
 pre = ""
 url = "lectures"
 weight = 1
-[[menu.main]]
-name = "Blog"
-pre = ""
-url = "blog"
-weight = 2
 [[menu.main]]
 name = "Who are we"
 pre = "#"
