@@ -26,7 +26,7 @@
         {{end}}
       </div>
       <div class="col-lg-8 offset-lg-2">
-        <div class="post-single-content">
+        <div class="post-single-content" id="description">
           {{ .Content }}
         </div>
         {{ if site.Params.post_share }}
@@ -40,7 +40,6 @@
       {{if not .Params.disable_download}}
         <div class="col-lg-8 offset-lg-2">
           <input type="hidden" id="subject" value="{{.Title }}"/>
-          <input type="hidden" id="description" value="{{ .Content }}"/>
           <input type="hidden" id="location" value="{{.Params.location }}"/>
           <input type="hidden" id="start-date" value="{{.Params.event_start_date }}"/>
           <input type="hidden" id="end-date" value="{{.Params.event_end_date }}"/>
