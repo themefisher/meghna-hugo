@@ -95,6 +95,14 @@ fields:
   config:
     required: false
   label: location
+- name: disable_link
+  type: boolean
+  label: disable link
+- name: meeting_link
+  type: text
+  config:
+    required: false
+  label: meeting link
 - name: disable_download
   type: boolean
   label: disable download
