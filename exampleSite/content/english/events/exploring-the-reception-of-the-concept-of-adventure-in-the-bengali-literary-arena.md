@@ -20,4 +20,4 @@ speaker_image_webp = ""
 speaker_name = "Saswati Saha"
 
 +++
-Please join us on 29th of cowith Saswati Saha and the people @CC1919 as they converse on how Adventures are perceived in the Bengal literary Arena
+Please join us on 29th of October with Saswati Saha and the people @CC1919 as they converse on how Adventures are perceived in the Bengal literary Arena
