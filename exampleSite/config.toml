@@ -28,7 +28,7 @@ weight = "1"
 name = "Blog"
 pre = ""
 url = "blog"
-weight = 1
+weight = "2"
 [[menu.main]]
 name = "Lectures"
 pre = ""
