@@ -15,7 +15,6 @@
           <img class="img-fluid mb-50 lozad" data-src="{{ .Params.image | absURL }}" alt="blog-image">
         {{end}}
       </div>
-      {{with .Params.event_speakers}}
       <div class="col-lg-8 offset-lg-2 mb-3">
         <h4>
           Speakers
@@ -25,11 +24,10 @@
             <div class="client-thumb speaker">
               <img class="img-fluid lozad" data-src="/images/client/client-1.webp" onerror="this.onerror=null;this.src='\/images\/client\/client-1.jpg'" alt="Lemos Kail" src="/images/client/client-1.webp" data-loaded="true">
             </div>
-            <div class="bio">{{.speaker_name}} {{.bio}}</div>
+            <div class="bio">{{.speaker_name}}, {{.bio}}</div>
           </div>
         {{end}}
       </div>
-      {{end}}
       <div class="col-lg-8 offset-lg-2">
         <div class="post-single-content">
           {{ .Content }}
