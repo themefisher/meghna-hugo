@@ -12,9 +12,15 @@
           <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Params.event_start_date }}</li>
         </ul>
         {{ if (isset .Params "image") }}
-        <img class="img-fluid mb-50 lozad" data-src="{{ .Params.Image | absURL }}" alt="blog-image">
+          <img class="img-fluid mb-50 lozad" data-src="{{ .Params.Image | absURL }}" alt="blog-image">
         {{end}}
       </div>
+      {{ range .Params.Event_speakers }}
+        <div class="col-lg-8 offset-lg-2">
+          Speakers
+          {{.Speaker_name}} {{.Bio}}
+        </div>
+      {{end}}
       <div class="col-lg-8 offset-lg-2">
         <div class="post-single-content">
           {{ .Content }}
@@ -27,18 +33,20 @@
           {{ template "_internal/disqus.html" . }}
         </div>
       </div>
-      <div class="col-lg-8 offset-lg-2">
-        <input type="hidden" id="subject" value="{{.Title }}"/>
-        <input type="hidden" id="cl-description" value="{{ .Params.calendar_description }}"/>
-        <input type="hidden" id="description" value="{{ .Content }}"/>
-        <input type="hidden" id="location" value="{{.Params.location }}"/>
-        <input type="hidden" id="start-date" value="{{.Params.event_start_date }}"/>
-        <input type="hidden" id="end-date" value="{{.Params.event_end_date }}"/>
-        <input type="hidden" id="filename" value="{{ .Params.calendar_filename }}"/>
-        <button class="clndr btn btn-main" onclick="downloadEvent()">
-            <i class="ti-calendar"></i>Add to Calendar
-        </button>
-      </div>
+      {{if .Params.Disable_download}}
+        <div class="col-lg-8 offset-lg-2">
+          <input type="hidden" id="subject" value="{{.Title }}"/>
+          <input type="hidden" id="cl-description" value="{{ .Params.calendar_description }}"/>
+          <input type="hidden" id="description" value="{{ .Content }}"/>
+          <input type="hidden" id="location" value="{{.Params.location }}"/>
+          <input type="hidden" id="start-date" value="{{.Params.event_start_date }}"/>
+          <input type="hidden" id="end-date" value="{{.Params.event_end_date }}"/>
+          <input type="hidden" id="filename" value="{{ .Params.calendar_filename }}"/>
+          <button class="clndr btn btn-main" onclick="downloadEvent()">
+              <i class="ti-calendar"></i>Add to Calendar
+          </button>
+        </div>
+      {{ end }}
     </div>
   </div>
 </section>
