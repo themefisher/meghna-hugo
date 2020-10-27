@@ -20,7 +20,7 @@
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
 
-			{{ range first 3 (where site.RegularPages "Section" "==" "events")}}
+			{{ range first 3 (where site.RegularPages "Section" "==" "events").Byevent_start_date}}
 			{{ .Render "upcoming"}}
 			{{ end }}
 
