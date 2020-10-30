@@ -10,11 +10,11 @@
 	<meta name="author" content="{{ . }}">{{ end }}
 	{{ hugo.Generator }}
 
-	{{ $url := .Site.BaseURL }}
+	{{ $url := .BaseURL }}
 	{{ template "_internal/opengraph.html" . }}
-	<meta name="og:image" content="{{ with .Params.image }}{{$url}}{{ . | absURL }}{{ else }}{{$url}}{{ `images/Cover.jpg` | absURL }}{{end}}">
+	<meta name="og:image" content="{{ with .Params.image }}{{$url}}{{ . }}{{ else }}{{$url}}{{ `images/Cover.jpg` }}{{end}}">
 	{{ template "_internal/twitter_cards.html" . }}
-	<meta name="twitter:image" content="{{ with .Params.image }}{{$url}}{{ . | absURL }}{{ else }}{{$url}}{{ `images/Cover.jpg` | absURL }}{{end}}">
+	<meta name="twitter:image" content="{{ with .Params.image }}{{$url}}{{ . }}{{ else }}{{$url}}{{ `images/Cover.jpg`}}{{end}}">
 	
 
 	<link rel="canonical" href="{{ .Permalink }}">
