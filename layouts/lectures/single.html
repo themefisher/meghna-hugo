@@ -8,7 +8,8 @@
       <div class="col-lg-8 offset-lg-2 text-center">
         <h1>{{ .Title }}</h1>
         <ul class="list-inline mb-50">
-          <li class="list-inline-item"><a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.Author }}</a></li>
+          <!-- <li class="list-inline-item"><a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.Author }}</a></li> -->
+          <li class="list-inline-item">{{ .Params.Author }}</li>
           <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li>
         </ul>
         <img class="img-fluid mb-50 lozad" data-src="{{ .Params.Image | absURL }}" alt="blog-image">
