@@ -3,7 +3,6 @@ author = "Suparna Mondal"
 author_bio = "Suparana is a co-founder of the calcomp1919 group and currently works as an independent researcher and translator"
 date = 2020-10-30T06:52:36Z
 description = "বাাংলাদেদের মুসললম সমাদে গণমাধ্যদমর প্রলিগ্রহণ: প্রসঙ্গ ‘টেলিভিশন’"
-draft = true
 image = "/images/tv.jpg"
 image_webp = "/images/tv.webp"
 title = "বাাংলাদেদের মুসললম সমাদে গণমাধ্যদমর প্রলিগ্রহণ: প্রসঙ্গ ‘টেলিভিশন’"
