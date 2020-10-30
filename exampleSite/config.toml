@@ -50,7 +50,7 @@ pre = "#"
 url = "contact"
 weight = "6"
 [params]
-author = "Themefisher"
+author = ""
 description = "A platform for scholars of Humanities and Social Sciences. And of course Comparative Literature. "
 google_analytics_id = ""
 logo = "images/logo.jpg"
