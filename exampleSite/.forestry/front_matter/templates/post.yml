@@ -37,3 +37,5 @@ fields:
         format: markdown
     label: short bio
   label: author
+pages:
+- exampleSite/content/english/blog/who-dominates-the-stage-of-the-world.20191203072044
