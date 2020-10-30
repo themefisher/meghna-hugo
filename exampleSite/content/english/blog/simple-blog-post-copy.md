@@ -1,11 +1,11 @@
 +++
 author = "John Doe"
 date = 2018-09-12T06:52:36Z
-description = "This is meta description"
+description = "Who Dominates the Stage of the World"
 draft = true
 image = "images/blog/blog-post-2.jpg"
 image_webp = "images/blog/blog-post-2.webp"
-title = "Simple Blog Post-(copy)"
+title = "Who Dominates the Stage of the World"
 
 +++
 Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
