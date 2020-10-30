@@ -1,7 +1,7 @@
 +++
 author = "Nabodita Ganguly"
 author_bio = "Nabodia is currently perusing her masters degree in mass media from Symbiosis Pune."
-date = 2018-10-30T06:52:36Z
+date = 2020-10-30T06:52:36Z
 description = "Who Dominates the Stage of the World?"
 image = "/images/nabadita2.jpg"
 image_webp = "/images/nabadita2.webp"
