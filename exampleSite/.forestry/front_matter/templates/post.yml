@@ -32,3 +32,5 @@ fields:
   name: description
   label: description
   description: meta description
+pages:
+- exampleSite/content/english/blog/who-dominates-the-stage-of-the-world.20191203072044
