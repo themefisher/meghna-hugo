@@ -52,7 +52,7 @@ weight = "6"
 [params]
 author = "Themefisher"
 description = "Responsive Multipurpose Parallax Hugo Template"
-google_analytics_id = ""
+google_analytics_id = "A platform for scholars of Humanities and Social Sciences. And of course Comparative Literature. "
 logo = "images/logo.jpg"
 post_share = false
 [params.cookies]
