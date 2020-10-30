@@ -8,8 +8,9 @@
       <div class="col-lg-8 offset-lg-2 text-center">
         <h1>{{ .Title }}</h1>
         <ul class="list-inline mb-50">
+          {{ $author := .Params.author }}
           <!-- <li class="list-inline-item"><a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/">{{ .Params.Author }}</a></li> -->
-          <li class="list-inline-item">{{ .Params.author.name }}</li>
+          <li class="list-inline-item">{{ $author.name }}</li>
           <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li>
         </ul>
         <img class="img-fluid mb-50 lozad" data-src="{{ .Params.Image | absURL }}" alt="blog-image">
@@ -19,7 +20,7 @@
           {{ .Content }}
         </div>
         <div class="mt-2">
-          {{ .Params.author.short_bio }}
+          {{ $author.short_bio }}
         </div>
         {{ if site.Params.post_share }}
         {{ partial "post-share.html" . }}
