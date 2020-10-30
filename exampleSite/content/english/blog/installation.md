@@ -5,6 +5,7 @@ author: Mark Dinn
 image_webp: images/blog/meghna.webp
 image: images/blog/meghna.jpg
 description: This is meta description
+draft: true
 
 ---
 ## Install this template by following those simple steps:
