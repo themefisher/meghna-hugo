@@ -1,4 +1,4 @@
-{{ $url := printf "%s" .Permalink | absLangURL }}
+{{ $url := site.Params.staticAddress .Permalink | absLangURL }}
 <!-- Sharingbutton Facebook -->
 <div class="social-share pt-4">
 	<h4>{{ i18n "share" }}:</h4>
