@@ -1,8 +1,3 @@
-[build.environment]
-  HUGO_VERSION = "0.73.0"
-  HUGO_THEME = "trunk"
-  HUGO_BASEURL = "/"
-
 baseURL = "https://calcomp.org"
 disableLanguages = ["Fr"]
 disqusShortname = ""
@@ -110,7 +105,7 @@ icon = "ti-twitter-alt"
 link = "https://twitter.com/1919Calcutta?s=09"
 [[params.social]]
 icon = "ti-youtube"
-link = "#"
+link = "https://www.youtube.com/channel/UCf3NTN5X_eXHa5b8FCabp9Q"
 [[params.social]]
 icon = "ti-instagram"
 link = "https://www.instagram.com/invites/contact/?i=1n2k0271ntjlf&utm_content=io0z4gk"
