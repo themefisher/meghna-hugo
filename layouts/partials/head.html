@@ -10,7 +10,7 @@
 	<meta name="author" content="{{ . }}">{{ end }}
 	{{ hugo.Generator }}
 
-	{{ $url := .Site.staticURL }}
+	{{ $url := .Site.StaticURL }}
 	{{ template "_internal/opengraph.html" . }}
 	<meta name="og:image" content="{{ with .Params.image }}{{$url}}{{ . | absURL }}{{ else }}{{$url}}{{ `images/Cover.jpg` | absURL}}{{end}}">
 	{{ template "_internal/twitter_cards.html" . }}
