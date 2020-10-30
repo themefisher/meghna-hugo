@@ -6,11 +6,9 @@
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-	{{ with site.Params.author }}
 	<meta name="author" content="{{ . }}">{{ end }}
-	{{ hugo.Generator }}
 
-	{{ $url := .Site.StaticURL }}
+	{{ $url := .Site.StaticAddress }}
 	{{ template "_internal/opengraph.html" . }}
 	<meta name="og:image" content="{{ with .Params.image }}{{$url}}{{ . | absURL }}{{ else }}{{$url}}{{ `images/Cover.jpg` | absURL}}{{end}}">
 	{{ template "_internal/twitter_cards.html" . }}
