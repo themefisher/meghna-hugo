@@ -8,6 +8,20 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: author
+  type: text
+  config:
+    required: false
+  label: author
+- name: author_bio
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: author bio
 - type: file
   name: image_webp
   label: image webp
@@ -18,22 +32,3 @@ fields:
   name: description
   label: description
   description: meta description
-- name: author
-  type: field_group
-  config: {}
-  fields:
-  - name: name
-    type: text
-    config:
-      required: false
-    label: name
-  - name: short_bio
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: short bio
-  label: author
