@@ -11,7 +11,7 @@
 
 	<meta property="og:title" content="{{ .Title }}">
 	<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-	<meta property="og:image" content="{{ with .Image }}{{ . }}{{ else }}{{ `images/Cover.jpg` | absURL }}{{ end }}" />
+	<meta property="og:image" content="{{ `images/Cover.jpg` | absURL }}" />
 	<meta property="og:url" content="{{ .Permalink }}">
 
 	{{ "<!-- plugins -->" | safeHTML }}
