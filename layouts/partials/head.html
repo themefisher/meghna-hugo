@@ -5,9 +5,14 @@
 	{{ "<!-- mobile responsive meta -->" | safeHTML }}
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
-	{{ with site.Params.author }}
+	<!-- {{ with site.Params.author }} -->
 	<meta name="author" content="{{ . }}">{{ end }}
-	{{ hugo.Generator }}
+	<!-- {{ hugo.Generator }} -->
+
+	<meta property="og:title" content="{{ .Title }}" />
+	<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}" />
+	<meta property="og:image" content="{{ .image }}" />
+	<meta property="og:url" content="{{.Permalink}}" />
 
 	{{ "<!-- plugins -->" | safeHTML }}
 	{{ range site.Params.plugins.css }}
