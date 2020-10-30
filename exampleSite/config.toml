@@ -1,4 +1,5 @@
 baseURL = "https://calcomp.netlify.app/"
+canonifyURLs = "true"
 disableLanguages = ["Fr"]
 disqusShortname = ""
 paginate = "6"
