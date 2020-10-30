@@ -1,6 +1,5 @@
 baseURL = "https://calcomp.netlify.app/"
 canonifyURLs = "true"
-staticAddress="https://calcomp.netlify.app"
 disableLanguages = ["Fr"]
 disqusShortname = ""
 paginate = "6"
@@ -53,6 +52,7 @@ url = "contact"
 weight = "6"
 [params]
 author = ""
+staticAddress="https://calcomp.netlify.app"
 description = "A platform for scholars of Humanities and Social Sciences. And of course Comparative Literature. "
 google_analytics_id = ""
 logo = "images/logo.jpg"
