@@ -12,7 +12,6 @@
 	<meta property="og:title" content="{{ .Title }}" />
 	<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}" />
 	<meta property="og:image" content="{{ .image }}" />
-	<meta property="og:url" content="{{.Permalink}}" />
 
 	{{ "<!-- plugins -->" | safeHTML }}
 	{{ range site.Params.plugins.css }}
