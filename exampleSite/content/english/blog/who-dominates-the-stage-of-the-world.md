@@ -8,9 +8,7 @@ image_webp = "/images/nabadita2.webp"
 title = "Who Dominates the Stage of the World?"
 
 +++
-> _“All the world’s a stage,_
->
-> _And all the men and women merely players…”- Shakespeare_
+> _“All the world’s a stage, And all the men and women merely players…”- Shakespeare_
 
 I really enjoyed studying _As You Like It_, the play by Shakespeare which covers various aspects and layers of human emotions. Here, he describes the world as a stage. There was a time when I was a dancer. Stage was pretty much a part of life. As we danced on the stage, we memorised the steps taught to us by our dance teacher, a woman. We acted with grace, danced with the rhythm of the music. It took us months of hard work, to learn the steps as instructed by our mam.
 
