@@ -50,6 +50,8 @@ pre = "#"
 url = "contact"
 weight = "6"
 [params]
+images:
+  - Cover.jpg
 author = ""
 description = "A platform for scholars of Humanities and Social Sciences. And of course Comparative Literature. "
 google_analytics_id = ""
