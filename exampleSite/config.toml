@@ -1,3 +1,8 @@
+[build.environment]
+  HUGO_VERSION = "0.73.0"
+  HUGO_THEME = "trunk"
+  HUGO_BASEURL = "/"
+
 baseURL = "https://calcomp.org"
 disableLanguages = ["Fr"]
 disqusShortname = ""
