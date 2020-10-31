@@ -3,10 +3,9 @@ contact:
   enable: true
   title: Contact Us
   subtitle: Contact Details
-  content: hath fallen free to int'ract with us
+  content: Feel free to mail us or drop us a note, we would be happy to hear from
+    you.
   contact_list:
-  - icon: ti-location-pin
-    info: world wide web
   - icon: ti-email
     info: 'Email: calcomparatists@gmail.com'
   contact_form:
