@@ -13,9 +13,13 @@
 	{{ $url := site.Params.staticAddress }}
 	{{ template "_internal/opengraph.html" . }}
 	<meta name="og:image" content="{{ with .Params.image }}{{$url}}{{ . | absURL }}{{ else }}{{$url}}{{ `images/Cover.jpg` | absURL}}{{end}}">
-	{{ template "_internal/twitter_cards.html" . }}
+
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:title" content="{{ .Title }}"/>
+	<meta name="twitter:description"  content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}"/>
 	<meta name="twitter:image" content="{{ with .Params.image }}{{$url}}{{ . | absURL}}{{ else }}{{$url}}{{ `images/Cover.jpg` | absURL}}{{end}}">
-	
+	<meta property="twitter:site" content="{{site.Params.twitterSite}}" />
+	<meta property="twitter:creator" content="{{site.Params.twitterSite}}" />
 
 	<link rel="canonical" href="{{ .Permalink }}">
 	{{ "<!-- plugins -->" | safeHTML }}

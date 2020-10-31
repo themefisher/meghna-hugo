@@ -57,6 +57,7 @@ google_analytics_id = ""
 logo = "images/logo.jpg"
 post_share = true
 staticAddress = "https://calcomp.netlify.app"
+twitterSite="@1919Calcutta"
 [params.cookies]
 enable = false
 expire_days = 2
