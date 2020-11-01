@@ -31,3 +31,15 @@
 .bio span{
     font-size: 1.2rem;
 }
+@media only screen and (max-device-width: 768px) {
+    .hero-area{
+        height: 70vh;
+    }
+}
+
+blockquote p{
+    font-size:20px;
+}
+blockquote {
+    background-color:#2c9091 ;
+}
