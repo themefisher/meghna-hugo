@@ -42,4 +42,5 @@ blockquote p{
 }
 blockquote {
     background-color:#2c9091 ;
+    line-height: 25px;
 }
