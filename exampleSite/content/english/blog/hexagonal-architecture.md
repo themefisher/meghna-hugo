@@ -29,7 +29,7 @@ If you want to build this Demo app on your site you will need these materials:
 The critical role of the Application Core is serving Business Logic. It includes business functions and domains.
 Moreover, the core can interact with other outside parties like persistence entities. Additionally, it performs operations on the received data.
 
-####**2.1 Domain**
+#### **2.1 Domain**
 
 The primary role of the Core is to administer the code that implements and touches business logic.
 To take the first step, let's start with the Domain layer.
@@ -49,7 +49,7 @@ public class Book {
     // standard setters and getters
  }
 ```
-####**2.2 Ports**
+#### **2.2 Ports**
 
 In this section, we'll implement some ports to achieve our Business logic that interacts with the outside.
 First, we'll create an incoming port. External components use this.
@@ -76,7 +76,7 @@ public interface BookAuthorPersistencePort {
 }
 ```
 
-####**2.3 Service** 
+#### **2.3 Service** 
 To wire all pieces together and drive the execution, we need a service. Also, it implements the incoming port and interacts with the database by injected the outcoming port.
 Let's create DTOs to interact service with the outside of the Core:
 
@@ -121,7 +121,7 @@ public class BookAuthorServiceImpl implements BookAuthorService {
 ### **3. Adapters**
 Typically, Ports are interfaces to be spent by external parties. Consequently, Adapters are implementations of ports.
 
-####**3.1 Primary Adapters** 
+#### **3.1 Primary Adapters** 
 In this part, we'll perform a typical REST Controller as the primary adapter to allow the user to talk with our Core:
 
 ```java
@@ -153,7 +153,7 @@ public class ApiController {
 ```
 The REST Controller can drive the application. In other words, it's a request's gate to get through the application.
 
-####**3.2 Secondary Adapters** 
+#### **3.2 Secondary Adapters** 
 Typically, Secondary Adapters used by external entities. Therefore, we'll implement BookAuthorAdapter as a Secondary Adapter:
 
 ```java
