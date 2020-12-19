@@ -4,7 +4,7 @@ Meghna Hugo  is a one page professional Hugo website template and crafted with a
 
 <!-- table of content -->
 ## Table of Contents
-- [Demo](#demo)
+- [Example Site](#example-site)
 - [Easy Setup](#easy-setup-hugo--netlify--forestry)
 - [Local Machine Setup](#local-machine-setup)
 - [Reporting Issues](#reporting-issues)
@@ -16,8 +16,7 @@ Meghna Hugo  is a one page professional Hugo website template and crafted with a
 - [More Hugo Themes](https://gethugothemes.com/hugo-themes/)
 
 <!-- demo -->
-## Demo
-_The images are only for demonstration purposes. Please don't use those images._
+## Example Site
 
 <img src="https://user-images.githubusercontent.com/37659754/54068559-44d79a80-4278-11e9-9601-f58d6879989c.gif" alt="screenshot" width="100%">
 
@@ -59,12 +58,17 @@ Here comes the last step . Go to your [netlify](https://netlify.com) account and
 ## Local Machine Setup
 At the top we have shown an easy hugo installation. But if you still think you want to go with the traditional way, use the following commands:
 
+* Clone the repository
 ```
 $ git clone git@github.com:themefisher/meghna-hugo.git
+```
+
+* Go to exampleSite dict and run hugo server
+```
 $ cd meghna-hugo/exampleSite/
 $ hugo server --themesDir ../..
 ```
-Or Check out [Full Documentation](https://docs.gethugothemes.com/meghna-hugo/).
+Or Check out [Full Documentation](https://docs.gethugothemes.com/meghna-hugo/?ref=github).
 
 <!-- reporting issue -->
 ## Reporting Issues
@@ -80,6 +84,8 @@ If you have questions or need help integrating the product please [contact us](m
 Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)
 
 Released under the [MIT](https://github.com/themefisher/meghna-hugo/blob/master/LICENSE) license.
+
+**Image licence:** The images are only for demonstration purposes. Please don't use those images.
 
 <!-- resources -->
 ## Resources
@@ -114,7 +120,7 @@ We are available for **Hiring** for your next HUGO project. Drop us a mail at [m
 ## Premium Themes
 | [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![Biztrox](https://gethugothemes.com/wp-content/uploads/2019/12/Biztrox.png)](https://gethugothemes.com/products/hugo-business-theme/) | [![bexer](https://gethugothemes.com/wp-content/uploads/2019/06/hugo-theme-bexer.jpg)](https://gethugothemes.com/products/bexer-hugo-theme/) |
 |:---:|:---:|:---:|
-| **Hugo Mega Bundle**  | **Biztrox**  | **Bexer**  |
+| **Premium Theme Bundle (40+)**  | **Biztrox**  | **Bexer**  |
 | [![Enov](https://gethugothemes.com/wp-content/uploads/2019/09/enov-business-template.jpg)](https://gethugothemes.com/products/enov-hugo/) | [![Vixcon](https://gethugothemes.com/wp-content/uploads/edd/2019/09/vixcon-conference-meetup-template-thumbnail.jpg)](https://gethugothemes.com/products/vixcon-hugo/) | [![Orbitor](https://gethugothemes.com/wp-content/uploads/edd/2019/09/orbitor-software-company-website-template.jpg)](https://gethugothemes.com/products/orbitor/) |
 | **Enov** | **Vixcon** | **Orbitor** |
 | [![Agen](https://gethugothemes.com/wp-content/uploads/edd/2019/09/agen-hugo-theme.jpg)](https://gethugothemes.com/products/agen-hugo/) | [![Navigator](https://gethugothemes.com/wp-content/uploads/edd/2019/08/Navigator.jpg)](https://gethugothemes.com/products/navigator/) | [![all](https://gethugothemes.com/wp-content/uploads/2019/12/get-more-hugo-themes.png)](https://gethugothemes.com/shop/) |
