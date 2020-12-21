@@ -83,13 +83,13 @@ If you have questions or need help integrating the product please [contact us](m
 ## License
 Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)
 
-Released under the [MIT](https://github.com/themefisher/meghna-hugo/blob/master/LICENSE) license.
+**Code License:** Released under the [MIT](https://github.com/themefisher/meghna-hugo/blob/master/LICENSE) license.
 
-**Image licence:** The images are only for demonstration purposes. Please don't use those images.
+**Image license:** The images are only for demonstration purposes. They have their own licence, we don't have permission to share those image.
 
 <!-- resources -->
 ## Resources
-Some third-party plugins that we used to build this template.
+Some third-party plugins that we used to build this template. Please check their licence.
 * **Bootstrap v4.3**: https://getbootstrap.com/docs/4.3/getting-started/introduction/
 * **Jquery v3.5.1**: https://jquery.com/download/
 * **Themify Icons**: https://themify.me/themify-icons
