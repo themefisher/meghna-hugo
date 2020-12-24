@@ -27,7 +27,7 @@ Check out [Live Demo](http://demo.themefisher.com/meghna-hugo/en/)
 Build your website with **Meghna Hugo** theme by following these easy steps(No Coding Required!)
 
 _Checkout this video tutorial_
-<a href="https://youtu.be/ResipmZmpDU" target="_blank" title="meghna hugo installation" rel="nofollow"><img width="100%" src="https://user-images.githubusercontent.com/37659754/70844354-4028be00-1e6a-11ea-8d84-02e9a25e7db8.png"></a>
+<a href="https://youtu.be/ResipmZmpDU" target="_blank" title="meghna hugo installation" rel="nofollow"><img width="100%" src="https://user-images.githubusercontent.com/37659754/103056582-88270880-45c7-11eb-9124-ab17bae951ec.png"></a>
 
 In this tutorial, we will show you to make your website live without buying any hosting and touching a single line of code.
 
