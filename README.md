@@ -1,4 +1,4 @@
-# Meghna Hugo Theme By [Themefisher](https://themefisher.com/) For [Hugo](https://gohugo.io/)
+# Meghna Hugo Theme
 
 Meghna Hugo  is a one page professional Hugo website template and crafted with all the necessary elements and features. Apart from the exclusive appearance, the main features of Meghna are video embedding option in the homepage, about, portfolio, service, skills, works, team, testimonial, pricing, and blog sections
 
@@ -11,7 +11,6 @@ Meghna Hugo  is a one page professional Hugo website template and crafted with a
 - [Technical Support or Questions](#technical-support-or-questions-(paid))
 - [License](#license)
 - [Resources](#resources)
-- [Donate Us](#donate-us-author)
 - [Hire Us](#hire-us)
 - [More Hugo Themes](https://gethugothemes.com/hugo-themes/)
 
@@ -68,7 +67,7 @@ $ git clone git@github.com:themefisher/meghna-hugo.git
 $ cd meghna-hugo/exampleSite/
 $ hugo server --themesDir ../..
 ```
-Or Check out [Full Documentation](https://docs.gethugothemes.com/meghna-hugo/?ref=github).
+Or Check out [Full Documentation](https://docs.gethugothemes.com/meghna/?ref=github).
 
 <!-- reporting issue -->
 ## Reporting Issues
@@ -99,20 +98,6 @@ Some third-party plugins that we used to build this template. Please check their
 * **Slick**: https://kenwheeler.github.io/slick/
 * **Shuffle**: https://vestride.github.io/Shuffle/
 
-<!-- donation -->
-## Donate Us (Author) 
-This project needs you! If you would like to support this project's further development, the creator of this project or the continuous maintenance of this project, feel free to donate. Your donation is highly appreciated . Thank you!
-
-* **[Donate $10](https://www.paypal.me/themefisher/10USD)**: Thank's for creating this project, here's a tea (or some juice) for you!
-* **[Donate $20](https://www.paypal.me/themefisher/20USD)**: Wow, I am stunned. Let me take you to the movies!
-* **[Donate $30](https://www.paypal.me/themefisher/30USD)**: I really appreciate your work, let's grab some lunch!
-* **[Donate $40](https://www.paypal.me/themefisher/40USD)**: That's some awesome stuff you did right there, dinner is on me!
-* **[Donate $50](https://www.paypal.me/themefisher/50USD)**: I really really want to support this project, great job!
-* **[Donate $100](https://www.paypal.me/themefisher/100USD)**: You are the man! This project saved me hours (if not days) of struggle and hard work, simply awesome!
-* **[Donate $1500](https://www.paypal.me/themefisher/1500USD)**: Go buddy, buy Macbook Pro for yourself!
-
-Of course, you can also choose what you want to donate, all donations are awesome! 
-
 ## Hire Us
 We are available for **Hiring** for your next HUGO project. Drop us a mail at [mehedi@themefisher.com](mailto:mehedi@themefisher.com)
 
@@ -121,7 +106,3 @@ We are available for **Hiring** for your next HUGO project. Drop us a mail at [m
 | [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![Biztrox](https://gethugothemes.com/wp-content/uploads/2019/12/Biztrox.png)](https://gethugothemes.com/products/hugo-business-theme/) | [![bexer](https://gethugothemes.com/wp-content/uploads/2019/06/hugo-theme-bexer.jpg)](https://gethugothemes.com/products/bexer-hugo-theme/) |
 |:---:|:---:|:---:|
 | **Premium Theme Bundle (40+)**  | **Biztrox**  | **Bexer**  |
-| [![Enov](https://gethugothemes.com/wp-content/uploads/2019/09/enov-business-template.jpg)](https://gethugothemes.com/products/enov-hugo/) | [![Vixcon](https://gethugothemes.com/wp-content/uploads/edd/2019/09/vixcon-conference-meetup-template-thumbnail.jpg)](https://gethugothemes.com/products/vixcon-hugo/) | [![Orbitor](https://gethugothemes.com/wp-content/uploads/edd/2019/09/orbitor-software-company-website-template.jpg)](https://gethugothemes.com/products/orbitor/) |
-| **Enov** | **Vixcon** | **Orbitor** |
-| [![Agen](https://gethugothemes.com/wp-content/uploads/edd/2019/09/agen-hugo-theme.jpg)](https://gethugothemes.com/products/agen-hugo/) | [![Navigator](https://gethugothemes.com/wp-content/uploads/edd/2019/08/Navigator.jpg)](https://gethugothemes.com/products/navigator/) | [![all](https://gethugothemes.com/wp-content/uploads/2019/12/get-more-hugo-themes.png)](https://gethugothemes.com/shop/) |
-| **Agen** | **Navigator** | **More Hugo Themes** |
