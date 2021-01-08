@@ -1,14 +1,9 @@
 ################################# Default configuration ###################
 baseURL = "https://examplesite.com"
-<<<<<<< HEAD
 title = "La Communication Digitale By David Bailly"
 theme = "meghna-hugo"
 defaultContentLanguage = "fr"
 languageCode = "fr"
-=======
-title = "Meghna"
-themes = "meghna-hugo"
->>>>>>> 09e9aa0b39118185a334c8177ce552b310ac2af6
 themesDir = "../.."
 # post pagination
 paginate = "6"
