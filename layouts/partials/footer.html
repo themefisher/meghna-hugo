@@ -16,7 +16,7 @@
 				{{"<!-- copyright -->" | safeHTML}}
 				<div class="copyright text-center">
 					<a href="{{ site.Home.Permalink }}">
-						<img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" height="42" />
+						<img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" height="58" />
 					</a>
 					<br>
 					<p>{{ site.Params.copyright | markdownify }}</p>
@@ -45,8 +45,12 @@
 {{ if site.Params.cookies.enable }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
 <div id="js-cookie-box" class="cookie-box cookie-box-hide">
-	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-transparent">I Accept</span>
+	Ce site utilise des cookies. En continuant à utiliser ce site, vous acceptez leur utilisation. <span id="js-cookie-button" class="btn btn-transparent">Accepter</span>
 </div>
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9129191.js"></script>
+<!-- End of HubSpot Embed Code -->
 <script>
 	(function ($) {
 		const cookieBox = document.getElementById('js-cookie-box');

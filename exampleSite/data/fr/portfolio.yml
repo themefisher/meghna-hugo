@@ -1,76 +1,78 @@
 #################################### portfolio ###############################
 portfolio:
   enable : true
-  title : Our Works
+  title : Nos réalisations
   portfolio_item :
     # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-1.jpg
-      image_webp : images/portfolio/portfolio-1.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "https://themefisher.com"
+    - name : Le Palais de L'Inde
+      image : images/portfolio/porto.png
+      image_webp : images/portfolio/porto.webp
+      categories : ["Conception"]
+      content : Conception Graghique Logo
+      link : "#"
       
     # portfolio item loop
-    - name : Sound system
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    - name : Bombay Nan Grill Design
+      image : images/portfolio/porto-1.png
+      image_webp : images/portfolio/porto-1.webp
+      categories : ["developpement"]
+      content : Développement Site Web avec option E-commerce.
+      link : "https://bombaynangrill.fr"
+      
+
+    # portfolio item loop
+    - name : Portofolio David Bailly
+      image : images/portfolio/porto-2.png
+      image_webp : images/portfolio/porto-2.webp
+      categories : ["developpement"]
+      content : Développement d'un portofiolio.
+      link : "https://davidbaillydev.github.io/davidbailly.io/index.html"
+      
+    # portfolio item loop
+    - name : Le Palais De L'Inde
+      image : images/portfolio/porto-3.png
+      image_webp : images/portfolio/porto-3.webp
+      categories : ["developpement"]
+      content : Développement Site Web avec option E-commerce.
+      link : "https://davidbaillydev.github.io/palaisdelinde/"
+      
+          # portfolio item loop
+    - name : David Bailly Blog 
+      image : images/portfolio/porto-4.png
+      image_webp : images/portfolio/porto-4.webp
+      categories : ["developpement"]
+      content : Développement d'un Site Internet avec Blog.
       link : ""
       
     # portfolio item loop
-    - name : Clock Product
-      image : images/portfolio/portfolio-3.jpg
-      image_webp : images/portfolio/portfolio-3.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
+    # - name : Shopping Bag
+    #   image : images/portfolio/portfolio-5.jpg
+    #   image_webp : images/portfolio/portfolio-5.webp
+    #   categories : ["design"]
+    #   content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    #   link : "#"
       
     # portfolio item loop
-    - name : Bottol Label
-      image : images/portfolio/portfolio-4.jpg
-      image_webp : images/portfolio/portfolio-4.webp
-      categories : ["photography", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
+    # - name : Tag Design
+    #   image : images/portfolio/portfolio-6.jpg
+    #   image_webp : images/portfolio/portfolio-6.webp
+    #   categories : ["photography"]
+    #   content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    #   link : "#"
+      
+    
+    # portfolio item loop
+    # - name : Stationary Design
+    #   image : images/portfolio/portfolio-8.jpg
+    #   image_webp : images/portfolio/portfolio-8.webp
+    #   categories : ["design", "developpement"]
+    #   content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    #   link : "#"
       
     # portfolio item loop
-    - name : Shopping Bag
-      image : images/portfolio/portfolio-5.jpg
-      image_webp : images/portfolio/portfolio-5.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-6.jpg
-      image_webp : images/portfolio/portfolio-6.webp
-      categories : ["photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Business Card
-      image : images/portfolio/portfolio-7.jpg
-      image_webp : images/portfolio/portfolio-7.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Stationary Design
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["design", "photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
+    # - name : Tag Design
+    #   image : images/portfolio/portfolio-2.jpg
+    #   image_webp : images/portfolio/portfolio-2.webp
+    #   categories : ["design"]
+    #   content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    #   link : "#"

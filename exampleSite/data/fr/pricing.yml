@@ -1,64 +1,91 @@
 ##################################### pricing ##############################
 pricing:
   enable : true
-  title : Our Plans
+  title : Nos tarifs
+  soustitle: Nous vous proposons un large panel de prestations maîtrisées
   pricing_table :
     # pricing table loop
-    - name : Free
-      price : $99
-      unit : month
+    - name : SITE VITRINE STANDART
+      description : À PARTIR DE
+      price : 1090€*
+      #unit : month
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        
+        - Développé sous CMS    
+        - Maquette pré-définie
+        - Sélection d'une palette de couleur
+        - Domaine | Hébergement | E-mail 
+        - Interface Administrateur
+        - Site responsive 100%
+        - Mise en place du contenu
+        - Formulaire de contact
+        - Liens de partage réseaux sociaux
+        - Optimisation du référencement
+        - Statistiques de visite
+        - Mise en ligne du site
+        - Formation utilisation du site
       button:
-        label : "Signup"
-        link : "#"
+        label : "Demander Un Devis"
+        link : "#contact"
       
     # pricing table loop
-    - name : Silver
-      price : $149
-      unit : month
+    - name : SITE VITRINE PERSONNALISÉ
+      description : À PARTIR DE
+      price : 1590€*
+     # unit : month
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - Développé SUR-MESURE 
+        - Charte graphique personnalisée
+        - Proposition de logo
+        - Domaine | Hébergement | E-mail 
+        - Interface Administrateur
+        - Site responsive 100%
+        - Mise en place du contenu
+        - Formulaire de contact & Map
+        - Liens de partage réseaux sociaux
+        - Optimisation du référencement
+        - Statistiques de visite
+        - Mise en ligne du site
+        - Formation utilisation du site
       button:
-        label : "Signup"
-        link : "#"
+        label : "Demander Un Devis"
+        link : "#contact"
         
     # pricing table loop
-    - name : Gold
-      price : $199
-      unit : month
+    - name : SITE | PLATEFORME E-COMMERCE
+      description : À PARTIR DE
+      price : 2090€*
+      #unit : month
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - Développé sous CMS ou SUR-MESURE
+        - Severless Ou Plugins
+        - Charte Graphique | Logo
+        - Domaine | Hébergement | E-mail 
+        - Interface Administrateur
+        - Site responsive 100%
+        - Mise en place du contenu
+        - Formulaire de contact & Map
+        - Liens de partage réseaux sociaux
+        - Optimisation du référencement
+        - Statistiques de visite
+        - Mise en ligne du site
+        - Formation utilisation du site
       button:
-        label : "Signup"
-        link : "#"
+        label : "Demander Un Devis"
+        link : "#contact"
         
     # pricing table loop
-    - name : Platinum
-      price : $299
-      unit : month
+    - name : FORFAIT MAINTENANCE
+      description : 30 €/Heure
+      price : 300€
+      unit : /AN****
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - Mises à jour site internet
+        - Petites modifications graphiques ou de contenu
+        - Sauvegardes externalisées mensuelles
+        - Optimisation performances
+        - Restauration en cas de piratage
+       
       button:
-        label : "Signup"
-        link : "#"
+        label : "Contact"
+        link : "#contact"

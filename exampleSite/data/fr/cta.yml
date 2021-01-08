@@ -3,9 +3,9 @@ cta:
   enable : true
   bg_image : "images/backgrounds/bg-white-wall.jpg"
   bg_image_webp : "images/backgrounds/bg-white-wall.webp"
-  title : "Great Design & Incredible Features"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+  title : "Réfléchissons ensemble à votre présence digitale"
+  content :  NOTRE PHILOSOPHIE EST DE PROPOSER UN ÉCOSYSTÈME DIGITALE IDÉAL ET EFFICACE POUR ASSURER SA PRÉSENCE EN LIGNE
   button:
     enable : true
-    label : "Start a project with us"
+    label : "Démarrez un projet avec nous"
     link : "#contact"
