@@ -1,26 +1,26 @@
 ################################# Skill ##################################
 skill:
   enable : true
-  title : Our Skills
-  subtitle : We’ve skilled in wide range of web and Other digital market tools.
-  content : Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni explicabo cum aperiam recusandae sunt accusamus totam. Quidem quos fugiat sapiente numquam accusamus quas hic, itaque in libero reiciendis tempora!
-  image : images/about/company-growth.webp
+  title : Nos compétences
+  subtitle : Les compétences et l'expertise acquises au sein du marché numériques et des outils internet.
+  content : Spécialiste dans notre secteur. Nous apportons les outils, les concepts de création de solution web performant notre but est axés sur une présence en ligne, marketing numérique global. Nous créons des solutions adapter à différent type de projet ou de structure que ce soit sur-mesure ou déjà existant sur le marché.
+  # image : images/about/company-growth.png
   skill_item :
     # skill item loop
-    - name :  Business Development
-      percent : 90%
+    - name : Développement Web
+      percent : 94%
       
     # skill item loop
-    - name :  Analysis
+    - name :  Marketing Numérique
+      percent : 78%
+      
+    # skill item loop
+    - name :  Conception Graphique
+      percent : 80%
+      
+    - name :  Conception UX/UI
       percent : 70%
       
     # skill item loop
-    - name :  Design
-      percent : 80%
-      
-    - name :  IOS Development
-      percent : 95%
-      
-    # skill item loop
-    - name :  Android Development
+    - name :  Communication
       percent : 75%

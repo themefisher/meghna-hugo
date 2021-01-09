@@ -2,63 +2,88 @@
 pricing:
   enable : true
   title : Our Plans
+  soustitle : We offer you a wide range of controlled services
   pricing_table :
     # pricing table loop
-    - name : Free
-      price : $99
-      unit : month
+    - name : STANDARD WEBSITE
+      description : START 
+      price : 1090€*
+      # unit : month
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - Developed under CMS    
+        - Pre-defined model
+        - Selection of a color palette
+        - Domain | Hosting | E-mail 
+        - Administrator Interface
+        - 100% responsive site
+        - Setting up the content
+        - Contact Form
+        - Social network sharing links
+        - Optimization of referencing
+        - Visit statistics
+        - Putting on line of the site
+        - Training on how to use the site
       button:
-        label : "Signup"
-        link : "#"
+        label : "Custom Pricing"
+        link : "#contact"
       
     # pricing table loop
-    - name : Silver
-      price : $149
-      unit : month
+    - name : CUSTOMIZED SHOWCASE SITE
+      description : START 
+      price : 1590€*
+      # unit : month
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - Tailor-made development 
+        - Personalized graphic charter
+        - Logo proposal
+        - Domain | Hosting | E-mail 
+        - Administrator Interface
+        - 100% responsive site
+        - Setting up the content
+        - Contact form & Map
+        - Social network sharing links
+        - Optimization of referencing
+        - Visit statistics
+        - Putting on line of the site
+        - Training on how to use the site
       button:
-        label : "Signup"
-        link : "#"
+        label : "Custom Pricing"
+        link : "#contact"
         
     # pricing table loop
-    - name : Gold
-      price : $199
-      unit : month
+    - name :  E-COMMERCE PLATFORM
+      description : START 
+      price : 2090€*
+      # unit : month
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - Developed under CMS or CUSTOM
+        - Severless Or Plugins
+        - Graphic Chart | Logo
+        - Domain | Hosting | E-mail 
+        - Administrator Interface
+        - 100% responsive site
+        - Setting up the content
+        - Contact form & Map
+        - Social network sharing links
+        - Optimization of referencing
+        - Visit statistics
+        - Putting on line of the site
+        - Training on how to use the site
       button:
-        label : "Signup"
-        link : "#"
+        label : "Custom Pricing"
+        link : "#contact"
         
     # pricing table loop
-    - name : Platinum
-      price : $299
-      unit : month
+    - name : CUSTOMIZED SHOWCASE SITE
+      description : START 
+      price : 300€*
+      unit : /Ye**
       services:
-        - 1GB Disk Space
-        - 10 Email Account
-        - Script Installer
-        - 1 GB Storage
-        - 10 GB Bandwidth
-        - 24/7 Tech Support
+        - Website updates
+        - Small graphic or content modifications
+        - Monthly outsourced backups
+        - Performance optimization
+        - Restoration in case of hacking
       button:
-        label : "Signup"
-        link : "#"
+        label : "Contact"
+        link : "#contact"

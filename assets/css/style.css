@@ -141,7 +141,8 @@ a:hover {
 }
 
 .color {
-  color: #6CB670;
+  /* color: #6CB670; */
+  color: #57cbcc;
 }
 
 .sub-title {
@@ -821,7 +822,9 @@ a:hover {
 
 .price-title .value {
   color: #57cbcc;
-  font-size: 30px;
+  font-size: 33px;
+  text-decoration: none;
+  
 }
 
 .pricing ul,

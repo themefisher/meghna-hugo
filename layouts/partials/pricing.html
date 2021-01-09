@@ -12,6 +12,8 @@
         <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
 					<h2>{{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
             {{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
+            <h4> {{ with .soustitle }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+              {{ with .soustitle }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h4>
           <div class="border-meghna"></div>
         </div>
       </div>
@@ -25,7 +27,8 @@
           {{"<!-- plan name & value -->" | safeHTML}}
           <div class="price-title">
             <h3>{{ .name }}</h3>
-            <p><strong class="value">{{ .price }}</strong>/ {{ .unit }}</p>
+            <h6>{{ .description }}</h6>
+            <p><strong class="value">{{ .price }}</strong> {{ .unit }}</p>
           </div>
 
           {{"<!-- plan description -->" | safeHTML}}
