@@ -1,16 +1,16 @@
 ############################# About ###################################
 about:
   enable : true
-  title : À Propos
+  title : About Us
   about_item :
   - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
-    title : Créatifs
-    content : Nous utilisons des outils qui nous permettent d'apporter une expérience de facilités d'utilisation avec des interfaces attrayante dans chacune de nos conceptions.
+    title : We're Creative
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
 
   - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
-    title : Professionnels
-    content :  Notre mission est de parler de Professionnel à Professionnel, car nous connaissons les problématiques métiers, nous vous accompagnons dans votre projet numérique.
+    title : We're Professional
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
 
   - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
-    title : Ingénieux
-    content : Être flexible et s'adapter à différents projets, en utilisant des technologies nouvelles, nous permet d'évoluer dans un environnement en perpétuel changement dans la réalisation de projet.
+    title : We're Genius
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.

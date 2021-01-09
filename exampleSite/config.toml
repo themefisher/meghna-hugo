@@ -1,9 +1,7 @@
 ################################# Default configuration ###################
 baseURL = "https://examplesite.com"
-title = "La Communication Digitale By David Bailly"
+title = "Meghna"
 theme = "meghna-hugo"
-defaultContentLanguage = "fr"
-languageCode = "fr"
 themesDir = "../.."
 # post pagination
 paginate = "6"
@@ -45,109 +43,109 @@ link = "plugins/google-map/map.js"
 
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
-name = "About"
+name = "about"
 pre = "#"
 url = "about"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "Services"
+name = "services"
 pre = "#"
 url = "services"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "Portfolio"
+name = "portfolio"
 pre = "#"
 url = "portfolio"
 weight = 3
 
 [[Languages.en.menu.main]]
-name = "Team"
+name = "team"
 pre = "#"
 url = "team"
 weight = 4
 
 [[Languages.en.menu.main]]
-name = "Pricing"
+name = "pricing"
 pre = "#"
 url = "pricing"
 weight = 5
 
 [[Languages.en.menu.main]]
-name = "Blog"
+name = "blog"
 pre = "#"
 url = "blog"
 weight = 6
 
 [[Languages.en.menu.main]]
-name = "Contact"
+name = "contact"
 pre = "#"
 url = "contact"
 weight = 7
 
-# [[Languages.en.menu.main]]
-# name = "themefisher"
-# pre = ""
-# url = "https://themefisher.com/"
-# weight = 8
+[[Languages.en.menu.main]]
+name = "themefisher"
+pre = ""
+url = "https://themefisher.com/"
+weight = 8
 
 
 ################### French Navigation ########################
 [[Languages.fr.menu.main]]
-name = "À propos"
+name = "sur"
 pre = "#"
 url = "about"
 weight = 1
 
 [[Languages.fr.menu.main]]
-name = "Services"
+name = "un service"
 pre = "#"
 url = "services"
 weight = 2
 
 [[Languages.fr.menu.main]]
-name = "Projet"
+name = "portefeuille"
 pre = "#"
 url = "portfolio"
 weight = 3
 
 [[Languages.fr.menu.main]]
-name = "Équipe"
+name = "équipe"
 pre = "#"
 url = "team"
 weight = 4
 
 [[Languages.fr.menu.main]]
-name = "Tarifs"
+name = "tarification"
 pre = "#"
 url = "pricing"
 weight = 5
 
 [[Languages.fr.menu.main]]
-name = "Blog"
+name = "blog"
 pre = "#"
 url = "blog"
 weight = 6
 
 [[Languages.fr.menu.main]]
-name = "Contact"
+name = "contact"
 pre = "#"
 url = "contact"
 weight = 7
 
-# [[Languages.fr.menu.main]]
-# name = "themefisher"
-# pre = ""
-# url = "https://themefisher.com/"
-# weight = 8
+[[Languages.fr.menu.main]]
+name = "themefisher"
+pre = ""
+url = "https://themefisher.com/"
+weight = 8
 
 ############################# Default Parameters ##########################
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "La communication digitale freelance développment web"
-author = "David Bailly"
+description = "Responsive Multipurpose Parallax Hugo Template"
+author = "Themefisher"
 # Google Analytics
 google_analytics_id = "" # Your ID
 # post share
@@ -204,8 +202,7 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 home = "Home"
-# copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
-copyright = "Copyright &copy; 2020 Designed by [Lc Digitale](https://lcdigitale.fr) & Developed by [David Bailly](https://davidbailly.fr)"
+copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
 
 ################################ France Language ########################
 [Languages.fr]
@@ -214,5 +211,4 @@ languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 2
 home = "Accueil"
-# copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
-copyright = "Copyright &copy; 2021 Conception par [Lc Digitale](https://lcdigitale.fr) & Développé par [David Bailly](https://davidbailly.fr)"
+copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"

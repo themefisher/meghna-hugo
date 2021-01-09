@@ -7,19 +7,19 @@ funfacts:
     # counter item loop
     - title : "Happy Clients"
       icon : "ti-face-smile" # themify icon pack : https://themify.me/themify-icons
-      count : "20"
+      count : "320"
     
     # counter item loop
     - title : "Projects completed"
       icon : "ti-archive" # themify icon pack : https://themify.me/themify-icons
-      count : "50"
+      count : "350"
     
     # counter item loop
     - title : "Positive feedback"
       icon : "ti-thumb-up" # themify icon pack : https://themify.me/themify-icons
-      count : "88"
+      count : "158"
     
     # counter item loop
     - title : "Cups of Coffee"
       icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
-      count : "70"
+      count : "250"

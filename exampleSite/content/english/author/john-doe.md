@@ -1,7 +1,7 @@
 ---
-title: "David Bailly"
+title: "John Doe"
 image: ""
-email: "david.bailly@lcdigitale.fr"
+email: "email2@example.org"
 social:
   - icon : "ti-facebook" # themify icon pack : https://themify.me/themify-icons
     link : "#"

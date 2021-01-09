@@ -1,27 +1,27 @@
 ############################# feature ###################################
 feature:
   enable : true
-  image : images/about/emma.jpg
+  image : images/about/about-business-man.jpg
   image_webp : images/about/about-business-man.webp
-  title : Web development and Digital Marketing.
-  content : The digital communication freelance partner, to promote our skills to individuals and companies, by focusing on issues related to their business are part of our primary objectives, which allow us to establish support solutions.s
+  title : We’re A Digital Design Agency.
+  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
   feature_item : 
       # feature item loop
-    - title : Website
+    - title : SEO Optimized
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : You Wish To Develop An Online Presence With An Internet Website, Showcase, E-commerce Or Mobile Application That Answers Your Needs, Let's Talk About It!
+      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
       
       # feature item loop
-    - title : Design
+    - title : Easy Customization
       icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Adopting a unique, timeless design, we are listening to you to create an experience at the heart of your ecosystem. Let's talk about it!
+      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
 
       # feature item loop
     - title : SEO Optimized
       icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : Adopt Optimized, Organic Content, Be Visible, Recognized By Search Engines And Increase Your Traffic. Let's talk about it!
+      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
       
       # feature item loop
-    - title : Global Communication
+    - title : Easy Customization
       icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Master and Consolidate Your Communication, With Our Recommendations, You Will Develop Your Visibility And The Commitment Of Your Customers Let's Talk About It!
+      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe

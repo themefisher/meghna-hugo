@@ -2,25 +2,25 @@
 skill:
   enable : true
   title : Our Skills
-  subtitle : Skills and expertise acquired within the digital market and internet tools.
-  content : Specialist in our sector. We bring the tools, the concepts of creating efficient web solutions our goal is focused on an online presence, global digital marketing. We create solutions adapted to different types of project or structure, whether custom-made or already existing on the market.
-  # image : images/about/company-growth.webp
+  subtitle : We’ve skilled in wide range of web and Other digital market tools.
+  content : Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni explicabo cum aperiam recusandae sunt accusamus totam. Quidem quos fugiat sapiente numquam accusamus quas hic, itaque in libero reiciendis tempora!
+  image : images/about/company-growth.webp
   skill_item :
     # skill item loop
-    - name :  Web Development
-      percent : 94%
+    - name :  Business Development
+      percent : 90%
       
     # skill item loop
-    - name :  Digital Marketing
-      percent : 78%
-      
-    # skill item loop
-    - name :  Graphic Design
-      percent : 80%
-      
-    - name :  UX/UI Design
+    - name :  Analysis
       percent : 70%
       
     # skill item loop
-    - name :  Communication
+    - name :  Design
+      percent : 80%
+      
+    - name :  IOS Development
+      percent : 95%
+      
+    # skill item loop
+    - name :  Android Development
       percent : 75%
