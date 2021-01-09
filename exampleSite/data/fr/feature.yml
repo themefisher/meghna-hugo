@@ -1,27 +1,27 @@
 ############################# feature ###################################
 feature:
   enable : true
-  image : images/about/about-business-man.jpg
+  image : images/about/emma.jpg
   image_webp : images/about/about-business-man.webp
-  title : We’re A Digital Design Agency.
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
+  title :  Développement Web et Marketing Numérique.
+  content : La communication digitale partenaire freelance, faire valoir nos compétences auprès de particulier et d’entreprises, en s’intéressant aux problématiques liées à leurs métiers font parti de nos objectifs premiers, qui nous permettent d’établir des solutions d’accompagnements.
   feature_item : 
       # feature item loop
-    - title : SEO Optimized
+    - title : Site Internet
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : Vous Souhaitez Développer Une Présence En Ligne Avec Un  Site Web Internet ,Vitrine, E-commerce Ou Application Mobile Qui Réponde À Vos Besoin,Parlons En !
       
       # feature item loop
-    - title : Easy Customization
+    - title : Conception
       icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content :  Adopter Un Design Unique, Intemporel, Nous Sommes À Votre Écoute Pour Créer Une Expérience Au Cœur De Votre Écosystème. Parlons En !
 
       # feature item loop
-    - title : SEO Optimized
+    - title : SEO Optimisé
       icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : Adopter Un Contenu Optimisées, Organiques, Soyez Visible, Reconnu Par Les Moteurs De Recherche Et Augmenter Votre Trafic. Parlons En !
       
       # feature item loop
-    - title : Easy Customization
+    - title : Communication Global
       icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : Maîtriser et Consolider Votre Communication, Avec Nos Recommandations, Vous Développerez Votre Visibilité Ainsi Que L’Engagement De Vos Clients Parlons En !

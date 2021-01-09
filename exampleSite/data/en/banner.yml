@@ -2,10 +2,10 @@
 banner:
   enable : true
   bg_image_webp : "images/backgrounds/hero-area.webp"
-  bg_image : "images/backgrounds/hero-area.jpg"
+  bg_image : "images/backgrounds/pi-hero.png"
   icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "Experience the new reality"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
+  title : "Be-smart digitale"
+  content : "Working with a freelance partner means choosing local collaboration, mutual understanding, trust and support for your future project!"
   button:
     enable : true
     label : "Explore Us"
