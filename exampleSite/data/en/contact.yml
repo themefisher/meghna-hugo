@@ -3,27 +3,27 @@ contact:
   enable : true
   title : Contact Us
   subtitle : Contact Details
-  content: We are native of the Toulouse region where we made our weapons, we attach importance to proximity, we often travel to meet our customers, and thus work beyond our borders.
+  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
 
   # Contact details
   contact_list:
     - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
-      info : "Toulouse, Paris, Bordeaux"
+      info : "Khaja Road, Bayzid, Chittagong, Bangladesh"
       
     - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
-      info : "Phone: +33 (6) 12 49 64 82"
+      info : "Phone: +880-31-000-000"
       
-    # - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
-    #   info : "Fax: +880-31-000-000"
+    - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
+      info : "Fax: +880-31-000-000"
       
     - icon : ti-email # themify icon pack : https://themify.me/themify-icons
-      info : "Email: david.bailly@lcdigitale.fr"
+      info : "Email: hello@meghna.com"
 
 
   # Contact form
   contact_form:
     enable : true
-    form_action : "https://formspree.io/f/mayllnpk" #contact form works with https://formspree.io
+    form_action : "#" #contact form works with https://formspree.io
     name : "Your Name"
     email : "Your Email"
     subject : "Subject"
