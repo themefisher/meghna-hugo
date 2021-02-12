@@ -20,9 +20,9 @@ team:
     content: Founder
     social:
     - icon: ti-email
-      link: 'mailto: jzinedine@gmail.com'
+      link: 'mailto: jahan@paisley.digital'
     - icon: ti-linkedin
-      link: https://www.linkedin.com/in/jzinedine/
+      link: https://www.linkedin.com/in/jahan-paisley/
   - name: Meysam
     image_webp: images/team/team-2.webp
     image: images/team/team-2.jpg
@@ -30,6 +30,6 @@ team:
     content: Technical Fellow
     social:
     - icon: ti-email
-      link: 'mailto: meysam.tamkin@gmail.com'
+      link: 'mailto: meysam@paisley.digital'
     - icon: ti-linkedin
       link: https://www.linkedin.com/in/mtamkin/
