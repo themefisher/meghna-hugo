@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://demo.gethugothemes.com/meghna/examplesite/"
+baseURL = "https://bfa.netlify.app/"
 title = "Meghna"
 theme = "meghna-hugo"
 # post pagination
@@ -9,7 +9,7 @@ summaryLength = "15"
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = []
+disableLanguages = ["fr"]
 
 ############################# Plugins ##########################
 # css plugins
