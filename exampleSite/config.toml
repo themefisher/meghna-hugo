@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://bfa.netlify.app/"
-title = "Meghna"
+title = "Business First Aid"
 theme = "meghna-hugo"
 # post pagination
 paginate = "6"
