@@ -1,17 +1,22 @@
 ---
 title: "Ashot Nazaryan"
-image: ""
-email: "email2@example.org"
+image: "images/team/ashot.jpg"
+email: "ashotnazaryan45@outlook.com"
 social:
-  - icon : "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-    link : "#"
-  - icon : "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-    link : "#"
   - icon : "ti-github" # themify icon pack : https://themify.me/themify-icons
     link : "https://github.com/ashotnazaryan"
+  - icon : "ti-skype" # themify icon pack : https://themify.me/themify-icons
+    link : "skype:ashot0991?call"
   - icon : "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-    link : "https://www.linkedin.com/in/ashotnazaryanjs/"
+    link : "https://www.linkedin.com/in/ashotnazaryanjs"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet.
-Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper.
+•	7 years of professional experience in the Information Technology industry;
+•	Solid overall understanding of the IT industry, especially software development;
+•	Proficient knowledge of JavaScript and popular JS-based libraries, frameworks (Angular/React);
+•	Experience in software design principles and patterns;
+•	Good knowledge of browser APIs (Chrome, Firefox, Safari, IE, Edge);
+•	Basic knowledge of Node.js and server-side mechanisms in general;
+•	Experience in designing and developing web-based applications;
+•	Experienced in automated development processes;
+•	Good communication skills.
