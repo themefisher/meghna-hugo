@@ -1,26 +1,54 @@
 ################################# Skill ##################################
 skill:
-  enable : true
-  title : Our Skills
-  subtitle : We’ve skilled in wide range of web and Other digital market tools.
-  content : Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni explicabo cum aperiam recusandae sunt accusamus totam. Quidem quos fugiat sapiente numquam accusamus quas hic, itaque in libero reiciendis tempora!
-  image : images/about/company-growth.webp
-  skill_item :
+  enable: true
+  title: Our Skills
+  subtitle: We are specialized in web application development.
+  content: Full-stack web application development, deployment to the cloud or on-premises, end-to-end testing.
+  image: images/about/company-growth.webp
+  skill_item:
     # skill item loop
-    - name :  Business Development
-      percent : 90%
-      
+    - name: Angular
+      percent: 90%
+
+    - name: React
+      percent: 80%
+
     # skill item loop
-    - name :  Analysis
-      percent : 70%
-      
+    - name: JavaScript / TypeScript
+      percent: 90%
+
     # skill item loop
-    - name :  Design
-      percent : 80%
-      
-    - name :  IOS Development
-      percent : 95%
-      
+    - name: .NET 7 / .NET Framework 4.8
+      percent: 95%
+
     # skill item loop
-    - name :  Android Development
-      percent : 75%
+    - name: ASP.NET Core / MVC / Web API
+      percent: 95%
+
+    # skill item loop
+    - name: RxJS
+      percent: 90%
+
+    # skill item loop
+    - name: Redux
+      percent: 75%
+
+    # skill item loop
+    - name: Mobx
+      percent: 75%
+
+    # skill item loop
+    - name: Entity Framework
+      percent: 95%
+
+    # skill item loop
+    - name: Microsoft SQL Server / Azure SQL / PostgreSQL / MySQL
+      percent: 85%
+
+    # skill item loop
+    - name: MongoDB / Cosmos DB
+      percent: 75%
+
+    # skill item loop
+    - name: Microsoft Azure
+      percent: 70%
