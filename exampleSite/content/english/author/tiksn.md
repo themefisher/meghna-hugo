@@ -3,6 +3,8 @@ title: "Tigran (TIKSN) Torosyan"
 image: "images/team/tiksn.jpg"
 email: "email2@example.org"
 social:
+  - icon : "ti-world" # themify icon pack : https://themify.me/themify-icons
+    link : "https://tiksn.com/"
   - icon : "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
     link : "https://twitter.com/tiksn"
   - icon : "ti-github" # themify icon pack : https://themify.me/themify-icons

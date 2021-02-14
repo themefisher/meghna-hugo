@@ -9,6 +9,8 @@ team:
       designation : "Backend Technical Leader"
       content : I have **12** years of experience in software development
       social :
+        - icon : "ti-world" # themify icon pack : https://themify.me/themify-icons
+          link : "https://tiksn.com/"
         - icon : "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
           link : "https://twitter.com/tiksn"
         - icon : "ti-github" # themify icon pack : https://themify.me/themify-icons
