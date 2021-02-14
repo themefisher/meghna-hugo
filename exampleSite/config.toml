@@ -84,13 +84,6 @@ pre = "#"
 url = "contact"
 weight = 7
 
-[[Languages.en.menu.main]]
-name = "themefisher"
-pre = ""
-url = "https://themefisher.com/"
-weight = 8
-
-
 ################### French Navigation ########################
 [[Languages.fr.menu.main]]
 name = "sur"
