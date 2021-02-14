@@ -3,12 +3,15 @@ title: "Ashot Nazaryan"
 image: "images/team/ashot.jpg"
 email: "ashotnazaryan45@outlook.com"
 social:
-  - icon : "ti-github" # themify icon pack : https://themify.me/themify-icons
-    link : "https://github.com/ashotnazaryan"
-  - icon : "ti-skype" # themify icon pack : https://themify.me/themify-icons
-    link : "skype:ashot0991?call"
-  - icon : "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-    link : "https://www.linkedin.com/in/ashotnazaryanjs"
+
+  - icon: "ti-github" # themify icon pack : https://themify.me/themify-icons
+    link: "https://github.com/ashotnazaryan"
+  
+  - icon: "ti-skype" # themify icon pack : https://themify.me/themify-icons
+    link: "skype:ashot0991?call"
+  
+  - icon: "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+    link: "https://www.linkedin.com/in/ashotnazaryanjs"
 ---
 
 •	7 years of professional experience in the Information Technology industry;
