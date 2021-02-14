@@ -1,6 +1,6 @@
 ############################### Banner ################################
 banner:
-  enable : true
+  enable : false
   bg_image_webp : "images/backgrounds/hero-area.webp"
   bg_image : "images/backgrounds/hero-area.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
