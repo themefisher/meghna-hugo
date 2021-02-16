@@ -15,8 +15,6 @@ team:
           link : "https://twitter.com/tiksn"
         - icon : "ti-github" # themify icon pack : https://themify.me/themify-icons
           link : "https://github.com/tiksn"
-        - icon : "ti-skype" # themify icon pack : https://themify.me/themify-icons
-          link : "skype:akatiksn?call"
         - icon : "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
           link : "https://www.linkedin.com/in/tiksn"
 
@@ -24,11 +22,11 @@ team:
       image_webp : "images/team/ashot.webp"
       image : "images/team/ashot.jpg"
       designation : "Senior Frontend Developer"
-      content : I have **7** years of professional experience in the Information Technology industry
+      content : I have **7** years of experience in software development
       social :
-        - icon : "ti-github" # themify icon pack : https://themify.me/themify-icons
-          link : "https://github.com/ashotnazaryan"
         - icon : "ti-skype" # themify icon pack : https://themify.me/themify-icons
           link : "skype:ashot0991?call"
+        - icon : "ti-github" # themify icon pack : https://themify.me/themify-icons
+          link : "https://github.com/ashotnazaryan"
         - icon : "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
           link : "https://www.linkedin.com/in/ashotnazaryanjs"

@@ -26,15 +26,7 @@ skill:
       percent: 95%
 
     # skill item loop
-    - name: RxJS
-      percent: 90%
-
-    # skill item loop
-    - name: Redux
-      percent: 75%
-
-    # skill item loop
-    - name: Mobx
+    - name: NgRx / Mobx / Redux
       percent: 75%
 
     # skill item loop

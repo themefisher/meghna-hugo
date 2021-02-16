@@ -9,8 +9,6 @@ social:
     link : "https://twitter.com/tiksn"
   - icon : "ti-github" # themify icon pack : https://themify.me/themify-icons
     link : "https://github.com/tiksn"
-  - icon : "ti-skype" # themify icon pack : https://themify.me/themify-icons
-    link : "skype:akatiksn?call"
   - icon : "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
     link : "https://www.linkedin.com/in/tiksn"
 ---
