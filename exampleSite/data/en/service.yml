@@ -4,31 +4,31 @@ service:
   title : Our Services
   service_item :
     # service item loop
-    - name : WordPress Theme
+    - name : Web Application Development
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      content : Line of Business Web Applications, Business Flow / Process Management, Fin-Tech Web Application.
       
     # service item loop
     - name : Responsive Design
       icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
+      content : Adoptive layout for Web and Mobile.
+
     # service item loop
-    - name : Media &amp; Advertisement
-      icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
+    - name : PWA Development
+      icon : ti-tablet # themify icon pack : https://themify.me/themify-icons
+      content : Progressive Web App Development.
+
     # service item loop
-    - name : Graphic Design
-      icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
+    - name : Desktop Software Development
+      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      content : Financial Services Desktop Application, Accounting, Taxes and Expenses desktop Application, Video Streaming / Monitoring Desktop Application.
+
     # service item loop
-    - name : Apps Development
-      icon : ti-package # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
+    - name : Mobile App Development
+      icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+      content : Web or Desktop Application's companion Mobile Apps, Web Service consumer Mobile Apps, Offline Mobile utility Apps.
+
     # service item loop
-    - name : Networking
-      icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    - name : Scripts &amp; Utilities
+      icon : ti-files # themify icon pack : https://themify.me/themify-icons
+      content : PowerShell and Bash script for maintenance, utilities and management.
