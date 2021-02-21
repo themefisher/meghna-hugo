@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
-  path: exampleSite/content/english/blog
+  path: site/content/english/blog
   label: Post (en)
   create: documents
   match: "**/*"
@@ -15,7 +15,7 @@ sections:
   templates:
   - post
 - type: directory
-  path: exampleSite/content/french/blog
+  path: site/content/french/blog
   label: Post (fr)
   create: documents
   match: "**/*"
@@ -24,14 +24,14 @@ sections:
 - type: heading
   label: Author
 - type: directory
-  path: exampleSite/content/english/author
+  path: site/content/english/author
   label: Author (en)
   create: documents
   match: "**/*"
   templates:
   - author
 - type: directory
-  path: exampleSite/content/french/author
+  path: site/content/french/author
   label: Author (fr)
   create: documents
   match: "**/*"
@@ -40,24 +40,24 @@ sections:
 - type: heading
   label: Data
 - type: directory
-  path: exampleSite/data
+  path: site/data
   label: Homepage
   create: all
   match: "**/*"
 - type: directory
-  path: exampleSite/i18n
+  path: site/i18n
   label: i18n
   create: documents
   match: "**/*"
 - type: heading
   label: Configuration
 - type: directory
-  path: exampleSite
+  path: site
   label: Configuration
   create: all
   match: "*.toml"
   new_doc_ext: toml
-upload_dir: exampleSite/static/images
+upload_dir: site/static/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
