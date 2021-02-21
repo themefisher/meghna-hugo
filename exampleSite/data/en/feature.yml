@@ -3,25 +3,25 @@ feature:
   enable : true
   image : images/about/about-business.jpg
   image_webp : images/about/about-business.webp
-  title : We’re A Digital Design Agency.
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
+  title : We’re A Software Development Agency.
+  content : "We are a team of 2 developers experienced at web application development with technologies like Angular, React, JavaScript/TypeScript, .NET 7, .NET Framework 4.8, ASP.NET [Core], Microsoft SQL Server, PostgreSQL, MySQL MongoDB."
   feature_item : 
       # feature item loop
-    - title : SEO Optimized
+    - title : Front-End
       icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : Web front-end architecture and development.
       
       # feature item loop
-    - title : Easy Customization
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    - title : Back-End
+      icon : ti-settings # themify icon pack : https://themify.me/themify-icons
+      content : .NET back-end architecture and development.
 
       # feature item loop
-    - title : SEO Optimized
-      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    - title : Consultancy
+      icon : ti-thought # themify icon pack : https://themify.me/themify-icons
+      content : Consultancy for existing systems, POC and MVP projects.
       
       # feature item loop
-    - title : Easy Customization
-      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    - title : Maintenance
+      icon : ti-harddrives # themify icon pack : https://themify.me/themify-icons
+      content : Maintenance of existing systems or projects developed by us.
