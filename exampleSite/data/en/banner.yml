@@ -9,4 +9,4 @@ banner:
   button:
     enable : true
     label : "Explore"
-    link : "#application"
+    link : "#about"

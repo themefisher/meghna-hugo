@@ -1,6 +1,6 @@
 ################################# Service #################################
 application:
-  enable : true
+  enable : false
   title : Our Application
   service_item :
     # service item loop
