@@ -7,6 +7,6 @@ banner:
   title : "Inside Airbnb"
   content : "An Interactive App for analysing Airbnb data using Text, Exploratory and Predictive Analytics."
   button:
-    enable : false
-    label : "Explore Us"
-    link : "#services"
+    enable : true
+    label : "Explore"
+    link : "#application"
