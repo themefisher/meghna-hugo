@@ -64,7 +64,7 @@ jQuery(function ($) {
 		infinite: true,
 		arrows: false,
 		autoplay: true,
-		autoplaySpeed: 4000
+		autoplaySpeed: 2000
 	});
 
 	/* ========================================================================= */
