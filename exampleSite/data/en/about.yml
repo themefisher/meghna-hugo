@@ -1,7 +1,7 @@
 ############################# About ###################################
 about:
   enable : true
-  title : About Inside Airbnb App
+  title : Application overview
   about_item :
   - icon : ti-text # themify icon pack : https://themify.me/themify-icons
     title : Text Mining

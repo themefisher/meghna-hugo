@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
-baseURL = "https://insideairbnb.netlify.app/"
-title = "The Inside Airbnb App"
+baseURL = "https://thesharingapp.netlify.app/"
+title = "The Sharing Application"
 theme = "meghna-hugo"
 themesDir = "../.."
 # post pagination
@@ -93,7 +93,7 @@ map_marker = ""
 ############################# social icons ##########################
 [[params.social]]
 icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
-link = "https://github.com/suyiinang/insideairbnb"
+link = "https://github.com/suyiinang/thesharingapp"
 
 ################################ English Language ########################
 [Languages.en]
