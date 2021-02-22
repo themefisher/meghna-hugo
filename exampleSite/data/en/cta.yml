@@ -1,6 +1,6 @@
 ############################# call to action ##############################
 cta:
-  enable : true
+  enable : false
   bg_image : "images/backgrounds/bg-white-wall.jpg"
   bg_image_webp : "images/backgrounds/bg-white-wall.webp"
   title : "Great Design & Incredible Features"
