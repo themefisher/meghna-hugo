@@ -4,6 +4,26 @@ testimonial:
   bg_image: images/Banner/Banner-testimonial-03.jpg
   bg_image_webp: images/Banner/Banner-testimonial-03.webp
   testimonial_item:
+  - name: Jose Manuel at bgleam.com
+    image: images/client/client-01.jpg
+    image_webp: images/client/client-01.webp
+    date: From Spain
+    content:  Jahan is a very good software architect and senior devops. His knowledge for this technologies and his deep knowledge of methodology to work was very useful for our team, Thank you Jahan.
+  - name: Jose Manuel at bgleam.com
+    image: images/client/client-01.jpg
+    image_webp: images/client/client-01.webp
+    date: From Spain
+    content:  Meysam is a great DevOps with advanced knowledge in several technologies. He was working integrated with our team. He is very profesional and very communicative, Thank you Meysam.
+  - name: Randy Hayes at LoadZilla LLC, Lead Performance Engineer at Bank of America
+    image: images/client/client-01.jpg
+    image_webp: images/client/client-01.webp
+    date: From US
+    content:  AmirHossein (Najmi) quickly understood the scope and requirements of the project and could start contributing immediately. He is very diligent and a pleasure to work with. I would not hesitate to hire AmirHossein again.
+  - name: Henrik at Mezurashi.co
+    image: images/client/client-01.jpg
+    image_webp: images/client/client-01.webp
+    date: From Japan
+    content:  Meysam turned requirements into a working architecture in an iterative and cooperative manner. He is a highly skilled software architect who quickly understands difficult technical details. I look forward to working with Meysam more in the future.
   - name: Bob at ABL Sports Leagues
     image: images/client/client-01.jpg
     image_webp: images/client/client-01.webp
@@ -22,11 +42,11 @@ testimonial:
     image_webp: images/client/client-03.webp
     date: From Australia
     content:  Fantastic to work with. Great Communication. Would Recommend.
-  - name: Andy Hayes, Lead Performance Engineer at Bank of America
+  - name: Randy Hayes at LoadZilla LLC, Lead Performance Engineer at Bank of America
     image: images/client/client-01.jpg
     image_webp: images/client/client-01.webp    
     date: From US
-    content:  Amir did everything I asked for in a timely manner and he also helped to solve problems that I had not envisioned.  
+    content:  AmirHossein (Najmi) did everything I asked for in a timely manner and he also helped to solve problems that I had not envisioned.  
        His knowledge of the subject and his analysis of my problem allowed him to contribute more than just coding, 
        which was extra value I did not know that I would need.  So I highly recommend Amir as a solution architect and Java developer for complex applications.  
        I will continue to work with him whenever possible.
