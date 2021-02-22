@@ -4,7 +4,7 @@ banner:
   bg_image_webp : "images/backgrounds/background.webp"
   bg_image : "images/backgrounds/background.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "Inside Airbnb"
+  title : "The Sharing Application"
   content : "An Interactive App for analysing Airbnb data using Text, Exploratory and Predictive Analytics."
   button:
     enable : true
