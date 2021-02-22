@@ -2,15 +2,4 @@
 about:
   enable : true
   title : About Inside Airbnb App
-  about_item :
-  - icon : ti-text # themify icon pack : https://themify.me/themify-icons
-    title : Text Mining
-    content : xx
-
-  - icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
-    title : Exploratory Analytics
-    content : xx
-
-  - icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-    title : Predictive Analytics
-    content : xx
+  content: "Airbnb data provides a rich information of property rental, giving us the opportunity to analyse various structured variables such as rental price; geospatial components such as property location and proximity to transportation; and textual variables in form of reviews and listing description.Review is an essential piece of information not only for customer to decide if a product/service is worth their money, but also for providers to understand and improve their offer. Combined with geospatial data, this opens up different way of analysing review data, such as spatial distribution analysis. This may expose new insights, which may not be available from analysing textual data alone. Therefore, an interactive and integrated tool, capable of processing textual and geospatial data will allow comprehensive analysis of review data which plays an important role in various industries and applications."

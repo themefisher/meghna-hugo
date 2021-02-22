@@ -1,0 +1,20 @@
+################################# Service #################################
+application:
+  enable : true
+  title : Our Application
+  service_item :
+    # service item loop
+    - name : Text Mining
+      icon : ti-text # themify icon pack : https://themify.me/themify-icons
+      content : xx
+      
+    # service item loop
+    - name : Exploratory Analysis
+      icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
+      content : xx
+      
+    # service item loop
+    - name : Predictive Analytics
+      icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
+      content : xx
+    
