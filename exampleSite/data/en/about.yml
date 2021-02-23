@@ -5,12 +5,12 @@ about:
   about_item :
   - icon : ti-text # themify icon pack : https://themify.me/themify-icons
     title : Text Mining
-    content : xx
+    content : Explore textual data through word clouds, sentiment analysis and topic modelling.
 
   - icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
-    title : Exploratory Analysis
-    content : xx
+    title : Exploratory and Confirmatory
+    content : Explore, identify and augment findings using statistical methods.
 
   - icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
     title : Predictive Analytics
-    content : xx
+    content : Perform prediction on target input using a collection of models.
