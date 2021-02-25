@@ -49,16 +49,22 @@ url = "about"
 weight = 1
 
 [[Languages.en.menu.main]]
+name = "feature"
+pre = "#"
+url = "feature"
+weight = 2
+
+[[Languages.en.menu.main]]
 name = "team"
 pre = "#"
 url = "team"
-weight = 2
+weight = 3
 
 [[Languages.en.menu.main]]
 name = "blog"
 pre = "#"
 url = "blog"
-weight = 3
+weight = 4
 
 
 ############################# Default Parameters ##########################
