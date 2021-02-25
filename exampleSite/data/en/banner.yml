@@ -4,8 +4,8 @@ banner:
   bg_image_webp : "images/backgrounds/background.webp"
   bg_image : "images/backgrounds/background.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "The Sharing Application"
-  content : "An Interactive App for analysing Airbnb Singapore using Text, Exploratory and Predictive Analytics."
+  title : "Our Shiny PET"
+  content : "A Predictive, Exploratory and Text Dashboard for Airbnb Data""
   button:
     enable : true
     label : "Explore"

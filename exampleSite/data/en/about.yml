@@ -5,7 +5,7 @@ about:
   about_item :
   - icon : ti-text # themify icon pack : https://themify.me/themify-icons
     title : Text Mining
-    content : Explore textual data through word clouds, sentiment analysis and topic modelling.
+    content : Explore textual data through word clouds and sentiment analysis.
 
   - icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
     title : Exploratory and Confirmatory

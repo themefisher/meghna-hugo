@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
-baseURL = "https://thesharingapp.netlify.app/"
-title = "The Sharing Application"
+baseURL = "https://ourshinypet.netlify.app/"
+title = "Our Shiny PET"
 theme = "meghna-hugo"
 themesDir = "../.."
 # post pagination
