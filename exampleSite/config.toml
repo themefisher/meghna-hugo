@@ -99,7 +99,7 @@ map_marker = ""
 ############################# social icons ##########################
 [[params.social]]
 icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
-link = "https://github.com/suyiinang/thesharingapp"
+link = "https://github.com/suyiinang/ourshinypet"
 
 ################################ English Language ########################
 [Languages.en]
