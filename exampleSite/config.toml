@@ -49,7 +49,7 @@ url = "about"
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "Background"
+name = "background"
 pre = "#"
 url = "feature"
 weight = 2
