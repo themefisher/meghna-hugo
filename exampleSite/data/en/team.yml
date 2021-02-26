@@ -7,7 +7,7 @@ team:
     - name : Su Yiin Ang
       image_webp : images/team/team-1.webp
       image : images/team/team-1.jpg
-      designation : MITB (Analytics) Student @ SMU
+      designation : MITB (Analytics) @ SMU
       content : Before venturing into the world of analytics, I spent 6 years in the audit and financial due diligence departments at PwC Singapore.
       social :
         - icon : ti-user # themify icon pack : https://themify.me/themify-icons
@@ -23,8 +23,8 @@ team:
     - name : Joey Chua
       image_webp : images/team/team-2.webp
       image : images/team/team-2.jpg
-      designation : 
-      content : Write up
+      designation : Master of IT in Business (Analytics) & MBA @ SMU
+      content : Working with SMEs to make data-driven decisions.
       social :
         - icon : ti-user # themify icon pack : https://themify.me/themify-icons
           link : "https://joeychua.netlify.app/"
