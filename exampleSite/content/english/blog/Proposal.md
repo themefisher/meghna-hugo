@@ -53,8 +53,8 @@ The location is Singapore, with latest date compiled on 27 January 2021.
 
 | Description and purpose |	Application snapshot |
 | ----------------------- | -------------------- |
-| **Map**: To show the **distribution of listings** in Singapore. The intensity of colour can be used to highlight price range, superhost, room type, etc.	| ![Map](/images/blog/proposal/fig1.png) |
-| **Word Cloud**: To explore the frequency of textual data of reviews and listings. This allows users  to identify the words that are most commonly associated (proportionate to size) with a particular listing / neighbourhood, etc. | ![Word Cloud](/images/blog/proposal/fig2.png = 200px)  |
+| **Map**: To show the **distribution of listings** in Singapore. The intensity of colour can be used to highlight price range, superhost, room type, etc.	| ![Map](/images/blog/proposal/fig1_1.png) |
+| **Word Cloud**: To explore the frequency of textual data of reviews and listings. This allows users  to identify the words that are most commonly associated (proportionate to size) with a particular listing / neighbourhood, etc. | ![Word Cloud](/images/blog/proposal/fig2.png)  |
 | **Sentiment**: To identify positive and negative words associated with the listings, cloud comparison is used.	| ![Sentiment](/images/blog/proposal/fig3.png) |
 | **Exploratory Data Analysis**: To explore the Airbnb dataset and identify interesting trends with the interactive visualization.  |  ![EDA](/images/blog/proposal/fig4.png) |
 | **Confirmatory Data Analysis**: To perform statistical test on listings data to augment findings found in the “Exploratory” tab. | ![CDA](/images/blog/proposal/fig5.png)|
