@@ -14,7 +14,7 @@ toc: true
 
 
 ## Objective
-This project aims to utilise various R packages to build an **interactive R Shiny application** that serves as an integrated platform which allows users to perform the following analysis:
+This project aims to utilise various R packages to build an [**interactive R Shiny application**](https://shiny.rstudio.com/) that serves as an integrated platform which allows users to perform the following analysis:
 
 1.	Text Analysis 
 
@@ -50,7 +50,8 @@ The location is Singapore, with latest date compiled on 27 January 2021.
 
 
 ## Proposed Analytical Methods and Visualisation
-#### Map
+**Map**
+
 To show the **distribution of listings** in Singapore. The intensity of colour can be used to highlight price range, superhost, room type, etc.	
 
 ![](/images/blog/proposal/fig1.png) 
