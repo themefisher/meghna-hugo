@@ -50,8 +50,7 @@ The location is Singapore, with latest date compiled on 27 January 2021.
 
 
 ## Proposed Analytical Methods and Visualisation
-
-#### Map
+ 
 To show the **distribution of listings** in Singapore. The intensity of colour can be used to highlight price range, superhost, room type, etc.	
 
 ![](/images/blog/proposal/fig1.png) 
