@@ -54,7 +54,7 @@ The location is Singapore, with latest date compiled on 27 January 2021.
 #### Map
 To show the **distribution of listings** in Singapore. The intensity of colour can be used to highlight price range, superhost, room type, etc.	
 
-![](/images/blog/proposal/fig1.png) |
+![](/images/blog/proposal/fig1.png) 
 
 
 #### Word Cloud
@@ -73,12 +73,12 @@ To identify **positive and negative** words associated with the listings, cloud 
 
 To explore the Airbnb dataset and identify **interesting trends** with the interactive visualization. 
 
-![:scale 10%](/images/blog/proposal/fig4.png)
+![](/images/blog/proposal/fig4.png)
 
 #### Confirmatory Data Analysis
 To **perform statistical test** on listings data to augment findings found in the “Exploratory” tab. 
 
-![:scale 90%](/images/blog/proposal/fig5.png)
+![](/images/blog/proposal/fig5.png)
 
 #### Distribution of variables
 To have better understanding of the variables and their potential to be a predictor of a response variable (price/rating), predictive analysis with different model types can be done.
