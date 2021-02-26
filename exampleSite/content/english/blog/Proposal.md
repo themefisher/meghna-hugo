@@ -4,7 +4,6 @@ date: 2021-02-27
 image_webp: images/blog/proposal.webp
 image: images/blog/proposal.png
 description : "Proposal"
-toc: true
 ---
 
 ## Introduction
