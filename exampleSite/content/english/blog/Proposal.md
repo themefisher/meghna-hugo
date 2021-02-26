@@ -51,83 +51,64 @@ The location is Singapore, with latest date compiled on 27 January 2021.
 
 ## Proposed Analytical Methods and Visualisation
 
-### Map
+#### Map
 To show the **distribution of listings** in Singapore. The intensity of colour can be used to highlight price range, superhost, room type, etc.	
 
-**Application snapshot**
 ![](/images/blog/proposal/fig1.png) |
 
 
-### Word Cloud
+#### Word Cloud
 
 To explore the **frequency** of textual data of reviews and listings. This allows users to identify the words that are **most commonly associated** (proportionate to size) with a particular listing / neighbourhood, etc. 
 
-**Application snapshot**
 ![](/images/blog/proposal/fig2.png) 
 
-### Sentiment
+#### Sentiment
 To identify **positive and negative** words associated with the listings, cloud comparison is used.	
 
-**Application snapshot**
 ![](/images/blog/proposal/fig3.png) 
 
 
-### Exploratory Data Analysis
+#### Exploratory Data Analysis
 
 To explore the Airbnb dataset and identify **interesting trends** with the interactive visualization. 
 
-**Application snapshot**
-
 ![](/images/blog/proposal/fig4.png)
 
-### Confirmatory Data Analysis
+#### Confirmatory Data Analysis
 To **perform statistical test** on listings data to augment findings found in the “Exploratory” tab. 
-
-**Application snapshot**
 
 ![](/images/blog/proposal/fig5.png)
 
-### Distribution of variables
+#### Distribution of variables
 To have better understanding of the variables and their potential to be a predictor of a response variable (price/rating), predictive analysis with different model types can be done.
-
-**Application snapshot**
 
 ![](/images/blog/proposal/fig6.png)
 
-### Correlation matrix
+#### Correlation matrix
 To visualise the relationships between the independent variables and check for signs of multi-collinearity among the independent variables. Highly correlated variables to be excluded from the model.
-
-**Application snapshot**
 
 ![](/images/blog/proposal/fig7.png)
 	 
 ### Multiplot
 To check for any signs for complete and/or quasi-complete separation, which must be excluded from the predictive model as they will prevent the convergence of the maximum likelihood estimates for the coefficient and ultimately distorting the model.
 
-**Application snapshot**
-
 ![](/images/blog/proposal/fig8.png)
 
-### Data splitting and sampling
+#### Data splitting and sampling
 To partition the data into training/test/validation sets and apply selected cross validation.
 
 Note: Percentage of target must be proportionate across the different dataset.	 
 
-**Application snapshot**
-
 ![](/images/blog/proposal/fig9.png)
 
-### Model calibration
+#### Model calibration
 To select calibrate different classification and regression models.
-	 
-**Application snapshot**
 
 ![](/images/blog/proposal/fig10.png)
 
-### Model evaluation
+#### Model evaluation
 To select assessment method for model, compute confusion matrix and display variable importance of selected model.	 
-
-**Application snapshot**
 
 ![](/images/blog/proposal/fig11.png)
 
