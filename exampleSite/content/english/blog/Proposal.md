@@ -73,12 +73,12 @@ To identify **positive and negative** words associated with the listings, cloud 
 
 To explore the Airbnb dataset and identify **interesting trends** with the interactive visualization. 
 
-![](/images/blog/proposal/fig4.png)
+![:scale 10%](/images/blog/proposal/fig4.png)
 
 #### Confirmatory Data Analysis
 To **perform statistical test** on listings data to augment findings found in the “Exploratory” tab. 
 
-![](/images/blog/proposal/fig5.png)
+![:scale 90%](/images/blog/proposal/fig5.png)
 
 #### Distribution of variables
 To have better understanding of the variables and their potential to be a predictor of a response variable (price/rating), predictive analysis with different model types can be done.
