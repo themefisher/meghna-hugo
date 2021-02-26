@@ -52,8 +52,8 @@ The location is Singapore, with latest date compiled on 27 January 2021.
 
 | Description and purpose |	Application snapshot |
 | ----------------------- | -------------------- |
-| **Map**: To show the **distribution of listings** in Singapore. The intensity of colour can be used to highlight price range, superhost, room type, etc.	| ![](proposal/fig1.png) |
-| **Word Cloud**: To explore the frequency of textual data of reviews and listings. This allows users  to identify the words that are most commonly associated (proportionate to size) with a particular listing / neighbourhood, etc. | ![](proposal/fig2.png) |
+| **Map**: To show the **distribution of listings** in Singapore. The intensity of colour can be used to highlight price range, superhost, room type, etc.	| {{< img src="/images/blog/proposal/fig1.png" align="left" >}}  |
+| **Word Cloud**: To explore the frequency of textual data of reviews and listings. This allows users  to identify the words that are most commonly associated (proportionate to size) with a particular listing / neighbourhood, etc. | {{< img src="/proposal/fig2.png" align="left" >}}  |
 | **Sentiment**: To identify positive and negative words associated with the listings, cloud comparison is used.	| ![](images/blog/proposal/fig3.png) |
 | **Exploratory Data Analysis**: To explore the Airbnb dataset and identify interesting trends with the interactive visualization.  |  ![](proposal/fig4.png) |
 | **Confirmatory Data Analysis**: To perform statistical test on listings data to augment findings found in the “Exploratory” tab. | ![](proposal/fig5.png) |
@@ -75,12 +75,12 @@ Model evaluation:
 To select assessment method for model, compute confusion matrix and display variable importance of selected model.	 
 
 ## Proposed R Packages
-|Packages | Purpose | Links |
-| ------- | ------- | ----- |
+|Packages | Purpose | 
+| ------- | ------- | 
 | [Tidyverse](https://www.tidyverse.org/) | For data manipulation | 
 | [cld3](https://github.com/google/cld3) | To filter out non-English observations| 
 | [Tidytext](https://www.tidytextmining.com/) | For processing textual data |
 | [wordcloud](https://www.rdocumentation.org/packages/wordcloud/versions/2.6/topics/wordcloud) |	To create word cloud | 
 | [Plotly](https://plotly.com/) | Create interactive plots for exploratory analysis |
 | [ggstatsplot](https://indrajeetpatil.github.io/ggstatsplot/index.html) |	Create plots with statistical tests included within plot |
-| [Tidymodels](https://www.tidymodels.org/) | 
+| [Tidymodels](https://www.tidymodels.org/) | Build prediction models  |
