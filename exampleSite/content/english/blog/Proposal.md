@@ -48,16 +48,15 @@ Dataset used is obtained from [Inside Airbnb](http://insideairbnb.com/singapore/
 The location is Singapore, with latest date compiled on 27 January 2021.
 
 
-
 ## Proposed Analytical Methods and Visualisation
 
 | Description and purpose |	Application snapshot |
 | ----------------------- | -------------------- |
-| **Map**: To show the **distribution of listings** in Singapore. The intensity of colour can be used to highlight price range, superhost, room type, etc.	| ![](images/blog/proposal/fig1.png) |
-| **Word Cloud**: To explore the frequency of textual data of reviews and listings. This allows users  to identify the words that are most commonly associated (proportionate to size) with a particular listing / neighbourhood, etc. | ![](images/blog/proposal/fig2.png) |
+| **Map**: To show the **distribution of listings** in Singapore. The intensity of colour can be used to highlight price range, superhost, room type, etc.	| ![](proposal/fig1.png) |
+| **Word Cloud**: To explore the frequency of textual data of reviews and listings. This allows users  to identify the words that are most commonly associated (proportionate to size) with a particular listing / neighbourhood, etc. | ![](proposal/fig2.png) |
 | **Sentiment**: To identify positive and negative words associated with the listings, cloud comparison is used.	| ![](images/blog/proposal/fig3.png) |
-| **Exploratory Data Analysis**: To explore the Airbnb dataset and identify interesting trends with the interactive visualization.  |  ![](images/blog/proposal/fig4.png) |
-| **Confirmatory Data Analysis**: To perform statistical test on listings data to augment findings found in the “Exploratory” tab. | ![](images/blog/proposal/fig5.png) |
+| **Exploratory Data Analysis**: To explore the Airbnb dataset and identify interesting trends with the interactive visualization.  |  ![](proposal/fig4.png) |
+| **Confirmatory Data Analysis**: To perform statistical test on listings data to augment findings found in the “Exploratory” tab. | ![](proposal/fig5.png) |
 | **Distribution of variables**: To have better understanding of the variables and their potential to be a predictor of a response variable (price/rating), predictive analysis with different model types can be done.	|   | 
 | **Correlation matrix**: To visualise the relationships between the independent variables and check for signs of multi-collinearity among the independent variables. Highly correlated variables to be excluded from the model. | |
 
@@ -78,11 +77,10 @@ To select assessment method for model, compute confusion matrix and display vari
 ## Proposed R Packages
 |Packages | Purpose | Links |
 | ------- | ------- | ----- |
-| Tidyverse | For data manipulation | <https://www.tidyverse.org/> |
-| cld3 |  To filter out non-English observations| <https://github.com/google/cld3>  |
-| Tidytext | For processing textual data |	<https://www.tidytextmining.com/>
-| Topicmodels |	To create LDA and CTM models |	<https://www.rdocumentation.org/packages/topicmodels/versions/0.2-12> |
-| wordcloud |	To create word cloud | 	<https://www.rdocumentation.org/packages/wordcloud/versions/2.6/topics/wordcloud> |
-| Plotly | Create interactive plots for exploratory analysis |	<https://plotly.com/> |
-| ggstatsplot |	Create plots with statistical tests included within plot | <https://indrajeetpatil.github.io/ggstatsplot/index.html> |
-| Tidymodels | 	Build prediction models |	<https://www.tidymodels.org/> |
+| [Tidyverse](https://www.tidyverse.org/) | For data manipulation | 
+| [cld3](https://github.com/google/cld3) | To filter out non-English observations| 
+| [Tidytext](https://www.tidytextmining.com/) | For processing textual data |
+| [wordcloud](https://www.rdocumentation.org/packages/wordcloud/versions/2.6/topics/wordcloud) |	To create word cloud | 
+| [Plotly](https://plotly.com/) | Create interactive plots for exploratory analysis |
+| [ggstatsplot](https://indrajeetpatil.github.io/ggstatsplot/index.html) |	Create plots with statistical tests included within plot |
+| [Tidymodels](https://www.tidymodels.org/) | 
