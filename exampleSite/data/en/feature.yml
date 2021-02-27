@@ -4,5 +4,5 @@ feature:
   image : "images/about/airbnb.png"
   image_webp : "images/about/airbnb.webp"
   title : Overview
-  content : "<use abstract>"
+  content : "To use abstract write up"
   
