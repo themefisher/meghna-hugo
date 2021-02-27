@@ -50,7 +50,7 @@ The location is Singapore, with latest date compiled on 27 January 2021.
 
 
 ## Proposed Analytical Methods and Visualisation
-**Map**
+#### Map
 
 To show the **distribution of listings** in Singapore. The intensity of colour can be used to highlight price range, superhost, room type, etc.	
 
@@ -123,3 +123,12 @@ To select assessment method for model, compute confusion matrix and display vari
 | [Plotly](https://plotly.com/) | Create interactive plots for exploratory analysis |
 | [ggstatsplot](https://indrajeetpatil.github.io/ggstatsplot/index.html) |	Create plots with statistical tests included within plot |
 | [Tidymodels](https://www.tidymodels.org/) | Build prediction models  |
+
+## Revelant work
+Bion R, Chang R, Goodman J. 2017. How R helps Airbnb make the most of its data. PeerJ Preprints 5:e3182v1 <https://doi.org/10.7287/peerj.preprints.3182v1> 
+
+Lu, Y., Garcia, R., Hansen, B., Gleicher, M., & Maciejewski, R. (2017). The State-of-the-Art in Predictive Visual Analytics. Computer Graphics Forum, 36(3), 539–562. <https://doi-org.libproxy.smu.edu.sg/10.1111/cgf.13210>
+
+Scrivner, Olga & Chakilam, Vinita & Poojary, Jivitesh & Sahoo, Nilima & Uppuluri, Chandan & De Spiegeleire, Stephan. (2017). Building Customized Text Mining Tools via Shiny Framework: The Future of Data Visualization. 
+
+Staniak, M., & Biecek, P. (2019). The Landscape of R Packages for Automated Exploratory Data Analysis. R J., 11, 347. 
