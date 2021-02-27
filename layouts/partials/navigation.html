@@ -17,7 +17,7 @@
 				<ul class="navbar-nav ml-auto">
 					{{ range site.Menus.main }}
 					<li class="nav-item">
-            <a class="nav-link" href="{{if .Pre}}{{site.BaseURL | absLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
+            <a class="nav-link" href="{{if .Pre}}{{site.BaseURL | relLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a>
 					</li>
 					{{ end }}
 				</ul>
