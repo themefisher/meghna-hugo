@@ -1,7 +1,7 @@
 ############################# About ###################################
 about:
   enable : true
-  title : Application overview
+  title : Application features
   about_item :
   - icon : ti-text # themify icon pack : https://themify.me/themify-icons
     title : Text Mining

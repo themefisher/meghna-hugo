@@ -5,8 +5,8 @@ banner:
   bg_image : "images/backgrounds/background.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "Our Shiny PET"
-  content : "a Predictive, Exploratory and Text application for Airbnb Data"
+  content : "A Predictive, Exploratory and Text application for Airbnb Data"
   button:
     enable : true
     label : "Explore"
-    link : "#about"
+    link : "#feature"

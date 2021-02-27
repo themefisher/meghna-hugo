@@ -43,13 +43,13 @@ link = "plugins/google-map/map.js"
 
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
-name = "about"
+name = "features"
 pre = "#"
 url = "about"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "overview"
+name = "about"
 pre = "#"
 url = "feature"
 weight = 1
@@ -58,13 +58,13 @@ weight = 1
 name = "team"
 pre = "#"
 url = "team"
-weight = 4
+weight = 3
 
 [[Languages.en.menu.main]]
 name = "blog"
 pre = "#"
 url = "blog"
-weight = 3
+weight = 4
 
 
 ############################# Default Parameters ##########################
