@@ -1,8 +1,8 @@
 ---
 banner:
   enable: true
-  bg_image_webp: images/backgrounds/hero-area.webp
-  bg_image: images/backgrounds/hero-area.jpg
+  bg_image_webp: "/images/jardim_colinas.webp"
+  bg_image: "/images/jardim_colinas.jpg"
   icon: ''
   title: Sitio Colina das Flores
   content: "...porque o homem veio do barro!"
