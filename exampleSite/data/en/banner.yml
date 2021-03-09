@@ -9,4 +9,4 @@ banner:
   button:
     enable: true
     label: Venha nos conhecer
-    link: "#servicos"
+    link: "#services"
