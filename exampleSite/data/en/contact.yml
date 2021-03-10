@@ -7,10 +7,10 @@ contact:
   contact_list:
   - icon: ti-location-pin
     info: Rua Antenor Ortiz, 555 - Franco da Rocha - SP
-  - icon: ti-mobile
+  - icon: ti-themify-favicon
     info: 'Só Whatsapp: (11) 97108 5756'
   - icon: ti-printer
-    info: 'Fax: +880-31-000-000'
+    info: 'Celular: (11) 98537 2007'
   - icon: ti-email
     info: 'Email: hello@meghna.com'
   contact_form:
