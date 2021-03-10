@@ -3,20 +3,21 @@ portfolio:
   enable: true
   title: Nossas Instalações
   portfolio_item:
-  - name: Tag Design
-    image: images/portfolio/portfolio-1.jpg
-    image_webp: images/portfolio/portfolio-1.webp
+  - name: Redário
+    image: images/portfolio/Redario_colinas.jpg
+    image_webp: images/portfolio/Redario_colinas.webp
     categories:
     - design
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    link: https://themefisher.com
-  - name: Sound system
-    image: images/portfolio/portfolio-2.jpg
-    image_webp: images/portfolio/portfolio-2.webp
+    content: Local para armar redes, leve a sua.
+    link: "#"
+  - name: Cozinha
+    image: images/portfolio/cozinha_colinas.jpg
+    image_webp: images/portfolio/cozinha_colinas.webp
     categories:
     - development
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    link: ''
+    content: Freezer, fogão semi-industrial, fogão padrão de 6 nocas, pia de duas
+      cubas, geladeira, panelas, pratos, talheres, etc
+    link: "#"
   - name: Clock Product
     image: images/portfolio/portfolio-3.jpg
     image_webp: images/portfolio/portfolio-3.webp
@@ -25,7 +26,7 @@ portfolio:
     - development
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
-  - name: Bottol Label
+  - name: Exemplo
     image: images/portfolio/portfolio-4.jpg
     image_webp: images/portfolio/portfolio-4.webp
     categories:
@@ -38,35 +39,5 @@ portfolio:
     image_webp: images/portfolio/portfolio-5.webp
     categories:
     - design
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    link: "#"
-  - name: Tag Design
-    image: images/portfolio/portfolio-6.jpg
-    image_webp: images/portfolio/portfolio-6.webp
-    categories:
-    - photography
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    link: "#"
-  - name: Business Card
-    image: images/portfolio/portfolio-7.jpg
-    image_webp: images/portfolio/portfolio-7.webp
-    categories:
-    - development
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    link: "#"
-  - name: Stationary Design
-    image: images/portfolio/portfolio-8.jpg
-    image_webp: images/portfolio/portfolio-8.webp
-    categories:
-    - design
-    - development
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    link: "#"
-  - name: Tag Design
-    image: images/portfolio/portfolio-2.jpg
-    image_webp: images/portfolio/portfolio-2.webp
-    categories:
-    - design
-    - photography
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
