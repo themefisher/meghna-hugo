@@ -3,27 +3,48 @@ service:
   enable: true
   title: Nuestros serviços
   service_item:
-  - name: WordPress Theme
+  - name: O qué
     icon: ti-world
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-  - name: Responsive Design
-    icon: ti-layout
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-  - name: Media &amp; Advertisement
+    content: E um sitio de 40.000m² pensado e preparado para a realização de acampamentos,
+      retiros, excursões escolares, eventos eclesiásticos e familiares. Com um atendimento
+      familiar, o Colina das Flores dá um tratamento personalizado aos seus clientes.
+  - name: Onde
+    icon: ti-location-pin
+    content: Situado na região serrana do município de Mairiporã - Grande São Paulo,
+      agrega o conveniência da proximidade com o charme interiorano a menos de 30
+      km da capital. Seu acesso de seis quilometros em estrada de chão batido com
+      haras, pastagens, e outros atrativos do campo dão a sensação ao visitante que
+      esta isolado da civilização enquanto ainda esta na grande São Paulo.
+  - name: Para quem
     icon: ti-blackboard
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-  - name: Graphic Design
-    icon: ti-palette
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-  - name: Apps Development
-    icon: ti-package
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-  - name: Networking
-    icon: ti-pulse
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    content: 'Dirigido a igrejas, escolas, familias, empresas e outros grupos que
+      respeitam e amam a natureza e procuram um lugar para descanso e lazer. Recebemos
+      igrejas, escolas e famílias. As igrejas costumam realizar retiros, acampamentos.
+      As escolas realizam passeios ecológicos, caminhadas e inserções didáticas no
+      bioma local. As famílias apreciam passar conosco período de festas, aniversários,
+      casamentos ou simplesmente um churrasquinho de final de semana. Alugamos para
+      grupos fechados e recebemos apenas um grupo (escola, igreja, empresa, família)
+      de cada vez, ou seja, o sítio será exclusivamente seu durante os dias arrendados.
+
+'
+  - name: Quem somos
+    icon: ti-gift
+    content: 'Nossos hóspedes serão recebidos pela Dna Clarice. Trata-se de um atendimento
+      familiar, provinciano e pessoal. Nossa intenção é descaracterizar as relações
+      formais sisudas típicas dos grandes centros e oferecer o aconchego e pessoalidade
+      do campo. Receberemos e atenderemos nossos clientes no pátio, talvez embaixo
+      de uma árvore com linguagem coloquial no propósito de estreitarmos os laços
+      e transformar clientes em amigos.
+
+'
+  - name: O que pensamos
+    icon: ti-comments-smiley
+    content: 'Lembramos que a Pousada Colina das Flores é um local de refúgio e guarida
+      para aqueles que apreciam um contato mais íntimo com a natureza e querem passar
+      um dia tranquilo no campo sem abrir mão do conforto da cidade. Acreditamos que
+      a natureza é uma via de acesso ao transcendente e por isso enobrece e restaura.
+
+'
+  - name: Perguntas
+    icon: ti-help-alt
+    content: Dúvidas e perguntas? Entre em contato conosco.
