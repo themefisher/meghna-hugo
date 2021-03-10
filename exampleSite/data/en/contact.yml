@@ -5,6 +5,10 @@ contact:
   subtitle: Detalhes de contato
   content: ''
   contact_list:
+  - icon: ''
+    info: ''
+  - icon: ti-skype
+    info: 'Skype: deco.z.marin (uso pouco)'
   - icon: ti-location-pin
     info: Rua Antenor Ortiz, 555 - Franco da Rocha - SP
   - icon: ti-themify-favicon
