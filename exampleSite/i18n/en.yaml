@@ -17,8 +17,8 @@
   translation: About Us
 - id: servicos
   translation: Serviços
-- id: portfolio
-  translation: Portfolio
+- id: Instalacoes
+  translation: Instalações
 - id: team
   translation: Team
 - id: pricing
