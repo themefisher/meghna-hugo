@@ -1,5 +1,5 @@
 baseURL = "https://test.colinadasflores.com.br"
-disableLanguages = ["FR"]
+disableLanguages = ["Fr"]
 disqusShortname = ""
 paginate = "6"
 summaryLength = "15"
