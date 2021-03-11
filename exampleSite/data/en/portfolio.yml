@@ -1,6 +1,6 @@
 ---
 portfolio:
-  enable: false
+  enable: true
   title: Nossas Instalações
   portfolio_item:
   - name: Redário
