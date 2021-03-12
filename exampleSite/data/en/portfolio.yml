@@ -30,6 +30,7 @@ portfolio:
     image_webp: images/portfolio/portfolio-3.webp
     categories:
     - comida
+    - divertimento
     content: Duas churrasqueiras, uma média e outra grande.
     link: "#"
   - name: Piscina
