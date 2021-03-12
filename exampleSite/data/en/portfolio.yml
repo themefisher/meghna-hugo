@@ -21,7 +21,7 @@ portfolio:
     image: images/portfolio/cozinha_colinas.jpg
     image_webp: images/portfolio/cozinha_colinas.webp
     categories:
-    - development
+    - comida
     content: Freezer, fogão semi-industrial, fogão padrão de 6 nocas, pia de duas
       cubas, geladeira, panelas, pratos, talheres, etc
     link: "#"
