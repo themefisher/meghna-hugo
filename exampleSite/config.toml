@@ -42,7 +42,7 @@ weight = "7"
 name = "contato"
 pre = "#"
 url = "contact"
-weight = 7
+weight = "8"
 [Languages.fr]
 contentDir = "content/french"
 copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
