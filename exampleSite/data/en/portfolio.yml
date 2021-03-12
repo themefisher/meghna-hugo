@@ -29,8 +29,6 @@ portfolio:
     image: images/portfolio/portfolio-3.jpg
     image_webp: images/portfolio/portfolio-3.webp
     categories:
-    - design
-    - development
     - comida
     content: Duas churrasqueiras, uma média e outra grande.
     link: "#"
