@@ -3,6 +3,13 @@ portfolio:
   enable: true
   title: Nossas Instalações
   portfolio_item:
+  - name: Casa Ampla
+    image: ''
+    image_webp: ''
+    categories:
+    - dormir
+    content: Sala com três ambientes, lareira, televisão, DVD e mesa de jogos.
+    link: "#"
   - name: Redário
     image: images/portfolio/Redario_colinas.jpg
     image_webp: images/portfolio/Redario_colinas.webp
