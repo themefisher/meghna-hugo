@@ -34,8 +34,8 @@ portfolio:
     content: Duas churrasqueiras, uma média e outra grande.
     link: "#"
   - name: Piscina
-    image: images/portfolio/portfolio-4.jpg
-    image_webp: images/portfolio/portfolio-4.webp
+    image: images/portfolio/cozinha_colinas.jpg
+    image_webp: images/portfolio/cozinha_colinas.webp
     categories:
     - divertimento
     content: Piscina de adultos 5X10m² e infantil também ampla.
