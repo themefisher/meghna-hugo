@@ -29,14 +29,9 @@ pre = "#"
 url = "instalacoes"
 weight = 3
 [[Languages.en.menu.main]]
-name = "team"
+name = "arrendamento"
 pre = "#"
-url = "team"
-weight = 4
-[[Languages.en.menu.main]]
-name = "pricing"
-pre = "#"
-url = "pricing"
+url = "arrendamento"
 weight = 5
 [[Languages.en.menu.main]]
 name = "contato"
