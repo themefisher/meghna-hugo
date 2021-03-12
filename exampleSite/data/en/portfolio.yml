@@ -14,7 +14,7 @@ portfolio:
     image: images/portfolio/Redario_colinas.jpg
     image_webp: images/portfolio/Redario_colinas.webp
     categories:
-    - design
+    - atividades
     content: Local para armar redes, leve a sua.
     link: "#"
   - name: Cozinha
