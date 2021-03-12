@@ -15,7 +15,7 @@ languageName = "Pt"
 weight = 1
 [[Languages.en.menu.main]]
 name = "Acesso"
-pre = ""
+pre = "#"
 url = "Acesso"
 weight = "7"
 [[Languages.en.menu.main]]
