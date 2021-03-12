@@ -12,8 +12,6 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: md
-  templates:
-  - post
 - type: directory
   path: exampleSite/content/french/blog
   label: Post (fr)
