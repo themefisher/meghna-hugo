@@ -4,8 +4,9 @@ cta:
   bg_image: images/backgrounds/bg-white-wall.jpg
   bg_image_webp: images/backgrounds/bg-white-wall.webp
   title: Venha conhecer um lugar para descansar e se reconectar.
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur
-    odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum.
+  content: Lembramos que a Pousada Colina das Flores é um local de refúgio e guarida
+    para aqueles que apreciam um contato mais íntimo com a natureza e querem passar
+    um dia tranquilo no campo sem abrir mão do conforto da cidade.
   button:
     enable: true
     label: Agende sua visita
