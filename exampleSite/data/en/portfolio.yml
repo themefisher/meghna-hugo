@@ -4,8 +4,8 @@ portfolio:
   title: Nossas Instalações
   portfolio_item:
   - name: Casa Ampla
-    image: images/portfolio/portfolio-3.jpg
-    image_webp: images/portfolio/portfolio-3.webp
+    image: images/portfolio/cozinha_colinas.jpg
+    image_webp: images/portfolio/cozinha_colinas.webp
     categories:
     - dormir
     content: Sala com três ambientes, lareira, televisão, DVD e mesa de jogos.
