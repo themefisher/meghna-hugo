@@ -14,11 +14,6 @@ languageCode = "pt-BR"
 languageName = "Pt"
 weight = 1
 [[Languages.en.menu.main]]
-name = "Acesso"
-pre = "#"
-url = "Acesso"
-weight = "7"
-[[Languages.en.menu.main]]
 name = "about"
 pre = "#"
 url = "about"
@@ -38,6 +33,11 @@ name = "arrendamento"
 pre = "#"
 url = "arrendamento"
 weight = 5
+[[Languages.en.menu.main]]
+name = "acesso"
+pre = "#"
+url = "Acesso"
+weight = "7"
 [[Languages.en.menu.main]]
 name = "contato"
 pre = "#"
