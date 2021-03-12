@@ -14,7 +14,7 @@ html {
 
 body {
   background-color: #ded5bf;
-  font-family: "Anaheim", sans-serif;
+  font-family: "Metrophobic", sans-serif;
   color: #45433d;
   -webkit-font-smoothing: antialiased;
 }
@@ -26,12 +26,12 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Sintony", sans-serif;
   color: #45433d;
 }
 
 p {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Sintony", sans-serif;
 }
 
 [scroll-behavior=smooth] {
@@ -348,7 +348,7 @@ a:hover {
 .header-bradcrumb .active {
   color: #cfcfcf;
   font-weight: 200;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Sintony", sans-serif;
 }
 
 .header-bradcrumb a:hover {
