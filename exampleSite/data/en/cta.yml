@@ -1,8 +1,8 @@
 ---
 cta:
   enable: true
-  bg_image: images/backgrounds/bg-white-wall.jpg
-  bg_image_webp: images/backgrounds/bg-white-wall.webp
+  bg_image: "/images/jardim_colinas.jpg"
+  bg_image_webp: "/images/jardim_colinas.webp"
   title: Venha conhecer um lugar para descansar e se reconectar.
   content: Lembramos que a Pousada Colina das Flores é um local de refúgio e guarida
     para aqueles que apreciam um contato mais íntimo com a natureza e querem passar
