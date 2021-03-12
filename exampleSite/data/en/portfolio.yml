@@ -26,8 +26,8 @@ portfolio:
       cubas, geladeira, panelas, pratos, talheres, etc
     link: "#"
   - name: Churraqueiras
-    image: images/portfolio/portfolio-3.jpg
-    image_webp: images/portfolio/portfolio-3.webp
+    image: images/portfolio/Redario_colinas.jpg
+    image_webp: images/portfolio/Redario_colinas.webp
     categories:
     - comida
     - divertimento
@@ -41,8 +41,8 @@ portfolio:
     content: Piscina de adultos 5X10m² e infantil também ampla.
     link: "#"
   - name: Campo e Quadra
-    image: images/portfolio/portfolio-5.jpg
-    image_webp: images/portfolio/portfolio-5.webp
+    image: images/portfolio/Redario_colinas.jpg
+    image_webp: images/portfolio/Redario_colinas.webp
     categories:
     - divertimento
     content: Campo de Futebol Society (13mX28m), quadra de areia tamanho oficial de
