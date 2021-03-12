@@ -14,11 +14,6 @@ languageCode = "pt-BR"
 languageName = "Pt"
 weight = 1
 [[Languages.en.menu.main]]
-name = "about"
-pre = "#"
-url = "about"
-weight = 1
-[[Languages.en.menu.main]]
 name = "serviços"
 pre = "#"
 url = "services"
