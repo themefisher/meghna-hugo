@@ -8,7 +8,7 @@ themesDir = "../.."
 title = "Colina Das Flores"
 [Languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = ""
 home = "Home"
 languageCode = "pt-BR"
 languageName = "Pt"
