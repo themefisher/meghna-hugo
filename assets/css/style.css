@@ -8,14 +8,14 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 */
 /*=== MEDIA QUERY ===*/
 html {
-  background-color: #353b43;
-  color: #737f8a;
+  background-color: #ded5bf;
+  color: #45433d;
 }
 
 body {
-  background-color: #353b43;
-  font-family: "Metrophobic", sans-serif;
-  color: #737f8a;
+  background-color: #ded5bf;
+  font-family: "Anaheim", sans-serif;
+  color: #45433d;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -26,12 +26,12 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  font-family: "Sintony", sans-serif;
-  color: #afbac4;
+  font-family: "Quattrocento Sans", sans-serif;
+  color: #45433d;
 }
 
 p {
-  font-family: "Sintony", sans-serif;
+  font-family: "Quattrocento Sans", sans-serif;
 }
 
 [scroll-behavior=smooth] {
@@ -39,7 +39,7 @@ p {
 }
 
 pre {
-  color: #afbac4;
+  color: #45433d;
 }
 
 /*=================================================================
@@ -47,13 +47,13 @@ pre {
 ==================================================================*/
 ::-moz-selection {
   /* Code for Firefox */
-  color: #fff;
-  background: #57cbcc;
+  color: #45433d;
+  background: #e85c34;
 }
 
 ::selection {
-  color: #fff;
-  background: #57cbcc;
+  color: #45433d;
+  background: #e85c34;
 }
 
 hr {
@@ -65,7 +65,7 @@ figure {
 }
 
 a {
-  color: #fff;
+  color: #45433d;
   transition: all .3s ease-in 0s;
 }
 
@@ -115,9 +115,9 @@ a:hover {
 
 .btn-transparent:hover,
 .btn-transparent:focus {
-  background-color: #57cbcc;
+  background-color: #e85c34;
   border: 1px solid transparent;
-  color: #fff;
+  color: #1c1a14;
 }
 
 .border-meghna {
@@ -129,7 +129,7 @@ a:hover {
 }
 
 .border-meghna:before {
-  background-color: #fff;
+  background-color: #45433d;
   content: '';
   height: 6px;
   left: 50%;
@@ -137,7 +137,7 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #57cbcc;
+  background-color: #e85c34;
 }
 
 .color {
@@ -163,7 +163,7 @@ a:hover {
 }
 
 .bg-one {
-  background-color: #353b43;
+  background-color: #ded5bf;
 }
 
 .bg-dark {
@@ -215,12 +215,12 @@ a:hover {
 
 a:focus,
 a:hover {
-  color: #57cbcc;
+  color: #e85c34;
 }
 
 .btn-main {
-  background: #57cbcc;
-  color: #fff;
+  background: #e85c34;
+  color: #45433d;
   display: inline-block;
   font-size: 14px;
   letter-spacing: 1px;
@@ -230,7 +230,7 @@ a:hover {
 
 .btn-main:hover {
   background: #2c9091;
-  color: #fff;
+  color: #45433d;
 }
 
 .mt-20 {
@@ -303,11 +303,11 @@ a:hover {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 38px;
-  color: #fff;
+  color: #45433d;
 }
 
 .title h2 span {
-  color: #57cbcc;
+  color: #e85c34;
 }
 
 .title p {
@@ -315,7 +315,7 @@ a:hover {
 }
 
 .title.title-white h2 {
-  color: #fff;
+  color: #45433d;
 }
 
 .bg-gray {
@@ -323,7 +323,7 @@ a:hover {
 }
 
 .section-bg {
-  background: #292F36;
+  background: #968e77;
 }
 
 .overly {
@@ -348,11 +348,11 @@ a:hover {
 .header-bradcrumb .active {
   color: #cfcfcf;
   font-weight: 200;
-  font-family: "Sintony", sans-serif;
+  font-family: "Quattrocento Sans", sans-serif;
 }
 
 .header-bradcrumb a:hover {
-  color: #57cbcc;
+  color: #e85c34;
 }
 
 .slick-slide {
@@ -389,7 +389,7 @@ a:hover {
   background-size: cover;
   padding: 140px 0 70px;
   text-align: center;
-  color: #fff;
+  color: #45433d;
   position: relative;
 }
 
@@ -407,7 +407,7 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #1d2024;
+  background-color: #ded2af;
   width: 100%;
   margin-bottom: 0;
 }
@@ -416,7 +416,7 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-  color: #57cbcc;
+  color: #e85c34;
 }
 
 .navbar-toggler:focus {
@@ -459,8 +459,8 @@ a:hover {
 }
 
 .hero-area .block .video-button {
-  background: #fff;
-  color: #57cbcc;
+  background: #45433d;
+  color: #e85c34;
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -513,7 +513,7 @@ a:hover {
 }
 
 .hero-area-video .block {
-  color: #fff;
+  color: #45433d;
   text-align: center;
 }
 
@@ -524,7 +524,7 @@ a:hover {
 }
 
 .hero-area-video .block p {
-  color: #fff;
+  color: #45433d;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 3px;
@@ -555,7 +555,7 @@ a:hover {
 }
 
 .about .block:hover {
-  border-bottom: 2px solid #57cbcc;
+  border-bottom: 2px solid #e85c34;
 }
 
 .about .block:hover .icon-box {
@@ -607,7 +607,7 @@ a:hover {
 }
 
 .about .block .icon-box h3 {
-  color: #afbac4;
+  color: #45433d;
 }
 
 /*=================================================================
