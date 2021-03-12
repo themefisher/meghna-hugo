@@ -36,7 +36,7 @@ weight = 5
 [[Languages.en.menu.main]]
 name = "contato"
 pre = "#"
-url = "contato"
+url = "contact"
 weight = 7
 [Languages.fr]
 contentDir = "content/french"
