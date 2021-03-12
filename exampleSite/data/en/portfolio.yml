@@ -38,8 +38,6 @@ portfolio:
     image: images/portfolio/portfolio-4.jpg
     image_webp: images/portfolio/portfolio-4.webp
     categories:
-    - photography
-    - development
     - divertimento
     content: Piscina de adultos 5X10m² e infantil também ampla.
     link: "#"
