@@ -5,4 +5,4 @@ The increasing availability of data has resulted in the increased demand for dat
 
 We will use Airbnb data as our baseline for this project as data generated is rich in information, which consists of structured, unstructured (textual), and location data.
 
-website: ourshinypet.netlify.app/
+website: https://ourshinypet.netlify.app/
