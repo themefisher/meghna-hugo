@@ -1,0 +1,187 @@
+---
+title: "Charts for Shiny PET proposal"
+author: "Su Yiin Ang"
+date: "2/23/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load packages
+
+```{r, message = FALSE, echo = FALSE}
+packages = c('tidyverse', 'tidytext', 'dplyr','wordcloud','wordcloud2','reshape2','topicmodels','tm','ggplot2','ggstatsplot')
+
+for(p in packages){
+  if(!require(p, character.only = T)){
+  install.packages(p)
+    }
+  library(p, character.only = T)
+  }
+```
+
+
+
+## Load Review file
+```{r, message = FALSE, echo=FALSE}
+reviews <- read_csv("data/clean/reviews.csv")
+```
+
+## Remove numbers
+```{r}
+alreviews <- reviews %>%
+    mutate(comments = gsub(x = comments, pattern = "[^[:alpha:]]", " "))
+```
+
+## Wordcloud
+
+```{r}
+tidyreviews <- alreviews %>% 
+  group_by(listing_id) %>% 
+  unnest_tokens(word,comments) %>% 
+  group_by(word) %>% 
+  filter(n()>5) %>% 
+  ungroup()
+tidytext::stop_words
+
+cleanreviews <- tidyreviews %>% 
+  anti_join(stop_words)
+
+reviewsentiment <- cleanreviews %>% 
+  filter() %>% 
+  group_by(word) %>% 
+  dplyr::summarise(frequency=n())
+
+reviewsentiment %>% wordcloud2()
+```
+
+
+## Sentiment Analysis 
+
+#bing lexicon
+```{r}
+review_bing_lexicon <- reviewsentiment %>% 
+  inner_join(get_sentiments("bing")) %>% 
+  dplyr::count(word,sentiment,frequency,sort=TRUE) %>% 
+  acast(word~sentiment,value.var="frequency",fill=0) %>% 
+  comparison.cloud(max.words = 150)
+```
+
+
+## will need to tidy this code
+## Topic Modelling
+```{r}
+#Term frequencies across essays
+tidy_review <- select_(reviews,"comments") 
+
+n <- nrow(tidy_review)
+tidy_review <- data_frame(review=1:n, text=reviews$comments)
+
+# Tokenize, remove stop words and NAs
+data("stop_words")
+#  Add some custom stop words, just to illstrate
+myterms <- c("airbnb","very", "boston","stay")
+mylex <- rep("custom", length(myterms))
+myStopwords <- data.frame(word=myterms, lexicon=mylex)
+myStopwords <- rbind(stop_words, myStopwords)
+
+#Term frequencies across essays
+review_words <- tidy_review %>%
+     unnest_tokens(word, text) %>%
+     anti_join(myStopwords) %>%
+     count(review, word, sort=TRUE) %>%
+     ungroup()
+
+total_words <- review_words %>%
+     group_by(review) %>%
+     summarize(total = sum(n))
+
+review_words <- left_join(review_words, total_words)
+
+#  now tf_idf
+review_words <- review_words %>%
+     bind_tf_idf(word, review, n) %>%
+     arrange(desc(tf_idf))
+glimpse(review_words)
+```
+
+## Create DTM
+```{r}
+our_dtm <- review_words %>%
+     cast_dtm(review, word, n)
+our_dtm
+```
+## LDA
+```{r}
+our_lda <- LDA(our_dtm, k = 4, control = list(seed = 10000))
+our_lda
+```
+
+## Word topic probabilities
+```{r}
+rev_topics <- tidy(our_lda, matrix = "beta")
+rev_top_terms <- rev_topics %>%
+  group_by(topic) %>%
+  top_n(10, beta) %>%
+  ungroup() %>%
+  arrange(topic, -beta)
+
+rev_top_terms %>%
+  mutate(term = reorder(term, beta)) %>%
+  ggplot(aes(term, beta, fill = factor(topic))) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~ topic, scales = "free") +
+  coord_flip()
+```
+# Link to topic modeling
+https://rstudio-pubs-static.s3.amazonaws.com/443864_f78142d631b742b281645cc67b0afe55.html
+
+
+# Exploratory analysis
+[https://yaolong.blog/2020/08/17/exploratory-data-analysis-of-new-york-city-airbnb-dataset-using-r/](https://yaolong.blog/2020/08/17/exploratory-data-analysis-of-new-york-city-airbnb-dataset-using-r/)
+```{r, message=FALSE, echo=FALSE}
+listings <- read_csv("data/clean/listing_en.csv")
+verified_listings <- listings %>% drop_na(host_identity_verified)
+```
+
+```{r}
+ggplot(verified_listings, aes(x = host_identity_verified, y = review_scores_rating)) +
+  geom_point(position=position_jitter(width=0.2, height=0.1)) +
+  geom_boxplot(outlier.colour=NA, fill=NA, colour="grey20")
+```
+
+```{r}
+ggbetweenstats(
+  data = verified_listings,
+  x = host_identity_verified,
+  y = review_scores_rating
+)
+```
+
+# Prediction
+## Distribution of airbnb by neighbourhood
+```{r}
+listings1 <- listings %>% group_by(neighbourhood_cleansed, neighbourhood_group_cleansed) %>%
+  summarise(n = n()) %>%
+  arrange(desc(n)) %>%
+  ungroup() %>%
+  mutate(rank = rank(desc(n))) %>%
+  filter(rank <31)
+
+ggplot(listings1, aes(x = reorder(neighbourhood_cleansed, n), y = n, fill = neighbourhood_group_cleansed)) +
+  geom_col() + 
+  coord_flip()
+```
+
+## Distribution of price
+```{r}
+listing2 <- listings %>% mutate(price = gsub(x = price, pattern = "[$]", ""))
+listing2$price <- as.numeric(as.character(listing2$price))
+```
+
+```{r}
+ggplot(listing2, aes(x = price)) +
+  geom_histogram(fill = 'light blue') 
+```
