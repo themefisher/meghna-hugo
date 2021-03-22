@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Load packages
 
-```{r, message = FALSE, echo = FALSE}
+```{r, message = FALSE}
 packages = c('tidyverse', 'tidytext', 'dplyr','wordcloud','wordcloud2','reshape2','topicmodels','tm','ggplot2','ggstatsplot')
 
 for(p in packages){
@@ -25,7 +25,7 @@ for(p in packages){
 
 
 ## Load Review file
-```{r, message = FALSE, echo=FALSE}
+```{r}
 reviews <- read_csv("data/clean/reviews.csv")
 ```
 
@@ -37,7 +37,7 @@ alreviews <- reviews %>%
 
 ## Wordcloud
 
-```{r}
+```{r,  message = FALSE}
 tidyreviews <- alreviews %>% 
   group_by(listing_id) %>% 
   unnest_tokens(word,comments) %>% 
@@ -61,7 +61,7 @@ reviewsentiment %>% wordcloud2()
 ## Sentiment Analysis 
 
 #bing lexicon
-```{r}
+```{r,  message = FALSE}
 review_bing_lexicon <- reviewsentiment %>% 
   inner_join(get_sentiments("bing")) %>% 
   dplyr::count(word,sentiment,frequency,sort=TRUE) %>% 
@@ -72,22 +72,22 @@ review_bing_lexicon <- reviewsentiment %>%
 
 ## will need to tidy this code
 ## Topic Modelling
-```{r}
-#Term frequencies across essays
-tidy_review <- select_(reviews,"comments") 
+```{r, message = FALSE}
+#Term frequencies
+tidy_review <- select(reviews,"comments") 
 
 n <- nrow(tidy_review)
-tidy_review <- data_frame(review=1:n, text=reviews$comments)
+tidy_review <- tibble(review=1:n, text=reviews$comments)
 
 # Tokenize, remove stop words and NAs
 data("stop_words")
-#  Add some custom stop words, just to illstrate
-myterms <- c("airbnb","very", "boston","stay")
+#  Add some custom stop words
+myterms <- c("airbnb","very", "singapore","stay", 'nice', 'host', 'recommend', 2, 'location','super', 'highly','location')
 mylex <- rep("custom", length(myterms))
 myStopwords <- data.frame(word=myterms, lexicon=mylex)
 myStopwords <- rbind(stop_words, myStopwords)
 
-#Term frequencies across essays
+#Term frequencies 
 review_words <- tidy_review %>%
      unnest_tokens(word, text) %>%
      anti_join(myStopwords) %>%
@@ -96,7 +96,7 @@ review_words <- tidy_review %>%
 
 total_words <- review_words %>%
      group_by(review) %>%
-     summarize(total = sum(n))
+     summarise(total = sum(n))
 
 review_words <- left_join(review_words, total_words)
 
@@ -115,7 +115,7 @@ our_dtm
 ```
 ## LDA
 ```{r}
-our_lda <- LDA(our_dtm, k = 4, control = list(seed = 10000))
+our_lda <- LDA(our_dtm, k = 6, control = list(seed = 10000))
 our_lda
 ```
 
@@ -135,7 +135,8 @@ rev_top_terms %>%
   facet_wrap(~ topic, scales = "free") +
   coord_flip()
 ```
-# Link to topic modeling
+
+## Link to topic modeling
 https://rstudio-pubs-static.s3.amazonaws.com/443864_f78142d631b742b281645cc67b0afe55.html
 
 
@@ -160,7 +161,6 @@ ggbetweenstats(
 )
 ```
 
-# Prediction
 ## Distribution of airbnb by neighbourhood
 ```{r}
 listings1 <- listings %>% group_by(neighbourhood_cleansed, neighbourhood_group_cleansed) %>%
@@ -176,12 +176,12 @@ ggplot(listings1, aes(x = reorder(neighbourhood_cleansed, n), y = n, fill = neig
 ```
 
 ## Distribution of price
-```{r}
+```{r, warning= FALSE}
 listing2 <- listings %>% mutate(price = gsub(x = price, pattern = "[$]", ""))
 listing2$price <- as.numeric(as.character(listing2$price))
 ```
 
-```{r}
+```{r,warning= FALSE}
 ggplot(listing2, aes(x = price)) +
   geom_histogram(fill = 'light blue') 
 ```
