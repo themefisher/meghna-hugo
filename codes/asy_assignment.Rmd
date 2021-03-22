@@ -1,0 +1,101 @@
+---
+title: "Exploring airbnb"
+author: "Su Yiin Ang"
+date: "3/19/2021"
+output: 
+  html_document:
+    toc: TRUE
+    toc_float: true
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
+
+# 1. Overview
+
+## 1.1 Purpose
+
+## 1.2 Components of visualisation
+
+## 1.3 Sketch of proposed visualisation
+
+# 2. Interactivity
+
+# 3. Step-by-step Data Visualisation Preparation
+
+## 3.1 Installing and launching R packages
+
+```{r, message = FALSE}
+packages <- c('tidyverse','ggstatsplot','plotly','readr','leaflet')
+
+for (p in packages){
+  if (!require(p,character.only=T)){
+    install.packages(p)
+  }
+  library(p, character.only=T)
+}
+```
+
+## 3.2 Data preparation
+### 3.2.1 Data source
+
+
+
+### 3.2.2 Load data into R
+The data was imported using the `read_csv()` of the readr package.
+
+```{r}
+# Read the csv file as a tbl_df
+listings <- read_csv("./data/raw/listings.csv")
+
+# Inspect structure of the dataset
+glimpse(listings)
+```
+
+Here we see that there are 4,255 listings and 74 columns. Some columns are not useful
+
+### 3.2.3 Data cleaning
+
+**Missing data**
+```{r}
+
+
+
+```
+
+**Exclude unwanted variables**
+We want to exclude variables that will not be used for the analysis so that users will not be overwhelmed by the number of variables when performing selection.
+```{r}
+ex_listing <- listing2 %>%
+  select(-listing_url, -scrape_id, -last_scraped, -picture_url, -host_url, -host_thumbnail_url, -host_picture_url, -license, -description_lang, -calendar_last_scraped, -host_verifications, -host_id, -host_location, -calendar_updated, -first_review, -last_review, -availability_30, -availability_60, -availability_90, -availability_365, -has_availability, -minimum_nights, -maximum_maximum_nights, -minimum_minimum_nights, -host_name, -host_has_profile_pic, -neighbourhood, -bathrooms, -bathrooms_text, -listing_id, - latitude, -longitude, -bedrooms, -beds, -accommodates, -maximum_nights,-maximum_minimum_nights, minimum_maximum_nights, -minimum_nights_avg_ntm, maximum_nights_avg_ntm, -number_of_reviews_l30d, number_of_reviews_ltm, -review_scores_accuracy, -review_scores_checkin, -review_scores_cleanliness, -review_scores_cleanliness, -review_scores_communication, -review_scores_location, -review_scores_value, -reviews_per_month, -description, -name, host_about, -neighborhood_overview, -minimum_minimum_nights,-maximum_minimum_nights, -calculated_host_listings_count,-calculated_host_listings_count_entire_homes,-calculated_host_listings_count_private_rooms, -calculated_host_listings_count_shared_rooms, -amenities, -host_about, -property_type, -minimum_maximum_nights, -maximum_maximum_nights)
+```
+
+**Change variable type**
+
+```{r}
+
+```
+
+**Final dataset for EDA and CDA**
+```{r}
+glimpse(final_listing)
+```
+
+**Summary of final dataset**
+```{r}
+
+```
+
+## 3.3 Data visualisation
+
+```{r}
+leaflet(data = listings) %>% 
+  addTiles() %>% 
+  addCircleMarkers(lng = ~longitude,
+                   lat = ~latitude,
+                   popup = ~as.character(listings$description, listings$price),
+                   clusterOptions = markerClusterOptions()) 
+
+```
