@@ -86,3 +86,12 @@ write.csv(listings_stn_distance, "./data/clean/listings_stn_dist.csv")
 lst <- list(final_listings, listings_stn_distance, final_reviews)
 combined <- reduce(lst, full_join, by = "listing_id") %>% replace(., is.na(.), 0)
 
+##################
+
+reviews <- read_csv('data/clean/reviews.csv')
+con_reviews <- reviews %>% 
+  select(listing_id, comments) %>%
+  group_by(listing_id) %>%
+  summarise(comments = str_c(na.omit(comments), collapse = ";"))
+  
+

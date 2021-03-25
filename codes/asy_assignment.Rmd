@@ -17,9 +17,11 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 ## 1.1 Purpose
 
-## 1.2 Components of visualisation
+## 1.2 Literature review
 
-## 1.3 Sketch of proposed visualisation
+## 1.3 Components of visualisation
+
+## 1.4 Sketch of proposed visualisation
 
 # 2. Interactivity
 
@@ -28,7 +30,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 ## 3.1 Installing and launching R packages
 
 ```{r, message = FALSE}
-packages <- c('tidyverse','ggstatsplot','plotly','readr','leaflet')
+packages <- c('tidyverse','ggstatsplot','plotly','readr','leaflet','haven','funModeling')
 
 for (p in packages){
   if (!require(p,character.only=T)){
@@ -48,9 +50,12 @@ The data was imported using the `read_csv()` of the readr package.
 
 ```{r}
 # Read the csv file as a tbl_df
-listings <- read_csv("./data/raw/listings.csv")
+listings <- read_csv("./data/clean/listing_en.csv")
 
-# Inspect structure of the dataset
+```
+
+Now we take alook at the merged dataset
+```{r}
 glimpse(listings)
 ```
 
@@ -59,33 +64,42 @@ Here we see that there are 4,255 listings and 74 columns. Some columns are not u
 ### 3.2.3 Data cleaning
 
 **Missing data**
+Use `status` to check for missing data, zeros, data type of the data frame.
+
 ```{r}
-
-
-
+status(listings)
 ```
 
 **Exclude unwanted variables**
-We want to exclude variables that will not be used for the analysis so that users will not be overwhelmed by the number of variables when performing selection.
+
+We want to exclude  
+
+(1) variables that will not be used for the analysis so that users will not be overwhelmed by the number of variables when performing selection.  
+
+(2) variables with high percentage of missing values as they will skew the observation.
+
 ```{r}
-ex_listing <- listing2 %>%
-  select(-listing_url, -scrape_id, -last_scraped, -picture_url, -host_url, -host_thumbnail_url, -host_picture_url, -license, -description_lang, -calendar_last_scraped, -host_verifications, -host_id, -host_location, -calendar_updated, -first_review, -last_review, -availability_30, -availability_60, -availability_90, -availability_365, -has_availability, -minimum_nights, -maximum_maximum_nights, -minimum_minimum_nights, -host_name, -host_has_profile_pic, -neighbourhood, -bathrooms, -bathrooms_text, -listing_id, - latitude, -longitude, -bedrooms, -beds, -accommodates, -maximum_nights,-maximum_minimum_nights, minimum_maximum_nights, -minimum_nights_avg_ntm, maximum_nights_avg_ntm, -number_of_reviews_l30d, number_of_reviews_ltm, -review_scores_accuracy, -review_scores_checkin, -review_scores_cleanliness, -review_scores_cleanliness, -review_scores_communication, -review_scores_location, -review_scores_value, -reviews_per_month, -description, -name, host_about, -neighborhood_overview, -minimum_minimum_nights,-maximum_minimum_nights, -calculated_host_listings_count,-calculated_host_listings_count_entire_homes,-calculated_host_listings_count_private_rooms, -calculated_host_listings_count_shared_rooms, -amenities, -host_about, -property_type, -minimum_maximum_nights, -maximum_maximum_nights)
+listings <- listings %>%
+  select(-c(host_name,listing_url, scrape_id, last_scraped, name, picture_url,host_id, host_url,  host_location, host_about,host_thumbnail_url, host_picture_url, host_listings_count, neighbourhood, bathrooms, host_verifications,calendar_updated,calendar_last_scraped, first_review,last_review,license, description_lang))
 ```
 
 **Change variable type**
 
-```{r}
+Examine the classes of each of the columns to make sure they are correctly specified.
 
+We observed that `price`, `host_response_rate` and `host_acceptance_rate` are in `chr` type, however they should be in `dbl` or `int` type.
+
+```{r}
+final_listings <- listings %>%
+  mutate(price, price = parse_number(listings$price)) %>%  
+  mutate(host_response_rate, host_response_rate = parse_number(host_response_rate, na = c("", "NA"), locale = default_locale(), trim_ws = TRUE)) %>%
+           mutate(host_acceptance_rate, host_acceptance_rate = parse_number(host_acceptance_rate, na = c("", "NA"), locale = default_locale(), trim_ws = TRUE))
 ```
 
 **Final dataset for EDA and CDA**
-```{r}
-glimpse(final_listing)
-```
 
-**Summary of final dataset**
 ```{r}
-
+glimpse(final_listings)
 ```
 
 ## 3.3 Data visualisation
