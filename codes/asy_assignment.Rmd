@@ -10,7 +10,7 @@ runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = TRUE)
 ```
 
 # 1. Overview
@@ -30,7 +30,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 ## 3.1 Installing and launching R packages
 
 ```{r, message = FALSE}
-packages <- c('tidyverse','ggstatsplot','plotly','readr','leaflet','haven','funModeling')
+packages <- c('tidyverse','ggstatsplot','plotly','readr','leaflet','haven','funModeling','crosstalk','RColorBrewer','data.table','shiny')
 
 for (p in packages){
   if (!require(p,character.only=T)){
@@ -67,20 +67,37 @@ Here we see that there are 4,255 listings and 74 columns. Some columns are not u
 Use `status` to check for missing data, zeros, data type of the data frame.
 
 ```{r}
-status(listings)
+listings_status <- status(listings)
+arrange(listings_status, -p_na) %>%
+  select(variable, q_na, p_na)
+```
+
+**Notes**
+- q_zeros: quantity of zeros  
+- p_zeros: percentage of zeros  
+- q_na: quantity of NA  
+- p_na: percentage of NA  
+- type: data type, factor or numeric  
+- unique: quantity of unique values, useful for categorical data  
+
+Observations with missing `review_scores_rating` values were removed due to this being the target variable.
+
+```{r}
+
+
 ```
 
 **Exclude unwanted variables**
 
 We want to exclude  
 
-(1) variables that will not be used for the analysis so that users will not be overwhelmed by the number of variables when performing selection.  
+(1) redundant variables that will not be used for the analysis so that users will not be overwhelmed by the number of variables when performing selection,  
 
 (2) variables with high percentage of missing values as they will skew the observation.
 
 ```{r}
 listings <- listings %>%
-  select(-c(host_name,listing_url, scrape_id, last_scraped, name, picture_url,host_id, host_url,  host_location, host_about,host_thumbnail_url, host_picture_url, host_listings_count, neighbourhood, bathrooms, host_verifications,calendar_updated,calendar_last_scraped, first_review,last_review,license, description_lang))
+  select(-c(listing_id, host_name, description, listing_url, scrape_id, last_scraped, name, picture_url,host_id, host_url,  host_location, host_about,host_thumbnail_url, host_picture_url, host_listings_count, host_neighbourhood, neighbourhood, neighborhood_overview, bathrooms, host_verifications,calendar_updated,calendar_last_scraped, first_review,last_review,license, description_lang, amenities, latitude, longitude))
 ```
 
 **Change variable type**
@@ -91,25 +108,105 @@ We observed that `price`, `host_response_rate` and `host_acceptance_rate` are in
 
 ```{r}
 final_listings <- listings %>%
-  mutate(price, price = parse_number(listings$price)) %>%  
-  mutate(host_response_rate, host_response_rate = parse_number(host_response_rate, na = c("", "NA"), locale = default_locale(), trim_ws = TRUE)) %>%
-           mutate(host_acceptance_rate, host_acceptance_rate = parse_number(host_acceptance_rate, na = c("", "NA"), locale = default_locale(), trim_ws = TRUE))
-```
-
-**Final dataset for EDA and CDA**
-
-```{r}
-glimpse(final_listings)
+  mutate(price, price = as.numeric(gsub('\\$|',"", listings$price))) %>%  
+  mutate(host_response_rate, host_response_rate = as.numeric(gsub('\\%|',"", listings$host_response_rate))) %>%
+  mutate(host_acceptance_rate, host_acceptance_rate = as.numeric(gsub('\\%|',"", listings$host_acceptance_rate)))
 ```
 
 ## 3.3 Data visualisation
 
+### 3.3.1 Select and observe variables' summary
+
+3 components 
+- Select variables for observation
+- Summary of selected variables
+- Data table of selected variables
+
 ```{r}
-leaflet(data = listings) %>% 
-  addTiles() %>% 
-  addCircleMarkers(lng = ~longitude,
-                   lat = ~latitude,
-                   popup = ~as.character(listings$description, listings$price),
-                   clusterOptions = markerClusterOptions()) 
+bscols(widths = c(3,9),
+       list(
+         checkboxGroupInput('selected_v', 
+                            'Select variables for observation', 
+                            choices = names(final_listings), 
+                            selected = c('price', 'host_is_superhost','review_scores_rating'))
+       ),
+       renderPrint({
+         selectedData <- final_listings[, input$selected_v, drop = FALSE]
+         summary(selectedData)
+         }),
+       
+       DT::renderDataTable({
+         selectedData <- final_listings[, input$selected_v, drop = FALSE]
+         DT::datatable(selectedData)
+         })
+       )
+```
+
+### 3.3.2 Exploratory Data Analysis
+
+Univariate analysis
+
+```{r}
+bscols(widths = c(3,9),
+       list(
+         selectInput(inputId = 'x_var',
+                     label = 'Select x-variable',
+                     choices = colnames(final_listings)), #why is my date showing as number???
+         "Selected variable's data type is  ",
+         renderText({
+          x <- unlist(final_listings[,input$x_var])
+          class(x)
+          })
+        ),
+  
+       renderPlotly({
+         x <- unlist(final_listings[,input$x_var])
+         plot_ly(x = x,
+               type = 'histogram') #is there a way to label x,y axis and title? layout did not work
+         })
+       )
+```
+
+
+
+----------------------
+asy to continue here
+-----------
+
+Bivariate analysis
+
+```{r}
+bscols(widths = c(3,9),
+       list(
+         selectInput(inputId = 'x_var',
+            label = 'Select x-variable',
+            choices = colnames(final_listings)),
+         
+         selectInput(inputId = 'y_var',
+            label = 'Select y-variable',
+            choices = colnames(final_listings)),
+         
+         selectInput(inputId = 'chart',
+                     label = "Select chart type",
+                     choices = c("bar", "scatter", 'boxplot', 'mosaic'))
+       ),
+       renderPlotly({
+         x <- unlist(final_listings[,input$x_var])
+         y <- unlist(final_listings[,input$y_var])
+         chart <- unlist(final_listings[,input$chart])
+         plot_ly(x = x, y = y,
+               type = chart)
+         
+       })
+       
+)
 
 ```
+
+
+### 3.3.3 Confirmatory Data Analysis
+
+
+
+
+
