@@ -1,0 +1,367 @@
+---
+title: "Pre-processing"
+author: "Kevin G.A"
+date: "3/28/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Load the packages
+```{r echo=TRUE}
+packages = c('tidyverse', 'tidymodels', 'ggplot2', 'skimr', 'naniar', 'kableExtra')
+
+for(p in packages){
+  if(!require(p, character.only = T)){
+    install.packages(p)
+  }
+  library(p, character.only = T)
+}
+```
+
+### Load listing data set
+```{r echo=TRUE}
+listings <- read_csv("data/clean/listing_en.csv")
+```
+
+### Use _skim_ function to summarise the data set
+```{r echo=TRUE, results='asis'}
+skimDf <- listings %>%
+  skim_without_charts()
+
+listing_dim <- dim(listings)
+print(paste0("Data set contains ", listing_dim[1], " observations and ",
+            listing_dim[2], " variables"))
+
+#summarise numeric variables
+if ("numeric" %in% skimDf$skim_type){
+  skimDf %>%
+    yank('numeric') %>%
+    select('skim_variable', 'n_missing', 'complete_rate', 'mean', 'sd', 'p50') %>%
+    arrange(-n_missing) %>%
+    kable() %>%
+    kable_styling() %>%
+    scroll_box(width = "100%", height = "500px")
+}
+
+#summarise character variables
+if ("character" %in% skimDf$skim_type){
+  skimDf %>%
+    yank("character")
+}
+
+#summarise date variables
+if ("Date" %in% skimDf$skim_type){
+  skimDf %>%
+    yank("Date")
+}
+
+#summarise logical variables
+if ("logical" %in% skimDf$skim_type){
+  skimDf %>%
+    yank("logical")
+}
+```
+
+### We can remove those empty variables 
+```{r echo=TRUE}
+empty_var <- skimDf %>%
+  filter(complete_rate == 0) %>%
+  select(skim_variable)
+
+listings2 <- listings %>%
+  select(-empty_var$skim_variable)
+```
+
+### Remove rows where the target variable is NA _(should not be executed in pre-processing step if we allow user to select target variable)_
+```{r echo=TRUE}
+# listings2 <- listings2 %>%
+#   filter(review_scores_rating != 0)
+```
+
+### some variables are not meaningful for prediction and can be removed e.g. id, url
+```{r echo=TRUE}
+listings2 <- listings2 %>%
+  select(!ends_with("_id") & !ends_with("_url")) %>%
+  select(-description_lang, -first_review, -last_review,
+         -host_name, -host_location, -last_scraped, -calendar_last_scraped,)
+names(listings2)
+```
+
+### Feature engineer name, description, host_about
+```{r echo=TRUE}
+listings2 <- listings2 %>%
+  mutate_at(vars(name,description,host_about),str_squish) %>% #remove all whitespaces
+  mutate(name_length = str_count(name, ".")) %>% #count characters
+  mutate(description_length = str_count(description, ".")) %>%
+  mutate(host_about_length = str_count(host_about, ".")) %>%
+  select(-name, -description, -host_about)
+```
+
+
+### Visualise missingness of listing dataset
+```{r echo=TRUE}
+listings2 %>%
+  select(where(is.numeric)) %>%
+  gg_miss_var()
+
+listings2 %>%
+  select(where(is.character)) %>%
+  gg_miss_var()
+
+listings2 %>%
+  select(where(is.logical)) %>%
+  gg_miss_var()
+```
+
+###  Remove variables with high percentage of missing value
+```{r}
+listings2 <- listings2 %>%
+  select(-bedrooms, -neighbourhood, -neighborhood_overview, -host_neighbourhood)
+```
+
+
+###  Get summary of missingness in listing dataset
+```{r echo=TRUE}
+missvar <- miss_var_summary(listings2)
+missvar
+
+## code below is used if we want to remove variables based on % missing
+
+# pct_threshold <- 10
+# 
+# gg_miss_var(listings[,missvar$variable[missvar$pct_miss <= pct_threshold]])
+# gg_miss_var(listings[,missvar$variable[missvar$pct_miss > pct_threshold]])
+# 
+# #list variables with missing rows less than pct_threshold 
+# varlist <- missvar$variable[missvar$pct_miss <= pct_threshold]
+# 
+# #Take only variables that have <10% missing values
+# listings3 <- listings2 %>%
+#   select(all_of(varlist))
+# 
+# names(listings3)
+```
+
+###  Price-related attribute is currently in chr and need conversion to dbl
+```{r echo=TRUE}
+listings3 <- listings2 %>%
+  mutate_at(vars(c(contains("price"))),
+            ~as.numeric(str_replace(., "\\$", "")))
+
+#remove listing with $0 price
+listings3 <- listings3 %>%
+  filter(price!=0)
+```
+
+###  Rate-related attribute is currently in chr and need conversion to dbl
+```{r echo=TRUE}
+listings3 <- listings3 %>%
+  mutate_at(vars(c(contains("rate"))),
+            ~as.numeric(str_replace(., "\\%", "")))
+```
+
+###  Explore numerical variables
+```{r echo=TRUE, fig.dim=c(10,8)}
+listings3 %>%
+  keep(is.numeric) %>% 
+  gather() %>% 
+  ggplot(aes(value)) +
+    facet_wrap(~ key, scales = "free", ncol = 4) +
+    geom_histogram()
+
+listings3 %>%
+  keep(is.numeric) %>% 
+  gather() %>% 
+  ggplot(aes(value)) +
+    facet_wrap(~ key, scales = "free", ncol = 4) +
+    geom_boxplot()
+
+```
+
+###  Explore logical variables
+```{r echo=TRUE}
+listings3 %>%
+  keep(is.logical) %>% 
+  gather() %>% 
+  ggplot(aes(value)) +
+    facet_wrap(~ key, scales = "free") +
+    geom_bar()
+```
+
+###  Remove variables with only single value
+```{r}
+listings4 <- listings3 %>%
+  select(-has_availability, -host_has_profile_pic)
+```
+
+###  Explore character variables
+```{r echo=TRUE, fig.dim=c(10,8)}
+#find unique values within each char variables
+nonunique <- listings4 %>%
+  skim_without_charts() %>%
+  yank('character') %>%
+  select(skim_variable, n_unique) %>%
+  arrange(-n_unique)
+
+#observe those with > 10 values
+nonunique_var <- nonunique %>%
+  filter(n_unique > 10)
+
+#plot
+listings4 %>%
+  select(nonunique_var$skim_variable) %>%
+  gather() %>%
+  ggplot(aes(x = value)) +
+    facet_wrap(~ key, scales = "free") +
+    geom_bar()
+```
+
+### Feature engineer bathroom_text
+```{r}
+listings4 %>%
+  group_by(bathrooms_text) %>%
+  count(bathrooms_text, sort = TRUE) %>%
+  ungroup() %>%
+  top_n(-20) %>%
+  ggplot(aes(reorder(x = bathrooms_text, n),y = n)) +
+  geom_col() +
+  coord_flip()
+
+listings4 <- listings4 %>%
+  mutate(bathrooms_text = tolower(bathrooms_text)) %>%
+  mutate(bathrooms_text = str_replace(bathrooms_text, "half", "0.5")) %>%
+  mutate(bathroom = parse_number(bathrooms_text)) %>%
+  mutate(bathroom_type = case_when(
+    str_detect(bathrooms_text, "private") ~ "Private",
+    str_detect(bathrooms_text, "share") ~ "Shared",
+    TRUE ~ "Other")
+  ) %>%
+  select(-bathrooms_text)
+
+listings4 %>%
+  group_by(bathroom_type) %>%
+  count(bathroom_type, sort = TRUE) %>%
+  ungroup() %>%
+  ggplot(aes(reorder(x = bathroom_type, n),y = n)) +
+  geom_col() +
+  coord_flip()
+
+listings4 %>%
+  ggplot(aes(x = bathroom)) +
+  geom_bar()
+```
+
+### check host_verifications, neighbourhood_cleansed, property_type
+```{r}
+listings4 %>%
+  group_by(host_verifications) %>%
+  count(host_verifications, sort = TRUE) %>%
+  ungroup() %>%
+  top_n(10) %>%
+  ggplot(aes(reorder(x = host_verifications, n),y = n)) +
+  geom_col() +
+  coord_flip()
+
+# replace host_verification with count of verification
+listings4 <- listings4 %>%
+  mutate(host_verifications_count = sapply(str_split(host_verifications, ","), length)) %>%
+  select(-host_verifications)
+
+listings4 %>%
+  ggplot(aes(x = host_verifications_count)) +
+  geom_bar()
+
+listings4 %>%
+  group_by(neighbourhood_cleansed) %>%
+  count(neighbourhood_cleansed, sort = TRUE) %>%
+  ungroup() %>%
+  top_n(10) %>%
+  ggplot(aes(reorder(x = neighbourhood_cleansed, n), y = n)) +
+  geom_col() +
+  coord_flip()
+
+listings4 %>%
+  group_by(property_type) %>%
+  count(property_type, sort = TRUE) %>%
+  ungroup() %>%
+  top_n(10) %>%
+  ggplot(aes(reorder(x = property_type, n), y = n)) +
+  geom_col() +
+  coord_flip()
+
+# get actual property type (remove room type component) from property_type
+listings4 <- listings4 %>%
+  mutate(property_type = tolower(property_type)) %>%
+  mutate(property_type = case_when(
+    grepl(" in ", property_type, fixed = TRUE) == TRUE ~ gsub("^.*in ", "", property_type),
+    TRUE ~ gsub("entire ", "", property_type)
+  ))
+
+listings4 %>%
+  ggplot(aes(x = property_type)) +
+  geom_bar() +
+  coord_flip()
+```
+
+###  Convert amenities to count of items
+```{r}
+listings4 %>%
+  group_by(amenities) %>%
+  count(amenities, sort = TRUE) %>%
+  ungroup() %>%
+  top_n(10) %>%
+  ggplot(aes(reorder(x = amenities, n),y = n)) +
+  geom_col() +
+  coord_flip()
+
+# replace amenities with count of amenities
+listings5 <- listings4 %>%
+  mutate(amenities_count = sapply(str_split(amenities, ","), length)) %>%
+  select(-amenities) 
+
+listings5 %>%
+  ggplot(aes(x = amenities_count)) +
+  geom_bar()
+```
+
+### Other pre-processing using recipe (can be done without recipe)
+```{r echo=TRUE, fig.dim=c(10,8)}
+rcpPreprocess <- recipe(review_scores_rating~., data = listings5) %>%
+  step_mutate_at(where(is.character), fn = as.factor) %>% #convert character to factor
+  step_mutate_at(where(is.logical), fn = as.factor) %>% #convert logical to factor
+  step_mutate(year_host = as.numeric(
+    as.Date("2021/01/01", "%Y/%m/%d")-host_since)) %>% #count days since hosting
+  step_rm(host_since) %>%
+  step_other(all_nominal(), threshold = 0.05,
+             other = "Others") #lump factor levels with <5% as "Others"
+
+#bake the pre-processing recipe
+listing_prep <- rcpPreprocess %>% prep() %>% bake(listings5)
+
+#plot to see the pre-processed data
+listing_prep %>%
+  keep(is.factor) %>%
+  gather() %>%
+  ggplot(aes(x = value)) +
+    facet_wrap(~ key, scales = "free") +
+    geom_bar()
+```
+
+### Coerce NA into one of the factor **(not sure if this is an acceptable practice)**
+```{r echo=TRUE}
+listing_prep$host_identity_verified[is.na(listing_prep$host_identity_verified)] <- "FALSE"
+
+listing_prep$host_is_superhost[is.na(listing_prep$host_is_superhost)] <- "FALSE"
+unique(listing_prep$host_is_superhost)
+
+listing_prep$host_response_time[is.na(listing_prep$host_response_time)] <- "N/A"
+unique(listing_prep$host_response_time)
+```
+
+### Write data to csv
+```{r echo=TRUE}
+# write_csv(listing_prep, 'data/listing_prep.csv')
+```
