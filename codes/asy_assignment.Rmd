@@ -152,25 +152,50 @@ bscols(widths = c(3,9),
          selectInput(inputId = 'x_var',
                      label = 'Select x-variable',
                      choices = colnames(final_listings)), #why is my date showing as number???
-         "Selected variable's data type is  ",
+         
+         "Selected variable's data type:",
+         
          renderText({
           x <- unlist(final_listings[,input$x_var])
           class(x)
-          })
-        ),
-  
-       renderPlotly({
-         x <- unlist(final_listings[,input$x_var])
-         plot_ly(x = x,
-               type = 'histogram') #is there a way to label x,y axis and title? layout did not work
+          }),
+         
+         checkboxInput(inputId = 'show_stats', 
+                    label = "Show statistics?",
+                    value = TRUE),
+         
+         renderPrint({
+         x <- final_listings[, input$x_var, drop = FALSE]
+         if(input$show_stats){summary(x)}
          })
-       )
+        ),
+       list(
+         renderPlotly({
+           x <- unlist(final_listings[,input$x_var])
+  
+           plot_ly(x = x, type = 'histogram') %>%
+             layout(title = paste("Distribution of ", input$x_var), 
+                    xaxis = list(title = (input$x_var)),
+                    yaxis = list(title = 'count'))
+        }),
+        
+        renderPlotly({
+         x <- unlist(final_listings[,input$x_var])
+         
+         if(class(x) == class(final_listings$price)) {
+           plot_ly(type = 'box') %>%
+           add_boxplot(x = x, name = input$x_var, boxpoints = "outliers") %>%
+           layout(title = paste("Outlier boxplot of ", input$x_var),
+                                showlegend = FALSE)
+           } else {stop("Outlier boxplot is not meaningful for non-numerical classes.") 
+             
+             }
+         })
+       ))
 ```
 
-
-
 ----------------------
-asy to continue here
+WIP
 -----------
 
 Bivariate analysis
@@ -182,9 +207,23 @@ bscols(widths = c(3,9),
             label = 'Select x-variable',
             choices = colnames(final_listings)),
          
+         "Class type of x variable:",
+         
+         renderText({
+          x <- unlist(final_listings[,input$x_var])
+          class(x)
+          }),
+         
          selectInput(inputId = 'y_var',
             label = 'Select y-variable',
             choices = colnames(final_listings)),
+         
+        "Class type of y variable is  ",
+         
+         renderText({
+          x <- unlist(final_listings[,input$y_var])
+          class(y)
+          }),
          
          selectInput(inputId = 'chart',
                      label = "Select chart type",
@@ -195,7 +234,7 @@ bscols(widths = c(3,9),
          y <- unlist(final_listings[,input$y_var])
          chart <- unlist(final_listings[,input$chart])
          plot_ly(x = x, y = y,
-               type = chart)
+               type = 'scatter')
          
        })
        
