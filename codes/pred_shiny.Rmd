@@ -1,0 +1,487 @@
+---
+title: "Predictive analytics shiny"
+author: "Kevin G.A"
+date: "3/26/2021"
+runtime: shiny
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### Installing and loading necessary packages
+
+```{r echo=TRUE, results='hide'}
+packages = c('tidyverse', 'tidymodels', 'ggplot2', 'skimr', 'kableExtra',
+             'vip', 'ggstatsplot', 'corrplot', 'Hmisc', 'shinyWidgets')
+
+for(p in packages){
+  if(!require(p, character.only = T)){
+    install.packages(p)
+  }
+  library(p, character.only = T)
+}
+```
+
+### Load cleaned data
+The cleaned data is loaded using read_csv function from readr package.
+```{r echo=TRUE}
+listing_prep <- read_csv("data/listing_prep.csv")
+```
+
+### Get user input on variable selection
+Assuming user has initial knowledge about the data from EDA sub-module, user can select variables to be considered for modeling. At this step, summary is also given for the selected variables for information.
+
+```{r echo=FALSE}
+var_list <- sort(names(listing_prep))
+
+multiInput(
+  inputId = "Iselected_vars",
+  label = "Select variables :",
+  choices = var_list,
+  width = "900px")
+
+actionButton("btn_all", "Select all")
+actionButton("btn_des_all", "Deselect all")
+actionButton("btn_summarise", "Summarise")
+```
+
+Print out summary of selected variables
+```{r echo=FALSE}
+dataTableOutput("Osummary_num")
+tableOutput("Osummary_char")
+tableOutput("Osummary_logic")
+tableOutput("Osummary_date")
+
+Rselected_vars <- reactive(input$Iselected_vars)
+
+Rnum_vars <- reactive({
+  listing_prep %>%
+    select(Rselected_vars()) %>%
+    keep(is.numeric) %>%
+    names()
+  })
+
+observeEvent(input$btn_summarise, {
+  skimDf <- listing_prep %>%
+    select(Rselected_vars()) %>%
+    skim_without_charts()
+  
+  output$Osummary_num <- renderDataTable({
+    if ("numeric" %in% skimDf$skim_type){
+      skimDf %>%
+        yank('numeric') %>%
+        select('skim_variable','n_missing','complete_rate',
+               'mean','sd','p0','p50','p100') %>%
+        arrange(-n_missing)
+    }
+  }, options = list(pageLength = 10))
+  
+  output$Osummary_char <- renderTable({
+    if ("character" %in% skimDf$skim_type){
+    skimDf %>%
+      yank("character")
+    }
+  })
+  output$Osummary_date <- renderTable({
+    if ("Date" %in% skimDf$skim_type){
+    skimDf %>%
+      yank("Date")
+    }
+  })
+  output$Osummary_date <- renderTable({
+    if ("logical" %in% skimDf$skim_type){
+    skimDf %>%
+      yank("logical")
+    }
+  })
+  
+  # num_vars <- listing_prep %>%
+  #   select(Rselected_vars()) %>%
+  #   keep(is.numeric) %>%
+  #   names()
+
+  updateMultiInput(
+    session = session,
+    inputId = "Inum_vars_corr",
+    choices = Rnum_vars())
+  
+  updatePickerInput(
+    session = session,
+    inputId = "Itarget_var",
+    choices = Rnum_vars())
+  
+  updatePickerInput(
+    session = session,
+    inputId = "Itrain_strata",
+    choices = c("None",Rselected_vars()),
+    selected = "None")
+      
+})
+
+observeEvent(input$btn_all, {
+  updateMultiInput(
+    session = session,
+    inputId = "Iselected_vars",
+    selected = var_list
+  )
+})
+
+observeEvent(input$btn_des_all, {
+  updateMultiInput(
+    session = session,
+    inputId = "Iselected_vars",
+    selected = character(0)
+  )
+})
+
+```
+
+### Correlation matrix for numeric variables
+Next, we want to check correlation among numeric variables. User can further choose which numeric variables to be considered. Subsequently, choice of correlation type and p-value are available to customise the correlation matrix.
+
+```{r echo=FALSE}
+multiInput(
+  inputId = "Inum_vars_corr",
+  label = "Choose from numeric variables :",
+  choiceValues = character(0),
+  width = "900px")
+
+actionButton("btn_all_num", "Select all")
+actionButton("btn_des_all_num", "Deselect all")
+actionButton("btn_corrplot", "Plot correlation matrix")
+
+radioButtons(
+   inputId = "Icorr_type",
+   label = "Correlation type:",
+   choices = c("parametric", "nonparametric", "robust", "bayes")
+)
+
+pickerInput(
+   inputId = "Isig_lvl_corr",
+   label = "p-value:",
+   choices = c("0.01", "0.05", "0.1"),
+   selected = "0.05"
+)
+
+plotOutput("Oplot_corrmat", width = "600px", height = "600px")
+```
+
+```{r echo=FALSE}
+observeEvent(input$btn_corrplot, {
+  output$Oplot_corrmat <- renderPlot(
+    listing_prep %>%
+      select(isolate(input$Inum_vars_corr)) %>%
+      ggcorrmat(insig = "pch", pch = "square cross", title = "Correlation matrix",
+                sig.level = isolate(input$Isig_lvl_corr),
+                type = isolate(input$Icorr_type))
+  )
+})
+
+observeEvent(input$btn_all_num, {
+  updateMultiInput(
+    session = session,
+    inputId = "Inum_vars_corr",
+    selected = Rnum_vars()
+  )
+})
+
+observeEvent(input$btn_des_all_num, {
+  updateMultiInput(
+    session = session,
+    inputId = "Inum_vars_corr",
+    selected = character(0)
+  )
+})
+```
+
+### Box plot for categorical variables
+User will first choose the target variable (this can be subsumed under EDA sub-module if target variable is chosen at the earlier stage). Once chosen, the categorical variables will be plotted accordingly against the target variable.
+
+```{r echo=FALSE}
+pickerInput(
+   inputId = "Itarget_var",
+   label = "Choose target variable:",
+   choices = character(0)
+)
+
+plotOutput("Oplot_catvarbox", width = "800px", height = "1000px")
+
+observeEvent(input$Itarget_var, {
+  output$Oplot_catvarbox <- renderPlot(
+  listing_prep %>%
+    select(Rselected_vars()) %>%
+    filter(is.na(input$Itarget_var)==FALSE) %>%
+    select(negate(is.numeric) | input$Itarget_var) %>%
+    gather(key, value, -input$Itarget_var) %>%
+    ggplot(aes_string(x = "value", y = input$Itarget_var)) +
+      facet_wrap(~ key, scales = "free", ncol = 2) +
+      geom_boxplot()
+  )
+})
+```
+
+
+### Train/test data split
+The next step will be to split the data into train and test set. User will be able to choose the proportion and strata requirement. (K-folds cross validation will be made  possible).
+
+```{r echo=FALSE}
+
+sliderInput("Itrain_prop", "Training set proportion (%)", value = 80, min = 0, max = 100, step = 5)
+
+pickerInput(
+   inputId = "Itrain_strata",
+   label = "Choose variable for strata:",
+   choices = character(0))
+actionButton("btn_split_data", "Split data set")
+plotOutput("Oplot_traintest", width = "800px", height = "1000px")
+
+Rtrain_strata <- reactive(
+  if (input$Itrain_strata == "None"){
+    NULL
+  }else{
+    input$Itrain_strata
+  }
+)
+
+observeEvent(input$btn_split_data, {
+  set.seed(1234)
+  listing_split <- listing_prep %>%
+    na.omit() %>% #Row with NA-value is omitted
+    initial_split(prop = isolate(input$Itrain_prop)/100,
+                  strata = Rtrain_strata())
+
+  listing_train <- training(listing_split)
+  listing_test <- testing(listing_split)
+  # listing_kfolds <- vfold_cv(listing_train, v = 5, strata = input$Itrain_strata)
+
+  train_num <- listing_train %>%
+    mutate(split = "training")
+  test_num <- listing_test %>%
+    mutate(split = "test")
+  trainTest_num <- rbind(train_num, test_num)
+  
+  output$Oplot_traintest <- renderPlot(
+    trainTest_num %>%
+      select(where(is.numeric) | split) %>%
+      gather(key, value, -split) %>%
+      ggplot(aes(x = value, fill = split)) +
+        facet_wrap(~ key, scales = "free", ncol = 4) +
+        geom_density(alpha=0.5)
+  )
+  
+})
+
+```
+
+### Build transformation recipe (Work in progress - not interactive)
+
+```{r echo=FALSE}
+actionButton("btn_rcpTransform", "Prepare recipe")
+verbatimTextOutput("Otransform_recipe")
+
+Rtarget_var <- reactive(input$Itarget_var)
+
+observeEvent(input$btn_rcpTransform,{
+  set.seed(1234)
+  listing_split <- listing_prep %>%
+    rename(target_var = Rtarget_var()) %>%
+    na.omit() %>% #Row with NA-value is omitted
+    initial_split(prop = isolate(input$Itrain_prop)/100,
+                  strata = Rtrain_strata())
+
+  listing_train <- training(listing_split)
+  listing_test <- testing(listing_split)
+  
+  print(names(listing_train))
+  
+  rcpTransform <- recipe(target_var ~ ., data = listing_train) %>%
+  step_corr(all_numeric(), -all_outcomes(), threshold = 0.8) %>%
+  step_log(all_outcomes(), skip = TRUE) %>%
+  step_log(all_numeric(), -year_host, -all_outcomes(), offset = 0.1) %>%
+  step_normalize(all_numeric(), -all_outcomes(), na_rm = TRUE) %>%
+  step_dummy(all_nominal(), -all_outcomes())
+
+  output$Otransform_recipe <- renderPrint(rcpTransform)
+})
+
+# #see the transformed data
+# listingTrain_T <- rcpTransform %>% prep() %>% bake(listing_train)
+# 
+# listingTrain_T %>%
+#   gather() %>%
+#   ggplot(aes(x = value)) +
+#     facet_wrap(~ key, scales = "free", ncol = 4) +
+#     geom_bar()
+
+```
+
+### creating models using parsnip
+User will proceed to build the model using parsnip and examine the parameter coefficient using ggcoefstats function.
+```{r echo=FALSE, fig.dim=c(10,8)}
+targetVar <- sym("review_scores_rating")
+listing_prep2 <- listing_prep %>%
+  select(-review_scores_accuracy, -review_scores_cleanliness,
+         -review_scores_checkin, -review_scores_communication,
+         -review_scores_location, -review_scores_value)
+training_prop <- 0.8
+
+set.seed(1234)
+listing_split <- listing_prep2 %>%
+  rename(target_var = targetVar) %>%
+  na.omit() %>%
+  initial_split(prop = training_prop, strata = target_var)
+
+listing_train <- training(listing_split)
+listing_test <- testing(listing_split)
+listing_kfolds <- vfold_cv(listing_train, v = 5, strata = target_var)
+
+rcpTransform <- recipe(target_var ~ ., data = listing_train) %>%
+step_corr(all_numeric(), -all_outcomes(), threshold = 0.8) %>%
+# step_log(all_outcomes(), skip = TRUE) %>%
+# step_log(all_numeric(), -year_host, -all_outcomes(), offset = 0.1) %>%
+step_normalize(all_numeric(), -all_outcomes(), na_rm = TRUE) %>%
+step_dummy(all_nominal(), -all_outcomes())
+  
+#Linear regression
+lm_mod <- linear_reg() %>% 
+  set_engine("lm") %>%
+  set_mode("regression")
+
+listing_wflow <-  workflow() %>%
+  add_model(lm_mod) %>%
+  add_recipe(rcpTransform)
+
+listing_fit <- listing_wflow %>%
+  fit(data = listing_train)
+
+fitResult <- listing_fit %>%
+  pull_workflow_fit() %>%
+  tidy()
+
+pval <- 0.05
+
+fitResult %>%
+  filter(p.value <= pval) %>%
+  arrange(-p.value) %>%
+  ggcoefstats(exclude.intercept = TRUE)
+
+```
+
+### Use GLM models
+Model hyperparameter can be tuned to train multiple models. Model performance will be compared using metric plot. Best model will be selected and the variable importance will be displayed.
+```{r eval=TRUE}
+#GLM model
+glmnet_model <-
+  linear_reg(mode = "regression",
+             penalty = tune(),
+             mixture = tune()) %>%
+  set_engine("glmnet")
+
+#set tune specification
+glmnet_params <- parameters(penalty(), mixture())
+set.seed(1234)
+glmnet_grid <- grid_max_entropy(glmnet_params, size = 10)
+
+#workflow
+glm_wf <- workflow() %>%
+  add_model(glmnet_model) %>%
+  add_recipe(rcpTransform)
+
+glm_result <- glm_wf %>%
+  tune_grid(resamples = listing_kfolds,
+            grid = glmnet_grid,
+            metrics = metric_set(mae, mape, rmse, rsq))
+
+glm_result %>%
+  collect_metrics() %>%
+  ggplot(aes(penalty, mean, color = .metric)) +
+  geom_errorbar(aes(ymin = mean - std_err,
+                    ymax = mean + std_err),
+                alpha = 0.5) +
+  geom_line(size = 1.5) +
+  facet_wrap(~.metric, scales = "free", nrow = 2) +
+  scale_x_log10() +
+  theme(legend.position = "none")
+
+glm_result %>%
+  show_best("rmse")
+
+best_glm_model <- glm_result %>%
+  select_best("rmse")
+
+#finalise glm model
+final_glm_wf <- 
+  glm_wf %>%
+  finalize_workflow(best_glm_model)
+
+final_glm <- final_glm_wf %>%
+  fit(data = listing_train)
+
+final_glm %>% 
+  pull_workflow_fit() %>% 
+  vip()
+
+final_fit_glm <- last_fit(final_glm_wf, split = listing_split)
+
+final_fit_glm %>%
+  collect_predictions() %>%
+  ggplot(aes(target_var, .pred)) +
+  geom_point() +
+  geom_abline() +
+  coord_obs_pred() +
+  labs(title = "R-squared plot",
+       x = paste0("Actual ", targetVar),
+       y = paste0("Predicted ", targetVar))
+```
+
+### Similarly for other model (e.g. decision tree), we will have the model performance by metrics and the variable importance.
+```{r eval=TRUE}
+tree_model <- decision_tree(cost_complexity = tune(),
+                           tree_depth = tune(),
+                           min_n = tune()) %>%
+  set_engine("rpart") %>%
+  set_mode("regression")
+
+tree_grid <- grid_regular(cost_complexity(), tree_depth(), min_n(), levels = 3)
+
+tree_wf <- workflow() %>%
+  add_model(tree_model) %>%
+  add_recipe(rcpTransform)
+
+tree_result <- tree_wf %>%
+  tune_grid(resamples = listing_kfolds,
+            grid = tree_grid,
+            metrics = metric_set(rmse, rsq, mae, mape))
+
+collect_metrics(tree_result)
+
+autoplot(tree_result) + theme_light()
+
+best_tree <- tree_result %>%
+  select_best("rmse")
+
+final_tree_wf <- tree_wf %>%
+  finalize_workflow(best_tree)
+
+final_tree <- final_tree_wf %>%
+  fit(data = listing_train)
+
+final_tree %>% 
+  pull_workflow_fit() %>% 
+  vip()
+
+final_fit_tree <- last_fit(final_tree_wf, split = listing_split)
+
+final_fit_tree %>%
+  collect_predictions() %>%
+  ggplot(aes(target_var, .pred)) +
+  geom_point() +
+  geom_abline() +
+  coord_obs_pred() +
+  labs(title = "R-squared plot",
+       x = paste0("Actual ", targetVar),
+       y = paste0("Predicted ", targetVar))
+```
