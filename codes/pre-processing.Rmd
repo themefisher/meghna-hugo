@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Load the packages
 ```{r echo=TRUE}
-packages = c('tidyverse', 'tidymodels', 'ggplot2', 'skimr', 'naniar', 'kableExtra')
+packages = c('tidyverse', 'tidymodels', 'ggplot2', 'skimr', 'naniar', 'kableExtra', 'cld3','dplyr')
 
 for(p in packages){
   if(!require(p, character.only = T)){
@@ -22,8 +22,27 @@ for(p in packages){
 ```
 
 ### Load listing data set
+```{r}
+listings_lang <- read_csv("./data/raw/listings.csv")
+```
+
+### Extract only English listings
 ```{r echo=TRUE}
-listings <- read_csv("data/clean/listing_en.csv")
+listings_lang <- listings_lang %>% rename(listing_id = id)
+  
+description_lang <- c()
+
+for (i in 1:nrow(listings_lang)){
+  language <- detect_language(as.character(listings_lang$description[i]))
+  description_lang <- append(description_lang, language)
+}
+
+all_listings <- cbind(listings_lang, description_lang)
+listings <- all_listings %>% filter(all_listings$description_lang == "en")
+```
+
+```{r echo=TRUE}
+# listings <- read_csv("data/clean/listing_en.csv")
 ```
 
 ### Use _skim_ function to summarise the data set
@@ -335,8 +354,9 @@ rcpPreprocess <- recipe(review_scores_rating~., data = listings5) %>%
   step_mutate(year_host = as.numeric(
     as.Date("2021/01/01", "%Y/%m/%d")-host_since)) %>% #count days since hosting
   step_rm(host_since) %>%
-  step_other(all_nominal(), threshold = 0.05,
-             other = "Others") #lump factor levels with <5% as "Others"
+  step_mutate(neighbourhood_cleansed2 = neighbourhood_cleansed) %>% #duplicate column
+  step_other(all_nominal(), -neighbourhood_cleansed, threshold = 0.05,
+             other = "Others") #lump factor levels with <5% as "Others", except the original neighbourhood_cleansed column
 
 #bake the pre-processing recipe
 listing_prep <- rcpPreprocess %>% prep() %>% bake(listings5)
