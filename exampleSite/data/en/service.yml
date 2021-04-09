@@ -3,7 +3,7 @@ service:
   enable: true
   title: Our Services
   service_item:
-  - name: website desing
+  - name: Website desing
     icon: ti-world
     content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
       facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
