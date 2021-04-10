@@ -3,7 +3,7 @@ disableLanguages = []
 disqusShortname = ""
 paginate = "6"
 summaryLength = "15"
-theme = "umang"
+theme = "CD"
 themesDir = "../.."
 title = "CD"
 [Languages.en]
