@@ -5,7 +5,7 @@ paginate = "6"
 summaryLength = "15"
 theme = "umang"
 themesDir = "../.."
-title = "umang"
+title = "CD"
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
@@ -107,10 +107,10 @@ google_analytics_id = ""
 logo = "images/logo.png"
 post_share = true
 [params.cookies]
-enable = false
+enable = true
 expire_days = 2
 [params.map]
-enable = false
+enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
 map_latitude = "51.5223477"
 map_longitude = "-0.1622023"
