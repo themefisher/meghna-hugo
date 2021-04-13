@@ -1,3 +1,4 @@
+---
 - id: blogTitle
   translation: Dernier message
 - id: readMore
@@ -26,5 +27,3 @@
   translation: Blog
 - id: contact
   translation: Contact
-- id: themefisher
-  translation: Themefisher
