@@ -50,8 +50,8 @@ Here are the steps to take to sneak into a running pod:
     `kubectl exec -it "$(kubectl get pods | grep clouddriver | awk '{print $1}')" bash`
 
     execute `ps aux` to check processes running in the pod. the jvm parameters will be revealed as well. for me output is:
-
-    ![kubectl-get-pods](/images/blog/debug-java-apps-on-k8s/kubectl-get-pods.png)
+    
+    {{% figure src="/images/blog/debug-java-apps-on-k8s/kubectl-get-pods.png" caption="kubectl-get-pods" style="width: 900px" %}}
 
 3. You can edit the yaml definition of pod using your cloud provider GUI or you can use kubectl.
 
@@ -61,7 +61,7 @@ Here are the steps to take to sneak into a running pod:
 
         Find the deployment of CloudDriver and click Edit button to go to edit mode.
 
-        {{% figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui.png" caption="edit-pod-gui.png" width="900px" %}}
+        {{% figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui.png" caption="edit-pod-gui" style="width: 900px" %}}
 
         - Add `-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=127.0.0.1:5005` to the line. You can replace 5005 with any other arbitrary free port number, you are required to change it e.g. to 5006 all across the guide in case of debugging multiple pods.
         - Find containers: line and add these two lines below it
@@ -73,7 +73,7 @@ Here are the steps to take to sneak into a running pod:
 
             The final file should looks like the below image, beware of indentation, yaml files are very sensitive to formatting.
 
-            {{% figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui1.png" caption="edit-pod-gui1.png" width="900px" %}}
+            {{% figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui1.png" caption="edit-pod-gui1.png" style="width: 900px" %}}
 
             - Save the file, It will stop the pod and will create the new one reflecting the change we just made which makes it ready to connect to through Intellij
     - **CLI way**
