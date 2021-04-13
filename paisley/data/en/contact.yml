@@ -7,6 +7,6 @@ contact:
   form_action: "#"
   contact_details:
   - icon: ti-location-pin
-    info: Wellington, New Zealand
+    info: No office location
   - icon: ti-mobile
-    info: 'Phone: +64 21-163-4596'
+    info: 'Phone: +1 415-230-0007'
