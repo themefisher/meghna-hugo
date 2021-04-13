@@ -6,7 +6,5 @@ contact:
   content: We are digital nomads distributed across the globe
   form_action: "#"
   contact_details:
-  - icon: ti-location-pin
-    info: No office location
   - icon: ti-mobile
     info: 'Phone: +1 415-230-0007'
