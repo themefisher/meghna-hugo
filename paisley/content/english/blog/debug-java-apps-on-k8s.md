@@ -96,7 +96,7 @@ Here are the steps to take to sneak into a running pod:
 
         This is a sample on my machine for a process occupying port #1080.
 
-        {{% figure src="/images/blog/debug-java-apps-on-k8s/check-port-binding.png" caption="check-port-binding.png" width="900px" %}}
+        {{% figure src="/images/blog/debug-java-apps-on-k8s/check-port-binding.png" caption="check-port-binding.png" style="width: 900px" %}}
 
         Finally this one-liner will kill any process occupying 5005 port.
 
