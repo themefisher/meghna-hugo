@@ -114,7 +114,7 @@ Here are the steps to take to sneak into a running pod:
 
         Notice "*Connected to the target VM, address: 'localhost:5005', transport: 'socket'"* message in console at the end of video!
 
-        [https://vimeo.com/400573988](https://vimeo.com/400573988)
+        {{< vimeo 400573988 >}}
 
 7. Open [http://locahost:7002](http://locahost:7002) in your browser and go through steps to reproduce the bug to pinpoint the bug's root cause.
 
@@ -139,7 +139,7 @@ Here are the steps to take to sneak into a running pod:
 
     You can see the final steps in action:
     
-    [https://vimeo.com/401028165](https://vimeo.com/401028165)
+    {{< vimeo 401028165 >}}
 
 8. **🎉 🎊🎉** Hooray!!! 
 Have fun and happy debugging!
