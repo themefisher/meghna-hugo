@@ -9,7 +9,7 @@ service:
   - name: Apps Development
     icon: ti-package
     content: ''
-  - name: Branding
+  - name: Hosting
     icon: ti-layout
     content: ''
   - name: 'Digital marketing '
