@@ -15,7 +15,7 @@ service:
   - name: 'Digital marketing '
     icon: ti-blackboard
     content: ''
-  - name: Graphic Design
+  - name: Logo & Graphic Design
     icon: ti-palette
     content: ''
   - name: Networking
