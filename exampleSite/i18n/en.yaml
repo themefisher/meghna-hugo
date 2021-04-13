@@ -1,3 +1,6 @@
+---
+- id: JOBS
+  translation: ''
 - id: blogTitle
   translation: Latest Post
 - id: readMore
@@ -26,5 +29,3 @@
   translation: Blog
 - id: contact
   translation: Contact
-- id: themefisher
-  translation: Themefisher
