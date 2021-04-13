@@ -12,7 +12,7 @@ service:
   - name: Branding
     icon: ti-layout
     content: ''
-  - name: 'Dizital marketing '
+  - name: 'Digital marketing '
     icon: ti-blackboard
     content: ''
   - name: Graphic Design
