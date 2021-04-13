@@ -58,31 +58,32 @@ Here are the steps to take to sneak into a running pod:
     I'll describe both here, choose your preferred one.
 
     - **GUI way**
-    Find the deployment of CloudDriver and click Edit button to go to edit mode.
+
+        Find the deployment of CloudDriver and click Edit button to go to edit mode.
         
-    {{% figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui.png" caption="edit-pod-gui" style="width: 900px" %}}
+        {{% figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui.png" caption="edit-pod-gui" style="width: 900px" %}}
         
         - Add `-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=127.0.0.1:5005` to the line. You can replace 5005 with any other arbitrary free port number, you are required to change it e.g. to 5006 all across the guide in case of debugging multiple pods.
         - Find containers: line and add these two lines below it
 
-        ```bash
-        - containerPort: 5005
-            protocol: TCP
-        ```
+            ```bash
+            - containerPort: 5005
+              protocol: TCP
+            ```
 
-        The final file should looks like the below image, beware of indentation, yaml files are very sensitive to formatting.
+            The final file should looks like the below image, beware of indentation, yaml files are very sensitive to formatting.
 
-        {{% figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui1.png" caption="edit-pod-gui1.png" style="width: 900px" %}}
+            {{% figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui1.png" caption="edit-pod-gui1.png" style="width: 900px" %}}
 
-        - Save the file, It will stop the pod and will create the new one reflecting the change we just made which makes it ready to connect to through Intellij
+            - Save the file, It will stop the pod and will create the new one reflecting the change we just made which makes it ready to connect to through Intellij
     - **CLI way**
         - `kubectl get deployment spin-clouddriver --export -o yaml > deployment.yml`
         - Above command generates a clean *deployment.yml* file which you can apply changes explained in GUI steps, including adding jvm options and debug port 5005.
         - Save changes to deployment.yml file and run
 
-        `kubectl apply -f deployment.yml`
+            `kubectl apply -f deployment.yml`
 
-        wait a few seconds for changes to get applied, you can check the status of deployment using `kubectl rollout status -f deployment.yml`
+            wait a few seconds for changes to get applied, you can check the status of deployment using `kubectl rollout status -f deployment.yml`
 
 4. Port-forward pod's 5005 port using this command to make it available to the outside world so that Intellij can connect to it.
     - `kubectl port-forward "$(kubectl get pods | grep -i clouddriver | awk '{print $1}')" 5005`
@@ -108,14 +109,14 @@ Here are the steps to take to sneak into a running pod:
 6. Open CloudDriver project locally using Intellij
     - Run `./gradlew idea` in terminal to have a fully prepared Intellij Project.
     - Add Configuration in the middle of top toolbar, Click it to add a new debug config.
-    
-    Add a remote template and rename it to match your project e.g. *CloudDriver K8S Debug*.
 
-    Hit the debug button.
+        Add a remote template and rename it to match your project e.g. *CloudDriver K8S Debug*.
 
-    Notice "*Connected to the target VM, address: 'localhost:5005', transport: 'socket'"* message in console at the end of video!
+        Hit the debug button.
 
-    {{< vimeo 400573988 >}}
+        Notice "*Connected to the target VM, address: 'localhost:5005', transport: 'socket'"* message in console at the end of video!
+
+        {{< vimeo 400573988 >}}
 
 7. Open [http://locahost:7002](http://locahost:7002) in your browser and go through steps to reproduce the bug to pinpoint the bug's root cause.
 
