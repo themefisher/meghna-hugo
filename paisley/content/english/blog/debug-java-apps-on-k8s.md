@@ -30,16 +30,23 @@ Here are the steps to take to sneak into a running pod:
 
     Running the below command returns current cluster name, make sure it's a non-production cluster. 
 
-    - `kubectl config current-context`
+    ```bash
+    kubectl config current-context
+    ```
 
     For me it's `gke_playground-272118_europe-west6-c_playground-cluster` , yours is different.
 
 2. Find the pod you want to debug, run a command like this will list all the pod ids associated with a service, ideally it returns one id.
-    - `kubectl get pods | grep -i clouddriver | awk '{print $1}'`
+
+    ```bash
+    kubectl get pods | grep -i clouddriver | awk '{print $1}'
+    ```
 
     You can check the status and details of pod by running 
 
-    - `kubectl describe pod "$(kubectl get pods | grep clouddriver | awk '{print $1}')"`
+    ```bash
+    kubectl describe pod "$(kubectl get pods | grep clouddriver | awk '{print $1}')"
+    ```
 
     If you take a close look there is a `JAVA_OPTS` parameter passed to jvm on running main process of pod.
 
@@ -47,47 +54,59 @@ Here are the steps to take to sneak into a running pod:
 
     Peek into running pod by executing this command
 
-    `kubectl exec -it "$(kubectl get pods | grep clouddriver | awk '{print $1}')" bash`
+    ```bash
+    kubectl exec -it "$(kubectl get pods | grep clouddriver | awk '{print $1}')" bash
+    ```
 
-    execute `ps aux` to check processes running in the pod. the jvm parameters will be revealed as well. for me output is:
-    
-{{% figure src="/images/blog/debug-java-apps-on-k8s/kubectl-get-pods.png" caption="kubectl-get-pods" style="width: 900px" %}}
+    Execute `ps aux` to check processes running in the pod. The jvm parameters will be revealed as well. For me output is:
+
+    {{< figure src="/images/blog/debug-java-apps-on-k8s/kubectl-get-pods.png" caption="Get processes running inside the pod" width="900px" >}}
 
 3. You can edit the yaml definition of pod using your cloud provider GUI or you can use kubectl.
-
     I'll describe both here, choose your preferred one.
-
+    
     - **GUI way**
 
-        Find the deployment of CloudDriver and click Edit button to go to edit mode.
+        - Find the deployment of CloudDriver and click Edit button to go to edit mode.
+            {{< figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui.png" width="900px" >}}
+    
+        - Append below arguments to java
+            ```bash 
+            -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=127.0.0.1:5005
+            ```
+            You can replace 5005 with any other arbitrary free port number, you are required to change it e.g. to 5006 all across the guide in case of debugging multiple pods.
         
-        {{% figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui.png" caption="edit-pod-gui" style="width: 900px" %}}
-        
-        - Add `-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=127.0.0.1:5005` to the line. You can replace 5005 with any other arbitrary free port number, you are required to change it e.g. to 5006 all across the guide in case of debugging multiple pods.
         - Find containers: line and add these two lines below it
 
-            ```bash
+            ```yaml
             - containerPort: 5005
               protocol: TCP
             ```
 
-            The final file should looks like the below image, beware of indentation, yaml files are very sensitive to formatting.
+        - The final file should looks like the below image, beware of indentation, yaml files are very sensitive to formatting.
+            
+            {{< figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui1.png" width="900px" >}}
 
-            {{% figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui1.png" caption="edit-pod-gui1.png" style="width: 900px" %}}
-
-            - Save the file, It will stop the pod and will create the new one reflecting the change we just made which makes it ready to connect to through Intellij
+        - Save the file, It will stop the pod and will create the new one reflecting the change we just made which makes it ready to connect to through Intellij
+    
     - **CLI way**
-        - `kubectl get deployment spin-clouddriver --export -o yaml > deployment.yml`
+        - Run 
+            ```bash
+            kubectl get deployment spin-clouddriver --export -o yaml > deployment.yml
+            ```
         - Above command generates a clean *deployment.yml* file which you can apply changes explained in GUI steps, including adding jvm options and debug port 5005.
+
         - Save changes to deployment.yml file and run
-
-            `kubectl apply -f deployment.yml`
-
-            wait a few seconds for changes to get applied, you can check the status of deployment using `kubectl rollout status -f deployment.yml`
+            ```bash
+            kubectl apply -f deployment.yml
+            ```
+            Wait a few seconds for changes to get applied, and check the status of deployment using `kubectl rollout status -f deployment.yml`
 
 4. Port-forward pod's 5005 port using this command to make it available to the outside world so that Intellij can connect to it.
-    - `kubectl port-forward "$(kubectl get pods | grep -i clouddriver | awk '{print $1}')" 5005`
-
+    -  Run
+        ```bash
+        kubectl port-forward "$(kubectl get pods | grep -i clouddriver | awk '{print $1}')" 5005
+        ```
         Please don't stop the above command as it will block the terminal
 
         If another process has occupied this port run `lsof -i:5005 | grep -i listen` to find the process.
@@ -96,7 +115,7 @@ Here are the steps to take to sneak into a running pod:
 
         This is a sample on my machine for a process occupying port #1080.
 
-        {{% figure src="/images/blog/debug-java-apps-on-k8s/check-port-binding.png" caption="check-port-binding.png" style="width: 900px" %}}
+        {{< figure src="/images/blog/debug-java-apps-on-k8s/check-port-binding.png" caption="check-port-binding.png" width="900px" >}}
 
         Finally this one-liner will kill any process occupying 5005 port.
 
@@ -105,7 +124,10 @@ Here are the steps to take to sneak into a running pod:
         ```
 
 5. Open another terminal and Port-forward pod's serving port, You may noticed it as you were adding debug port  under *ports > containerPort* in yaml file, in this case it's 7002.
-    - `kubectl port-forward "$(kubectl get pods | grep -i clouddriver | awk '{print $1}')" 7002`
+    -  Run
+        ```bash 
+        kubectl port-forward "$(kubectl get pods | grep -i clouddriver | awk '{print $1}')" 7002
+        ```
 6. Open CloudDriver project locally using Intellij
     - Run `./gradlew idea` in terminal to have a fully prepared Intellij Project.
     - Add Configuration in the middle of top toolbar, Click it to add a new debug config.
@@ -116,32 +138,36 @@ Here are the steps to take to sneak into a running pod:
 
         Notice "*Connected to the target VM, address: 'localhost:5005', transport: 'socket'"* message in console at the end of video!
 
-        {{< vimeo 400573988 >}}
+    {{< vimeo 400573988 >}}
 
 7. Open [http://locahost:7002](http://locahost:7002) in your browser and go through steps to reproduce the bug to pinpoint the bug's root cause.
 
-    To find the right file putting breakpoints in and investigate the problem checkout k8s logs  and find related class-names:
+    - To find the right file putting breakpoints in and investigate the problem checkout k8s logs  and find related class-names:
 
-    `kubectl logs -f --tail=100 "$(kubectl get pods | grep -i clouddriver | awk '{print $1}')"`
+        ```bash 
+        kubectl logs -f --tail=100 "$(kubectl get pods | grep -i clouddriver | awk '{print $1}')"
+        ```
 
-    These are couple of lines on my machine
+        These are couple of lines on my machine
 
-    ```bash
-    2020-03-26 16:58:33.031  INFO 1 --- [utionAction-415] s.c.k.v.c.a.KubernetesCacheDataConverter : default/KubernetesCoreCachingAgent[1/1]: grouping persistentVolumeClaim has 3 entries and 0 relationships
-    2020-03-26 16:58:33.031  INFO 1 --- [utionAction-415] s.c.k.v.c.a.KubernetesCacheDataConverter : default/KubernetesCoreCachingAgent[1/1]: grouping job has 1 entries and 1 relationships
-    2020-03-26 16:58:33.031  INFO 1 --- [utionAction-415] s.c.k.v.c.a.KubernetesCacheDataConverter : default/KubernetesCoreCachingAgent[1/1]: grouping mutatingWebhookConfiguration has 1 entries and 0 relationships
-    2020-03-26 16:58:33.031  INFO 1 --- [utionAction-415] s.c.k.v.c.a.KubernetesCacheDataConverter : default/KubernetesCoreCachingAgent[1/1]: grouping clusters has 26 entries and 66 relationships
-    2020-03-26 16:58:33.031  INFO 1 --- [utionAction-415] s.c.k.v.c.a.KubernetesCacheDataConverter : default/KubernetesCoreCachingAgent[1/1]: grouping deployment has 10 entries and 36 relationships
-    2020-03-26 16:58:33.031  INFO 1 --- [utionAction-415] s.c.k.v.c.a.KubernetesCacheDataConverter : default/KubernetesCoreCachingAgent[1/1]: grouping applications has 4 entries and 66 relationships
-    2020-03-26 16:58:33.255  INFO 1 --- [utionAction-414] s.c.k.v.c.a.KubernetesCacheDataConverter : default/KubernetesUnregisteredCustomResourceCachingAgent[1/1]: grouping StorageVersionMigration.migration.k8s.io has 54 entries and 0 relationships
-    2020-03-26 16:58:33.255  INFO 1 --- [utionAction-414] s.c.k.v.c.a.KubernetesCacheDataConverter : default/KubernetesUnregisteredCustomResourceCachingAgent[1/1]: grouping StorageState.migration.k8s.io has 54 entries and 0 relationships
-    ```
+        ```bash
+        INFO 1 --- [utionAction-415] s.c.k.v.c.a.KubernetesCacheDataConverter : default/KubernetesCoreCachingAgent[1/1]: grouping persistentVolumeClaim has 3 entries and 0 relationships
+        INFO 1 --- [utionAction-415] s.c.k.v.c.a.KubernetesCacheDataConverter : default/KubernetesCoreCachingAgent[1/1]: grouping job has 1 entries and 1 relationships
+        INFO 1 --- [utionAction-415] s.c.k.v.c.a.KubernetesCacheDataConverter : default/KubernetesCoreCachingAgent[1/1]: grouping mutatingWebhookConfiguration has 1 entries and 0 relationships
+        INFO 1 --- [utionAction-415] s.c.k.v.c.a.KubernetesCacheDataConverter : default/KubernetesCoreCachingAgent[1/1]: grouping clusters has 26 entries and 66 relationships
+        INFO 1 --- [utionAction-415] s.c.k.v.c.a.KubernetesCacheDataConverter : default/KubernetesCoreCachingAgent[1/1]: grouping deployment has 10 entries and 36 relationships
+        INFO 1 --- [utionAction-415] s.c.k.v.c.a.KubernetesCacheDataConverter : default/KubernetesCoreCachingAgent[1/1]: grouping applications has 4 entries and 66 relationships
+        INFO 1 --- [utionAction-414] s.c.k.v.c.a.KubernetesCacheDataConverter : default/KubernetesUnregisteredCustomResourceCachingAgent[1/1]: grouping StorageVersionMigration.migration.k8s.io has 54 entries and 0 relationships
+        INFO 1 --- [utionAction-414] s.c.k.v.c.a.KubernetesCacheDataConverter : default/KubernetesUnregisteredCustomResourceCachingAgent[1/1]: grouping StorageState.migration.k8s.io has 54 entries and 0 relationships
+        ```
 
-    The class generating these log lines is `KubernetesCacheDataConverter`, so go find that file in the project(or project dependencies) and search for a part of log message printed out to find the exact line of code generating it.
+        The class generating these log lines is `KubernetesCacheDataConverter`, so go find that file in the project(or project dependencies) and search for a part of log message printed out to find the exact line of code generating it.
 
-    You can see the final steps in action:
-    
+        You can see the final steps in action:
+        
     {{< vimeo 401028165 >}}
 
+
 8. **🎉 🎊🎉** Hooray!!! 
+
 Have fun and happy debugging!
