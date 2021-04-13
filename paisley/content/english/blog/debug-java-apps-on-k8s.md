@@ -58,10 +58,9 @@ Here are the steps to take to sneak into a running pod:
     I'll describe both here, choose your preferred one.
 
     - **GUI way**
-
-        Find the deployment of CloudDriver and click Edit button to go to edit mode.
+    Find the deployment of CloudDriver and click Edit button to go to edit mode.
         
-        {{% figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui.png" caption="edit-pod-gui" style="width: 900px" %}}
+    {{% figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui.png" caption="edit-pod-gui" style="width: 900px" %}}
         
         - Add `-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=127.0.0.1:5005` to the line. You can replace 5005 with any other arbitrary free port number, you are required to change it e.g. to 5006 all across the guide in case of debugging multiple pods.
         - Find containers: line and add these two lines below it
@@ -109,14 +108,14 @@ Here are the steps to take to sneak into a running pod:
 6. Open CloudDriver project locally using Intellij
     - Run `./gradlew idea` in terminal to have a fully prepared Intellij Project.
     - Add Configuration in the middle of top toolbar, Click it to add a new debug config.
+    
+    Add a remote template and rename it to match your project e.g. *CloudDriver K8S Debug*.
 
-        Add a remote template and rename it to match your project e.g. *CloudDriver K8S Debug*.
+    Hit the debug button.
 
-        Hit the debug button.
+    Notice "*Connected to the target VM, address: 'localhost:5005', transport: 'socket'"* message in console at the end of video!
 
-        Notice "*Connected to the target VM, address: 'localhost:5005', transport: 'socket'"* message in console at the end of video!
-
-        {{< vimeo 400573988 >}}
+    {{< vimeo 400573988 >}}
 
 7. Open [http://locahost:7002](http://locahost:7002) in your browser and go through steps to reproduce the bug to pinpoint the bug's root cause.
 
