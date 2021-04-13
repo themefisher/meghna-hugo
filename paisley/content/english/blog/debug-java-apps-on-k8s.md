@@ -51,7 +51,7 @@ Here are the steps to take to sneak into a running pod:
 
     execute `ps aux` to check processes running in the pod. the jvm parameters will be revealed as well. for me output is:
     
-    {{% figure src="/images/blog/debug-java-apps-on-k8s/kubectl-get-pods.png" caption="kubectl-get-pods" style="width: 900px" %}}
+        {{% figure src="/images/blog/debug-java-apps-on-k8s/kubectl-get-pods.png" caption="kubectl-get-pods" style="width: 900px" %}}
 
 3. You can edit the yaml definition of pod using your cloud provider GUI or you can use kubectl.
 
@@ -60,7 +60,7 @@ Here are the steps to take to sneak into a running pod:
     - **GUI way**
 
         Find the deployment of CloudDriver and click Edit button to go to edit mode.
-        {{% figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui.png" caption="edit-pod-gui" style="width: 900px" %}}
+            {{% figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui.png" caption="edit-pod-gui" style="width: 900px" %}}
         - Add `-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=127.0.0.1:5005` to the line. You can replace 5005 with any other arbitrary free port number, you are required to change it e.g. to 5006 all across the guide in case of debugging multiple pods.
         - Find containers: line and add these two lines below it
 
@@ -71,7 +71,7 @@ Here are the steps to take to sneak into a running pod:
 
             The final file should looks like the below image, beware of indentation, yaml files are very sensitive to formatting.
 
-            {{% figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui1.png" caption="edit-pod-gui1.png" style="width: 900px" %}}
+                {{% figure src="/images/blog/debug-java-apps-on-k8s/edit-pod-gui1.png" caption="edit-pod-gui1.png" style="width: 900px" %}}
 
             - Save the file, It will stop the pod and will create the new one reflecting the change we just made which makes it ready to connect to through Intellij
     - **CLI way**
@@ -94,7 +94,7 @@ Here are the steps to take to sneak into a running pod:
 
         This is a sample on my machine for a process occupying port #1080.
 
-        {{% figure src="/images/blog/debug-java-apps-on-k8s/check-port-binding.png" caption="check-port-binding.png" style="width: 900px" %}}
+            {{% figure src="/images/blog/debug-java-apps-on-k8s/check-port-binding.png" caption="check-port-binding.png" style="width: 900px" %}}
 
         Finally this one-liner will kill any process occupying 5005 port.
 
