@@ -3,9 +3,12 @@
 {{ if $data.banner.banner.enable }}
 {{ with $data.banner.banner }}
 {{"<!-- Welcome Slider-->" | safeHTML}}
-<section class="hero-area" style='background-image: url("{{ .bg_image_webp | absURL }}")'>
+<section class="hero-area">
+<!--<section class="hero-area" style='background-image: url("{{ .bg_image_webp | absURL }}")'>-->
 	<!-- this image is for trigger this section fallback background image -->
-	<img class="d-none" src="{{ .bg_image_webp | absURL }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'"/>
+	<!--<img class="d-none" src="{{ .bg_image_webp | absURL }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'"/>-->
+    
+    <img class="block col-lg-2" src="{{ .bg_image | absURL}}"/>
 
 	<div class="block">
 		{{ if .icon }}
@@ -21,7 +24,12 @@
 		{{ end }}
 		{{ end }}
 	</div>
+    <div class="block"> 
+        <img class="block col-lg-7" src="{{ .uoe_logo | absURL}}"/>
+    </div>
 </section>
+
+
 {{"<!-- /Welcome Slider-->" | safeHTML}}
 {{end}}
 {{end}}
