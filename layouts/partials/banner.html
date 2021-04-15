@@ -8,24 +8,28 @@
 	<!-- this image is for trigger this section fallback background image -->
 	<!--<img class="d-none" src="{{ .bg_image_webp | absURL }}" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'"/>-->
     
-    <img class="block col-lg-2" src="{{ .bg_image | absURL}}"/>
+    <div class="row">
+        <div class="block col-lg-4 col-sm-8 offset-sm-2 offset-lg-0">
+            <img style="width: 40%" src="{{ .bg_image | absURL}}"/>
+        </div>
 
-	<div class="block">
-		{{ if .icon }}
-		<div class="video-button">
-			<i class="{{ .icon }}"></i>
-		</div>
-		{{ end }}
-		<h1>{{ .title | markdownify }}</h1>
-		<p>{{ .content | markdownify }}</p>
-		{{ if .button.enable }}
-		{{ with .button }}
-		<a href="{{ .link }}" class="btn btn-transparent page-scroll">{{ .label }}</a>
-		{{ end }}
-		{{ end }}
-	</div>
-    <div class="block"> 
-        <img class="block col-lg-7" src="{{ .uoe_logo | absURL}}"/>
+        <div class="block col-lg-4 col-sm-12 my-5">
+            {{ if .icon }}
+            <div class="video-button">
+                <i class="{{ .icon }}"></i>
+            </div>
+            {{ end }}
+            <h1>{{ .title | markdownify }}</h1>
+            <p>{{ .content | markdownify }}</p>
+            {{ if .button.enable }}
+            {{ with .button }}
+            <a href="{{ .link }}" class="btn btn-transparent page-scroll">{{ .label }}</a>
+            {{ end }}
+            {{ end }}
+        </div>
+        <div class="block col-lg-4 col-sm-8 offset-sm-2 offset-lg-0">
+            <img style="width: 40%" src="{{ .uoe_logo | absURL}}"/>
+        </div>
     </div>
 </section>
 
