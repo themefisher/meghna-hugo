@@ -8,7 +8,7 @@ themesDir = "../.."
 title = "CD"
 [Languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2020 Designed code developer"
+copyright = "Copyright &copy; 2020 Designed codes developer"
 home = "Home"
 languageCode = "en-us"
 languageName = "En"
