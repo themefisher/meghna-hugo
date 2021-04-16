@@ -7,16 +7,16 @@ feature:
   content: ''
   feature_item:
   - title: Free Dashboard
-    icon: ''
+    icon: ti-world
     content: ''
   - title: severless website
-    icon: ''
+    icon: ti-world
     content: ''
   - title: E-COMMERCE WEBSITE
-    icon: ''
+    icon: ti-world
     content: ''
   - title: ''
-    icon: ''
+    icon: ti-world
     content: ''
   - title: COMERCIAL & PORTFOLIO WEBSITE
     icon: ti-world
