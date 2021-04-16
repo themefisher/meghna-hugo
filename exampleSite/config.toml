@@ -5,7 +5,7 @@ paginate = "6"
 summaryLength = "15"
 theme = "CD"
 themesDir = "../.."
-title = "CD"
+title = "< CODES DEVELOPER />"
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 Designed codes developer"
