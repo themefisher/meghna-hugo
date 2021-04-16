@@ -2,7 +2,7 @@
 banner:
   enable: true
   bg_image_webp: "/images/minimalist-circle-healthy-cafe-logo.webp"
-  bg_image: images/minimalizm-monitor-kompyuter.jpg
+  bg_image: "/images/minimalist-circle-healthy-cafe-logo.png"
   icon: ''
   title: "<  CODES DEVELOPER   />"
   content: ''
