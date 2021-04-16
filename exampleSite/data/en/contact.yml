@@ -6,7 +6,7 @@ contact:
   content: ''
   contact_list:
   - icon: ti-location-pin
-    info: ", Indore, India"
+    info: Indore, India
   - icon: ti-mobile
     info: 'Phone: +91 9340214995'
   - icon: ti-email
