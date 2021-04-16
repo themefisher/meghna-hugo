@@ -6,18 +6,24 @@ feature:
   title: We’re A Digital Design Agency.
   content: ''
   feature_item:
+  - title: ''
+    icon: ''
+    content: ''
+  - title: ''
+    icon: ''
+    content: ''
+  - title: ''
+    icon: ''
+    content: ''
+  - title: ''
+    icon: ''
+    content: ''
   - title: COMERCIAL & PORTFOLIO WEBSITE
     icon: ti-world
     content: ''
   - title: Easy Customization
     icon: ti-panel
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
   - title: " GROW YOUR CUSTOMER "
     icon: ti-stats-up
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
   - title: Easy Customization
     icon: ti-announcement
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
