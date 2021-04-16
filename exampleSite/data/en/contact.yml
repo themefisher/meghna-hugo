@@ -10,7 +10,7 @@ contact:
   - icon: ti-mobile
     info: 'Phone: +91 9340214995'
   - icon: ti-email
-    info: 'Email: hello@meghna.com'
+    info: 'Email: '
   contact_form:
     enable: true
     form_action: "#"
