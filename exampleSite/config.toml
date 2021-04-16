@@ -19,6 +19,11 @@ pre = "#"
 url = "services"
 weight = 2
 [[Languages.en.menu.main]]
+name = "Jobs"
+pre = "#"
+url = ""
+weight = "8"
+[[Languages.en.menu.main]]
 name = "Portfolio"
 pre = "#"
 url = "portfolio"
@@ -28,11 +33,6 @@ name = "blog"
 pre = "#"
 url = "blog"
 weight = 6
-[[Languages.en.menu.main]]
-name = "Jobs"
-pre = "#"
-url = ""
-weight = "8"
 [[Languages.en.menu.main]]
 name = "contact"
 pre = "#"
