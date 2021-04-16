@@ -1,7 +1,7 @@
 ---
 about:
   enable: true
-  title: "< CD />"
+  title: welcome
   about_item:
   - icon: ti-ruler-pencil
     title: We're Creative
