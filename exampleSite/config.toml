@@ -8,7 +8,7 @@ themesDir = "../.."
 title = "CD"
 [Languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2020 Designed code developer"
 home = "Home"
 languageCode = "en-us"
 languageName = "En"
