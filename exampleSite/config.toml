@@ -91,7 +91,7 @@ pre = "#"
 url = "contact"
 weight = 7
 [params]
-author = "Themefisher"
+author = "codes developer"
 description = "Responsive Multipurpose Parallax Hugo Template"
 google_analytics_id = ""
 logo = "images/logo.png"
