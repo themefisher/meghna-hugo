@@ -1,7 +1,7 @@
 ---
 banner:
   enable: true
-  bg_image_webp: images/backgrounds/hero-area.webp
+  bg_image_webp: "/images/minimalist-circle-healthy-cafe-logo.webp"
   bg_image: images/minimalizm-monitor-kompyuter.jpg
   icon: ''
   title: "<  CODES DEVELOPER   />"
