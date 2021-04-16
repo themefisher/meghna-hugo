@@ -21,7 +21,7 @@ weight = 2
 [[Languages.en.menu.main]]
 name = "Jobs"
 pre = "#"
-url = "jobs"
+url = "#/pages/examplesite-data-en-jobs-yml/"
 weight = "8"
 [[Languages.en.menu.main]]
 name = "Portfolio"
