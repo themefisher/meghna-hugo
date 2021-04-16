@@ -3,7 +3,7 @@ service:
   enable: true
   title: Our Services
   service_item:
-  - name: Website desing
+  - name: Website design
     icon: ti-world
     content: ''
   - name: Apps Development
