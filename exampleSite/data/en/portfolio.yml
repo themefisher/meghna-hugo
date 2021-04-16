@@ -3,7 +3,7 @@ portfolio:
   enable: true
   title: Our Works
   portfolio_item:
-  - name: DESING
+  - name: DESIGN
     image: images/portfolio/portfolio-2.jpg
     image_webp: images/portfolio/portfolio-2.webp
     categories:
