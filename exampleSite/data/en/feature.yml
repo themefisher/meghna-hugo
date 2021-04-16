@@ -1,8 +1,8 @@
 ---
 feature:
   enable: true
-  image: "/images/minimalist-circle-healthy-cafe-logo.png"
-  image_webp: "/images/minimalist-circle-healthy-cafe-logo.webp"
+  image: "/images/capture8.PNG"
+  image_webp: "/images/capture8.webp"
   title: We’re A Digital Design Agency.
   content: ''
   feature_item:
