@@ -50,7 +50,7 @@ url = "contact"
 weight = 7
 [Languages.fr]
 contentDir = "content/french"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "Copyright &copy; 2020 Designed by codes developer"
 home = "Accueil"
 languageCode = "fr-fr"
 languageName = "Fr"
