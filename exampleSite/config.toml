@@ -87,9 +87,9 @@ url = "contact"
 weight = 7
 [params]
 author = "codes developer"
-description = "Responsive Multipurpose Parallax Hugo Template"
+description = ""
 google_analytics_id = ""
-logo = "/images/minimalist-circle-healthy-cafe-logo.png"
+logo = ""
 post_share = true
 [params.cookies]
 enable = true
