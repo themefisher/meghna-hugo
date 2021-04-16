@@ -14,11 +14,6 @@ languageCode = "en-us"
 languageName = "En"
 weight = 1
 [[Languages.en.menu.main]]
-name = "About"
-pre = "#"
-url = "about"
-weight = 1
-[[Languages.en.menu.main]]
 name = "Services"
 pre = "#"
 url = "services"
@@ -34,15 +29,20 @@ pre = "#"
 url = "blog"
 weight = 6
 [[Languages.en.menu.main]]
+name = "Jobs"
+pre = "#"
+url = ""
+weight = "8"
+[[Languages.en.menu.main]]
 name = "contact"
 pre = "#"
 url = "contact"
 weight = 7
 [[Languages.en.menu.main]]
-name = "Jobs"
+name = "About"
 pre = "#"
-url = ""
-weight = "8"
+url = "about"
+weight = 1
 [Languages.fr]
 contentDir = "content/french"
 copyright = "Copyright &copy; 2020 Designed by codes developer"
