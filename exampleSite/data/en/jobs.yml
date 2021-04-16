@@ -1,0 +1,13 @@
+---
+testimonial:
+  enable: true
+  bg_image: images/backgrounds/bg-testimonial.jpg
+  bg_image_webp: images/backgrounds/bg-testimonial.webp
+  testimonial_item:
+  - name: UMANG KARTIKEY
+    image: ''
+    image_webp: ''
+    date: Dec 26, 2018
+    content: ''
+title: JOBS
+draft: true
