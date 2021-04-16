@@ -17,17 +17,17 @@ weight = 1
 name = "Services"
 pre = "#"
 url = "services"
-weight = 2
+weight = "1"
 [[Languages.en.menu.main]]
 name = "Jobs"
 pre = "#"
 url = "#/pages/examplesite-data-en-jobs-yml/"
-weight = "8"
+weight = "2"
 [[Languages.en.menu.main]]
 name = "Portfolio"
 pre = "#"
 url = "portfolio"
-weight = 3
+weight = "6"
 [[Languages.en.menu.main]]
 name = "blog"
 pre = "#"
@@ -37,12 +37,12 @@ weight = 6
 name = "contact"
 pre = "#"
 url = "contact"
-weight = 7
+weight = "5"
 [[Languages.en.menu.main]]
 name = "About"
 pre = "#"
 url = "about"
-weight = 1
+weight = "4"
 [Languages.fr]
 contentDir = "content/french"
 copyright = "Copyright &copy; 2020 Designed by codes developer"
