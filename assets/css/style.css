@@ -115,7 +115,7 @@ a:hover {
 
 .btn-transparent:hover,
 .btn-transparent:focus {
-  background-color: #ff0048;
+  background-color: #ffffff;
   border: 1px solid transparent;
   color: #fff;
 }
