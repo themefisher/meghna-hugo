@@ -407,7 +407,7 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #ff3700;
+  background-color:#5C144C;
   width: 100%;
   margin-bottom: 0;
 }
@@ -416,7 +416,7 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-  color: #ff3700;
+  color: #5C144C;
 }
 
 .navbar-toggler:focus {
@@ -460,7 +460,7 @@ a:hover {
 
 .hero-area .block .video-button {
   background: #fff;
-  color: #ff3700;
+  color: #5C144C;
   display: inline-block;
   height: 60px;
   width: 60px;
