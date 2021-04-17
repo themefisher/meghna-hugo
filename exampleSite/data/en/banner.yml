@@ -3,8 +3,8 @@ banner:
   enable: true
   bg_image_webp: "/images/minimalist-circle-healthy-cafe-logo.webp"
   bg_image: "/images/minimalist-circle-healthy-cafe-logo.png"
-  icon: ti-announcement
-  title: "<  CODES DEVELOPER   />"
+  icon: ''
+  title: 'CODES DEVELOPER  '
   content: ''
   button:
     enable: true
