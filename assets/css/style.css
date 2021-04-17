@@ -9,13 +9,13 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 /*=== MEDIA QUERY ===*/
 html {
   background-color: #ffffff ;
-  color: #737f8a;
+  color: #5c144c;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #431552;
   font-family: "Anaheim", sans-serif;
-  color: #ff0048;
+  color: #ffffff;
   -webkit-font-smoothing: antialiased;
 }
 
