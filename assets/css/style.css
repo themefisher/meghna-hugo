@@ -8,14 +8,14 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 */
 /*=== MEDIA QUERY ===*/
 html {
-  background-color: #353b43;
+  background-color: #ffffff ;
   color: #737f8a;
 }
 
 body {
-  background-color: #353b43;
+  background-color: #ffffff;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: #ff0048;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -27,7 +27,7 @@ h5,
 h6 {
   font-weight: 400;
   font-family: "Quattrocento Sans", sans-serif;
-  color: #afbac4;
+  color: #ff0048;
 }
 
 p {
@@ -48,12 +48,12 @@ pre {
 ::-moz-selection {
   /* Code for Firefox */
   color: #fff;
-  background: #57cbcc;
+  background: #ffffff;
 }
 
 ::selection {
   color: #fff;
-  background: #57cbcc;
+  background: #ffffff;
 }
 
 hr {
@@ -115,7 +115,7 @@ a:hover {
 
 .btn-transparent:hover,
 .btn-transparent:focus {
-  background-color: #57cbcc;
+  background-color: #ff0048;
   border: 1px solid transparent;
   color: #fff;
 }
@@ -141,7 +141,7 @@ a:hover {
 }
 
 .color {
-  color: #6CB670 ;
+  color: #ff0048 ;
 }
 
 .sub-title {
@@ -163,11 +163,11 @@ a:hover {
 }
 
 .bg-one {
-  background-color: #353b43;
+  background-color: #ff0048;
 }
 
 .bg-dark {
-  background: #242930;
+  background: #ff0048;
 }
 
 .parallax-section {
@@ -220,7 +220,7 @@ a:hover {
 
 .btn-main {
   background: #57cbcc;
-  color:#6CB670 ;
+  color:#f6ff00;
   display: inline-block;
   font-size: 14px;
   letter-spacing: 1px;
@@ -229,7 +229,7 @@ a:hover {
 }
 
 .btn-main:hover {
-  background: #2c9091;
+  background: #f6ff00;
   color: #fff;
 }
 
@@ -262,7 +262,7 @@ a:hover {
 }
 
 .btn:focus {
-  color: #6CB670;
+  color: #f6ff00;
 }
 
 #home {
@@ -303,23 +303,23 @@ a:hover {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 38px;
-  color: #6CB670;
+  color: #f6ff00;
 }
 
 .title h2 span {
-  color: #57cbcc;
+  color:#f6ff00;
 }
 
 .title p {
-  color: #666;
+  color: #f6ff00;
 }
 
 .title.title-white h2 {
-  color: #6CB670;
+  color:#f6ff00;
 }
 
 .bg-gray {
-  background: #f9f9f9;
+  background: #f6ff00;
 }
 
 .section-bg {
@@ -346,7 +346,7 @@ a:hover {
 
 .header-bradcrumb a,
 .header-bradcrumb .active {
-  color: #6CB670;
+  color: #f6ff00;
   font-weight: 200;
   font-family: "Quattrocento Sans", sans-serif;
 }
@@ -389,7 +389,7 @@ a:hover {
   background-size: cover;
   padding: 140px 0 70px;
   text-align: center;
-  color: #6CB670;
+  color: #f6ff00;
   position: relative;
 }
 
@@ -407,7 +407,7 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #1d2024;
+  background-color: #ff3700;
   width: 100%;
   margin-bottom: 0;
 }
@@ -416,7 +416,7 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-  color: #57cbcc;
+  color: #ff3700;
 }
 
 .navbar-toggler:focus {
@@ -460,7 +460,7 @@ a:hover {
 
 .hero-area .block .video-button {
   background: #fff;
-  color: #57cbcc;
+  color: #ff3700;
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -712,7 +712,7 @@ a:hover {
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #57cbcc;
+  background: #ff3700;
   padding: 12px 0;
   width: 100%;
   margin: 0;
@@ -865,12 +865,12 @@ a:hover {
   font-size: 16px;
   padding: 6px 20px;
   font-weight: 700;
-  color: #737f8a;
+  color: #ff3700;
   transition: .3s all;
 }
 
 .portfolio-filter .btn.active {
-  border-color: #57cbcc;
+  border-color: #ff3700;
 }
 
 .portfolio-block {
@@ -975,7 +975,7 @@ a:hover {
 
 .service-2 .service-item:hover i {
   background: #fff;
-  color: #57cbcc;
+  color: #ff3700;
 }
 
 .service-2 .service-item i {
@@ -1014,14 +1014,14 @@ a:hover {
 }
 
 .skill-bar .progress .progress-bar {
-  background: #57cbcc;
+  background: #ffffff;
 }
 
 /*=================================================================
   Our Team
 ==================================================================*/
 .team-member {
-  background-color: #292F36;
+  background-color: #ffffff;
   margin-bottom: 10px;
 }
 
@@ -1128,7 +1128,7 @@ a:hover {
 }
 
 .client-comment p {
-  color: #afbac4;
+  color: #ffffff;
   font-size: 18px;
 }
 
@@ -1215,12 +1215,12 @@ a:hover {
   Latest Posts
 ==================================================================*/
 .note {
-  background-color: #292F36;
+  background-color: #ffffff;
   border: 1px solid #4e595f;
 }
 
 .post-block {
-  background-color: #292F36;
+  background-color: #ffffff;
   margin-bottom: 10px;
 }
 
@@ -1268,7 +1268,7 @@ a:hover {
 }
 
 .post-meta a {
-  color: #57cbcc;
+  color: ##ffffff;
 }
 
 .post-meta>span {
