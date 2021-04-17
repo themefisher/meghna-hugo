@@ -712,7 +712,7 @@ a:hover {
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #ff3700;
+  background: #FFB4A2;
   padding: 12px 0;
   width: 100%;
   margin: 0;
@@ -754,7 +754,7 @@ a:hover {
 }
 
 .success {
-  background-color: #6cb670;
+  background-color: #FFB4A2;
   border-radius: 4px;
   color: #fff;
   display: none;
@@ -773,7 +773,7 @@ a:hover {
 .counters-item {
   padding: 25px 0;
   margin-bottom: 10px;
-  background: #292F36;
+  background: #FFB4A2;
 }
 
 .counters-item i {
@@ -804,7 +804,7 @@ a:hover {
 }
 
 .price-title {
-  background-color: #292F36;
+  background-color: #FFB4A2;
   padding: 30px 0 20px;
 }
 
@@ -929,7 +929,7 @@ a:hover {
 }
 
 .portfolio-block .caption .search-icon {
-  background: #57cbcc;
+  background: #FFB4A2;
   width: 50px;
   height: 50px;
   color: #fff;
@@ -981,7 +981,7 @@ a:hover {
 .service-2 .service-item i {
   font-size: 30px;
   display: inline-block;
-  background:#292F36 none repeat scroll 0 0;
+  background:#FFB4A2 none repeat scroll 0 0;
   border-radius: 30px;
   box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
   color: #fff;
@@ -1014,7 +1014,7 @@ a:hover {
 }
 
 .skill-bar .progress .progress-bar {
-  background: #ffffff;
+  background: #FFB4A2;
 }
 
 /*=================================================================
@@ -1215,7 +1215,7 @@ a:hover {
   Latest Posts
 ==================================================================*/
 .note {
-  background-color: #ffffff;
+  background-color: #FFB4A2;
   border: 1px solid #4e595f;
 }
 
@@ -1304,7 +1304,7 @@ a:hover {
 }
 
 .single-blog {
-  background-color: #fff;
+  background-color: #FFB4A2;
   margin-bottom: 50px;
   padding: 20px;
 }
@@ -1529,7 +1529,7 @@ input#e-mail,
 }
 
 .social-icon ul li a:hover {
-  background: #57cbcc;
+  background: #FFB4A2;
 }
 
 .social-icon ul li a:hover i {
@@ -1675,7 +1675,7 @@ input#e-mail,
 }
 
 .post-meta {
-  background-color: #3d444a;
+  background-color: #FFB4A2;
   border-top: 1px solid #4e595f;
   font-size: 13px;
   margin: 20px 0 0;
@@ -1856,7 +1856,7 @@ aside.widget {
 
 .post-pagination ul li a:hover,
 .post-pagination ul li.active a {
-  background-color: #6CB670;
+  background-color:#FFB4A2;
   color: #fff;
 }
 
@@ -1885,7 +1885,7 @@ blockquote {
 }
 
 .next-prev a:hover {
-  color: #6CB670;
+  color: #FFB4A2;
 }
 
 .prev-post i {
@@ -1905,7 +1905,7 @@ blockquote {
 }
 
 .post-author>img {
-  border: 1px solid #4e595f;
+  border: 1px solid #FFB4A2;
   max-width: 120px;
   padding: 5px;
   width: 100%;
@@ -2291,7 +2291,7 @@ figcaption {
   padding: 1rem 2rem;
   background: rgb(71, 71, 71);
   transition: all .75s cubic-bezier(.19, 1, .22, 1);
-  color: #fdfdfd;
+  color: #FFB4A2;
 }
 
 .cookie-box-hide {
