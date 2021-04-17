@@ -141,7 +141,7 @@ a:hover {
 }
 
 .color {
-  color: #6CB670;
+  color: #6CB670 ;
 }
 
 .sub-title {
@@ -220,7 +220,7 @@ a:hover {
 
 .btn-main {
   background: #57cbcc;
-  color: #fff;
+  color:#6CB670 ;
   display: inline-block;
   font-size: 14px;
   letter-spacing: 1px;
@@ -262,7 +262,7 @@ a:hover {
 }
 
 .btn:focus {
-  color: #ddd;
+  color: #6CB670;
 }
 
 #home {
@@ -303,7 +303,7 @@ a:hover {
   text-transform: capitalize;
   font-weight: 700;
   font-size: 38px;
-  color: #fff;
+  color: #6CB670;
 }
 
 .title h2 span {
@@ -315,7 +315,7 @@ a:hover {
 }
 
 .title.title-white h2 {
-  color: #fff;
+  color: #6CB670;
 }
 
 .bg-gray {
@@ -346,13 +346,13 @@ a:hover {
 
 .header-bradcrumb a,
 .header-bradcrumb .active {
-  color: #cfcfcf;
+  color: #6CB670;
   font-weight: 200;
   font-family: "Quattrocento Sans", sans-serif;
 }
 
 .header-bradcrumb a:hover {
-  color: #57cbcc;
+  color: #6CB670;
 }
 
 .slick-slide {
@@ -389,7 +389,7 @@ a:hover {
   background-size: cover;
   padding: 140px 0 70px;
   text-align: center;
-  color: #fff;
+  color: #6CB670;
   position: relative;
 }
 
