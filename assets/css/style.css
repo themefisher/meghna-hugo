@@ -407,7 +407,7 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color:#292F36;
+  background-color:#e5989b;
   width: 100%;
   margin-bottom: 0;
 }
@@ -547,7 +547,7 @@ a:hover {
   About us section
 ==================================================================*/
 .about .block {
-  background:#292F36;
+  background:#e5989b;
   padding: 30px;
   border-bottom: 2px solid transparent;
   transition: .5s all;
@@ -627,7 +627,7 @@ a:hover {
 
 .about-2 .content-block .media i {
   font-size: 30px;
-  color: #57cbcc;
+  color: #e5989b;
 }
 
 .about-2 .content-block .media h4 {
