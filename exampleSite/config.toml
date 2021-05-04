@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://examplesite.com"
+baseURL = "https://development-support-site.netlify.app/"
 title = "Meghna"
 theme = "meghna-hugo"
 themesDir = "../.."
