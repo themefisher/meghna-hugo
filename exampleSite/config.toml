@@ -1,4 +1,4 @@
-baseURL = "https://btc-test.netlify.com"
+baseURL = "https://btc-test.netlify.app"
 disableLanguages = []
 disqusShortname = ""
 paginate = "6"
