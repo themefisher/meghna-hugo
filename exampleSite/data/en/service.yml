@@ -7,10 +7,12 @@ service:
     icon: ti-world
     content: Does your business have clarity of vision? Are your staff aligned with
       the corporate mission?
-  - name: Responsive Design
+  - name: Supply Chain Management
     icon: ti-layout
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    content: Supplier management can have a make-or-break impact on your product or
+      service. Effective supplier control and integration into your operational systems
+      will ensure targets are met and enable you to continually meet your customers'
+      expectations.
   - name: Media &amp; Advertisement
     icon: ti-blackboard
     content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
