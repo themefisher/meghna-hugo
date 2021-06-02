@@ -5,7 +5,7 @@ team:
   team_member:
   - name: Rick Bilby
     image_webp: images/team/team-1.webp
-    image: images/rickportrait1.jpg
+    image: "/images/rickportrait1.jpg"
     designation: Principal Consultant
     content: |
       Having forged a successful career at Citigroup, and built his own consulting practice, Rick Bilby brings a unique blend of financial know-how and project management to the table, which puts him in prime position to guide burgeoning SMEs. In 1993, Rick started his career as a Project Manager in Risk Architecture at Citigroup.  This sent him on a global path, advancing through Risk Management roles at Citi in Düsseldorf and Hong Kong, improving infrastructure for many thousands of users.
