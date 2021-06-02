@@ -13,10 +13,12 @@ service:
       service. Effective supplier control and integration into your operational systems
       will ensure targets are met and enable you to continually meet your customers'
       expectations.
-  - name: Media &amp; Advertisement
+  - name: Digital Transformation
     icon: ti-blackboard
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    content: Are you making good use of the latest technology available? Some big
+      companies now spend more on collecting and analysing data than they do on the
+      manufacturing process. If you are worried about getting left behind by the big
+      data revolution we can help you get back on track.
   - name: Graphic Design
     icon: ti-palette
     content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
