@@ -1,68 +1,71 @@
-############################### team ############################
+---
 team:
-  enable : true
-  title : Our Team
-  team_member :
-    # team member loop
-    - name : Abul Mal Muhit
-      image_webp : images/team/team-1.webp
-      image : images/team/team-1.jpg
-      designation : CEO/Founder
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-      social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        
-    # team member loop
-    - name : Frank Miller
-      image_webp : images/team/team-2.webp
-      image : images/team/team-2.jpg
-      designation : Manager
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-      social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        
-    # team member loop
-    - name : Michael Jonson
-      image_webp : images/team/team-3.webp
-      image : images/team/team-3.jpg
-      designation : Web Developer
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-      social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        
-    # team member loop
-    - name : Mo. Kha. Alamgir
-      image_webp : images/team/team-4.webp
-      image : images/team/team-4.jpg
-      designation : SEO Specialist
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-      social :
-        - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-twitter-alt # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
-          link : "#"
-        - icon : ti-dribbble # themify icon pack : https://themify.me/themify-icons
-          link : "#"
+  enable: true
+  title: Our Team
+  team_member:
+  - name: Rick Bilby
+    image_webp: images/team/team-1.webp
+    image: images/team/team-1.jpg
+    designation: Principal Consultant
+    content: |
+      Having forged a successful career at Citigroup, and built his own consulting practice, Rick Bilby brings a unique blend of financial know-how and project management to the table, which puts him in prime position to guide burgeoning SMEs. In 1993, Rick started his career as a Project Manager in Risk Architecture at Citigroup.  This sent him on a global path, advancing through Risk Management roles at Citi in Düsseldorf and Hong Kong, improving infrastructure for many thousands of users.
+
+      Today, Rick channels his energy into smaller, but equally rewarding, projects. Having lived in several countries, he is now a skilled communicator in French and German. Since 2020, Rick has also held a Director role at an AI/tech start-up, project-managing a new e-commerce website selling pro-quality film-making equipment.
+
+      His thirst for knowledge knows no bounds, having completed AGILE Project Management training, a BSc in Physics at Imperial College London, and an Executive MBA at Salford University Business School.
+
+      Some of Rick’s biggest improvements include streamlining workflows by 50% for 20,000 client organisation members – but he is just as talented outside of work. A musician, sportsman and entrepreneur, Rick has been managing projects all his life, and relishes the opportunity to work with new people.
+    social:
+    - icon: ti-facebook
+      link: "#"
+    - icon: ti-twitter-alt
+      link: "#"
+    - icon: ti-linkedin
+      link: "#"
+    - icon: ti-dribbble
+      link: "#"
+  - name: Frank Miller
+    image_webp: images/team/team-2.webp
+    image: images/team/team-2.jpg
+    designation: Manager
+    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
+      ullam, culpa odio.
+    social:
+    - icon: ti-facebook
+      link: "#"
+    - icon: ti-twitter-alt
+      link: "#"
+    - icon: ti-linkedin
+      link: "#"
+    - icon: ti-dribbble
+      link: "#"
+  - name: Michael Jonson
+    image_webp: images/team/team-3.webp
+    image: images/team/team-3.jpg
+    designation: Web Developer
+    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
+      ullam, culpa odio.
+    social:
+    - icon: ti-facebook
+      link: "#"
+    - icon: ti-twitter-alt
+      link: "#"
+    - icon: ti-linkedin
+      link: "#"
+    - icon: ti-dribbble
+      link: "#"
+  - name: Mo. Kha. Alamgir
+    image_webp: images/team/team-4.webp
+    image: images/team/team-4.jpg
+    designation: SEO Specialist
+    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
+      ullam, culpa odio.
+    social:
+    - icon: ti-facebook
+      link: "#"
+    - icon: ti-twitter-alt
+      link: "#"
+    - icon: ti-linkedin
+      link: "#"
+    - icon: ti-dribbble
+      link: "#"
