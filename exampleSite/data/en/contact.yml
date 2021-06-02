@@ -13,7 +13,7 @@ contact:
   - icon: ti-printer
     info: 'Fax: Who uses fax any more anyway?'
   - icon: ti-email
-    info: 'Email: hello@meghna.com'
+    info: 'Email: hello@bilbytolley.com'
   contact_form:
     enable: true
     form_action: "#"
