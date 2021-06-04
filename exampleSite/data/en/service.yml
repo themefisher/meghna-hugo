@@ -3,6 +3,9 @@ service:
   enable: true
   title: Our Services
   service_item:
+  - name: Quality Systems
+    icon: ''
+    content: ''
   - name: Operations Management
     icon: ''
     content: ''
