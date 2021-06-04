@@ -3,6 +3,12 @@ team:
   enable: true
   title: Our Team
   team_member:
+  - name: Jay Tolley
+    image_webp: ''
+    image: ''
+    designation: ''
+    content: ''
+    social: ''
   - name: Rick Bilby
     image_webp: images/team/team-1.webp
     image: "/images/rickportrait1.jpg"
