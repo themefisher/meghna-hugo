@@ -2,11 +2,13 @@
 skill:
   enable: true
   title: Research Centre
-  subtitle: Our approach to consulting is firmly anchored in research.
-  content: At Bilby Tolley & Co we hate wasting time and effort. If it has been done
-    already there's no sense in re-inventing the wheel. Our focus on research ensures
-    we are up to date with the latest developments and our clients can benefit from
-    this directly.
+  subtitle: Our approach to consulting is firmly anchored in research. Our Management
+    Consulting approach is firmly anchored in business experience and underlined by
+    cutting edge academic models.
+  content: |-
+    Do you want to out-compete the other companies in your industry? If so Bilby Tolley & Co provide a straight line approach to management consulting specifically for SME's. We can assist you in building on the successes you have already achieved whilst providing a continuous improvement framework into your business' culture that will guarantee competitive advantages.
+
+    At Bilby Tolley & Co we hate wasting time and effort. If it has been done already there's no sense in re-inventing the wheel. Our focus on research ensures we are up to date with the latest developments and our clients can benefit from this directly.
   image: images/about/company-growth.webp
   skill_item:
   - name: Business Development
