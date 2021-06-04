@@ -3,6 +3,9 @@ service:
   enable: true
   title: Our Services
   service_item:
+  - name: Operations Management
+    icon: ''
+    content: ''
   - name: Business and Organisational Purpose
     icon: ti-world
     content: Does your business have clarity of vision? Are your staff aligned with
