@@ -3,10 +3,11 @@ license = "MIT"
 licenselink = "https://github.com/themefisher/meghna-hugo/blob/master/LICENSE"
 description = "Hugo port of the Themefisher’s Meghna Template"
 homepage = "https://gethugothemes.com/products/meghna-hugo-theme/"
+demosite = "https://demo.gethugothemes.com/meghna"
 tags = ['landing-page', 'google-analytics', 'fast', 'modern', 'minimal', 'minimalistic', 'business', 'agency-template', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap', 'blog', 'responsive', 'portfolio', 'single-page', 'dark', 'clean', 'simple', 'company', 'creative', 'contact-form', 'custom-themes', 'mobile', 'gethugothemes']
 features = ['bootstrap','responsive']
 min_version = "0.58.0"
 
 [author]
   name = "Themefisher"
-  homepage = "https://themefisher.com/"
+  homepage = "https://themefisher.com/hugo-themes"
