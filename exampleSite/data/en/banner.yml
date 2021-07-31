@@ -12,4 +12,4 @@ banner:
   button:
     enable: true
     label: Réserver
-    link: "#services"
+    link: "#contact"
