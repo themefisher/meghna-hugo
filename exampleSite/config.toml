@@ -87,7 +87,7 @@ enable = false
 expire_days = 2
 [params.map]
 enable = false
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCkaXKMqADgT0lIJ49FBQg-MSoz63b3_c0"
+gmap_api = ""
 map_latitude = "48.76066132758396"
 map_longitude = "2.3917881063531796"
 map_marker = "images/marker.png"
@@ -124,4 +124,3 @@ link = "https://www.facebook.com/CaissonIsolationSensorielle/"
 [[params.social]]
 icon = "ti-youtube"
 link = "https://www.youtube.com/channel/UCS44TkWsU7foAE3sb25YGVA"
-
