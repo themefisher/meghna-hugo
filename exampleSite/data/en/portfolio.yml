@@ -21,12 +21,10 @@ portfolio:
     categories: []
     content: ''
     link: "#"
-  - name: Bottol Label
-    image: images/portfolio/portfolio-4.jpg
-    image_webp: images/portfolio/portfolio-4.webp
-    categories:
-    - photography
-    - development
+  - name: cabane4
+    image: images/portfolio/photo4.jpg
+    image_webp: images/portfolio/photo4.webp
+    categories: []
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
   - name: Shopping Bag
