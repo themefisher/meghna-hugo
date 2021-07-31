@@ -1,7 +1,7 @@
 ---
 portfolio:
   enable: true
-  title: Dormir à la cabane des rêves
+  title: Dormir sur place
   portfolio_item:
   - name: cabane1
     image: images/portfolio/photo1.jpg
