@@ -9,7 +9,7 @@ pricing:
     services: []
     button:
       label: Réserver
-      link: "#"
+      link: "#contact"
   - name: Silver
     price: "$149"
     unit: month
