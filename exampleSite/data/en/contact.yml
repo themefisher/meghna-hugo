@@ -17,7 +17,7 @@ contact:
   - icon: ti-email
     info: 'Email: jeflotteblog@gmail.com'
   contact_form:
-    enable: true
+    enable: false
     form_action: "#submit"
     name: Votre nom
     email: Votre Email
