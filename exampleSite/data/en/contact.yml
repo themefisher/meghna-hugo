@@ -1,11 +1,14 @@
 ---
 contact:
   enable: true
-  title: Contact Us
-  subtitle: Contact Details
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero,
-    provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores
-    dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
+  title: Nous Contacter
+  subtitle: Vous souhaitez passer la nuit à la cabane des rêves? C'est désormais possible!
+    La cabane des rêves se transforme en maison d'hôte.
+  content: Il est désormais possible pour ceux qui le souhaitent de passer la nuit
+    à la cabane des rêves. Nous avons en effet aménagé un petit studio totalement
+    indépendant pouvant accueillir jusqu'à 3 personnes juste à coté de la cabane des
+    rêves. C'est une offre pensée spécialement pour ceux qui viennent de loin ou pour
+    ceux qui souhaitent simplement rester flotter jusque tard dans la nuit.
   contact_list:
   - icon: ti-location-pin
     info: 35 rue du Général Vauflaire, Thiais, France
