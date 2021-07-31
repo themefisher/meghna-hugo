@@ -120,19 +120,8 @@ enable = false
 preloader = "images/logo.png"
 [[params.social]]
 icon = "ti-facebook"
-link = "#"
-[[params.social]]
-icon = "ti-twitter-alt"
-link = "#"
+link = "https://www.facebook.com/CaissonIsolationSensorielle/"
 [[params.social]]
 icon = "ti-youtube"
-link = "#"
-[[params.social]]
-icon = "ti-linkedin"
-link = "#"
-[[params.social]]
-icon = "ti-dribbble"
-link = "#"
-[[params.social]]
-icon = "ti-pinterest"
-link = "#"
+link = "https://www.youtube.com/channel/UCS44TkWsU7foAE3sb25YGVA"
+
