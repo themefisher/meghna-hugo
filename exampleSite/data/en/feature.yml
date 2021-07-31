@@ -1,8 +1,8 @@
 ---
 feature:
   enable: true
-  image: images/about/about-business-man.jpg
-  image_webp: images/about/about-business-man.webp
+  image: images/about/cabane.jpg
+  image_webp: images/about/cabane.webp
   title: UN LIEU MAGIQUE
   content: |-
     Située à 10 minutes de Paris à Thiais, La cabane des rêves est la première maison d'hôte équipée d'un caisson d'isolation sensorielle à proposer une offre réellement abordable, chaleureuse et dépaysante. Très loin de l’ambiance « salon de beauté » des centres de flottaison, la cabane des rêves propose une expérience inédite.
