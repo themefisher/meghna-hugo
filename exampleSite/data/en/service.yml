@@ -3,15 +3,15 @@ service:
   enable: true
   title: Les effets le corps et l'esprit
   service_item:
-  - name: WordPress Theme
+  - name: Réduction
     icon: ti-world
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-  - name: Graphic Design
+    content: Réduction immédiate du stress et des tensions, des douleurs chroniques,
+      de l'hypertension...
+  - name: Stimulation
     icon: ti-palette
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-  - name: Networking
+    content: Des capacité de concentration et de la mémoire, de la récupération après
+      un effort physique, du système immunitaire...
+  - name: Voyage
     icon: ti-pulse
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    content: Méditation profonde , on se retrouve seul avec soi même, voyage dans
+      ses pensées...
