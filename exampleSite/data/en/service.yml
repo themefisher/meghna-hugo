@@ -1,7 +1,7 @@
 ---
 service:
   enable: true
-  title: Les effets sur le corps et l'esprit
+  title: Les effets
   service_item:
   - name: Réduction
     icon: ti-world
