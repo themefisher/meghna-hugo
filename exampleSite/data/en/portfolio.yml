@@ -4,17 +4,23 @@ portfolio:
   title: Dormir sur place
   portfolio_item:
   - name: 'Notre caisson d''isolation: L''Isopod'
-    image: ''
-    image_webp: ''
+    image: images/portfolio/photo1.jpg
+    image_webp: images/portfolio/photo1.webp
     categories: ''
-    content: ''
+    content: Si la cabane des rêves propose des prix aussi abordables, ce n’est clairement
+      pas au détriment de son caisson d’isolation sensorielle, c’est même tout le
+      contraire puisque nous sommes équipé d’un Isopod dernière génération, caisson
+      considéré comme la « Rolls » des cocons de flottaison. En plus d’être particulièrement
+      beau, ce caisson de construction anglaise offre un espace (largeur et hauteur)
+      sans égal sur le marché, ce qui permet un confort de flottaison maximal. En
+      gros, j’ai choisi ce qui se faisait de mieux!
     link: ''
   - name: cabane1
     image: images/portfolio/photo1.jpg
     image_webp: images/portfolio/photo1.webp
     categories: []
     content: ''
-    link: https://themefisher.com
+    link: ''
   - name: cabane2
     image: images/portfolio/photo2.jpg
     image_webp: images/portfolio/photo2.webp
