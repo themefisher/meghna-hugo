@@ -18,7 +18,7 @@ contact:
     info: 'Email: jeflotteblog@gmail.com'
   contact_form:
     enable: true
-    form_action: "#"
+    form_action: "#submit"
     name: Votre nom
     email: Votre Email
     subject: Sujet
