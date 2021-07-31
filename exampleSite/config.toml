@@ -8,17 +8,13 @@ themesDir = "../.."
 title = "Meghna"
 [Languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
+copyright = "La cabane des rêves 2021"
 home = "Home"
 languageCode = "en-us"
 languageName = "En"
 weight = 1
 [[Languages.en.menu.main]]
-name = "about"
-url = "#about"
-weight = 1
-[[Languages.en.menu.main]]
-name = "services"
+name = "les effets"
 url = "#services"
 weight = 2
 [[Languages.en.menu.main]]
