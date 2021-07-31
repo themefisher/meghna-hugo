@@ -1,8 +1,8 @@
 ---
 testimonial:
   enable: true
-  bg_image: images/backgrounds/bg-testimonial.jpg
-  bg_image_webp: images/backgrounds/bg-testimonial.webp
+  bg_image: images/backgrounds/isopod.jpg
+  bg_image_webp: images/backgrounds/isopod.webp
   testimonial_item:
   - name: Notre caisson d'isolation sensorielle l'isopod
     image: images/client/client-1.jpg
@@ -11,17 +11,3 @@ testimonial:
     content: |-
       Si la cabane des rêves propose des prix aussi abordables, ce n’est clairement pas au détriment de son caisson d’isolation sensorielle, c’est même tout le contraire puisque nous sommes équipé d’un Isopod dernière génération, caisson considéré comme la « Rolls » des cocons de flottaison.
       En plus d’être particulièrement beau, ce caisson de construction anglaise offre un espace (largeur et hauteur) sans égal sur le marché, ce qui permet un confort de flottaison maximal. En gros, j’ai choisi ce qui se faisait de mieux!
-  - name: Mark Dinn
-    image: images/client/client-2.jpg
-    image_webp: images/client/client-2.webp
-    date: Dec 26, 2018
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
-      minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi
-      aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
-  - name: Lemos Kail
-    image: images/client/client-1.jpg
-    image_webp: images/client/client-1.webp
-    date: Dec 26, 2018
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
-      minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi
-      aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
