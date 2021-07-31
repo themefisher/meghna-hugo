@@ -6,15 +6,9 @@ pricing:
   - name: 100€
     price: 1 nuitée pour 2 personnes et 1h de flottaison
     unit: personne
-    services:
-    - 1GB Disk Space
-    - 10 Email Account
-    - Script Installer
-    - 1 GB Storage
-    - 10 GB Bandwidth
-    - 24/7 Tech Support
+    services: []
     button:
-      label: Signup
+      label: Réserver
       link: "#"
   - name: Silver
     price: "$149"
