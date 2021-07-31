@@ -4,10 +4,12 @@ banner:
   bg_image_webp: images/backgrounds/OlyaFlotte2.webp
   bg_image: images/backgrounds/OlyaFlotte2.jpg
   icon: ''
-  title: La cabane des rêves
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi.
-    At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!
+  title: L'ISOLATION SENSORIELLE
+  content: Résultat de plus de 50 ans d’études scientifiques, le caisson d’isolation
+    sensorielle est bien plus qu’un outil pour se libérer du stress et des tensions
+    corporelles, c’est aussi un puissant outil pour voyager dans ses pensées, entrer
+    dans des états méditatifs profonds et libérer sa créativité.
   button:
     enable: true
-    label: Explore Us
+    label: Réserver
     link: "#services"
