@@ -3,9 +3,9 @@ portfolio:
   enable: true
   title: Dormir à la cabane des rêves
   portfolio_item:
-  - name: cabane
+  - name: cabane1
     image: images/portfolio/photo1.jpg
-    image_webp: images/portfolio/photo.webp
+    image_webp: images/portfolio/photo1.webp
     categories: []
     content: ''
     link: https://themefisher.com
@@ -38,27 +38,4 @@ portfolio:
     image_webp: images/portfolio/photo6.webp
     categories: []
     content: ''
-    link: "#"
-  - name: Business Card
-    image: images/portfolio/portfolio-7.jpg
-    image_webp: images/portfolio/portfolio-7.webp
-    categories:
-    - development
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    link: "#"
-  - name: Stationary Design
-    image: images/portfolio/portfolio-8.jpg
-    image_webp: images/portfolio/portfolio-8.webp
-    categories:
-    - design
-    - development
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    link: "#"
-  - name: Tag Design
-    image: images/portfolio/portfolio-2.jpg
-    image_webp: images/portfolio/portfolio-2.webp
-    categories:
-    - design
-    - photography
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
