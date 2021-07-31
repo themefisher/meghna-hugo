@@ -3,11 +3,11 @@ portfolio:
   enable: true
   title: Dormir à la cabane des rêves
   portfolio_item:
-  - name: Cabane
+  - name: cabane
     image: images/portfolio/photo1.jpg
     image_webp: images/portfolio/photo.webp
     categories: []
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    content: ''
     link: https://themefisher.com
   - name: cabane2
     image: images/portfolio/photo2.jpg
