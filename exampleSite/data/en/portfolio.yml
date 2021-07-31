@@ -4,8 +4,8 @@ portfolio:
   title: Dormir sur place
   portfolio_item:
   - name: 'Notre caisson d''isolation: L''Isopod'
-    image: images/portfolio/photo1.jpg
-    image_webp: images/portfolio/photo1.webp
+    image: images/portfolio/isopod.jpg
+    image_webp: images/portfolio/isopod.webp
     categories: ''
     content: Si la cabane des rêves propose des prix aussi abordables, ce n’est clairement
       pas au détriment de son caisson d’isolation sensorielle, c’est même tout le
