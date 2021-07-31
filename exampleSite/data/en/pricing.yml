@@ -3,9 +3,9 @@ pricing:
   enable: true
   title: Tarifs
   pricing_table:
-  - name: 1 nuitée pour 2 personnes
-    price: 100€
-    unit: 1h de flottaison/personne
+  - name: 100€
+    price: 1 nuitée pour 2 personnes et 1h de flottaison
+    unit: personne
     services:
     - 1GB Disk Space
     - 10 Email Account
