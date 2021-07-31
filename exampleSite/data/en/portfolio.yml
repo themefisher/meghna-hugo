@@ -3,6 +3,12 @@ portfolio:
   enable: true
   title: Dormir sur place
   portfolio_item:
+  - name: 'Notre caisson d''isolation: L''Isopod'
+    image: ''
+    image_webp: ''
+    categories: ''
+    content: ''
+    link: ''
   - name: cabane1
     image: images/portfolio/photo1.jpg
     image_webp: images/portfolio/photo1.webp
