@@ -85,8 +85,8 @@ name = "themefisher"
 url = "https://themefisher.com/"
 weight = 8
 [params]
-author = "Themefisher"
-description = "Responsive Multipurpose Parallax Hugo Template"
+author = "La cabane des rêves"
+description = "Flotter en région parisienne"
 google_analytics_id = ""
 logo = "images/logo.png"
 post_share = true
