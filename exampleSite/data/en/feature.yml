@@ -9,3 +9,13 @@ feature:
     En effet, ici il n’y a ni accueil, ni de salle d’attente, vous serez totalement seul dans une petite maison en bois située au fond d’un jardin. Ce projet, c’est avant tout la réalisation d’un rêve, celui d’avoir mon propre lieu de flottaison, un endroit magique où je pourrais flotter autant que je le désire et partager ma passion. Un endroit beau ,chaleureux ,propice à l’inspiration et au voyage.
     Cet environnement particulier permet une coupure nette avec le monde extérieur et de se retrouver seul avec soi-même. Ce lieu est évidemment équipé d’une salle de bain, ainsi que tout le confort nécessaire à votre préparation avant et après flottaison.
   feature_item: []
+feature:
+  enable: true
+  image: images/about/cabane.jpg
+  image_webp: images/about/cabane.webp
+  title: UN LIEU MAGIQUE
+  content: |-
+    Située à 10 minutes de Paris à Thiais, La cabane des rêves est la première maison d'hôte équipée d'un caisson d'isolation sensorielle à proposer une offre réellement abordable, chaleureuse et dépaysante. Très loin de l’ambiance « salon de beauté » des centres de flottaison, la cabane des rêves propose une expérience inédite.
+    En effet, ici il n’y a ni accueil, ni de salle d’attente, vous serez totalement seul dans une petite maison en bois située au fond d’un jardin. Ce projet, c’est avant tout la réalisation d’un rêve, celui d’avoir mon propre lieu de flottaison, un endroit magique où je pourrais flotter autant que je le désire et partager ma passion. Un endroit beau ,chaleureux ,propice à l’inspiration et au voyage.
+    Cet environnement particulier permet une coupure nette avec le monde extérieur et de se retrouver seul avec soi-même. Ce lieu est évidemment équipé d’une salle de bain, ainsi que tout le confort nécessaire à votre préparation avant et après flottaison.
+  feature_item: []
