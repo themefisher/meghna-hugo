@@ -9,12 +9,11 @@ portfolio:
     categories: []
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: https://themefisher.com
-  - name: Sound system
-    image: images/portfolio/portfolio-2.jpg
-    image_webp: images/portfolio/portfolio-2.webp
-    categories:
-    - development
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  - name: cabane2
+    image: images/portfolio/photo2.jpg
+    image_webp: images/portfolio/photo2.webp
+    categories: []
+    content: ''
     link: ''
   - name: Clock Product
     image: images/portfolio/portfolio-3.jpg
