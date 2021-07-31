@@ -27,9 +27,9 @@ portfolio:
     categories: []
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
-  - name: Notre caisson d'isolation sensorielle
-    image: images/portfolio/isopod.jpg
-    image_webp: images/portfolio/isopod.webp
+  - name: 'Notre caisson d''isolation sensorielle: l''Isopod'
+    image: images/portfolio/isopod2.jpg
+    image_webp: images/portfolio/isopod2.webp
     categories: []
     content: ''
     link: "#"
