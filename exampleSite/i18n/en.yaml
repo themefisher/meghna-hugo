@@ -1,6 +1,6 @@
 ---
 - id: blogTitle
-  translation: Latest Post
+  translation: Dernier article
 - id: readMore
   translation: Lire la suite
 - id: viewAllPost
@@ -12,7 +12,7 @@
 - id: authorsPosts
   translation: Author's posts
 - id: all
-  translation: All
+  translation: Photos
 - id: about
   translation: About Us
 - id: services
