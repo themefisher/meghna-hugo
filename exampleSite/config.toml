@@ -5,7 +5,7 @@ paginate = "6"
 summaryLength = "15"
 theme = "meghna-hugo"
 themesDir = "../.."
-title = "Meghna"
+title = "Je flotte"
 [Languages.en]
 contentDir = "content/english"
 copyright = "La cabane des rêves 2021"
@@ -21,10 +21,6 @@ weight = 2
 name = "Dormir sur place"
 url = "#portfolio"
 weight = 3
-[[Languages.en.menu.main]]
-name = "team"
-url = "#team"
-weight = 4
 [[Languages.en.menu.main]]
 name = "tarifs"
 url = "#pricing"
