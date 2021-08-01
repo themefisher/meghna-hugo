@@ -19,19 +19,14 @@ pricing:
     button:
       label: Réserver
       link: "#contact"
-  - name: Gold
-    price: "$199"
-    unit: month
+  - name: ''
+    price: 140€
+    unit: 1 nuitée pour 2 personnes avec 2h de flottaison chacun
     services:
-    - 1GB Disk Space
-    - 10 Email Account
-    - Script Installer
-    - 1 GB Storage
-    - 10 GB Bandwidth
-    - 24/7 Tech Support
+    - ''
     button:
-      label: Signup
-      link: "#"
+      label: Réserver
+      link: "#contact"
   - name: Platinum
     price: "$299"
     unit: month
