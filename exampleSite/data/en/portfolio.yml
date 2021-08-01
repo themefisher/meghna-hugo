@@ -31,7 +31,7 @@ portfolio:
     image: images/portfolio/isopod2.jpg
     image_webp: images/portfolio/isopod2.webp
     categories: []
-    content: ''
+    content: La rolls des caissons d'isolation sensorielle
     link: "#"
   - name: La cabane des rêves vue de l'extérieure
     image: images/portfolio/photo6.jpg
