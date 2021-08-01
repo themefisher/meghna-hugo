@@ -5,7 +5,7 @@ pricing:
   pricing_table:
   - name: ''
     price: 100€
-    unit: 1 nuitée pour 2 personnes et 1h de flottaison/personne
+    unit: 1 nuitée pour 2 personnes avec 1h de flottaison chacun
     services: []
     button:
       label: Réserver
