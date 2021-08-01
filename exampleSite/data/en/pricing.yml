@@ -7,7 +7,7 @@ pricing:
     price: 100€
     unit: 1 nuitée pour 2 personnes avec 1h de flottaison chacun
     services:
-    - test
+    - ''
     button:
       label: Réserver
       link: "#contact"
