@@ -21,3 +21,5 @@ fields:
   - type: text
     name: link
     label: link
+pages:
+- exampleSite/content/english/author/la-cabane-des-reves.md
