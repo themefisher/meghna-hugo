@@ -5,8 +5,8 @@ testimonial:
   bg_image_webp: images/backgrounds/isopod.webp
   testimonial_item:
   - name: Notre caisson d'isolation sensorielle l'isopod
-    image: images/client/client-1.jpg
-    image_webp: images/client/client-1.webp
+    image: images/client/OlyaPortrait.jpg
+    image_webp: images/client/OlyaPortrait.webp
     date: ''
     content: |-
       Si la cabane des rêves propose des prix aussi abordables, ce n’est clairement pas au détriment de son caisson d’isolation sensorielle, c’est même tout le contraire puisque nous sommes équipé d’un Isopod dernière génération, caisson considéré comme la « Rolls » des cocons de flottaison.
