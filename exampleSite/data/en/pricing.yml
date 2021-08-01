@@ -10,9 +10,9 @@ pricing:
     button:
       label: Réserver
       link: "#contact"
-  - name: Silver
-    price: "$149"
-    unit: month
+  - name: ''
+    price: 120€
+    unit: 1 nuitée pour 2 personnes avec 1h30 de flottaison chacun
     services:
     - ''
     button:
