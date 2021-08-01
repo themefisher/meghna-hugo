@@ -17,8 +17,8 @@ pricing:
     services:
     - ''
     button:
-      label: Signup
-      link: "#"
+      label: Réserver
+      link: "#contact"
   - name: Gold
     price: "$199"
     unit: month
