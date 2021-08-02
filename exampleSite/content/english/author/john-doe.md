@@ -1,15 +1,11 @@
 ---
-title: "John Doe"
-image: ""
-email: "email2@example.org"
+title: La cabane des rêves
+image: ''
+email: jeflotteblog@gmail.com
 social:
-  - icon : "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-    link : "#"
-  - icon : "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-    link : "#"
-  - icon : "ti-github" # themify icon pack : https://themify.me/themify-icons
-    link : "#"
----
+- icon: ti-facebook
+  link: https://www.facebook.com/CaissonIsolationSensorielle/
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet.
-Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper.
+---
+Je m’appelle Cyril. Développeur d’applications et scénariste, j’ai depuis tout jeune une fascination particulière pour le cerveau humain.  
+L »isolation sensorielle est pour moi bien plus qu’un outil de relaxation, c’est un voyage intérieur.
