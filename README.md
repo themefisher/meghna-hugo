@@ -19,7 +19,7 @@ Meghna Hugo  is a one page professional Hugo website template and crafted with a
 
 <img src="https://user-images.githubusercontent.com/37659754/54068559-44d79a80-4278-11e9-9601-f58d6879989c.gif" alt="screenshot" width="100%">
 
-Check out [Live Demo](http://demo.themefisher.com/meghna-hugo/en/)
+Check out [Live Demo](http://demo.gethugothemes.com/meghna/)
 
 <!-- easy setup -->
 ## Easy Setup (Hugo + Netlify + Forestry)
