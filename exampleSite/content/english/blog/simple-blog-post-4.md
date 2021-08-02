@@ -31,11 +31,13 @@ Le processus de récupération après une grosse séance d’effort est essentie
 
 #### Wayne Rooney:
 
-![Wayne Rooney est accro aux caissons d'isolation sensorielle](http://web-old.archive.org/web/20200927110122im_/https://jeflotte.com/wp-content/uploads/2016/05/Wayne-Rooney-300x180.jpg =300x180)
+![](https://d3nfwcxd527z59.cloudfront.net/content/uploads/2018/06/27151555/Wayne-Rooney-celebrates-scoring-goal-Manchester-United-Roma.jpg)
 
 Le célèbre footballeur anglais est un vrai addict de la flottaison, il possède son propre caisson d’isolation sensorielle et il flotte autour de 10 heures par semaine. C’est d’ailleurs ainsi qu’il aurait retrouver son niveau après une importante blessure en 2008.
 
 #### Stephen Curry :
 
-![Stephen Curry et les caissons d'isolation sensorielle](http://web-old.archive.org/web/20200927110122im_/https://jeflotte.com/wp-content/uploads/2016/05/curry-caisson-isolation-300x169.jpg =300x169)  
-L’actuel meilleur basketteur au monde (double MVP en titre) adore aller flotter. Voici une vidéo où on le voit en action.
+![](https://cdn.radiofrance.fr/s3/cruiser-production/2021/04/9e31fa65-cfb5-4a76-929b-3aafa420be15/801x410_gettyimages-1309005527.jpg)  
+L’actuel meilleur basketteur au monde (double MVP) adore aller flotter. Voici une vidéo où on le voit en action.
+
+[https://www.youtube.com/watch?v=XM3I8T0p0d4](https://www.youtube.com/watch?v=XM3I8T0p0d4 "https://www.youtube.com/watch?v=XM3I8T0p0d4")
