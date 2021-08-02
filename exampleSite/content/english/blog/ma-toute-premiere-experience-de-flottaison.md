@@ -1,5 +1,5 @@
 +++
-author = "La cabane des rêves"
+author = "Cyril"
 date = 2020-06-26T21:00:00Z
 description = "Ma première expérience de flottaison dans un caisson d'isolation sensorielle"
 image = "/images/moi2-copie-691x350.jpg"
