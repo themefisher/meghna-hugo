@@ -3,7 +3,7 @@ title: LA CABANE DES RÊVES EN VIDÉO
 date: 2021-07-09T08:51:12.000+00:00
 image_webp: "/images/backgrounds/OlyaFlotte2.webp"
 image: "/images/backgrounds/OlyaFlotte2.JPG"
-author: John Doe
+author: Cyril
 description: 'Le centre de flottaison de la cabane des rêves en vidéo. '
 
 ---
