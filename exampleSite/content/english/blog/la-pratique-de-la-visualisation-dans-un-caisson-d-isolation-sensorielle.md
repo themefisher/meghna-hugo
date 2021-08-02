@@ -2,7 +2,6 @@
 author = "La cabane des rêves"
 date = 2019-11-12T22:00:00Z
 description = "La Pratique De La Visualisation Dans Un Caisson D’isolation Sensorielle"
-draft = true
 image = "/images/visulisation-caisson-748x350.jpg"
 image_webp = ""
 title = "LA PRATIQUE DE LA VISUALISATION DANS UN CAISSON D’ISOLATION SENSORIELLE"
