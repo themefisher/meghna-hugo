@@ -1,5 +1,4 @@
 +++
-draft = true
 email = "jeflotteblog@gmail.com"
 image = ""
 social = []
