@@ -1,6 +1,6 @@
 ---
 title: QU’EST-CE QU’UN CAISSON D’ISOLATION SENSORIELLE ?
-date: 2020-07-08T08:51:12+00:00
+date: 2020-07-08T08:51:12.000+00:00
 author: La cabane des rêves
 image_webp: "/images/portfolio/isopod.webp"
 image: "/images/portfolio/isopod.jpg"
@@ -10,6 +10,8 @@ description: Qu'est ce qu'un caisson d'isolation sensorielle ou une bulle de flo
 Cela peut paraître étrange mais le **caisson d’isolation sensorielle** a avant tout pour objectif de créer le vide autour de nous. C’est donc tout simplement un caisson qui isole de la lumière, des sons extérieurs, il est rempli d’une eau salée (du sel d’Epsom) maintenue à la température corporelle. L’objectif de ce dispositif particulier est de créer chez l’utilisateur une privation sensorielle et de le couper de tout stimuli extérieurs.
 
 #### **Comment ça fonctionne un caisson d’isolation sensorielle ?**
+
+![](/images/caisson-isolation-sensorielle.jpeg)
 
 Le caisson d’isolation sensorielle permet à son utilisateur de flotter. Cette flottaison reproduit un état proche de l’état d’apesanteur (les premiers caissons avaient d’ailleurs aussi pour objectif d’entrainer les astronautes).
 
@@ -23,6 +25,8 @@ L’utilisateur est en général totalement nu à l’intérieur du caisson car 
 
 #### **Déroulement d’une séance de flottaison**
 
+![](/images/elephant-qui-flotte.jpg)
+
 Une séance de flottaison dure en moyenne entre 1 heure et 1 heure et demi. Les premières 30-40 minutes sont en général les plus délicates, notamment lorsqu’on est novice dans la pratique de la flottaison. Il faut un certain temps pour réussir à bien détendre son cou, il est aussi possible durant cette phase de ressentir quelques démangeaisons , un peu comme dans les premières minutes d’une séance de méditation pour ceux qui connaissent.
 
 Ce n’est que lorsqu’on est pleinement détendu et concentré que les choses intéressantes débutent. Les 20 dernière permettent la transition entre les ondes cérébrales beta et thêta qui apparaissent avant le sommeil et au réveil. Elles permettent un état de relaxation très profond. A l’intérieur du caisson, les ondes thêta peuvent durer un temps indéfini et ce sans que le sujet ne perde conscience.
@@ -32,6 +36,8 @@ Une utilisation fréquente du caisson permet d’étendre cet état cérébral p
 La flottaison peut être pratiquer de manière passive ou bien active en fonction de vos objectifs. Dans le premier cas, on souhaite se relaxer, se reposer et clarifier son esprit. Dans le cas d’une flottaison active, il est possible de méditer, pratiquer l’auto hypnose ou bien des programmes d’apprentissage. La flottaison peut aussi être utilisée en complément d’un traitement médical, psychologique…
 
 #### **La thérapie par flottaison**
+
+![](/images/flottaison-300x211.jpg)
 
 La thérapie par flottaison a été développé à partir des travaux du docteur John Lilly (l’inventeur du caisson d’isolation sensorielle). Ce n’était pas l’effet recherché mais très vite les chercheurs ont pris conscience des effets thérapeutiques sur le corps et l’esprit de la flottaison. Au delà de l’aspect agréable et relaxant de la flottaison, les premiers cobayes ont constaté des effets curatifs avec une véritable action sur le stress, l’anxiété, les insomnies, des douleurs…
 
@@ -53,17 +59,23 @@ Dans cet état très particulier, on constate une augmentation naturelle de la p
 
 #### **Effets sur le stress**
 
+![](/images/reduction-stress.jpg)
+
 Une production élevé de cortisol (hormone sécrétée par le cerveau) peut être corrélé avec un haut niveau de stress. La flottaison permet de réduire la production de cortisol et c’est une des rares techniques non contraignantes permettant cet effet. Une étude suédoise l’a parfaitement mis en évidence et compare ses effets sur l’individu à celles de longues vacances.
 
 On pourrait faire quelques parallèles avec la pratique ancestral du bain chaud. Les différences majeures sont cependant que l’eau est entretenue à une température optimale et qu’il n’y aucun point de contact (et donc de pression) entre le corps et les différentes surfaces. Ces différences permettent un relaxation bien plus profonde et des bienfaits thérapeutiques qui seraient autrement inaccessibles.
 
 #### **Effets du sel d’Epsom**
 
+![](/images/sel-depsom-300x201.jpg)
+
 L’eau est saturée en sel d’Epsom (sulfate de magnésium). La densité de l’eau permet une parfaite flottaison de l’ensemble du corps. La bouche, le nez sont hors de l’eau, du coup l’utilisateur respire sans problème.
 
 Il a été récemment découvert que la peau avait la capacité d’absorber du magnésium contenu dans l’eau lors de la flottaison, cette faculté a pour conséquence la correction de toute carence en magnésium de l’organisme. Ce qui est particulièrement utile pour tout individu qui aurait un régime à bas taux de magnésium. De plus , le corps ayant une capacité naturelle à gérer et optimiser le taux de magnésium, flotter durant de très longues périodes n’aura pas de conséquences sur le taux de magnésium.
 
 #### **Petit historique des caissons d’isolation sensorielle**
+
+![](/images/john-c-lilly-300x214.jpg)
 
 Le caisson d’isolation sensorielle a été développé en 1954 par le neuropsychiatre John C. Lilly. L’objectif était de mieux comprendre le fonctionnement du cerveau et notamment ses sources d’énergie. A l’époque, on pensait que si on coupait le cerveau de toute stimulation extérieur, celui-ci tomberai automatiquement dans un état de sommeil. Le docteur Lilly a voulu tester cette hypothèse avec la mise au point du caisson d’isolation sensorielle.
 
