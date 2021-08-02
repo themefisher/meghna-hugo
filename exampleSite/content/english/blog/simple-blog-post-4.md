@@ -1,6 +1,6 @@
 ---
 title: COMMENT AUGMENTER SES PERFORMANCES SPORTIVES GRÂCE À LA FLOTTAISON
-date: 2020-07-06T06:52:36+00:00
+date: 2020-07-06T06:52:36.000+00:00
 image_webp: "/images/courir-736x350.jpg"
 image: "/images/courir-736x350.jpg"
 author: John Doe
@@ -15,7 +15,7 @@ Les recherches nous suggèrent que la pratique de la flottaison permet d’amél
 
 ### 1) Un meilleur contrôle de notre stress
 
-Pas besoin de développer cette partie, j’ai déjà expliqué les effets bénéfiques des caissons d’isolation sensorielle sur le stress[ ici](https://jeflotte.netlify.app/blog/installation/).
+Pas besoin de développer cette partie, j’ai déjà expliqué les effets bénéfiques des caissons d’isolation sensorielle sur le stress[ ici](https://jeflotte.netlify.app/blog/caisson-isolation-sensorielle/).
 
 ### 2) Un développement du mental
 
