@@ -2,7 +2,6 @@
 author = "La cabane des rêves"
 date = 2020-03-17T22:00:00Z
 description = "Comment entrer dans un rythme cérébral thêta grâce aux caissons d’isolation sensorielle"
-draft = true
 image = "/images/ondes-theta.jpg"
 image_webp = ""
 title = "COMMENT ENTRER DANS UN RYTHME CÉRÉBRAL THÊTA GRÂCE AUX CAISSONS D’ISOLATION SENSORIELLE"
