@@ -1,5 +1,5 @@
 +++
-author = "La cabane des rêves"
+author = "Cyril"
 date = 2019-11-12T22:00:00Z
 description = "La Pratique De La Visualisation Dans Un Caisson D’isolation Sensorielle"
 image = "/images/visulisation-caisson-748x350.jpg"

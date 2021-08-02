@@ -3,7 +3,7 @@ title: COMMENT AUGMENTER SES PERFORMANCES SPORTIVES GRÂCE À LA FLOTTAISON
 date: 2020-07-06T06:52:36.000+00:00
 image_webp: "/images/courir-736x350.jpg"
 image: "/images/courir-736x350.jpg"
-author: John Doe
+author: Cyril
 description: COMMENT AUGMENTER SES PERFORMANCES SPORTIVES GRÂCE À LA FLOTTAISON
 
 ---

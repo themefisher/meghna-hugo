@@ -1,5 +1,5 @@
 +++
-author = "La cabane des rêves"
+author = "Cyril"
 date = 2020-04-06T21:00:00Z
 description = "La flottaison dans un caisson d'isolation sensorielle permet d'échapper à la pesanteur et aux douleurs"
 image = "/images/flotter-dans-un-caisson-748x350.jpg"

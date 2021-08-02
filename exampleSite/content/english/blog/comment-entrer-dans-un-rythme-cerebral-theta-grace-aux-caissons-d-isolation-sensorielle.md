@@ -1,5 +1,5 @@
 +++
-author = "La cabane des rêves"
+author = "Cyril"
 date = 2020-03-17T22:00:00Z
 description = "Comment entrer dans un rythme cérébral thêta grâce aux caissons d’isolation sensorielle"
 image = "/images/ondes-theta.jpg"

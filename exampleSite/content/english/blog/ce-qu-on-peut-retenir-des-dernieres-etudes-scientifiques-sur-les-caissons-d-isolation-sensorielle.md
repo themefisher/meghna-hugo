@@ -1,5 +1,5 @@
 +++
-author = "La cabane des rêves"
+author = "Cyril"
 date = 2020-05-11T21:00:00Z
 description = "Ce qu’on peut retenir des dernières études scientifiques sur les caissons d’isolation sensorielle"
 image = "/images/caissons-d-isolatiion-sensorielle-etudes-742x350.jpg"
