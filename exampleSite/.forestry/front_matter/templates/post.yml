@@ -23,4 +23,5 @@ fields:
   label: description
   description: meta description
 pages:
+- exampleSite/content/english/blog/ce-qu-on-peut-retenir-des-dernieres-etudes-scientifiques-sur-les-caissons-d-isolation-sensorielle.md
 - exampleSite/content/english/blog/ma-toute-premiere-experience-de-flottaison.md
