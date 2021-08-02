@@ -2,7 +2,6 @@
 author = "La cabane des rêves"
 date = 2020-04-06T21:00:00Z
 description = "La flottaison dans un caisson d'isolation sensorielle permet d'échapper à la pesanteur et aux douleurs"
-draft = true
 image = "/images/flotter-dans-un-caisson-748x350.jpg"
 image_webp = ""
 title = "ÉCHAPPER À LA PESANTEUR PAR LA FLOTTAISON"
