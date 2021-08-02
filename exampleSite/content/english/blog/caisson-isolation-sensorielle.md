@@ -1,7 +1,7 @@
 ---
 title: QU’EST-CE QU’UN CAISSON D’ISOLATION SENSORIELLE ?
 date: 2020-07-08T08:51:12.000+00:00
-author: La cabane des rêves
+author: Cyril
 image_webp: "/images/portfolio/isopod.webp"
 image: "/images/portfolio/isopod.jpg"
 description: Qu'est ce qu'un caisson d'isolation sensorielle ou une bulle de flottaison
