@@ -2,19 +2,18 @@
 author = "La cabane des rêves"
 date = 2020-06-26T21:00:00Z
 description = "Ma première expérience de flottaison dans un caisson d'isolation sensorielle"
-draft = true
 image = "/images/moi2-copie-691x350.jpg"
 image_webp = ""
 title = "MA TOUTE PREMIÈRE EXPÉRIENCE DE FLOTTAISON"
 
 +++
-J’ai entendu parlé pour la première fois de **flottaison** et des caissons d’isolation sensorielle il y a un peu moins d’un an sur le podcast du célèbre humoriste américain Joe Rogan. Il l’a décrit ni plus ni moins que comme l’outil de développement personnel le plus important qu’il ait jamais utilisé. C’est l’équivalent dit il d’une drogue très puissante genre LSD mais 100 % légale et sans effets secondaires. Il a déclaré aussi que toutes les décisions les plus importantes qu’il a prise ces dernières années, il les a prise dans et grâce à un cocon d’isolation sensorielle.
+J’ai entendu parlé pour la première fois de **flottaison** et des caissons d’isolation sensorielle il y a un peu moins d’un an sur le podcast du célèbre humoriste américain **Joe Rogan**. Il l’a décrit ni plus ni moins que comme l’outil de développement personnel le plus important qu’il ait jamais utilisé. C’est l’équivalent dit il d’une drogue très puissante genre LSD mais 100 % légale et sans effets secondaires. Il a déclaré aussi que toutes les décisions les plus importantes qu’il a prise ces dernières années, il les a prise dans et grâce à un cocon d’isolation sensorielle.
 
 ![](https://techcrunch.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-19-at-2.55.59-PM.png?w=730&crop=1)
 
 Après un témoignage aussi intrigant, je me suis mis à faire mes propres recherches et là d’article en article, je suis tombé sur de nombreuses recherches sérieuses et référencées montrant des bienfaits concrets et mesurables. Et ça mon petit esprit scientifique, il adore, je n’étais plus face à de possibles délires hippies mais face à une machine développé et étudiée en laboratoire. Il fallait absolument que j’essaie.
 
-J’ai donc pris un rendez-vous dans le centre de flottaison le plus proche de chez moi. Le centre en question possédait un seul et unique caisson, un « Oasis Floatation Tank », un modèle américain plutôt rustique qui visuellement ressemble plus à un appareil de torture que de relaxation, enfin j’étais quand même très motivé donc ça m’a pas plus dérangé que ça.
+J’ai donc pris un rendez-vous dans le **centre de flottaison** le plus proche de chez moi. Le centre en question possédait un seul et unique caisson, un « **Oasis Floatation Tank** », un modèle américain plutôt rustique qui visuellement ressemble plus à un appareil de torture que de relaxation, enfin j’étais quand même très motivé donc ça m’a pas plus dérangé que ça.
 
 ![](https://www.usedfloattanks.com/wp-content/uploads/2017/10/float-tank.jpg)
 
@@ -34,7 +33,7 @@ Voilà c’est pas très compliqué.
 
 Une fois dans le caisson, la première sensation que j’ai ressenti est étrange. Quelque chose de différent de tout ce que je connaissais.
 
-TROUVER LA BONNE POSITION
+## Trouver la bonne position
 
 Très vite, j’ai commencé à ressentir un inconfort au niveau de la nuque, j’avais vraiment du mal à la détendre pleinement et à laisser ma tête flotter simplement sur l’eau. Plus tard, en faisant mes recherches , j’ai compris que c’était quelque chose de très fréquent quand on débute la pratique de la flottaison.
 
