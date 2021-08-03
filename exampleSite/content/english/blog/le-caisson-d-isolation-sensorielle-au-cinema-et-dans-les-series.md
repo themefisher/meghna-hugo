@@ -2,7 +2,6 @@
 author = "Cyril"
 date = 2019-06-02T21:00:00Z
 description = "le caisson d’isolation sensorielle au cinéma et dans les séries"
-draft = true
 image = "/images/fringe-caisson-d-isolation-sensorielle-748x350.jpg"
 image_webp = ""
 title = "LE CAISSON D’ISOLATION SENSORIELLE AU CINÉMA ET DANS LES SÉRIES"

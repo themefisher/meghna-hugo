@@ -2,7 +2,6 @@
 author = "Cyril"
 date = 2018-12-12T22:00:00Z
 description = ""
-draft = true
 image = "/images/twister-visualization_mjgvox9u-748x350.jpg"
 image_webp = ""
 title = "L’AUTO-HYPNOSE DANS UN CAISSON D’ISOLATION SENSORIELLE"
