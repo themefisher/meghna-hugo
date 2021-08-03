@@ -2,7 +2,6 @@
 author = "Cyril"
 date = 2019-05-14T21:00:00Z
 description = "Comment Accéder À Une Relaxation Profonde Dans Un Caisson D’isolation Sensorielle"
-draft = true
 image = "/images/freedom-girl-desert-sunset-beautiful-scene_hy8uer4o-748x350.jpg"
 image_webp = ""
 title = "COMMENT ACCÉDER À UNE RELAXATION PROFONDE DANS UN CAISSON D’ISOLATION SENSORIELLE"
