@@ -15,7 +15,7 @@ Les recherches nous suggèrent que la pratique de la flottaison permet d’amél
 
 ### 1) Un meilleur contrôle de notre stress
 
-Pas besoin de développer cette partie, j’ai déjà expliqué les effets bénéfiques des caissons d’isolation sensorielle sur le stress[ ici](https://jeflotte.netlify.app/blog/caisson-isolation-sensorielle/).
+Pas besoin de développer cette partie, j’ai déjà expliqué les effets bénéfiques des caissons d’isolation sensorielle sur le stress[ ici](https://jeflotte.com/blog/caisson-isolation-sensorielle/).
 
 ### 2) Un développement du mental
 
