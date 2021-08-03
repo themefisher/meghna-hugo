@@ -1,7 +1,7 @@
 +++
 author = "Cyril"
 date = 2018-12-12T22:00:00Z
-description = ""
+description = "L’auto-Hypnose Dans Un Caisson D’isolation Sensorielle"
 image = "/images/twister-visualization_mjgvox9u-748x350.jpg"
 image_webp = ""
 title = "L’AUTO-HYPNOSE DANS UN CAISSON D’ISOLATION SENSORIELLE"
@@ -55,7 +55,7 @@ Tout ce qu’il faut, insiste-t-il, c’est un sincère désir d’être hypnoti
 
 ## **Induction**
 
-En dehors du vaisseau, l’induction de l’hypnose peut être longue, mais presque tout le temps qui lui est consacré est utilisé pour devenir de plus en plus profondément relaxé. Dans le caisson, on peut supposer qu’au moment où l’on veut induire l’hypnose, on est déjà relaxé, soit en lâchant prise, soit en utilisant une des techniques décrites dans l’article sur [**la relaxation dans un caisson**](). Une fois relaxé, concentrez votre attention sur le processus de l’hypnose. Il existe de nombreuses manières de le faire; en voici quelques-unes parmi les plus efﬁcaces:
+En dehors du vaisseau, l’induction de l’hypnose peut être longue, mais presque tout le temps qui lui est consacré est utilisé pour devenir de plus en plus profondément relaxé. Dans le caisson, on peut supposer qu’au moment où l’on veut induire l’hypnose, on est déjà relaxé, soit en lâchant prise, soit en utilisant une des techniques décrites dans l’article sur [**la relaxation dans un caisson**](https://jeflotte.com/blog/comment-acceder-a-une-relaxation-profonde-dans-un-caisson-d-isolation-sensorielle/). Une fois relaxé, concentrez votre attention sur le processus de l’hypnose. Il existe de nombreuses manières de le faire; en voici quelques-unes parmi les plus efﬁcaces:
 
 ## **Comptez à l’envers**
 
