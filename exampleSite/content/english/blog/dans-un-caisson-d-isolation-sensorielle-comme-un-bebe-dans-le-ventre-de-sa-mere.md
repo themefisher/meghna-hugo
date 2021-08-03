@@ -2,7 +2,6 @@
 author = "Cyril"
 date = 2018-01-23T22:00:00Z
 description = "Flotter dans un caisson d'isolation sensorielle lorsqu'on est enceinte"
-draft = true
 image = "/images/femme-enceinte_sous-leau-748x350.jpg"
 image_webp = ""
 title = "DANS UN CAISSON D’ISOLATION SENSORIELLE COMME UN BÉBÉ DANS LE VENTRE DE SA MÈRE"
