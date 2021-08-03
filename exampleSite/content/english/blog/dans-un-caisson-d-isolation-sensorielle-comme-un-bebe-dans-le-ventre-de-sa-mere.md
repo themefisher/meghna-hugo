@@ -1,6 +1,6 @@
 +++
 author = "Cyril"
-date = 2018-01-23T22:00:00Z
+date = 2018-01-22T22:00:00Z
 description = "Flotter dans un caisson d'isolation sensorielle lorsqu'on est enceinte"
 image = "/images/femme-enceinte_sous-leau-748x350.jpg"
 image_webp = ""
