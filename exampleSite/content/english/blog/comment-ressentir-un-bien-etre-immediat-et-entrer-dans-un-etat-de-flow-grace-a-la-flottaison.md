@@ -1,7 +1,7 @@
 +++
 author = "Cyril"
 date = 2019-09-02T21:00:00Z
-description = ""
+description = "Comment ressentir un bien être immédiat et entrer dans un état de flow grâce à la flottaison dans un caisson d'isolation sensorielle"
 draft = true
 image = "/images/etat-de-flow-flottaison-748x350.jpg"
 image_webp = ""
