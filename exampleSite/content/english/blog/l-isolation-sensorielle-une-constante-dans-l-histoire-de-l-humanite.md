@@ -2,7 +2,6 @@
 author = "Cyril"
 date = 2018-03-05T22:00:00Z
 description = "l’isolation sensorielle, une constante dans l’histoire de l’humanité"
-draft = true
 image = "/images/histoire-de-lisolation-sensorielle-748x350.jpg"
 image_webp = ""
 title = "L’ISOLATION SENSORIELLE, UNE CONSTANTE DANS L’HISTOIRE DE L’HUMANITÉ"
