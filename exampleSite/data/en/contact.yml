@@ -2,7 +2,9 @@
 contact:
   enable: true
   title: Nous Contacter
-  subtitle: "\nNous sommes actuellement fermés. Réouverture le 19 Août. "
+  subtitle: |2-
+
+    Réserver par email ou au téléphone
   content: Il est désormais possible pour ceux qui le souhaitent de passer la nuit
     à la cabane des rêves. Nous avons en effet aménagé un petit studio totalement
     indépendant pouvant accueillir jusqu'à 3 personnes juste à coté de la cabane des
