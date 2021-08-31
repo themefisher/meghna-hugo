@@ -46,9 +46,9 @@ Or Check out [Full Documentation](https://docs.gethugothemes.com/meghna/?ref=git
 
 ## Content Management
 
-[![import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=DirtyF/hugo-airspace-forestry&engine=hugo&version=0.80.0)
+[![import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=themefisher/meghna-hugo&engine=hugo&version=0.80.0)
 
-This project has been pre-configured to work with [Forestry](https://forestry.io) a git-based CMS, [import your repository in Forestry](https://app.forestry.io/quick-start?repo=DirtyF/hugo-airspace-forestry&engine=hugo&version=0.80.0) and you'll be able to edit and preview your site ✨.
+This project has been pre-configured to work with [Forestry](https://forestry.io) a git-based CMS, [import your repository in Forestry](https://app.forestry.io/quick-start?repo=themefisher/meghna-hugo&engine=hugo&version=0.80.0) and you'll be able to edit and preview your site ✨.
 
 Any changes you make in Forestry will be commited back to the repo, and deployed if you use [Netlify](#netlify) or [Vercel](#vercel).
 
@@ -56,13 +56,13 @@ Any changes you make in Forestry will be commited back to the repo, and deployed
 
 ### Netlify
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/DirtyF/hugo-airspace-forestry)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/themefisher/meghna-hugo)
 
 Follow the steps.
 
 ### Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/DirtyF/hugo-airspace-forestry)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/themefisher/meghna-hugo)
 
 Follow the steps.
 
