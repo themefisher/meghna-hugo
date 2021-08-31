@@ -102,6 +102,6 @@ We are available for **Hiring** for your next HUGO project. Please check our [se
 
 <!-- premium themes -->
 ## Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![](https://gethugothemes.com/wp-content/uploads/edd/2020/09/Reader.jpg)](https://gethugothemes.com/products/reader/) | [![](https://gethugothemes.com/wp-content/uploads/edd/2020/06/bizcraft-hugo.jpg)](https://gethugothemes.com/products/bizcraft-hugo/) |
+| [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://gethugothemes.com/bundle) | [![](https://gethugothemes.com/wp-content/uploads/edd/2020/09/Reader.jpg)](https://gethugothemes.com/products/reader/) | [![](https://gethugothemes.com/wp-content/uploads/edd/2020/06/bizcraft-hugo.jpg)](https://gethugothemes.com/products/bizcraft-hugo/) |
 |:---:|:---:|:---:|
 | **Premium Theme Bundle (40+)**  | **Reader**  | **Bizcraft**  |
