@@ -76,6 +76,19 @@ Build your website with **Meghna Hugo** theme by following these easy steps (No 
 We use GitHub Issues as the official bug tracker for the Meghna Template. Please Search [existing issues](https://github.com/themefisher/meghna-hugo/issues). It’s possible someone has already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/meghna-hugo/issues).
 
+## Meghna Hugo theme Powered Websites
+-  https://thetechbattalion.com/
+-  https://adaptechgroup.com/
+-  https://adenuz.com/
+-  https://junior-aei.com/
+-  https://akademiainformatyki.edu.pl/
+-  https://naval-engineering.com/
+-  https://www.istrosec.com/
+-  https://www.puylevequepatrimoine.com/
+-  https://www.beltlabs.com/
+-  https://cloud-fundis.co.za
+
+
 <!-- licence -->
 ## License
 Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)
