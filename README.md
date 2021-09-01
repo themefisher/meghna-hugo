@@ -26,7 +26,7 @@
 </p>
 
 ---
-## Features 🔥
+## 🔥 Features
 - Multilingual support. (with language selector)
 - Taxonomies
 - SEO Friendly
@@ -39,7 +39,7 @@
 - Uses Hugo's asset generator with pipelining, fingerprinting, bundling, and minification by default.
 
 
-## Local development 🚀
+## 🚀 Local development
 
 ```bash
 # clone the repository
@@ -53,7 +53,7 @@ $ hugo server --themesDir ../..
 ```
 Or Check out [Full Documentation](https://docs.gethugothemes.com/meghna/?ref=github).
 
-## Content Management System 📚
+## 📚 Content Management System
 
 [![import to
 Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=themefisher/meghna-hugo&engine=hugo&version=0.80.0)
@@ -65,25 +65,25 @@ you will be able to edit and preview your site ✨.
 Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify) or
 [Vercel](#vercel).
 
-## Deployment and hosting 🌎
+## 🌎 Deployment and hosting
 
 [![Deploy to
 Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/themefisher/meghna-hugo)
 
 Follow the steps.
 
-## Prefer a video? (Hugo + Netlify + Forestry) 🎥
+## 🎥 Prefer a video? (Hugo + Netlify + Forestry)
 Build your website with **Meghna Hugo** theme by following these easy steps (No Coding Required!)
 [Video Tutorial](https://youtu.be/ResipmZmpDU).
 
 <!-- reporting issue -->
-## Reporting Issues 🐛
+## 🐛 Reporting Issues
 We use GitHub Issues as the official bug tracker for the Meghna Template. Please Search [existing
 issues](https://github.com/themefisher/meghna-hugo/issues). It’s possible someone has already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new
 issue](https://github.com/themefisher/meghna-hugo/issues).
 
-## Meghna Hugo theme Powered Websites ⚙️
+## ⚙️ Meghna Hugo theme Powered Websites
 - https://thetechbattalion.com/
 - https://adaptechgroup.com/
 - https://adenuz.com/
@@ -96,10 +96,11 @@ issue](https://github.com/themefisher/meghna-hugo/issues).
 - https://cloud-fundis.co.za
 - https://www.cocoon-arolla.com
 - https://www.plurisante202.fr
-- [Interested! You can also submit your site here](https://github.com/themefisher/meghna-hugo/discussions/174)
+
+View all the websites powered by Meghna Hugo theme [here](here). Want to submit your own website powered by Meghna Hugo theme? You can submit it [here](https://github.com/themefisher/meghna-hugo/discussions/174).
 
 <!-- licence -->
-## License 🔑
+## 🔑 License
 Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
 [Gethugothemes](https://gethugothemes.com)
 
@@ -109,7 +110,7 @@ Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed 
 share those images.
 
 <!-- resources -->
-## Special Thanks 🎉
+## 🎉 Special Thanks
 - [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 - [Jquery](https://jquery.com/download/)
 - [Themify Icons](https://themify.me/themify-icons)
@@ -121,12 +122,12 @@ share those images.
 - [All Contributors](https://github.com/themefisher/meghna-hugo/graphs/contributors)
 
 
-## Hire Us 💼
+## 💼 Hire Us
 We are available for **Hiring** for your next HUGO project. Please, check our
 [services](https://gethugothemes.com/services)
 
 <!-- premium themes -->
-## Premium Themes By Us 💎
+## 💎 Premium Themes By Us
 | [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://gethugothemes.com/bundle) | [![Reader](https://gethugothemes.com/wp-content/uploads/edd/2020/09/Reader.jpg)](https://gethugothemes.com/products/reader/) | [![Bizcraft](https://gethugothemes.com/wp-content/uploads/edd/2020/06/bizcraft-hugo.jpg)](https://gethugothemes.com/products/bizcraft-hugo/) |
 |:---:|:---:|:---:|
 | **Premium Theme Bundle (40+)** | **Reader** | **Bizcraft** |
