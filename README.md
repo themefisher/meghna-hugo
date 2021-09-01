@@ -126,7 +126,7 @@ share those images.
 - [Slick Slider](https://kenwheeler.github.io/slick/)
 - [Shuffle](https://vestride.github.io/Shuffle/)
 - [Google Fonts](http://fonts.google.com/)
-- All Contributors.
+- [All Contributors](https://github.com/themefisher/meghna-hugo/graphs/contributors)
 
 
 ## Hire Us
