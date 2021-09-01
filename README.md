@@ -79,7 +79,7 @@ Build your website with **Meghna Hugo** theme by following these easy steps (No 
 <!-- reporting issue -->
 ## 🐛 Reporting Issues
 We use GitHub Issues as the official bug tracker for the Meghna Template. Please Search [existing
-issues](https://github.com/themefisher/meghna-hugo/issues). It’s possible someone has already reported the same problem.
+issues](https://github.com/themefisher/meghna-hugo/issues). Someone may have already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new
 issue](https://github.com/themefisher/meghna-hugo/issues).
 
@@ -97,7 +97,7 @@ issue](https://github.com/themefisher/meghna-hugo/issues).
 - https://www.cocoon-arolla.com
 - https://www.plurisante202.fr
 
-View all the websites powered by Meghna Hugo theme [here](here). Want to submit your own website powered by Meghna Hugo theme? You can submit it [here](https://github.com/themefisher/meghna-hugo/discussions/174).
+View all the websites powered by Meghna Hugo theme [here](https://github.com/themefisher/meghna-hugo/wiki/All-Meghna-Hugo-theme-Powered-Websites). Want to submit your own website powered by Meghna Hugo theme? You can submit it [here](https://github.com/themefisher/meghna-hugo/discussions/174).
 
 <!-- licence -->
 ## 🔑 License
