@@ -1,4 +1,4 @@
-<h1 align=center>Meghna Hugo Theme | <a target="_blank" href="https://demo.gethugothemes.com/meghna" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fmeghna%2F">Lighthouse Report</a></h1>
+<h1 align=center>Meghna Hugo Theme | <a target="_blank" href="https://demo.gethugothemes.com/meghna" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fmeghna%2F">Page Speed (80%)</a></h1>
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.84.0" alt="Contributors">
@@ -67,20 +67,10 @@ Any changes you make in Forestry will be committed back to the repo and deployed
 
 ## Deployment and hosting 🌎
 
-### Netlify
-
 [![Deploy to
 Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/themefisher/meghna-hugo)
 
 Follow the steps.
-
-### Vercel
-
-[![Deploy with
-Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/themefisher/meghna-hugo)
-
-Follow the steps.
-
 
 ## Prefer a video? (Hugo + Netlify + Forestry) 🎥
 Build your website with **Meghna Hugo** theme by following these easy steps (No Coding Required!)
