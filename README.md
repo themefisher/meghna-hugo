@@ -62,8 +62,7 @@ This project has been pre-configured to work with [Forestry](https://forestry.io
 repository in Forestry](https://app.forestry.io/quick-start?repo=themefisher/meghna-hugo&engine=hugo&version=0.80.0) and
 you will be able to edit and preview your site ✨.
 
-Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify) or
-[Vercel](#vercel).
+Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify).
 
 ## Deployment and hosting
 
