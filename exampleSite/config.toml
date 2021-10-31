@@ -2,7 +2,6 @@
 baseURL = "https://examplesite.com"
 title = "Meghna"
 theme = "meghna-hugo"
-themesDir = "../.."
 # post pagination
 paginate = "6"
 # post excerpt
