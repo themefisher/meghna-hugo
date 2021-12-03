@@ -77,27 +77,27 @@ url = "#contact"
 weight = 7
 
 
-[[Languages.en.menu.main]]
-name = "Dropdown"
-weight = 7
-hasChildren = true
+# [[Languages.en.menu.main]]
+# name = "Dropdown"
+# weight = 7
+# hasChildren = true
 
-[[Languages.en.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 1"
-url = "#"
-weight = 1
+# [[Languages.en.menu.main]]
+# parent = "Dropdown"
+# name = "Dropdown 1"
+# url = "#"
+# weight = 1
 
-[[Languages.en.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 2"
-url = "#"
-weight = 2
+# [[Languages.en.menu.main]]
+# parent = "Dropdown"
+# name = "Dropdown 2"
+# url = "#"
+# weight = 2
 
-[[Languages.en.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
+# [[Languages.en.menu.main]]
+# name = "themefisher"
+# url = "https://themefisher.com/"
+# weight = 8
 
 
 ################### French Navigation ########################
