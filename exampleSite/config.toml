@@ -1,5 +1,5 @@
 baseURL = "https://sayakakidby.netlify.app"
-disableLanguages = []
+disableLanguages = ["fr"]
 disqusShortname = ""
 paginate = "6"
 summaryLength = "15"
