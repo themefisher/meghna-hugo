@@ -1,4 +1,4 @@
-baseURL = "https://sayakakidby_netlify.com"
+baseURL = "https://sayakakidby.netlify.app"
 disableLanguages = []
 disqusShortname = ""
 paginate = "6"
