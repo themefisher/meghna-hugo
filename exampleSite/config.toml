@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://examplesite.com"
+baseURL = "https://demo.gethugothemes.com/meghna/examplesite/"
 title = "Meghna"
 theme = "meghna-hugo"
 # post pagination
