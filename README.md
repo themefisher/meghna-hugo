@@ -95,6 +95,7 @@ issue](https://github.com/themefisher/meghna-hugo/issues).
 - https://cloud-fundis.co.za
 - https://www.cocoon-arolla.com
 - https://www.plurisante202.fr
+- https://www.lyaaaaagames.com/
 
 View all the websites powered by Meghna Hugo theme [here](https://github.com/themefisher/meghna-hugo/wiki/Popular-sites-powered-by-Meghna-Hugo). Want to submit your own website powered by Meghna Hugo theme? You can submit it [here](https://github.com/themefisher/meghna-hugo/discussions/174).
 
