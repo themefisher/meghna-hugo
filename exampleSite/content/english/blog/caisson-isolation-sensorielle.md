@@ -25,8 +25,6 @@ L’utilisateur est en général totalement nu à l’intérieur du caisson car 
 
 #### **Déroulement d’une séance de flottaison**
 
-![](/images/elephant-qui-flotte.jpg)
-
 Une séance de flottaison dure en moyenne entre 1 heure et 1 heure et demi. Les premières 30-40 minutes sont en général les plus délicates, notamment lorsqu’on est novice dans la pratique de la flottaison. Il faut un certain temps pour réussir à bien détendre son cou, il est aussi possible durant cette phase de ressentir quelques démangeaisons , un peu comme dans les premières minutes d’une séance de méditation pour ceux qui connaissent.
 
 Ce n’est que lorsqu’on est pleinement détendu et concentré que les choses intéressantes débutent. Les 20 dernière permettent la transition entre les ondes cérébrales beta et thêta qui apparaissent avant le sommeil et au réveil. Elles permettent un état de relaxation très profond. A l’intérieur du caisson, les ondes thêta peuvent durer un temps indéfini et ce sans que le sujet ne perde conscience.
@@ -36,8 +34,6 @@ Une utilisation fréquente du caisson permet d’étendre cet état cérébral p
 La flottaison peut être pratiquer de manière passive ou bien active en fonction de vos objectifs. Dans le premier cas, on souhaite se relaxer, se reposer et clarifier son esprit. Dans le cas d’une flottaison active, il est possible de méditer, pratiquer l’auto hypnose ou bien des programmes d’apprentissage. La flottaison peut aussi être utilisée en complément d’un traitement médical, psychologique…
 
 #### **La thérapie par flottaison**
-
-![](/images/flottaison-300x211.jpg)
 
 La thérapie par flottaison a été développé à partir des travaux du docteur John Lilly (l’inventeur du caisson d’isolation sensorielle). Ce n’était pas l’effet recherché mais très vite les chercheurs ont pris conscience des effets thérapeutiques sur le corps et l’esprit de la flottaison. Au delà de l’aspect agréable et relaxant de la flottaison, les premiers cobayes ont constaté des effets curatifs avec une véritable action sur le stress, l’anxiété, les insomnies, des douleurs…
 
