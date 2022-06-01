@@ -26,7 +26,9 @@
 </p>
 
 ---
+
 ## Features
+
 - Multilingual support. (with language selector)
 - Taxonomies
 - SEO Friendly
@@ -37,7 +39,6 @@
 - Google Map Support
 - WebP with fallback image support
 - Uses Hugo's asset generator with pipelining, fingerprinting, bundling, and minification by default.
-
 
 ## Local development
 
@@ -51,6 +52,7 @@ $ cd meghna-hugo/exampleSite/
 # Start local dev server
 $ hugo server --themesDir ../..
 ```
+
 Or Check out [Full Documentation](https://docs.gethugothemes.com/meghna/?ref=github).
 
 ## Content Management System
@@ -72,35 +74,39 @@ Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com
 Follow the steps.
 
 ## Prefer a video? (Hugo + Netlify + Forestry)
+
 Build your website with **Meghna Hugo** theme by following these easy steps (No Coding Required!)
 [Video Tutorial](https://youtu.be/ResipmZmpDU).
 
 <!-- reporting issue -->
 ## Reporting Issues
+
 We use GitHub Issues as the official bug tracker for the Meghna Template. Please Search [existing
 issues](https://github.com/themefisher/meghna-hugo/issues). Someone may have already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new
 issue](https://github.com/themefisher/meghna-hugo/issues).
 
 ## Meghna Hugo theme Powered Websites
-- https://thetechbattalion.com/
-- https://adaptechgroup.com/
-- https://adenuz.com/
-- https://junior-aei.com/
-- https://akademiainformatyki.edu.pl/
-- https://naval-engineering.com/
-- https://www.istrosec.com/
-- https://www.puylevequepatrimoine.com/
-- https://www.beltlabs.com/
-- https://cloud-fundis.co.za
-- https://www.cocoon-arolla.com
-- https://www.plurisante202.fr
-- https://www.lyaaaaagames.com/
+
+- <https://thetechbattalion.com/>
+- <https://adaptechgroup.com/>
+- <https://adenuz.com/>
+- <https://junior-aei.com/>
+- <https://akademiainformatyki.edu.pl/>
+- <https://naval-engineering.com/>
+- <https://www.istrosec.com/>
+- <https://www.puylevequepatrimoine.com/>
+- <https://www.beltlabs.com/>
+- <https://cloud-fundis.co.za>
+- <https://www.cocoon-arolla.com>
+- <https://www.plurisante202.fr>
+- <https://www.lyaaaaagames.com/>
 
 View all the websites powered by [Meghna Hugo theme](https://github.com/themefisher/meghna-hugo/wiki/Popular-sites-powered-by-Meghna-Hugo). Want to submit your own website powered by Meghna Hugo theme? You can [submit it here](https://github.com/themefisher/meghna-hugo/discussions/174).
 
 <!-- licence -->
 ## License
+
 Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
 [Gethugothemes](https://gethugothemes.com)
 
@@ -111,6 +117,7 @@ share those images.
 
 <!-- resources -->
 ## Special Thanks
+
 - [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 - [Jquery](https://jquery.com/download/)
 - [Themify Icons](https://themify.me/themify-icons)
@@ -121,15 +128,16 @@ share those images.
 - [Google Fonts](http://fonts.google.com/)
 - [All Contributors](https://github.com/themefisher/meghna-hugo/graphs/contributors)
 
-
 ## Hire Us
-Besides developing unique, blazing-fast Hugo themes, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Hugo. 
 
-If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our 
+Besides developing unique, blazing-fast Hugo themes, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Hugo.
+
+If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our
 [Services](https://gethugothemes.com/services/?utm_source=meghna_github&utm_medium=referral&utm_campaign=github_theme_readme)**
 
 <!-- premium themes -->
 ## Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle/?utm_source=meghna_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Bigspring](https://demo.gethugothemes.com/thumbnails/bigspring.webp)](https://gethugothemes.com/products/bigspring/) | [![Bizcraft](https://demo.gethugothemes.com/thumbnails/bizcraft.webp)](https://gethugothemes.com/products/bizcraft-hugo/) |
+
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png)](https://gethugothemes.com/bundle/?utm_source=meghna_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Bigspring](https://demo.gethugothemes.com/thumbnails/bigspring.png)](https://gethugothemes.com/products/bigspring/) | [![Bizcraft](https://demo.gethugothemes.com/thumbnails/bizcraft.png)](https://gethugothemes.com/products/bizcraft-hugo/) |
 |:---:|:---:|:---:|
 | **Get 50+ Premium Hugo Themes Bundle** | **Bigspring** | **Bizcraft** |
