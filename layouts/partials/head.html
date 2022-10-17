@@ -7,6 +7,9 @@
 	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}">
 	{{ with site.Params.author }}
 	<meta name="author" content="{{ . }}">{{ end }}
+	
+	<!-- theme meta -->
+        <meta name="theme-name" content="meghna-hugo" />
 	{{ hugo.Generator }}
 
 	{{ "<!-- plugins -->" | safeHTML }}
