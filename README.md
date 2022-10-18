@@ -1,4 +1,9 @@
-<h1 align=center>Meghna Hugo Theme | <a target="_blank" href="https://demo.gethugothemes.com/meghna" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fmeghna%2F">Page Speed (80%)</a></h1>
+<h1 align=center>Meghna Hugo Theme</h1>
+
+<p align="center">Meghna is a dark single page professional Hugo website theme and crafted with all the necessary elements and features you will need to present your business.</p>
+
+
+<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/meghna" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fmeghna%2Fsite%2F&form_factor=desktop">Page Speed (99%)</a> </h2>
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.84.0" alt="Contributors">
@@ -27,7 +32,7 @@
 
 ---
 
-## Features
+## Key Features
 
 - Multilingual support. (with language selector)
 - Taxonomies
@@ -102,7 +107,7 @@ issue](https://github.com/themefisher/meghna-hugo/issues).
 - <https://www.plurisante202.fr>
 - <https://www.lyaaaaagames.com/>
 
-View all the websites powered by [Meghna Hugo theme](https://github.com/themefisher/meghna-hugo/wiki/Popular-sites-powered-by-Meghna-Hugo). Want to submit your own website powered by Meghna Hugo theme? You can [submit it here](https://github.com/themefisher/meghna-hugo/discussions/174).
+View all the websites powered by [Meghna Hugo theme](https://gethugothemes.com/showcase). Want to submit your own website powered by Meghna Hugo theme? You can [submit it here](https://gethugothemes.com/showcase).
 
 <!-- licence -->
 ## License
@@ -140,4 +145,4 @@ If you need to customize the theme or complete website development from scratch,
 
 | [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.png)](https://gethugothemes.com/bundle/?utm_source=meghna_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Bigspring](https://demo.gethugothemes.com/thumbnails/bigspring.png)](https://gethugothemes.com/products/bigspring/) | [![Bizcraft](https://demo.gethugothemes.com/thumbnails/bizcraft.png)](https://gethugothemes.com/products/bizcraft-hugo/) |
 |:---:|:---:|:---:|
-| **Get 50+ Premium Hugo Themes Bundle** | **Bigspring** | **Bizcraft** |
+| **Get 55+ Premium Hugo Themes Bundle** | **Bigspring** | **Bizcraft** |
