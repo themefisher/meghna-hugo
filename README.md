@@ -91,23 +91,16 @@ issues](https://github.com/themefisher/meghna-hugo/issues). Someone may have alr
 If your problem or idea has not been addressed yet, feel free to [open a new
 issue](https://github.com/themefisher/meghna-hugo/issues).
 
-## Meghna Hugo theme Powered Websites
+## Submit Your Website To Our Showcase
 
-- <https://thetechbattalion.com/>
-- <https://adaptechgroup.com/>
-- <https://adenuz.com/>
-- <https://junior-aei.com/>
-- <https://akademiainformatyki.edu.pl/>
-- <https://naval-engineering.com/>
-- <https://www.istrosec.com/>
-- <https://www.puylevequepatrimoine.com/>
-- <https://www.beltlabs.com/>
-- <https://cloud-fundis.co.za>
-- <https://www.cocoon-arolla.com>
-- <https://www.plurisante202.fr>
-- <https://www.lyaaaaagames.com/>
+Are you using Meghna Hugo theme? Submit it to our [showcase](https://gethugothemes.com/showcase). 
 
-View all the websites powered by [Meghna Hugo theme](https://gethugothemes.com/showcase). Want to submit your own website powered by Meghna Hugo theme? You can [submit it here](https://gethugothemes.com/showcase).
+Our showcase aims to demonstrate to the world what amazing websites people like you have created utilizing our Hugo themes and to show that Hugo has tremendous capabilities as a Static Site Generator. 
+
+View all the websites powered by Meghna Hugo from [here](https://gethugothemes.com/showcase?theme=meghna). 
+
+[Submit](https://gethugothemes.com/showcase?submit=show) your Meghna Hugo powered website.
+
 
 <!-- licence -->
 ## License
