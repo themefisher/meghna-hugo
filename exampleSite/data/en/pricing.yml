@@ -8,6 +8,7 @@ pricing:
     unit: Location de la cabane et du jardin pour 2 personnes avec 1h de flottaison
       chacun
     services:
+    - 120€ pour 2 personnes avec 1h30 de flottaison chacun
     - ''
     button:
       label: Réserver
