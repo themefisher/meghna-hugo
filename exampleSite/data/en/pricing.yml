@@ -13,8 +13,8 @@ pricing:
       label: Réserver
       link: "#contact"
   - name: ''
-    price: 130€
-    unit: 1 nuitée pour 2 personnes avec 1h30 de flottaison chacun
+    price: 140€
+    unit: 1 nuitée pour 2 personnes avec 1h de flottaison chacun
     services:
     - ''
     button:
