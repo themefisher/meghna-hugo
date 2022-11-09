@@ -14,8 +14,10 @@ html {
 
 body {
   background-color: #353b43;
-  font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  font-family: "Roboto", sans-serif;
+/*  font-family: "Anaheim", sans-serif; */
+/*  color: #737f8a; */
+  color: #FED86F; 
   -webkit-font-smoothing: antialiased;
 }
 
@@ -407,7 +409,8 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #1d2024;
+#  background-color: #1d2024;
+  background-color: #00004E;
   width: 100%;
   margin-bottom: 0;
 }
@@ -631,7 +634,7 @@ a:hover {
 }
 
 .about-2 .content-block .media h4 {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 600;
 }
 
@@ -1129,7 +1132,7 @@ a:hover {
 
 .client-comment p {
   color: #afbac4;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .client-thumb img {
@@ -1226,6 +1229,7 @@ a:hover {
 
 .post-block .content {
   padding: 20px;
+  font-size: 20px;
 }
 
 .post-block .content h3 {
@@ -1259,10 +1263,10 @@ a:hover {
 
 #blog-page {
   margin: 0 0 40px;
+  font-size: 23px;
 }
 
 .post-meta {
-  font-size: 13px;
   margin: 20px 0 0;
   padding: 0 20px 10px;
 }
@@ -1275,7 +1279,7 @@ a:hover {
   color: #666;
   border-right: 1px solid #dedede;
   display: inline-block;
-  font-size: 13px;
+  font-size: 25px;
   margin: 10px 10px 0 0;
   padding-right: 10px;
 }
@@ -1300,7 +1304,7 @@ a:hover {
 .post-excerpt blockquote {
   line-height: 22px;
   margin: 20px 0;
-  font-size: 16px;
+  font-size: 26px;
 }
 
 .single-blog {
@@ -1677,7 +1681,7 @@ input#e-mail,
 .post-meta {
   background-color: #3d444a;
   border-top: 1px solid #4e595f;
-  font-size: 13px;
+  font-size: 23px;
   margin: 20px 0 0;
   padding: 0 20px 10px;
 }
@@ -1685,7 +1689,7 @@ input#e-mail,
 .post-meta>span {
   border-right: 1px solid #4e595f;
   display: inline-block;
-  font-size: 12px;
+  font-size: 22px;
   margin: 10px 10px 0 0;
   padding-right: 10px;
 }
