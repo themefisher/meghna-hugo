@@ -1,8 +1,8 @@
 ---
 banner:
   enable: true
-  bg_image_webp: images/backgrounds/Ekahau-Sidekick.webp
-  bg_image: images/backgrounds/Ekahau Sidekick.jpg
+  bg_image_webp: images/backgrounds/Ekahau-Connect-Product-Image.webp
+  bg_image: images/backgrounds/Ekahau-Connect-Product-Image.png
   icon: ''
   title: Let us assess your Wi-Fi
   content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi.
