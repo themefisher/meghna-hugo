@@ -136,9 +136,6 @@ link = "plugins/google-map/map.js"
 enable = false
 preloader = "images/logo.png"
 [[params.social]]
-icon = ""
-link = ""
-[[params.social]]
 icon = "ti-facebook"
 link = "#"
 [[params.social]]
