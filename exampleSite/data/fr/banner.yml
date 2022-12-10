@@ -1,8 +1,8 @@
 ---
 banner:
   enable: true
-  bg_image_webp: images/backgrounds/hero-area.webp
-  bg_image: images/backgrounds/hero-area.jpg
+  bg_image_webp: images/backgrounds/wireless-network.webp
+  bg_image: images/backgrounds/wireless network.jpg
   icon: ''
   title: Разбери повече за нашите услуги
   content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi.
