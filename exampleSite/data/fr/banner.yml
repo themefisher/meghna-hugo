@@ -1,10 +1,10 @@
 ---
 banner:
   enable: true
-  bg_image_webp: images/backgrounds/wireless-network.webp
-  bg_image: images/backgrounds/wireless network.jpg
+  bg_image_webp: images/backgrounds/Ekahau-Connect-Product-Image.webp
+  bg_image: images/backgrounds/Ekahau-Connect-Product-Image.jpg
   icon: ''
-  title: Разбери повече за нашите услуги
+  title: Нека да инспектираме твоята Wi-Fi мрежа
   content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi.
     At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!
   button:
