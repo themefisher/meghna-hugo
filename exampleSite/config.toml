@@ -100,7 +100,7 @@ google_analytics_id = ""
 logo = "images/logo.png"
 post_share = true
 [params.cookies]
-enable = false
+enable = true
 expire_days = 2
 [params.map]
 enable = false
