@@ -56,8 +56,8 @@ url = "https://themefisher.com/"
 weight = 8
 [Languages.fr]
 contentDir = "content/bulgarian"
-copyright = "Copyright &copy; 2022 wifi-surveys.eu"
-home = "Accueil"
+copyright = "Всички права запазени &copy; 2022 wifi-surveys.eu"
+home = "Начало"
 languageCode = "bg-bg"
 languageName = "Bg"
 weight = 2
@@ -137,7 +137,7 @@ enable = false
 preloader = "images/logo.png"
 [[params.social]]
 icon = "ti-facebook"
-link = "#"
+link = "https://www.facebook.com/WiFi-Surveyseu-105280132434022"
 [[params.social]]
 icon = "ti-twitter-alt"
 link = "#"
