@@ -1,12 +1,13 @@
-############################### Banner ################################
+---
 banner:
-  enable : true
-  bg_image_webp : "images/backgrounds/hero-area.webp"
-  bg_image : "images/backgrounds/hero-area.jpg"
-  icon : "" # themify icon pack : https://themify.me/themify-icons
-  title : "Experience the new reality"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
+  enable: true
+  bg_image_webp: images/backgrounds/Ekahau-Connect-Product-Image.webp
+  bg_image: images/backgrounds/Ekahau-Connect-Product-Image.png
+  icon: ''
+  title: Let us assess your Wi-Fi network
+  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi.
+    At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!
   button:
-    enable : true
-    label : "Explore Us"
-    link : "#services"
+    enable: true
+    label: Explore Us
+    link: "#services"

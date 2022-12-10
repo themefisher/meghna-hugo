@@ -1,18 +1,113 @@
-################################# Default configuration ###################
-baseURL = "https://demo.gethugothemes.com/meghna/examplesite/"
-title = "Meghna"
-theme = "meghna-hugo"
-# post pagination
-paginate = "6"
-# post excerpt
-summaryLength = "15"
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
-# disable language
+baseURL = "https://wifi-surveys.eu"
 disableLanguages = []
-
-############################# Plugins ##########################
-# css plugins
+disqusShortname = ""
+paginate = "6"
+summaryLength = "15"
+theme = "meghna-hugo"
+title = "wifi-surveys.eu"
+[Languages.en]
+contentDir = "content/english"
+copyright = "Copyright &copy; 2022 wifi-surveys.eu"
+home = "Home"
+languageCode = "en-us"
+languageName = "En"
+weight = 1
+[[Languages.en.menu.main]]
+name = "services"
+url = "#services"
+weight = "1"
+[[Languages.en.menu.main]]
+name = "blog"
+url = "#blog"
+weight = "2"
+[[Languages.en.menu.main]]
+name = "about"
+url = "#about"
+weight = "3"
+[[Languages.en.menu.main]]
+name = "contact"
+url = "#contact"
+weight = "4"
+[[Languages.en.menu.main]]
+hasChildren = true
+name = "Dropdown"
+weight = 7
+[[Languages.en.menu.main]]
+name = "portfolio"
+url = "#portfolio"
+weight = ""
+[[Languages.en.menu.main]]
+name = "pricing"
+url = "#pricing"
+weight = ""
+[[Languages.en.menu.main]]
+name = "Dropdown 1"
+parent = "Dropdown"
+url = "#"
+weight = 1
+[[Languages.en.menu.main]]
+name = "Dropdown 2"
+parent = "Dropdown"
+url = "#"
+weight = 2
+[[Languages.en.menu.main]]
+name = "themefisher"
+url = "https://themefisher.com/"
+weight = 8
+[Languages.fr]
+contentDir = "content/bulgarian"
+copyright = "Всички права запазени &copy; 2022 wifi-surveys.eu"
+home = "Начало"
+languageCode = "bg-bg"
+languageName = "Bg"
+weight = 2
+[[Languages.fr.menu.main]]
+name = "sur"
+url = "#about"
+weight = 1
+[[Languages.fr.menu.main]]
+name = "un service"
+url = "#services"
+weight = 2
+[[Languages.fr.menu.main]]
+name = "portefeuille"
+url = "#portfolio"
+weight = 3
+[[Languages.fr.menu.main]]
+name = "équipe"
+url = "#team"
+weight = 4
+[[Languages.fr.menu.main]]
+name = "tarification"
+url = "#pricing"
+weight = 5
+[[Languages.fr.menu.main]]
+name = "blog"
+url = "#blog"
+weight = 6
+[[Languages.fr.menu.main]]
+name = "contact"
+url = "#contact"
+weight = 7
+[[Languages.fr.menu.main]]
+name = "themefisher"
+url = "https://themefisher.com/"
+weight = 8
+[params]
+author = "Themefisher"
+description = "Responsive Multipurpose Parallax Hugo Template"
+google_analytics_id = ""
+logo = "images/logo.png"
+post_share = true
+[params.cookies]
+enable = true
+expire_days = 2
+[params.map]
+enable = false
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -23,8 +118,6 @@ link = "plugins/magnific-popup/magnific-popup.css"
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
-
-# js plugins
 [[params.plugins.js]]
 link = "plugins/jquery/jquery.min.js"
 [[params.plugins.js]]
@@ -39,177 +132,18 @@ link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
-
-################### English Navigation ########################
-[[Languages.en.menu.main]]
-name = "about"
-url = "#about"
-weight = 1
-
-[[Languages.en.menu.main]]
-name = "services"
-url = "#services"
-weight = 2
-
-[[Languages.en.menu.main]]
-name = "portfolio"
-url = "#portfolio"
-weight = 3
-
-[[Languages.en.menu.main]]
-name = "team"
-url = "#team"
-weight = 4
-
-[[Languages.en.menu.main]]
-name = "pricing"
-url = "#pricing"
-weight = 5
-
-[[Languages.en.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
-
-[[Languages.en.menu.main]]
-name = "contact"
-url = "#contact"
-weight = 7
-
-
-[[Languages.en.menu.main]]
-name = "Dropdown"
-weight = 7
-hasChildren = true
-
-[[Languages.en.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 1"
-url = "#"
-weight = 1
-
-[[Languages.en.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 2"
-url = "#"
-weight = 2
-
-[[Languages.en.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
-
-
-################### French Navigation ########################
-[[Languages.fr.menu.main]]
-name = "sur"
-url = "#about"
-weight = 1
-
-[[Languages.fr.menu.main]]
-name = "un service"
-url = "#services"
-weight = 2
-
-[[Languages.fr.menu.main]]
-name = "portefeuille"
-url = "#portfolio"
-weight = 3
-
-[[Languages.fr.menu.main]]
-name = "équipe"
-url = "#team"
-weight = 4
-
-[[Languages.fr.menu.main]]
-name = "tarification"
-url = "#pricing"
-weight = 5
-
-[[Languages.fr.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
-
-[[Languages.fr.menu.main]]
-name = "contact"
-url = "#contact"
-weight = 7
-
-[[Languages.fr.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
-
-############################# Default Parameters ##########################
-[params]
-logo = "images/logo.png"
-# Meta data
-description = "Responsive Multipurpose Parallax Hugo Template"
-author = "Themefisher"
-# Google Analytics
-google_analytics_id = "" # Your ID
-# post share
-post_share = true
-
-# preloader
 [params.preloader]
 enable = false
 preloader = "images/logo.png"
-
-# cookies
-[params.cookies]
-enable = false
-expire_days = 2
-
-# google map
-[params.map]
-enable = false
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
-
-############################# social icons ##########################
 [[params.social]]
-icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
+icon = "ti-facebook"
+link = "https://www.facebook.com/WiFi-Surveyseu-105280132434022"
 [[params.social]]
-icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-twitter-alt"
 link = "#"
-
 [[params.social]]
-icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-youtube"
 link = "#"
-
 [[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+icon = "ti-linkedin"
 link = "#"
-
-[[params.social]]
-icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-
-################################ English Language ########################
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
-weight = 1
-home = "Home"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
-
-################################ France Language ########################
-[Languages.fr]
-languageName = "Fr"
-languageCode = "fr-fr"
-contentDir = "content/french"
-weight = 2
-home = "Accueil"
-copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
