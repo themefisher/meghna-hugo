@@ -1,3 +1,4 @@
+---
 - id: blogTitle
   translation: Dernier message
 - id: readMore
@@ -13,9 +14,9 @@
 - id: all
   translation: All
 - id: about
-  translation: À propos
+  translation: За нас
 - id: services
-  translation: Services
+  translation: Услуги
 - id: portfolio
   translation: Portfolio
 - id: team
@@ -23,8 +24,8 @@
 - id: pricing
   translation: Tarification
 - id: blog
-  translation: Blog
+  translation: Блог
 - id: contact
-  translation: Contact
+  translation: Контакти
 - id: themefisher
   translation: Themefisher
