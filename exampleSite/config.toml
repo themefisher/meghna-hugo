@@ -27,7 +27,7 @@ weight = "3"
 [[Languages.en.menu.main]]
 name = "contact"
 url = "#contact"
-weight = 7
+weight = "4"
 [[Languages.en.menu.main]]
 hasChildren = true
 name = "Dropdown"
