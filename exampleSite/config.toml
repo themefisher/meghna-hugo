@@ -13,29 +13,17 @@ languageCode = "en-us"
 languageName = "En"
 weight = 1
 [[Languages.en.menu.main]]
-name = "about"
-url = "#about"
-weight = 1
-[[Languages.en.menu.main]]
 name = "services"
 url = "#services"
 weight = 2
 [[Languages.en.menu.main]]
-name = "portfolio"
-url = "#portfolio"
-weight = 3
-[[Languages.en.menu.main]]
-name = "team"
-url = "#team"
-weight = 4
-[[Languages.en.menu.main]]
-name = "pricing"
-url = "#pricing"
-weight = 5
-[[Languages.en.menu.main]]
 name = "blog"
 url = "#blog"
 weight = 6
+[[Languages.en.menu.main]]
+name = "about"
+url = "#about"
+weight = 1
 [[Languages.en.menu.main]]
 name = "contact"
 url = "#contact"
@@ -44,6 +32,14 @@ weight = 7
 hasChildren = true
 name = "Dropdown"
 weight = 7
+[[Languages.en.menu.main]]
+name = "portfolio"
+url = "#portfolio"
+weight = 3
+[[Languages.en.menu.main]]
+name = "pricing"
+url = "#pricing"
+weight = 5
 [[Languages.en.menu.main]]
 name = "Dropdown 1"
 parent = "Dropdown"
@@ -139,6 +135,9 @@ link = "plugins/google-map/map.js"
 [params.preloader]
 enable = false
 preloader = "images/logo.png"
+[[params.social]]
+icon = ""
+link = ""
 [[params.social]]
 icon = "ti-facebook"
 link = "#"
