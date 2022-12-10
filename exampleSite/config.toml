@@ -137,7 +137,7 @@ enable = false
 preloader = "images/logo.png"
 [[params.social]]
 icon = "ti-facebook"
-link = "#https://www.facebook.com/WiFi-Surveyseu-105280132434022"
+link = "https://www.facebook.com/WiFi-Surveyseu-105280132434022"
 [[params.social]]
 icon = "ti-twitter-alt"
 link = "#"
