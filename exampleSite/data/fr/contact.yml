@@ -8,11 +8,9 @@ contact:
     dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
   contact_list:
   - icon: ti-location-pin
-    info: Khaja Road, Bayzid, Chittagong, Bangladesh
+    info: България, София
   - icon: ti-mobile
-    info: 'Phone: +880-31-000-000'
-  - icon: ti-printer
-    info: 'Fax: +880-31-000-000'
+    info: 'Тел. номер: +359889798313'
   - icon: ti-email
     info: 'Email: hello@meghna.com'
   contact_form:
