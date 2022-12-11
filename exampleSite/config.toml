@@ -88,7 +88,7 @@ weight = "6"
 [[Languages.fr.menu.main]]
 name = "tarification"
 url = "#pricing"
-weight = 5
+weight = "7"
 [[Languages.fr.menu.main]]
 name = "themefisher"
 url = "https://themefisher.com/"
