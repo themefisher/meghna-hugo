@@ -131,11 +131,5 @@ preloader = "images/logo.png"
 icon = "ti-facebook"
 link = "https://www.facebook.com/WiFi-Surveyseu-105280132434022"
 [[params.social]]
-icon = "ti-twitter-alt"
-link = "#"
-[[params.social]]
-icon = "ti-youtube"
-link = "#"
-[[params.social]]
 icon = "ti-linkedin"
 link = "https://www.linkedin.com/company/wifi-surveys-eu"
