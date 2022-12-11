@@ -12,10 +12,11 @@ contact:
   - icon: ti-mobile
     info: 'Тел. номер: +359889798313'
   - icon: ti-email
-    info: 'Email: hello@meghna.com'
+    info: 'Имейл адрес: wifisurveyseu@gmail.com'
   contact_form:
     enable: true
-    form_action: "#"
+    form_action : "https://formspree.io/f/xpznvbjl"
+    method : "POST"
     name: Име
     email: Имейл адрес
     subject: Тема
