@@ -62,6 +62,10 @@ languageCode = "bg-bg"
 languageName = "Bg"
 weight = 2
 [[Languages.fr.menu.main]]
+name = "Блог"
+url = "#blog"
+weight = "2"
+[[Languages.fr.menu.main]]
 name = "Услуги"
 url = "#services"
 weight = "1"
@@ -82,13 +86,9 @@ name = "tarification"
 url = "#pricing"
 weight = 5
 [[Languages.fr.menu.main]]
-name = "Блог"
-url = "#blog"
-weight = "2"
-[[Languages.fr.menu.main]]
-name = "contact"
+name = "Контакти"
 url = "#contact"
-weight = 7
+weight = "4"
 [[Languages.fr.menu.main]]
 name = "themefisher"
 url = "https://themefisher.com/"
