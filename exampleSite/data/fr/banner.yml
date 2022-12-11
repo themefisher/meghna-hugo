@@ -5,9 +5,8 @@ banner:
   bg_image: images/backgrounds/Ekahau-Connect-Product-Image.jpg
   icon: ''
   title: Let us assess your Wi-Fi network
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi.
-    At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!
+  content: ''
   button:
     enable: true
-    label: към информацията
+    label: Explore Us
     link: "#services"
