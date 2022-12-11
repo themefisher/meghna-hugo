@@ -62,13 +62,13 @@ languageCode = "bg-bg"
 languageName = "Bg"
 weight = 2
 [[Languages.fr.menu.main]]
-name = "За нас "
-url = "#about"
-weight = 1
-[[Languages.fr.menu.main]]
 name = "Услуги"
 url = "#services"
 weight = 2
+[[Languages.fr.menu.main]]
+name = "За нас "
+url = "#about"
+weight = 1
 [[Languages.fr.menu.main]]
 name = "portefeuille"
 url = "#portfolio"
@@ -82,7 +82,7 @@ name = "tarification"
 url = "#pricing"
 weight = 5
 [[Languages.fr.menu.main]]
-name = "blog"
+name = "Блог"
 url = "#blog"
 weight = 6
 [[Languages.fr.menu.main]]
