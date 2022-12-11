@@ -84,7 +84,7 @@ weight = "5"
 [[Languages.fr.menu.main]]
 name = "équipe"
 url = "#team"
-weight = 4
+weight = "6"
 [[Languages.fr.menu.main]]
 name = "tarification"
 url = "#pricing"
