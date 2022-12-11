@@ -86,7 +86,7 @@ name = "tarification"
 url = "#pricing"
 weight = "7"
 [params]
-author = "Themefisher"
+author = "Angel Gramatikov"
 description = "Responsive Multipurpose Parallax Hugo Template"
 google_analytics_id = ""
 logo = "images/logo.png"
