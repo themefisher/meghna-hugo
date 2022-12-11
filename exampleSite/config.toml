@@ -89,10 +89,6 @@ weight = "6"
 name = "tarification"
 url = "#pricing"
 weight = "7"
-[[Languages.fr.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
 [params]
 author = "Themefisher"
 description = "Responsive Multipurpose Parallax Hugo Template"
