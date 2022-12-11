@@ -62,7 +62,7 @@ languageCode = "bg-bg"
 languageName = "Bg"
 weight = 2
 [[Languages.fr.menu.main]]
-name = "sur"
+name = "За нас "
 url = "#about"
 weight = 1
 [[Languages.fr.menu.main]]
