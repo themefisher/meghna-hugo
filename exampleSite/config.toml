@@ -50,10 +50,6 @@ name = "Dropdown 2"
 parent = "Dropdown"
 url = "#"
 weight = 2
-[[Languages.en.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
 [Languages.fr]
 contentDir = "content/bulgarian"
 copyright = "Всички права запазени &copy; 2022 wifi-surveys.eu"
