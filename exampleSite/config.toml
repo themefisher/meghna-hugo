@@ -7,7 +7,7 @@ theme = "meghna-hugo"
 title = "wifi-surveys.eu"
 [Languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2022 wifi-surveys.eu"
+copyright = "copyright &copy; 2022 wifi-surveys.eu"
 home = "Home"
 languageCode = "en-us"
 languageName = "En"
