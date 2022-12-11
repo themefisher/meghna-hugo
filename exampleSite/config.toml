@@ -72,7 +72,11 @@ weight = "1"
 [[Languages.fr.menu.main]]
 name = "За нас "
 url = "#about"
-weight = 1
+weight = "3"
+[[Languages.fr.menu.main]]
+name = "Контакти"
+url = "#contact"
+weight = "4"
 [[Languages.fr.menu.main]]
 name = "portefeuille"
 url = "#portfolio"
@@ -85,10 +89,6 @@ weight = 4
 name = "tarification"
 url = "#pricing"
 weight = 5
-[[Languages.fr.menu.main]]
-name = "Контакти"
-url = "#contact"
-weight = "4"
 [[Languages.fr.menu.main]]
 name = "themefisher"
 url = "https://themefisher.com/"
