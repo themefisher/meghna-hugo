@@ -80,7 +80,7 @@ weight = "4"
 [[Languages.fr.menu.main]]
 name = "portefeuille"
 url = "#portfolio"
-weight = 3
+weight = "5"
 [[Languages.fr.menu.main]]
 name = "équipe"
 url = "#team"
