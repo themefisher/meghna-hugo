@@ -64,7 +64,7 @@ weight = 2
 [[Languages.fr.menu.main]]
 name = "Услуги"
 url = "#services"
-weight = 2
+weight = "1"
 [[Languages.fr.menu.main]]
 name = "За нас "
 url = "#about"
