@@ -129,7 +129,7 @@ enable = false
 preloader = "images/logo.png"
 [[params.social]]
 icon = "ti-facebook"
-link = "https://www.facebook.com/WiFi-Surveyseu-105280132434022"
+link = <a href="https://www.facebook.com/WiFi-Surveyseu-105280132434022">https://www.facebook.com/WiFi-Surveyseu-105280132434022</a>
 [[params.social]]
 icon = "ti-linkedin"
 link = "https://www.linkedin.com/company/wifi-surveys-eu"
