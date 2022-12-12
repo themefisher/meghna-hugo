@@ -7,8 +7,7 @@ team:
     image_webp: images/team/ECSE.webp
     image: images/team/ECSE.png
     designation: CEO/Founder
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
-      ullam, culpa odio.
+    content: ''
     social: []
   - name: Cisco CCNP Enterprise
     image_webp: images/team/CCNP.webp
@@ -36,10 +35,7 @@ team:
     designation: Implementing Cisco Enterprise Wireless Networks
     content: The Implementing Cisco Enterprise Wireless Networks (ENWLSI) course gives
       you the knowledge and skills needed to create a secure wireless network infrastructure
-      and troubleshoot any related issues. You’ll learn how to implement and fortify
-      a wireless network infrastructure using Cisco Identity Service Engine (ISE),
-      Cisco Prime Infrastructure (PI), and Cisco Connect Mobile Experience to monitor
-      and troubleshoot network issues.
+      and troubleshoot any related issues.
     social:
     - icon: ti-link
       link: https://www.cisco.com/c/en/us/training-events/training-certifications/training/training-services/courses/implementing-cisco-enterprise-wireless-networks-enwlsi.html
