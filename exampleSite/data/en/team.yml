@@ -10,9 +10,9 @@ team:
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
     social: []
-  - name: Cisco CCNP Enterprise
-    image_webp: images/team/CCNP.webp
-    image: images/team/CCNP.jpg
+  - name: Cisco ENCOR
+    image_webp: images/team/Specialist.webp
+    image: images/team/Specialist.jpg
     designation: Manager
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
