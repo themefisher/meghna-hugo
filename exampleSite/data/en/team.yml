@@ -42,4 +42,4 @@ team:
       and troubleshoot network issues.
     social:
     - icon: ti-link
-      link: "#https://www.cisco.com/c/en/us/training-events/training-certifications/training/training-services/courses/implementing-cisco-enterprise-wireless-networks-enwlsi.html"
+      link: https://www.cisco.com/c/en/us/training-events/training-certifications/training/training-services/courses/implementing-cisco-enterprise-wireless-networks-enwlsi.html
