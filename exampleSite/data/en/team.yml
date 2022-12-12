@@ -3,16 +3,16 @@ team:
   enable: true
   title: Our Certifications
   team_member:
-  - name: Cisco CCNP Enterprise
+  - name: ''
     image_webp: images/team/CCNP.webp
     image: images/team/CCNP.png
     designation: CEO/Founder
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
     social: []
-  - name: Cisco ENCOR
-    image_webp: images/team/Specialist.webp
-    image: images/team/Specialist.jpg
+  - name: Cisco CCNP Enterprise
+    image_webp: images/team/CCNP.webp
+    image: images/team/CCNP.jpg
     designation: Manager
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
