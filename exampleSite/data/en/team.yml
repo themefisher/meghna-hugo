@@ -12,7 +12,7 @@ team:
     social: []
   - name: Cisco CCNP Enterprise
     image_webp: images/team/CCNP.webp
-    image: images/team/CCNP.png
+    image: images/team/CCNP.jpg
     designation: Manager
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
