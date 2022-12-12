@@ -1001,7 +1001,8 @@ a:hover {
 }
 
 .skill-bar p span {
-  font-style: bold;
+  font-style: normal;
+  font-weight: bold;
   font-size: 23px;
   color: rgba(187, 187, 187, 0.34);
   display: inline-block;
