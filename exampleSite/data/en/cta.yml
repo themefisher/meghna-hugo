@@ -1,8 +1,8 @@
 ---
 cta:
   enable: true
-  bg_image: images/backgrounds/cta.jpg
-  bg_image_webp: images/backgrounds/cta.webp
+  bg_image: ''
+  bg_image_webp: ''
   title: Great Design & Incredible Features
   content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur
     odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum.
