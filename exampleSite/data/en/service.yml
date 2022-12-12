@@ -3,10 +3,10 @@ service:
   enable: true
   title: Our Services
 
-  Ekahau Connect is a suite of Wi-Fi tools that enable you and your team to design, optimize and troubleshoot any Wi-Fi network faster and easier than ever before. It allows seamless collaboration between IT personnel, who are charged with keeping Wi-Fi running smoothly, and the Wi-Fi expert, who is often overloaded with managing multiple projects and sites. 
-
-
-
+service_item:
+name: Tools we use
+icon: ti-link
+content: Ekahau Connect is a suite of Wi-Fi tools that enable you and your team to design, optimize and troubleshoot any Wi-Fi network faster and easier than ever before. It allows seamless collaboration between IT personnel, who are charged with keeping Wi-Fi running smoothly, and the Wi-Fi expert, who is often overloaded with managing multiple projects and sites. 
 Ekahau Pro™ Site Survey Tool | The Industry standard tool for designing, analyzing, optimizing and troubleshooting Wi-Fi Networks. It combines professional grade features with unprecedented ease of use and features a new, ultra-fast user interface which works on macOS and Windows. Ekahau Pro site survey supports all Wi-Fi access points, thousands of antennas and every Wi-Fi standard including 802.11ax (Wi-Fi 6).
 
 Ekahau Sidekick® | Ekahau Sidekick is a professional Wi-Fi device that provides highly accurate and standardized Wi-Fi surveys — by using two Wi-Fi radios and a spectrum analyzer to achieve expert-level Wi-Fi site surveys and troubleshooting across your network. The only professional measurement device for Wi-Fi site surveys and spectrum analysis. Ekahau Sidekick sets the industry benchmark for advanced precision with 2.4 and 5 GHz Wi-Fi spectrum combined with automated interference source detection.
