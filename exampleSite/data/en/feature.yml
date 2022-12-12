@@ -1,8 +1,8 @@
 ---
 feature:
   enable: true
-  image: images/about/Ekahau Sidekick.jpg
-  image_webp: images/about/Ekahau-Sidekick.webp
+  image: images/about/ekahau.jpg
+  image_webp: images/about/ekahau.webp
   title: Let us Assess your Wi-Fi
   content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora
     itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.
