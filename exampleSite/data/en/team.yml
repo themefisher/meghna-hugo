@@ -32,9 +32,7 @@ team:
     image_webp: images/team/Specialist.webp
     image: images/team/Specialist.jpg
     designation: Implementing Cisco Enterprise Wireless Networks
-    content: The Implementing Cisco Enterprise Wireless Networks (ENWLSI) course gives
-      you the knowledge and skills needed to create a secure wireless network infrastructure
-      and troubleshoot any related issues.
+    content: ''
     social:
     - icon: ti-link
       link: https://www.cisco.com/c/en/us/training-events/training-certifications/training/training-services/courses/implementing-cisco-enterprise-wireless-networks-enwlsi.html
