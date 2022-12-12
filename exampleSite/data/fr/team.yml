@@ -20,21 +20,14 @@ team:
     social:
     - icon: ti-link
       link: https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-enterprise.html
-  - name: Michael Jonson
-    image_webp: images/team/team-3.webp
-    image: images/team/team-3.jpg
-    designation: Web Developer
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
-      ullam, culpa odio.
+  - name: Cisco ENWLSD
+    image_webp: images/team/Specialist.webp
+    image: images/team/Specialist.jpg
+    designation: The Designing Cisco Enterprise Wireless Networks (ENWLSD)
+    content: ''
     social:
-    - icon: ti-facebook
-      link: "#"
-    - icon: ti-twitter-alt
-      link: "#"
-    - icon: ti-linkedin
-      link: "#"
-    - icon: ti-dribbble
-      link: "#"
+    - icon: ti-link
+      link: https://www.cisco.com/c/en/us/training-events/training-certifications/training/training-services/courses/designing-cisco-enterprise-wireless-networks-enwlsd.html
   - name: Mo. Kha. Alamgir
     image_webp: images/team/team-4.webp
     image: images/team/team-4.jpg
