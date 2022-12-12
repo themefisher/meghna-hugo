@@ -1,7 +1,7 @@
 ---
 banner:
   enable: true
-  bg_image_webp: ''
+  bg_image_webp: images/backgrounds/main-background-1.webp
   bg_image: images/backgrounds/main-background-1.png
   icon: ''
   title: Let us assess your Wi-Fi network
