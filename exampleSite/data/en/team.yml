@@ -22,9 +22,11 @@ team:
   - name: Cisco ENWLSD
     image_webp: images/team/Specialist.webp
     image: images/team/Specialist.jpg
-    designation: Web Developer
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
-      ullam, culpa odio.
+    designation: The Designing Cisco Enterprise Wireless Networks (ENWLSD)
+    content: The Designing Cisco Enterprise Wireless Networks (ENWLSD) course gives
+      you the knowledge you need to design Cisco® wireless networks. The course covers
+      design specifics from scenario design concepts through the installation phase
+      and into post-deployment validation.
     social:
     - icon: ti-link
       link: https://www.cisco.com/c/en/us/training-events/training-certifications/training/training-services/courses/designing-cisco-enterprise-wireless-networks-enwlsd.html
