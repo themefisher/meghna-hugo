@@ -4,8 +4,8 @@ banner:
   bg_image_webp: images/backgrounds/main-background.webp
   bg_image: images/backgrounds/main-background.png
   icon: ''
-  title: Professional Wireless Planner & Site Survey
-  content: Good Design, Best Wi-Fi
+  title: Professional Wi-Fi Planner & Site Survey
+  content: ''
   button:
     enable: true
     label: Explore Us
