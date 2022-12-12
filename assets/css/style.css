@@ -644,7 +644,7 @@ a:hover {
 
 .call-to-action h2 {
   font-weight: 700;
-  color: #444;
+  color: rgb(255, 255, 255);
 }
 
 .call-to-action p {
