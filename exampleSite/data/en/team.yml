@@ -55,9 +55,3 @@ team:
       link: "#"
     - icon: ti-dribbble
       link: "#"
-  - name: Ekahau ECSE
-    image: images/team/ECSE.jpg
-    designation: ''
-    content: ''
-    social: ''
-    image_webp: images/team/ECSE.webp
