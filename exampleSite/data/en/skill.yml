@@ -22,13 +22,19 @@ skill:
     with automated interference source detection."
   image: images/about/ekahau-connect.webp
   skill_item:
+  - name: Passive & Active Site Surveys
+    percent: 100%
+  - name: Capacity Planning & Analysis
+    percent: 100%
   - name: 3D Wi-Fi Planning
-    percent: 90%
-  - name: Analysis
-    percent: 70%
-  - name: Design
-    percent: 80%
-  - name: IOS Development
-    percent: 95%
-  - name: Android Development
-    percent: 75%
+    percent: 100%
+  - name: Survey & Troubleshooting Services
+    percent: 100%
+  - name: On the Spot Troubleshooting
+    percent: 100%
+  - name: Spectrum Analyzer
+    percent: 100%
+  - name: Checking non Wi-Fi Noise Frequencies
+    percent: 100%
+  - name: Fully Customised Report
+    percent: 100%
