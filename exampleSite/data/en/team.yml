@@ -17,8 +17,8 @@ team:
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
     social:
-    - icon: ti-facebook
-      link: "#"
+    - icon: ti-link
+      link: https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-enterprise.html
     - icon: ti-twitter-alt
       link: "#"
     - icon: ti-linkedin
