@@ -11,8 +11,8 @@ team:
       ullam, culpa odio.
     social: []
   - name: Cisco CCNP Enterprise
-    image_webp: images/team/Cisco-Specialist-webp.webp
-    image: images/team/Cisco-Specialist.png
+    image_webp: images/team/CCNP.webp
+    image: images/team/CCNP.png
     designation: Manager
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
