@@ -7,6 +7,9 @@ feature:
   content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora
     itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.
   feature_item:
+  - title: TEST
+    icon: ti-link
+    content: asdasdadsfadf
   - title: SEO Optimized
     icon: ti-world
     content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
