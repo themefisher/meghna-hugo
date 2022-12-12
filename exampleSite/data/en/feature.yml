@@ -3,9 +3,14 @@ feature:
   enable: true
   image: images/about/ekahau.jpg
   image_webp: images/about/ekahau.webp
-  title: Let us Assess your Wi-Fi
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora
-    itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.
+  title: Design, Optimize and Troubleshoot Wi-Fi Networks
+  content: "Reduce IT Cost and Complexity - Our software and hardware solutions design
+    and manage superior wireless networks by minimizing network deployment time and
+    ensuring sufficient wireless coverage across all industries, project sizes, building
+    infrastructures and levels of complexity. \n\nWe are recognized for delivering
+    the easiest-to-use, most reliable solutions for Wi-Fi planning, site surveys,
+    troubleshooting and optimization. Whether a corporate office, hotel, hospital
+    or university."
   feature_item:
   - title: TEST
     icon: ti-link
