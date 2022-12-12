@@ -1,8 +1,8 @@
 ---
 feature:
   enable: true
-  image: images/backgrounds/test.jpg
-  image_webp: images/backgrounds/test.webp
+  image: images/backgrounds/main.jpg
+  image_webp: images/backgrounds/main.webp
   title: Design, Optimize and Troubleshoot Wi-Fi Networks
   content: "Reduce IT Cost and Complexity - Our software and hardware solutions design
     and manage superior wireless networks by minimizing network deployment time and
