@@ -3,18 +3,14 @@ team:
   enable: true
   title: Our Certifications
   team_member:
-  - name: Ekahau ECSE
+  - name: Ekahau ECSE Design
     image_webp: images/team/ECSE.webp
     image: images/team/ECSE.png
-    designation: CEO/Founder
-    content: |-
-      RF fundamentals
-      Predictive designs
-      Capturing and analyzing survey data
-      Spectrum analysis
-      Design across all three bands, 6 GHz included
-      And much more!
-    social: []
+    designation: ''
+    content: ''
+    social:
+    - icon: ti-link
+      link: https://www.ekahau.com/training/ecse-design/
   - name: Cisco CCNP Enterprise (ENCOR)
     image_webp: images/team/CCNP.webp
     image: images/team/CCNP.jpg
