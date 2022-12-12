@@ -1,8 +1,8 @@
 ---
 banner:
   enable: true
-  bg_image_webp: images/backgrounds/Ekahau-Connect-Product-Image.webp
-  bg_image: images/backgrounds/Ekahau-Connect-Product-Image.png
+  bg_image_webp: images/backgrounds/cta.webp
+  bg_image: images/backgrounds/cta.png
   icon: ''
   title: Professional Wireless Planner & Site Survey
   content: Good Design, Best Wi-Fi
