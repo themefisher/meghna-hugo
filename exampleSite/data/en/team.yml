@@ -9,12 +9,15 @@ team:
     designation: CEO/Founder
     content: ''
     social: []
-  - name: Cisco CCNP Enterprise
+  - name: Cisco CCNP Enterprise (ENCOR)
     image_webp: images/team/CCNP.webp
     image: images/team/CCNP.jpg
-    designation: Manager
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
-      ullam, culpa odio.
+    designation: Implementing and Operating Cisco Enterprise Network Core Technologies
+      (ENCOR)
+    content: |-
+      The CCNP Enterprise certification program prepares you for today’s professional-level job roles in
+      networking technologies. One of the industry’s most respected certifications, CCNP validates the core
+      knowledge you need while providing the flexibility to choose a focus area.
     social:
     - icon: ti-link
       link: https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-enterprise.html
