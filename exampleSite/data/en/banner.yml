@@ -5,7 +5,7 @@ banner:
   bg_image: images/backgrounds/main-background.png
   icon: ''
   title: Professional Wi-Fi Planner & Site Survey
-  content: Good Design, Best Wi-Fi
+  content: ''
   button:
     enable: true
     label: Explore Us
