@@ -3,10 +3,10 @@ team:
   enable: true
   title: Our Certifications
   team_member:
-  - name: Ekahau ECSE Design
+  - name: ECSE
     image_webp: images/team/ECSE.webp
     image: images/team/ECSE.png
-    designation: ''
+    designation: Ekahau ECSE Design
     content: ''
     social:
     - icon: ti-link
