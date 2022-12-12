@@ -4,8 +4,8 @@ team:
   title: Our Certifications
   team_member:
   - name: Cisco CCNA
-    image_webp: images/team/ccna-webp.webp
-    image: images/team/ccna.png
+    image_webp: images/team/Cisco-CCNA-webp.webp
+    image: images/team/Cisco-CCNA.png
     designation: CEO/Founder
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
