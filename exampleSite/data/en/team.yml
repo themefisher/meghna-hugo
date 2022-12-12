@@ -3,61 +3,36 @@ team:
   enable: true
   title: Our Certifications
   team_member:
-  - name: Cisco CCNP Enterprise
-    image_webp: images/team/CCNP.webp
-    image: images/team/CCNP.png
-    designation: CEO/Founder
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
-      ullam, culpa odio.
-    social: []
-  - name: Cisco ENCOR
-    image_webp: images/team/Specialist.webp
-    image: images/team/Specialist.jpg
-    designation: Manager
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
-      ullam, culpa odio.
+  - name: ECSE
+    image_webp: images/team/ECSE.webp
+    image: images/team/ECSE.png
+    designation: Ekahau ECSE Design
+    content: ''
     social:
-    - icon: ti-facebook
-      link: "#"
-    - icon: ti-twitter-alt
-      link: "#"
-    - icon: ti-linkedin
-      link: "#"
-    - icon: ti-dribbble
-      link: "#"
+    - icon: ti-link
+      link: https://www.ekahau.com/training/ecse-design/
+  - name: Cisco CCNP Enterprise (ENCOR)
+    image_webp: images/team/CCNP.webp
+    image: images/team/CCNP.jpg
+    designation: Implementing and Operating Cisco Enterprise Network Core Technologies
+      (ENCOR)
+    content: ''
+    social:
+    - icon: ti-link
+      link: https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-enterprise.html
   - name: Cisco ENWLSD
     image_webp: images/team/Specialist.webp
     image: images/team/Specialist.jpg
-    designation: Web Developer
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
-      ullam, culpa odio.
+    designation: The Designing Cisco Enterprise Wireless Networks (ENWLSD)
+    content: ''
     social:
-    - icon: ti-facebook
-      link: "#"
-    - icon: ti-twitter-alt
-      link: "#"
-    - icon: ti-linkedin
-      link: "#"
-    - icon: ti-dribbble
-      link: "#"
+    - icon: ti-link
+      link: https://www.cisco.com/c/en/us/training-events/training-certifications/training/training-services/courses/designing-cisco-enterprise-wireless-networks-enwlsd.html
   - name: Cisco ENWLSI
     image_webp: images/team/Specialist.webp
     image: images/team/Specialist.jpg
-    designation: SEO Specialist
-    content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
-      ullam, culpa odio.
-    social:
-    - icon: ti-facebook
-      link: "#"
-    - icon: ti-twitter-alt
-      link: "#"
-    - icon: ti-linkedin
-      link: "#"
-    - icon: ti-dribbble
-      link: "#"
-  - name: Ekahau ECSE
-    image: images/team/ECSE.jpg
-    designation: ''
+    designation: Implementing Cisco Enterprise Wireless Networks
     content: ''
-    social: ''
-    image_webp: images/team/ECSE.webp
+    social:
+    - icon: ti-link
+      link: https://www.cisco.com/c/en/us/training-events/training-certifications/training/training-services/courses/implementing-cisco-enterprise-wireless-networks-enwlsi.html
