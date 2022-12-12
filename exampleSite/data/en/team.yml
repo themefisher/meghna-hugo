@@ -25,9 +25,9 @@ team:
       link: "#"
     - icon: ti-dribbble
       link: "#"
-  - name: Michael Jonson
-    image_webp: images/team/team-3.webp
-    image: images/team/team-3.jpg
+  - name: Cisco ENCOR
+    image_webp: images/team/Specialist.webp
+    image: images/team/Specialist.jpg
     designation: Web Developer
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus
       ullam, culpa odio.
