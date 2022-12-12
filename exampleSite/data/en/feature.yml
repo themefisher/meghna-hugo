@@ -1,8 +1,8 @@
 ---
 feature:
   enable: true
-  image: images/backgrounds/ekahau-pc.jpg
-  image_webp: images/backgrounds/ekahau-pc.webp
+  image: images/backgrounds/ekahau.png
+  image_webp: images/backgrounds/ekahau.webp
   title: Design, Optimize and Troubleshoot Wi-Fi Networks
   content: "Reduce IT Cost and Complexity - Our software and hardware solutions design
     and manage superior wireless networks by minimizing network deployment time and
