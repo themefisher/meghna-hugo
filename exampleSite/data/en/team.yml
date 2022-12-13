@@ -10,7 +10,7 @@ team:
     content: ''
     social:
     - icon: ti-link
-      link: "https://www.ekahau.com/training/ecse-design/"
+      link: https://www.ekahau.com/training/ecse-design
   - name: Cisco CCNP Enterprise (ENCOR)
     image_webp: images/team/CCNP.webp
     image: images/team/CCNP.jpg
@@ -36,4 +36,3 @@ team:
     social:
     - icon: ti-link
       link: https://www.cisco.com/c/en/us/training-events/training-certifications/training/training-services/courses/implementing-cisco-enterprise-wireless-networks-enwlsi.html
-
