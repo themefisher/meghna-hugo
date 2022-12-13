@@ -1539,7 +1539,7 @@ input#e-mail,
 }
 
 .social-icon ul li a i {
-  color: #55606a;
+  color: #747e87;
   display: inline-block;
   font-size: 32px;
   line-height: 70px;
@@ -2250,7 +2250,7 @@ figcaption {
   text-align: center;
   margin-right: 6px;
   font-weight: 700;
-  color: #55606a;
+  color: #747e87;
 }
 
 .pagination .page-item .page-link:hover {
