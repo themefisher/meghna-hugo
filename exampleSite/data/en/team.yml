@@ -10,7 +10,7 @@ team:
     content: ''
     social:
     - icon: ti-link
-      link: <a href="https://www.ekahau.com/training/ecse-design">Ekahau ECSE Design</a>     
+      link: https://www.ekahau.com/training/ecse-design
   - name: Cisco CCNP Enterprise (ENCOR)
     image_webp: images/team/CCNP.webp
     image: images/team/CCNP.jpg
