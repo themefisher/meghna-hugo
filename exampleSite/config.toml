@@ -135,4 +135,12 @@ icon = "ti-linkedin"
 link = "https://www.linkedin.com/company/wifi-surveys-eu"
 [blackfriday]
   hrefTargetBlank = true
+
 enableRobotsTXT = true  
+
+[outputs]
+    home                   = [ "HTML", "ATOM", "JSON", "FEED", "MANIFEST", "SITEMAP", "SEARCH"]
+    section               = [ "HTML", "SITEMAP" ]
+    page                  = [ "HTML" ]
+    taxonomy              = [ "HTML" ]
+    taxonomyTerm          = [ "HTML" ]
