@@ -6,3 +6,6 @@
   HUGO_VERSION = "0.87.0"
   HUGO_THEME = "repo"
   HUGO_BASEURL = "/"
+
+[[plugins]]
+package = "@netlify/plugin-sitemap"
