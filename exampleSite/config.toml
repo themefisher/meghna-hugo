@@ -135,6 +135,3 @@ icon = "ti-linkedin"
 link = "https://www.linkedin.com/company/wifi-surveys-eu"
 [blackfriday]
   hrefTargetBlank = true
-
-enableRobotsTXT = true  
-
