@@ -9,13 +9,13 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 /*=== MEDIA QUERY ===*/
 html {
   background-color: #353b43;
-  color: #737f8a;
+  color: #98a2ab;
 }
 
 body {
   background-color: #353b43;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: #98a2ab;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -865,7 +865,7 @@ a:hover {
   font-size: 16px;
   padding: 6px 20px;
   font-weight: 700;
-  color: #737f8a;
+  color: #98a2ab;
   transition: .3s all;
 }
 
@@ -1497,7 +1497,7 @@ a:hover {
 }
 
 .post-time {
-  color: #737f8a;
+  color: #98a2ab;
 }
 
 input#e-mail,
