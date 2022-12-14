@@ -17,13 +17,13 @@ name = "services"
 url = "#about"
 weight = "1"
 [[Languages.en.menu.main]]
-name = "blog"
-url = "#blog"
-weight = "2"
-[[Languages.en.menu.main]]
 name = "about"
 url = "#about"
 weight = "3"
+[[Languages.en.menu.main]]
+name = "blog"
+url = "#blog"
+weight = "2"
 [[Languages.en.menu.main]]
 name = "contact"
 url = "#contact"
