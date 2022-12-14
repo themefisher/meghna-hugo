@@ -35,7 +35,7 @@ weight = "4"
 [[Languages.en.menu.main]]
 hasChildren = true
 name = "Dropdown"
-weight = 7
+weight = ""
 [[Languages.en.menu.main]]
 name = "about"
 url = "#"
