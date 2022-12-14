@@ -12,8 +12,8 @@ feature:
     troubleshooting and optimization. Whether a corporate office, hotel, hospital
     or university."
   feature_item:
-  - title: Wireless Network Design
-    icon: ti-link
+  - title: Wi-Fi Design and Implementation
+    icon: ti-rss-alt
     content: ''
   - title: SEO Optimized
     icon: ti-world
