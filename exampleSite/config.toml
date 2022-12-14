@@ -17,21 +17,17 @@ name = "services"
 url = "#about"
 weight = "1"
 [[Languages.en.menu.main]]
-name = "about"
-url = "#"
-weight = "3"
-[[Languages.en.menu.main]]
 name = "toolkit"
 url = "#skill"
-weight = "4"
+weight = "2"
 [[Languages.en.menu.main]]
 name = "certfications"
 url = "#team"
-weight = ""
+weight = "3"
 [[Languages.en.menu.main]]
 name = "blog"
 url = "#blog"
-weight = "2"
+weight = "3"
 [[Languages.en.menu.main]]
 name = "contact"
 url = "#contact"
@@ -40,6 +36,10 @@ weight = "4"
 hasChildren = true
 name = "Dropdown"
 weight = 7
+[[Languages.en.menu.main]]
+name = "about"
+url = "#"
+weight = "3"
 [[Languages.en.menu.main]]
 name = "portfolio"
 url = "#portfolio"
