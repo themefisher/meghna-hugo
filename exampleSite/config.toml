@@ -19,7 +19,7 @@ weight = "1"
 [[Languages.en.menu.main]]
 name = "toolkit"
 url = "#skill"
-weight = "2"
+weight = "1"
 [[Languages.en.menu.main]]
 name = "certfications"
 url = "#team"
