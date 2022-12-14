@@ -21,10 +21,11 @@ feature:
     icon: ti-world
     content: "Predictive Modeling\nWall attenuation measurements\n\"AP on a stick\"
       measurement\nWired network integration   "
-  - title: Easy Customization
+  - title: Post Installation Validation
     icon: ti-panel
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
+    content: "RF Site Survey (active / passive / spectrum)\nRF Tuning Channel and
+      Power Plans\nAssociation and Authentication Tests \nRoaming Tests\nSpectrum
+      Analysis  "
   - title: SEO Optimized
     icon: ti-stats-up
     content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
