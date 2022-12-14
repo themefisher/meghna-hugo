@@ -14,7 +14,7 @@ languageName = "En"
 weight = 1
 [[Languages.en.menu.main]]
 name = "certfications"
-url = ""
+url = "#team"
 weight = ""
 [[Languages.en.menu.main]]
 name = "services"
