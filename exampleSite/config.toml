@@ -39,7 +39,7 @@ weight = 7
 [[Languages.en.menu.main]]
 name = "about"
 url = "#"
-weight = "3"
+weight = ""
 [[Languages.en.menu.main]]
 name = "portfolio"
 url = "#portfolio"
