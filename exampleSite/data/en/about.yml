@@ -3,7 +3,7 @@ about:
   enable: true
   title: What we do
   about_item:
-  - icon: ti-ruler-pencil
+  - icon: ti-rss-alt
     title: Wireless Network Design
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil,
       libero, perspiciatis eos provident laborum eum dignissimos.
