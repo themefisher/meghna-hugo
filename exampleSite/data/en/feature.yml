@@ -23,9 +23,9 @@ feature:
       measurement\nWired network integration   "
   - title: Post Installation Validation
     icon: ti-panel
-    content: "RF Site Survey (active / passive / spectrum)\nRF Tuning Channel and
-      Power Plans\nAssociation and Authentication Tests \nRoaming Tests\nSpectrum
-      Analysis  "
+    content: "* RF Site Survey (active / passive / spectrum)\n* RF Tuning Channel
+      and Power Plans\n* Association and Authentication Tests \n* Roaming Tests\n*
+      Spectrum Analysis  "
   - title: SEO Optimized
     icon: ti-stats-up
     content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
