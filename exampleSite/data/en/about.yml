@@ -1,7 +1,7 @@
 ---
 about:
   enable: true
-  title: 'What we do '
+  title: Services
   about_item:
   - icon: ti-rss-alt
     title: Wireless Network Design and Implementation
