@@ -3,11 +3,14 @@ about:
   enable: true
   title: Services
   about_item:
-  - icon: ti-rss-alt
-    title: Design and Implementation
-    content: ''
   - icon: ti-pencil-alt
     title: Predictive Planning
+    content: ''
+  - icon: ti-rss-alt
+    title: Design
+    content: ''
+  - icon: ti-hummer
+    title: Implementation
     content: ''
   - icon: ti-location-pin
     title: Site Surveys
