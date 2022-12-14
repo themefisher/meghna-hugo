@@ -6,7 +6,8 @@ portfolio:
   - name: Ekahau Sidekick
     image: ''
     image_webp: images/portfolio/ekahau2.webp
-    categories: []
+    categories:
+    - corporate
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: ''
   - name: Ekahau AI
