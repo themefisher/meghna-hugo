@@ -136,39 +136,3 @@ link = "https://www.linkedin.com/company/wifi-surveys-eu"
 
 
 enableRobotsTXT = true
-
-
-
-
-
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      definitionList = true
-      footnote = true
-      linkify = true
-      linkifyProtocol = 'https'
-      strikethrough = true
-      table = true
-      taskList = true
-      typographer = true
-    [markup.goldmark.parser]
-      autoHeadingID = true
-      autoHeadingIDType = 'github'
-      wrapStandAloneImageWithinParagraph = true
-      [markup.goldmark.parser.attribute]
-        block = false
-        title = true
-    [markup.goldmark.renderer]
-      hardWraps = false
-      unsafe = false
-      xhtml = false
-
-
-
-
-[markup]
-defaultMarkdownHandler = 'blackFriday'
-[blackFriday]
-hrefTargetBlank = true
