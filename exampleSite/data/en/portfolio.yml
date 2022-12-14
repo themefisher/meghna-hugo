@@ -36,6 +36,6 @@ portfolio:
   - name: Ekahau Cloud
     image: images/portfolio/Ekahau-Cloud.png
     image_webp: images/portfolio/Ekahau-Cloud.webp
-    categories: Ekahau Capture
+    categories: []
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
