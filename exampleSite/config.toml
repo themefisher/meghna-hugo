@@ -125,7 +125,7 @@ link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
 [params.preloader]
-enable = false
+enable = true
 preloader = "images/logo.png"
 [[params.social]]
 icon = "ti-facebook"
@@ -134,3 +134,6 @@ link = "https://www.facebook.com/WiFi-Surveyseu-105280132434022"
 enableRobotsTXT = true
 icon = "ti-linkedin"
 link = "https://www.linkedin.com/company/wifi-surveys-eu"
+[[params.social]]
+icon = "ti-calendar"
+link = "https://calendly.com/sales-wifi-surveys"
