@@ -16,8 +16,8 @@ portfolio:
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: ''
   - name: Ekahau Survey for iPad/iPhone
-    image: images/portfolio/portfolio-3.jpg
-    image_webp: images/portfolio/portfolio-3.webp
+    image: images/portfolio/Ekahau-Site-Survey.png
+    image_webp: images/portfolio/Ekahau-Site-Survey.webp
     categories: Ekahau Connect Suite
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
