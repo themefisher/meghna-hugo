@@ -17,10 +17,10 @@ feature:
     content: "Business Requirements\nBlue Prints / CAD Drawings\nFacility Layouts
       & Construction Materials\nClient Number and Mix\nClient Density Distribution\nCritical
       Applications / Business Process "
-  - title: SEO Optimized
+  - title: Pre - Installation Design
     icon: ti-world
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
+    content: "Predictive Modeling\nWall attenuation measurements\n\"AP on a stick\"
+      measurement\nWired network integration   "
   - title: Easy Customization
     icon: ti-panel
     content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
