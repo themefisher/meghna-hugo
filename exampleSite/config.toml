@@ -126,7 +126,7 @@ link = "plugins/lazy-load/lozad.min.js"
 link = "plugins/google-map/map.js"
 [params.preloader]
 enable = true
-preloader = "images/logo.png"
+preloader = "images/preloader.png"
 [[params.social]]
 icon = "ti-facebook"
 link = "https://www.facebook.com/WiFi-Surveyseu-105280132434022"
