@@ -4,8 +4,8 @@ portfolio:
   title: Toolkit
   portfolio_item:
   - name: Ekahau Sidekick
-    image: images/portfolio/Ekahau-Sidekick.png
-    image_webp: images/portfolio/Ekahau-Sidekick.webp
+    image: ''
+    image_webp: images/portfolio/ekahau2.webp
     categories: []
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: ''
