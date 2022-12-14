@@ -1,6 +1,6 @@
 ---
 pricing:
-  enable: true
+  enable: false
   title: Our Plans
   pricing_table:
   - name: Free
