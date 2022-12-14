@@ -13,10 +13,6 @@ languageCode = "en-us"
 languageName = "En"
 weight = 1
 [[Languages.en.menu.main]]
-name = "certfications"
-url = "#team"
-weight = ""
-[[Languages.en.menu.main]]
 name = "services"
 url = "#about"
 weight = "1"
@@ -28,6 +24,10 @@ weight = "3"
 name = "toolkit"
 url = "#skill"
 weight = "4"
+[[Languages.en.menu.main]]
+name = "certfications"
+url = "#team"
+weight = ""
 [[Languages.en.menu.main]]
 name = "blog"
 url = "#blog"
