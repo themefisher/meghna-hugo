@@ -6,7 +6,7 @@ portfolio:
   - name: Ekahau Sidekick
     image: images/portfolio/portfolio-1.jpg
     image_webp: images/portfolio/portfolio-1.webp
-    categories: []
+    categories: Ekahau Capture
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: ''
   - name: Ekahau AI
@@ -36,6 +36,6 @@ portfolio:
   - name: Ekahau Cloud
     image: images/portfolio/portfolio-6.jpg
     image_webp: images/portfolio/portfolio-6.webp
-    categories: []
+    categories: Ekahau Capture
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
