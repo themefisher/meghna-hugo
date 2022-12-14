@@ -22,8 +22,8 @@ portfolio:
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
   - name: Ekahau Analyzer
-    image: images/portfolio/portfolio-4.jpg
-    image_webp: images/portfolio/portfolio-4.webp
+    image: images/portfolio/Ekahau-Wifi-Analyzer.png
+    image_webp: images/portfolio/Ekahau-Wifi-Analyzer.webp
     categories: Ekahau Connect Suite
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
