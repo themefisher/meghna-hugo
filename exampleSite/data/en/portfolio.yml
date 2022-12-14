@@ -1,68 +1,73 @@
 ---
 portfolio:
   enable: true
-  title: Our Tools
+  title: Toolkit
   portfolio_item:
-  - name: Tag Design
+  - name: Ekahau Sidekick
     image: images/portfolio/portfolio-1.jpg
     image_webp: images/portfolio/portfolio-1.webp
     categories:
-    - Ekahau Connect Suite
+    - design
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
-    link: https://themefisher.com
-  - name: Sound system
+    link: ''
+  - name: Ekahau AI
     image: images/portfolio/portfolio-2.jpg
     image_webp: images/portfolio/portfolio-2.webp
     categories:
     - Ekahau Connect Suite
+    categories: []
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: ''
-  - name: Clock Product
+  - name: Ekahau Survey for iPad/iPhone
     image: images/portfolio/portfolio-3.jpg
     image_webp: images/portfolio/portfolio-3.webp
     categories:
-    - Ekahau Connect Suite
+    - design
+    - development
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
-  - name: Bottol Label
+  - name: Ekahau Analyzer
     image: images/portfolio/portfolio-4.jpg
     image_webp: images/portfolio/portfolio-4.webp
     categories:
-    - Ekahau Connect Suite
+    - photography
+    - development
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
-  - name: Shopping Bag
+  - name: Ekahau Capture
     image: images/portfolio/portfolio-5.jpg
     image_webp: images/portfolio/portfolio-5.webp
     categories:
-    - Ekahau Connect Suite
+    - design
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
-  - name: Tag Design
+  - name: Ekahau Cloud
     image: images/portfolio/portfolio-6.jpg
     image_webp: images/portfolio/portfolio-6.webp
     categories:
-    - Ekahau Connect Suite
+    - photography
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
   - name: Business Card
     image: images/portfolio/portfolio-7.jpg
     image_webp: images/portfolio/portfolio-7.webp
     categories:
-    - Ekahau Connect Suite
+    - development
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
   - name: Stationary Design
     image: images/portfolio/portfolio-8.jpg
     image_webp: images/portfolio/portfolio-8.webp
     categories:
-    - Ekahau Connect Suite
+    - design
+    - development
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
   - name: Tag Design
     image: images/portfolio/portfolio-2.jpg
     image_webp: images/portfolio/portfolio-2.webp
     categories:
-    - Ekahau Connect Suite
+    - design
+    - photography
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
