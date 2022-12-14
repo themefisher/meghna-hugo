@@ -7,7 +7,7 @@ theme = "meghna-hugo"
 title = "wifi-surveys.eu"
 [Languages.en]
 contentDir = "content/english"
-copyright = "copyright &copy; 2022 wifi-surveys.eu"
+copyright = "All rights reserved. &copy; 2022 wifi-surveys.eu"
 home = "Home"
 languageCode = "en-us"
 languageName = "En"
@@ -131,8 +131,6 @@ preloader = "images/logo.png"
 icon = "ti-facebook"
 link = "https://www.facebook.com/WiFi-Surveyseu-105280132434022"
 [[params.social]]
+enableRobotsTXT = true
 icon = "ti-linkedin"
 link = "https://www.linkedin.com/company/wifi-surveys-eu"
-
-
-enableRobotsTXT = true
