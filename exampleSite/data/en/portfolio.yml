@@ -37,6 +37,6 @@ portfolio:
   - name: Ekahau Cloud
     image: images/portfolio/portfolio-6.jpg
     image_webp: images/portfolio/portfolio-6.webp
-    categories: Ekahau Connect Suite
+    categories: []
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
