@@ -12,9 +12,11 @@ feature:
     troubleshooting and optimization. Whether a corporate office, hotel, hospital
     or university."
   feature_item:
-  - title: Wireless Design and Implementation
+  - title: Gather Requirements
     icon: ti-rss-alt
-    content: ''
+    content: "Business Requirements\nBlue Prints / CAD Drawings\nFacility Layouts
+      & Construction Materials\nClient Number and Mix\nClient Density Distribution\nCritical
+      Applications / Business Process "
   - title: SEO Optimized
     icon: ti-world
     content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
