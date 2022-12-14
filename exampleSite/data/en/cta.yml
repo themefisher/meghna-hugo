@@ -9,4 +9,4 @@ cta:
   button:
     enable: true
     label: Schedule a call with us
-    link: https://calendly.com/sales-wifi-surveys
+    link: '{{< calendly calendar="<sales-wifi-surveys>" />}}'
