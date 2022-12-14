@@ -57,7 +57,7 @@ weight = 1
 name = "Dropdown 2"
 parent = "Dropdown"
 url = "#"
-weight = 2
+weight = ""
 [Languages.fr]
 contentDir = "content/bulgarian"
 copyright = "всички права запазени &copy; 2022 wifi-surveys.eu"
