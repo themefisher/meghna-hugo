@@ -12,7 +12,7 @@ portfolio:
   - name: Ekahau AI
     image: images/portfolio/Ekahau-Pro.png
     image_webp: images/portfolio/Ekahau-Pro.webp
-    categories: Ekahau Connect Suite
+    categories: []
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: ''
   - name: Ekahau Survey for iPad/iPhone
