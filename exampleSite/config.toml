@@ -52,7 +52,7 @@ weight = ""
 name = "Dropdown 1"
 parent = "Dropdown"
 url = "#"
-weight = 1
+weight = ""
 [[Languages.en.menu.main]]
 name = "Dropdown 2"
 parent = "Dropdown"
