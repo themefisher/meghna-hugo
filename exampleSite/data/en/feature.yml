@@ -13,24 +13,16 @@ feature:
     or university."
   feature_item:
   - title: Gather Requirements
-    icon: ti-rss-alt
-    content: "Business Requirements\nBlue Prints / CAD Drawings\nFacility Layouts
-      & Construction Materials\nClient Number and Mix\nClient Density Distribution\nCritical
-      Applications / Business Process "
+    icon: ti-widget-alt
+    content: "* Business Requirements\n* Blue Prints / CAD Drawings\n* Facility Layouts
+      & Construction Materials\n* Client Number and Mix\n* Client Density Distribution\n*
+      Critical Applications / Business Process "
   - title: Pre - Installation Design
-    icon: ti-world
-    content: "Predictive Modeling\nWall attenuation measurements\n\"AP on a stick\"
-      measurement\nWired network integration   "
+    icon: ti-widget-alt
+    content: "* Predictive Modeling\n* Wall attenuation measurements\n* \"AP on a
+      stick\" measurement\n* Wired network integration   "
   - title: Post Installation Validation
-    icon: ti-panel
+    icon: ti-widget-alt
     content: "* RF Site Survey (active / passive / spectrum)\n* RF Tuning Channel
       and Power Plans\n* Association and Authentication Tests \n* Roaming Tests\n*
       Spectrum Analysis  "
-  - title: SEO Optimized
-    icon: ti-stats-up
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
-  - title: Easy Customization
-    icon: ti-announcement
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
