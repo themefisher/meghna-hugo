@@ -3,14 +3,17 @@ feature:
   enable: true
   image: images/backgrounds/ekahau-design.jpg
   image_webp: images/backgrounds/ekahau-design.webp
-  title: Design, Optimize and Troubleshoot Wi-Fi Networks
-  content: "Reduce IT Cost and Complexity - Our software and hardware solutions design
-    and manage superior wireless networks by minimizing network deployment time and
-    ensuring sufficient wireless coverage across all industries, project sizes, building
-    infrastructures and levels of complexity. \n\nWe are recognized for delivering
-    the easiest-to-use, most reliable solutions for Wi-Fi planning, site surveys,
-    troubleshooting and optimization. Whether a corporate office, hotel, hospital
-    or university."
+  title: 'Critical Wireless Design Aspects and RF Design Process '
+  content: "Our professional design takes capacity as well as coverage into account.
+    Covering the areas where signal is needed is relatively easy to do and definitely
+    part of the equation. \n\nHowever, coverage just is not enough. Today, you need
+    context and that means capacity. An optimally designed wireless network takes
+    the different kinds and amount of devices being used as well as the applications
+    being run on those devices into account An experienced hotel wireless solution
+    does not just add more access points and hope for the best. \n\nWord to the wise,
+    just throwing up more access points can actually create more issues and ends up
+    putting a hole on your pockets.\n\nThis is why we have pointed below the most
+    critical and important aspects and methodologies we are following.  "
   feature_item:
   - title: Gather Requirements
     icon: ti-widget-alt
