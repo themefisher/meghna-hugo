@@ -1,6 +1,6 @@
 ---
 portfolio:
-  enable: true
+  enable: false
   title: Toolkit
   portfolio_item:
   - name: Ekahau Sidekick
