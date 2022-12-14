@@ -34,8 +34,8 @@ portfolio:
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
   - name: Ekahau Cloud
-    image: images/portfolio/portfolio-6.jpg
-    image_webp: images/portfolio/portfolio-6.webp
+    image: images/portfolio/Ekahau-Cloud.png
+    image_webp: images/portfolio/Ekahau-Cloud.webp
     categories: Ekahau Capture
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
