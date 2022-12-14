@@ -1,21 +1,14 @@
 ---
 contact:
   enable: true
-  title: Contact Us
-  subtitle: Contact Details
-  content: |-
-    We are delighted to be in touch with you!
-
-    You can reach us now via e-mail, mobile or our facebook chat widget.
+  title: Calendar
+  subtitle: ''
+  content: ''
   contact_list:
-  - icon: ti-location-pin
-    info: Bulgaria, Sofia
-  - icon: ti-mobile
-    info: 'Phone: +359889798313'
-  - icon: ti-email
-    info: 'Email: sales@wifi-surveys.eu'
+  - icon: ti-calendar
+    info: https://calendly.com/angelgramz
   contact_form:
-    enable: true
+    enable: false
     form_action: https://formspree.io/f/xpznvbjl
     method: POST
     name: Your Name
@@ -23,5 +16,5 @@ contact:
     subject: Subject
     message: Message
     submit: Submit
-title: Calendar
+title: 'Schedule a call with us '
 draft: true
