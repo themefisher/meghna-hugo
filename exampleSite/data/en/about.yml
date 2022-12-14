@@ -4,20 +4,20 @@ about:
   title: What we do
   about_item:
   - icon: ti-rss-alt
-    title: Wireless Network Design
+    title: Wireless Network Design and Implementation
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil,
       libero, perspiciatis eos provident laborum eum dignissimos.
   - icon: ti-pencil-alt
     title: Predictive Planning
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil,
       libero, perspiciatis eos provident laborum eum dignissimos.
-  - icon: ti-ruler-pencil
+  - icon: ti-location-pin
     title: Site Surveys
     content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil,
       libero, perspiciatis eos provident laborum eum dignissimos.
-  - icon: ''
+  - icon: ti-dashboard
     title: Inspect & Troubleshoot
     content: ''
-  - icon: ''
+  - icon: ti-stamp
     title: Analysis / Reports
     content: ''
