@@ -24,3 +24,9 @@ contact:
     message: Message
     submit: Submit
 
+---
+contact:
+enable: true
+subtitle: Schedule a call
+form_action: calendly.com/angelgramz
+submit: Submit
