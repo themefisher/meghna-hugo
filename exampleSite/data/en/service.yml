@@ -1,8 +1,7 @@
 ---
 service:
-  enable: true
+  enable: false
   title: Our Services
-  
   service_item:
   - name: WordPress Theme
     icon: ti-fullscreen
