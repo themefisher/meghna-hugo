@@ -8,5 +8,5 @@ cta:
     odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum.
   button:
     enable: true
-    label: Start a project with us
-    link: "#contact"
+    label: Schedule a call with us
+    link: https://calendly.com/sales-wifi-survey
