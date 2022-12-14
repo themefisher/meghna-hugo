@@ -38,25 +38,25 @@ name = "Dropdown"
 weight = ""
 [[Languages.en.menu.main]]
 name = "about"
-url = "#"
+url = ""
 weight = ""
 [[Languages.en.menu.main]]
 name = "portfolio"
-url = "#portfolio"
+url = ""
 weight = ""
 [[Languages.en.menu.main]]
 name = "pricing"
-url = "#pricing"
+url = ""
 weight = ""
 [[Languages.en.menu.main]]
 name = "Dropdown 1"
 parent = "Dropdown"
-url = "#"
+url = ""
 weight = ""
 [[Languages.en.menu.main]]
 name = "Dropdown 2"
 parent = "Dropdown"
-url = "#"
+url = ""
 weight = ""
 [Languages.fr]
 contentDir = "content/bulgarian"
