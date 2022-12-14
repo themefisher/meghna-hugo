@@ -10,8 +10,8 @@ portfolio:
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: ''
   - name: Ekahau AI
-    image: images/portfolio/portfolio-2.jpg
-    image_webp: images/portfolio/portfolio-2.webp
+    image: images/portfolio/Ekahau-Pro.png
+    image_webp: images/portfolio/Ekahau-Pro.webp
     categories: Ekahau Connect Suite
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: ''
