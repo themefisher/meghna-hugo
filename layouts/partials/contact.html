@@ -72,8 +72,7 @@
 	</div>
 </section>
 {{"<!-- /contact -->" | safeHTML}}
-{{ end }}
-{{ end }}
+
 
 {{ $calendar := .Get "calendar" }}
 {{ $helpAppend := "For more help, check out the errors/warnings page: https://docs.hcs.bespokesy.dev/errors_warnings/" }}
@@ -112,4 +111,12 @@
     {{ end }}
 {{ else }}
     {{ errorf "Calendly shortcode needs a non-empty calendar parameter in file %q. %s" .Page.File $helpAppend }}
+	{{ end }}
+
+
+
+
+
 {{ end }}
+{{ end }}
+
