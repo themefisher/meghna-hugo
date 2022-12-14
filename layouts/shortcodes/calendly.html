@@ -1,0 +1,38 @@
+{{ $calendar := .Get "calendar" }}
+{{ $helpAppend := "For more help, check out the errors/warnings page: https://docs.hcs.bespokesy.dev/errors_warnings/" }}
+{{ with $calendar }}
+    {{ $calendarUrl := print "https://calendly.com/" $calendar }}
+    {{ $allowedTypes := (dict "inline" "inlineEmbed" "badge" "popupWidget" "link" "popupLink") }}
+    {{ $type := default "" ($.Get "type") }}
+    {{ $scheduleText := default (default "Schedule time with me" $.Inner) ($.Get "text")}}
+    {{ $showBranding := default true (not (eq ($.Get "hideBranding") true)) }}
+
+    {{/*  add CSS link if type is a popup (or empty which defaults to a popup link)  */}}
+    {{ if in (slice (index $allowedTypes "badge") (index $allowedTypes "link") "") $type}}
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    {{ end }}
+
+    {{/*  always add js file  */}}
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+    {{ if eq $type (index $allowedTypes "inline") }}
+        {{/*  add picker inline  */}}
+        <div class="calendly-inline-widget" data-url="{{ $calendarUrl }}" style="min-width:320px;height:630px;"></div>
+    {{ else if eq $type (index $allowedTypes "badge") }}
+        {{/*  add popup widget  */}}
+        {{ $onloadJsSnippet := print "window.onload = function() { Calendly.initBadgeWidget({ url: '" $calendarUrl "', text: '" $scheduleText "', color: '#00a2ff', textColor: '#ffffff', branding:" $showBranding " }); }" }}
+        <script type="text/javascript">{{ $onloadJsSnippet | safeJS }}</script>
+    {{ else if or (eq $type (index $allowedTypes "link")) (eq $type "") }}
+        {{/*  warn if type has not been chosen explicitly  */}}
+        {{ if eq $type "" }}
+            {{ warnf "Missing or empty parameter 'type' for calendly shortcode in %q. Assuming: type=%q. %s" $.Page.File (index $allowedTypes "link") $helpAppend }}
+        {{ end }}
+        {{/*  add popup link  */}}
+        {{ $onClickSnippet := print "Calendly.initPopupWidget({url: '" $calendarUrl "'});return false;" }}
+        <a href="" onclick={{ $onClickSnippet | safeJS }}>{{ $scheduleText }}</a>
+    {{ else }}
+        {{ errorf "Invalid type parameter (%q) for calendly shortcode in page %q - supported types are: '%s'. %s" $type $.Page.File (delimit $allowedTypes "', '") $helpAppend }}
+    {{ end }}
+{{ else }}
+    {{ errorf "Calendly shortcode needs a non-empty calendar parameter in file %q. %s" .Page.File $helpAppend }}
+{{ end }}
