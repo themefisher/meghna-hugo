@@ -18,7 +18,7 @@ url = "#about"
 weight = "1"
 [[Languages.en.menu.main]]
 name = "about"
-url = "#about"
+url = "#"
 weight = "3"
 [[Languages.en.menu.main]]
 name = "toolkit"
