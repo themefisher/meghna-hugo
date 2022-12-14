@@ -4,38 +4,38 @@ portfolio:
   title: Toolkit
   portfolio_item:
   - name: Ekahau Sidekick
-    image: images/portfolio/portfolio-1.jpg
-    image_webp: images/portfolio/portfolio-1.webp
-    categories: Ekahau Capture
+    image: images/portfolio/Ekahau-Sidekick.png
+    image_webp: images/portfolio/Ekahau-Sidekick.webp
+    categories: []
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: ''
   - name: Ekahau AI
-    image: images/portfolio/portfolio-2.jpg
-    image_webp: images/portfolio/portfolio-2.webp
-    categories: Ekahau Connect Suite
+    image: images/portfolio/Ekahau-Pro.png
+    image_webp: images/portfolio/Ekahau-Pro.webp
+    categories: []
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: ''
   - name: Ekahau Survey for iPad/iPhone
-    image: images/portfolio/portfolio-3.jpg
-    image_webp: images/portfolio/portfolio-3.webp
-    categories: Ekahau Connect Suite
+    image: images/portfolio/Ekahau-Site-Survey.png
+    image_webp: images/portfolio/Ekahau-Site-Survey.webp
+    categories: []
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
   - name: Ekahau Analyzer
-    image: images/portfolio/portfolio-4.jpg
-    image_webp: images/portfolio/portfolio-4.webp
-    categories: Ekahau Connect Suite
+    image: images/portfolio/Ekahau-Wifi-Analyzer.png
+    image_webp: images/portfolio/Ekahau-Wifi-Analyzer.webp
+    categories: []
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
   - name: Ekahau Capture
-    image: images/portfolio/portfolio-5.jpg
-    image_webp: images/portfolio/portfolio-5.webp
-    categories: Ekahau Connect Suite
+    image: images/portfolio/Ekahau-Capture.png
+    image_webp: images/portfolio/Ekahau-Capture.webp
+    categories: []
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
   - name: Ekahau Cloud
-    image: images/portfolio/portfolio-6.jpg
-    image_webp: images/portfolio/portfolio-6.webp
-    categories: Ekahau Capture
+    image: images/portfolio/Ekahau-Cloud.png
+    image_webp: images/portfolio/Ekahau-Cloud.webp
+    categories: []
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
