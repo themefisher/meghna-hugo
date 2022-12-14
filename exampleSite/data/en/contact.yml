@@ -14,6 +14,10 @@ contact:
     info: 'Phone: +359889798313'
   - icon: ti-email
     info: 'Email: sales@wifi-surveys.eu'
+  - icon: ti-calendar
+    info: 'Schedule a call": calendly.com/angelgramz'
+    form_action: https://calendly.com/angelgramz
+
   contact_form:
     enable: true
     form_action: https://formspree.io/f/xpznvbjl
