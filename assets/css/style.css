@@ -14,7 +14,7 @@ html {
 
 body {
   background-color: #353b43;
-  font-family: space grotesk,sans-serif;
+  font-family: "space grotesk",sans-serif;
   color: #98a2ab;
   -webkit-font-smoothing: antialiased;
 }
@@ -26,12 +26,12 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  font-family: space grotesk,sans-serif;
+  font-family: "space grotesk",sans-serif;
   color: #afbac4;
 }
 
 p {
-  font-family: space grotesk,sans-serif;
+  font-family: "space grotesk",sans-serif;
 }
 
 [scroll-behavior=smooth] {
@@ -348,7 +348,7 @@ a:hover {
 .header-bradcrumb .active {
   color: #cfcfcf;
   font-weight: 200;
-  font-family: space grotesk,sans-serif;
+  font-family: "space grotesk",sans-serif;
 }
 
 .header-bradcrumb a:hover {
