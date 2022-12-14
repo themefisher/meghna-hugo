@@ -15,8 +15,8 @@ contact:
   - icon: ti-email
     info: 'Email: sales@wifi-surveys.eu'
   - icon: ti-calendar
-    info: 'Schedule a call": calendly.com/angelgramz'
-    form_action: https://calendly.com/angelgramz
+    info: 'Schedule a call": https://calendly.com/sales-wifi-surveys'
+    
 
   contact_form:
     enable: true
