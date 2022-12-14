@@ -18,13 +18,13 @@ portfolio:
   - name: Ekahau Survey for iPad/iPhone
     image: images/portfolio/Ekahau-Site-Survey.png
     image_webp: images/portfolio/Ekahau-Site-Survey.webp
-    categories: Ekahau Connect Suite
+    categories: []
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
   - name: Ekahau Analyzer
     image: images/portfolio/Ekahau-Wifi-Analyzer.png
     image_webp: images/portfolio/Ekahau-Wifi-Analyzer.webp
-    categories: Ekahau Connect Suite
+    categories: []
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
   - name: Ekahau Capture
