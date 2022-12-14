@@ -30,7 +30,7 @@ portfolio:
   - name: Ekahau Capture
     image: images/portfolio/Ekahau-Capture.png
     image_webp: images/portfolio/Ekahau-Capture.webp
-    categories: Ekahau Connect Suite
+    categories: []
     content: Lorem ipsum dolor sit amet consectetur adipisicing elit.
     link: "#"
   - name: Ekahau Cloud
