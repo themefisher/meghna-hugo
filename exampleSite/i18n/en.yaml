@@ -1,4 +1,6 @@
 ---
+- id: skill
+  translation: Toolkit
 - id: blogTitle
   translation: Blog
 - id: readMore
