@@ -9,11 +9,11 @@ about:
   - icon: ti-rss-alt
     title: Design
     content: ''
-  - icon: ti-hummer
-    title: Implementation
-    content: ''
   - icon: ti-location-pin
     title: Site Survey
+    content: ''
+  - icon: ti-hummer
+    title: Implementation
     content: ''
   - icon: ti-dashboard
     title: Inspect & Troubleshoot
