@@ -2,7 +2,6 @@
 author = "wifi-ninja"
 date = 2022-12-15T22:00:00Z
 description = "wifi, design, requirements gathering, best practice"
-draft = true
 image = "/images/blog/requirements-gathering-wireless-infrastructure.png"
 image_webp = "/images/blog/requirements-gathering-wireless-infrastructure.webp"
 title = "Requirements Gathering - Wireless Infrastructure"
