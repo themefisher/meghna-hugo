@@ -5,6 +5,7 @@ author: wifi-ninja
 image_webp: "/images/blog/requirements-gathering-wireless-infrastructure.webp"
 image: "/images/blog/requirements-gathering-wireless-infrastructure.png"
 description: wifi, design, requirements gathering, best practice
+draft: true
 
 ---
 The process of requirements gathering should be the first step in designing and implementing a high-density WLAN. Through the process of requirements gathering, you can identify network design characteristics, allowing the Wi-Fi network to align with business objectives and meet desired performance levels.
