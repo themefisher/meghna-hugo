@@ -1,8 +1,8 @@
 ---
 title: Wi-Fi Capacity Design
-date: 2022-12-15T09:51:12+00:00
-image_webp: images/blog/blog-post-2.webp
-image: images/blog/blog-post-2.jpg
+date: 2022-12-15T09:51:12.000+00:00
+image_webp: "/images/blog/wifi-capacity-design.webp"
+image: "/images/blog/wifi-capacity-design.png"
 author: wifi-ninja
 description: 'wi-fi, design, capacity, best practice '
 
