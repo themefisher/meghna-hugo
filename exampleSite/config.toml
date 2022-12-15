@@ -68,7 +68,7 @@ author = "Angel Gramatikov"
 description = "Responsive Multipurpose Parallax Hugo Template"
 google_analytics_id = ""
 logo = "images/logo.png"
-post_share = false
+post_share = true
 [params.cookies]
 enable = true
 expire_days = 2
