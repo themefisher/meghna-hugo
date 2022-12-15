@@ -121,10 +121,3 @@ link = "https://calendly.com/sales-wifi-surveys"
 source = "layouts"
 target = "layouts"
 
-[params]
-[params.hugo_mod_misc_render_hooks.image]
-# One of resize, fill, fit.
-command="resize"
-options1x="694x jpg #fff q72"
-options2x="1388x jpg #fff q72"
-css=""
