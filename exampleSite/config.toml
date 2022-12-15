@@ -116,7 +116,7 @@ link = "https://www.linkedin.com/company/wifi-surveys-eu"
 icon = "ti-calendar"
 link = "https://calendly.com/sales-wifi-surveys"
 
-[module]
-[[module.mounts]]
-source = "layouts"
-target = "layouts"
+
+
+[blackfriday]
+hrefTargetBlank = true
