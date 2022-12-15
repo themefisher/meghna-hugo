@@ -17,10 +17,6 @@ name = "services"
 url = "#about"
 weight = "1"
 [[Languages.en.menu.main]]
-name = "toolkit"
-url = "#skill"
-weight = "2"
-[[Languages.en.menu.main]]
 name = "certfications"
 url = "#team"
 weight = "3"
@@ -32,32 +28,6 @@ weight = "4"
 name = "contact"
 url = "#contact"
 weight = "5"
-[[Languages.en.menu.main]]
-hasChildren = true
-name = "Dropdown"
-weight = ""
-[[Languages.en.menu.main]]
-name = "about"
-url = ""
-weight = ""
-[[Languages.en.menu.main]]
-name = "portfolio"
-url = ""
-weight = ""
-[[Languages.en.menu.main]]
-name = "pricing"
-url = ""
-weight = ""
-[[Languages.en.menu.main]]
-name = "Dropdown 1"
-parent = "Dropdown"
-url = ""
-weight = ""
-[[Languages.en.menu.main]]
-name = "Dropdown 2"
-parent = "Dropdown"
-url = ""
-weight = ""
 [Languages.fr]
 contentDir = "content/bulgarian"
 copyright = "всички права запазени &copy; 2022 wifi-surveys.eu"
