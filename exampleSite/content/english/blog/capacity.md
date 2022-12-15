@@ -11,6 +11,8 @@ description: 'wi-fi, design, capacity, best practice '
 
 [https://google.com](google.com "test2")
 
+test
+
 Adopting the right approach to Wi-Fi is critical to increase reliance on Wi-Fi networks as a mission-critical resource. Supporting the growing quantity of wireless devices and delivering high performance that meets or exceeds user expectations is key to a successful WLAN.
 
 Historically, many Wi-Fi networks have been designed to provide basic coverage throughout a desired service area. While a “coverage-oriented” design can meet basic Wi-Fi network access needs, supporting only a few users and light workload, a different approach is required to support a growing Wi-Fi client population. Modern Wi-Fi networks should be designed to accommodate the current and anticipated capacity and performance levels within the organization rather than focusing on providing basic coverage.
