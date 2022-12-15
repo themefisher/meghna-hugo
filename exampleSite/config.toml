@@ -33,10 +33,6 @@ name = "contact"
 url = "#contact"
 weight = "5"
 [[Languages.en.menu.main]]
-name = "test"
-url = "skill"
-weight = "5"
-[[Languages.en.menu.main]]
 hasChildren = true
 name = "Dropdown"
 weight = ""
