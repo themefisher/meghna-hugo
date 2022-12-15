@@ -1,5 +1,5 @@
 baseURL = "https://wifi-surveys.eu"
-disableLanguages = [""]
+disableLanguages = []
 disqusShortname = ""
 paginate = "6"
 summaryLength = "15"
@@ -12,10 +12,6 @@ home = "Home"
 languageCode = "en-us"
 languageName = "En"
 weight = 1
-[[Languages.en.menu.main]]
-name = "test"
-url = "skill"
-weight = "5"
 [[Languages.en.menu.main]]
 name = "services"
 url = "#about"
@@ -35,6 +31,10 @@ weight = "4"
 [[Languages.en.menu.main]]
 name = "contact"
 url = "#contact"
+weight = "5"
+[[Languages.en.menu.main]]
+name = "test"
+url = "skill"
 weight = "5"
 [[Languages.en.menu.main]]
 hasChildren = true
