@@ -7,7 +7,7 @@ author: wifi-ninja
 description: 'wi-fi, design, capacity, best practice '
 
 ---
-{{< newtabref  href="<https://google.com>" title="<TITLE FOR LINK>" >}}
+[{{< newtabref  href="https://google.com" title="<TITLE FOR LINK>" >}}]()
 
 Adopting the right approach to Wi-Fi is critical to increase reliance on Wi-Fi networks as a mission-critical resource. Supporting the growing quantity of wireless devices and delivering high performance that meets or exceeds user expectations is key to a successful WLAN.
 
