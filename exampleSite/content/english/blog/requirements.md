@@ -14,6 +14,7 @@ Through this process, identify the following variables:
 * **Wireless infrastructure capabilities** 
 * **Client device types, quantities, and capabilities** 
 * **Applications and throughput requirements**
+[{{< newtabref  href="https://google.com" title="<TITLE FOR LINK>" >}}](google.com "test")
 
 Once you have gathered a list of these requirements and reviewed them, you can forecast the required AP capacity for use during network planning and design. You can find a requirements gathering worksheet in the appendix to aid in this process.
 
