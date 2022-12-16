@@ -1,6 +1,6 @@
 ---
 title: Requirements Gathering - Wireless Infrastructure
-date: 2022-12-13T12:51:12+00:00
+date: 2022-12-13T12:51:12.000+00:00
 author: wifi-ninja
 image_webp: "/images/blog/requirements-gathering-wireless-infrastructure.webp"
 image: "/images/blog/requirements-gathering-wireless-infrastructure.png"
@@ -11,10 +11,10 @@ The process of requirements gathering should be the first step in designing and 
 
 Through this process, identify the following variables:
 
-* **Wireless infrastructure capabilities** 
-* **Client device types, quantities, and capabilities** 
+* **Wireless infrastructure capabilities**
+* **Client device types, quantities, and capabilities**
 * **Applications and throughput requirements**
-[{{< newtabref  href="https://google.com" title="<TITLE FOR LINK>" >}}](google.com "test")
+  [{{< newtabref  href="](google.com "test")[https://google.com](https://google.com "https://google.com")[" title="<TITLE FOR LINK>" >}}](google.com "test")
 
 Once you have gathered a list of these requirements and reviewed them, you can forecast the required AP capacity for use during network planning and design. You can find a requirements gathering worksheet in the appendix to aid in this process.
 
@@ -22,7 +22,7 @@ Once you have gathered a list of these requirements and reviewed them, you can f
 
 The wireless network infrastructure deployed must be capable of high performance and must provide intelligent features that optimize the use of spectral capacity across a network of coordinated access points.
 
-Many organizations are ill-equipped to evaluate these intelligent features and coordination capabilities across a sufficiently large environment and rely on isolated performance tests on a single access point in a lab environment. 
+Many organizations are ill-equipped to evaluate these intelligent features and coordination capabilities across a sufficiently large environment and rely on isolated performance tests on a single access point in a lab environment.
 
 However, this does not accurately reflect the complex interactions required among access points in the presence of a dense user population. Instead, identify capabilities critical to the success of a high-density WLAN and test such capabilities prior to purchase, requesting aid from the manufacturer or their representative as appropriate.
 
@@ -40,11 +40,11 @@ Add features that enhance survivability and availability, such as dynamic radio 
 
 **Optimized Spectral Use** – Effectively use the unlicensed spectral capacity through the following techniques:
 
-Support all available frequency bands (ISM and UNII-1, 2, 2e, 3). 
+Support all available frequency bands (ISM and UNII-1, 2, 2e, 3).
 
-Provide granular control of channel widths (20, 40, 80, and 160 MHz). 
+Provide granular control of channel widths (20, 40, 80, and 160 MHz).
 
-Perform accurate dynamic radio management coordinated across an entire group of APs to ensure optimal channel and power selection that minimizes interference and maximizes performance. 
+Perform accurate dynamic radio management coordinated across an entire group of APs to ensure optimal channel and power selection that minimizes interference and maximizes performance.
 
 Implement band steering to direct clients between 2.4 GHz and 5 GHz frequency bands. Band steering is capable of directing clients in either direction between radios, as well as optimizing the client load between radios based on available capacity.
 
