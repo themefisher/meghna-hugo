@@ -63,12 +63,32 @@ weight = "6"
 name = "tarification"
 url = "#pricing"
 weight = "7"
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+linkifyProtocol = "https"
+strikethrough = true
+table = true
+taskList = true
+typographer = true
+[markup.goldmark.parser]
+autoHeadingID = true
+autoHeadingIDType = "github"
+wrapStandAloneImageWithinParagraph = true
+[markup.goldmark.parser.attribute]
+block = false
+title = true
+[markup.goldmark.renderer]
+hardWraps = true
+unsafe = true
+xhtml = true
 [params]
 author = "Angel Gramatikov"
 description = "Responsive Multipurpose Parallax Hugo Template"
 google_analytics_id = ""
 logo = "images/logo.png"
-post_share = true
+post_share = false
 [params.cookies]
 enable = true
 expire_days = 2
@@ -115,27 +135,3 @@ link = "https://www.linkedin.com/company/wifi-surveys-eu"
 [[params.social]]
 icon = "ti-calendar"
 link = "https://calendly.com/sales-wifi-surveys"
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      definitionList = true
-      footnote = true
-      linkify = true
-      linkifyProtocol = 'https'
-      strikethrough = true
-      table = true
-      taskList = true
-      typographer = true
-    [markup.goldmark.parser]
-      autoHeadingID = true
-      autoHeadingIDType = 'github'
-      wrapStandAloneImageWithinParagraph = true
-      [markup.goldmark.parser.attribute]
-        block = false
-        title = true
-    [markup.goldmark.renderer]
-      hardWraps = false
-      unsafe = false
-      xhtml = false
-
