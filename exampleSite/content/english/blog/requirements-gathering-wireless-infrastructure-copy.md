@@ -1,6 +1,6 @@
 +++
 author = "wifi-ninja"
-date = 2022-12-16T22:10:00Z
+date = 2022-12-15T22:00:00Z
 description = "wifi, design, requirements gathering, best practice, client devices, wifi clients"
 draft = true
 image = "/images/blog/requirements-Gathering-client-devices.png"
