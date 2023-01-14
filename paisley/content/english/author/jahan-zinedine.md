@@ -11,6 +11,6 @@ social:
     link : "https://github.com/jzinedine"
 ---
 
-I'm a well-rounded resourceful linchpin engineer with 15+ years of experience developing banking and business-critical software applications, mainly as an architect and technical lead, always committed to delivering quality work I feel proud of.
+Hey, I'm Jahan, a well-rounded resourceful linchpin engineer with 20+ years of experience developing banking and business-critical software applications, mainly as an architect and technical lead, always committed to delivering quality work I feel proud of.
 
-If you have an idea and want to build it, stuck with your legacy product, or spent so much on tech without much return, let’s talk!
+If you have a product idea and want to build it, stuck with your legacy codebase, or spent so much on tech without much return, I can help, let’s have talk!
