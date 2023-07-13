@@ -2,6 +2,7 @@ Thumbs.db
 .DS_Store
 .dist
 .tmp
+.lock
 .sass-cache
 npm-debug.log
 node_modules
@@ -9,3 +10,8 @@ builds
 package-lock.json
 public
 resources
+.hugo_build.lock
+jsconfig.json
+hugo_stats.json
+go.sum
+yarn.lock

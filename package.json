@@ -1,0 +1,16 @@
+{
+  "name": "meghna-hugo",
+  "version": "1.1.0",
+  "license": "UNLICENSED",
+  "author": "gethugothemes",
+  "scripts": {
+    "dev": "hugo server",
+    "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "test": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
+    "dev:example": "cd exampleSite; hugo server --themesDir ../..",
+    "build:example": "cd exampleSite; hugo --themesDir ../.. --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
+    "test:example": "cd exampleSite; hugo server --themesDir ../.. --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
+    "project-setup": "node ./scripts/projectSetup.js",
+    "theme-setup": "node ./scripts/themeSetup.js"
+  }
+}
