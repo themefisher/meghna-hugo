@@ -5,12 +5,12 @@ email: "email2@example.org"
 social:
   - icon : "ti-world" # themify icon pack : https://themify.me/themify-icons
     link : "https://tiksn.com/"
-  - icon : "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-    link : "https://twitter.com/tiksn"
   - icon : "ti-github" # themify icon pack : https://themify.me/themify-icons
     link : "https://github.com/tiksn"
   - icon : "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
     link : "https://www.linkedin.com/in/tiksn"
+  - icon : "ti-skype" # themify icon pack : https://themify.me/themify-icons
+    link : "skype:akatiksn?chat"
 ---
 
 I am a Software Team Leader with over **13** years of experience in developing and maintaining web and mobile applications, backend APIs, and microservices.
