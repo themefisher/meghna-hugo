@@ -13,7 +13,7 @@ social:
     link : "https://www.linkedin.com/in/tiksn"
 ---
 
-I am a Software Team Leader with over **12** years of experience in developing and maintaining web and mobile applications, backend APIs, and microservices.
+I am a Software Team Leader with over **13** years of experience in developing and maintaining web and mobile applications, backend APIs, and microservices.
 
 Skilled in leading teams of developers to successfully deliver complex software projects. I am not afraid of architectural or technical challenges. Excellent communication and interpersonal skills, with the ability to build strong relationships with team members and stakeholders.
 
