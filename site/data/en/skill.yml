@@ -8,14 +8,27 @@ skill:
   skill_item:
     # skill item loop
     - name: Angular
+      percent: 95%
+
+    # skill item loop
+    - name: React
       percent: 90%
 
-    - name: React
+    # skill item loop
+    - name: Vue.js
       percent: 80%
 
     # skill item loop
     - name: JavaScript / TypeScript
-      percent: 90%
+      percent: 95%
+
+    # skill item loop
+    - name: NgRx / Mobx / Redux
+      percent: 85%
+
+    # skill item loop
+    - name: Jest / Cypress
+      percent: 85%
 
     # skill item loop
     - name: .NET 7 / .NET Framework 4.8
@@ -24,10 +37,6 @@ skill:
     # skill item loop
     - name: ASP.NET Core / MVC / Web API
       percent: 95%
-
-    # skill item loop
-    - name: NgRx / Mobx / Redux
-      percent: 75%
 
     # skill item loop
     - name: Entity Framework

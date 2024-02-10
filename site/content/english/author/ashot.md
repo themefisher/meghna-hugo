@@ -11,12 +11,13 @@ social:
     link : "https://www.linkedin.com/in/ashotnazaryanjs"
 ---
 
--	7 years of professional experience in the Information Technology industry;
+-	10 years of professional experience in the Information Technology industry;
 -	Solid overall understanding of the IT industry, especially software development;
--	Proficient knowledge of JavaScript and popular JS-based libraries, frameworks (Angular/React);
--	Experience in software design principles and patterns;
+-	Proficient knowledge of JavaScript/TypeScript and popular libraries, frameworks (Angular/React/Vue.js);
+-	Experienced in software design principles and patterns;
 -	Good knowledge of browser APIs (Chrome, Firefox, Safari, IE, Edge);
--	Basic knowledge of Node.js and server-side mechanisms in general;
--	Experience in designing and developing web-based applications;
+-	Good knowledge of Node.js and server-side mechanisms in general;
+-	Experienced in designing and developing web-based applications;
 -	Experienced in automated development processes;
+-	Proficient in unit testing, integration testing, and end-to-end testing;
 -	Good communication skills.
