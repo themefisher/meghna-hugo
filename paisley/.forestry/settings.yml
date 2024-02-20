@@ -31,6 +31,13 @@ sections:
   templates:
   - author
 - type: directory
+  path: paisley/content/english/privacy
+  label: Privacy Policy
+  create: documents
+  match: "**/*"
+  templates:
+  - post
+- type: directory
   path: paisley/content/french/author
   label: Author (fr)
   create: documents
