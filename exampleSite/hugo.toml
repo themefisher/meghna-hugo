@@ -5,7 +5,7 @@ theme = "meghna-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "America/New_York"
 # post pagination
-paginate = 6 # see https://gohugo.io/extras/pagination/
+pagination.pagerSize = 6 # see https://gohugo.io/extras/pagination/
 # post excerpt
 summaryLength = 15 # see https://gohugo.io/content-management/excerpts/
 # google analytics
