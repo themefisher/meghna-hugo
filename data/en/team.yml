@@ -1,7 +1,7 @@
 ############################### team ############################
 team:
   enable : true
-  title : Our Team
+  title : Our Partners
   team_member :
     # team member loop
     - name : Abul Mal Muhit

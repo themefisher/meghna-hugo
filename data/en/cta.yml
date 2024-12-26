@@ -3,9 +3,11 @@ cta:
   enable : true
   bg_image : "images/backgrounds/bg-white-wall.jpg"
   bg_image_webp : "images/backgrounds/bg-white-wall.webp"
-  title : "Great Design & Incredible Features"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+  title : "Mahaa Technolgy & Business Solutions(MBTS)"
+  content: "It is a novel initiative catering to the needs of specialised industry requirements and authorized distributor of 
+
+ range of protective coatings within the Sultanate of Oman. Our well established business operations and international vendor connections have resulted in a track record of success which continues to grow with every new project and supply agreement that we take on."
   button:
     enable : true
-    label : "Start a project with us"
-    link : "#contact"
+    label : "Our Values"
+    link : "#skills"

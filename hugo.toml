@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://demo.gethugothemes.com/meghna/examplesite/"
-title = "Meghna"
+title = "Mahaa Technolgy & Business Solutions"
 theme = "meghna-hugo"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "America/New_York"
@@ -18,6 +18,7 @@ disableLanguages = [
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
 
 ############################# Build ##############################
+staticDir = "static"
 [build]
 noJSConfigInAssets = false
 useResourceCacheWhen = 'fallback'
@@ -100,52 +101,30 @@ url = "#services"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "portfolio"
+name = "products"
 url = "#portfolio"
 weight = 3
 
 [[Languages.en.menu.main]]
-name = "team"
+name = "partners"
 url = "#team"
 weight = 4
 
-[[Languages.en.menu.main]]
-name = "pricing"
-url = "#pricing"
-weight = 5
+# [[Languages.en.menu.main]]
+# name = "pricing"
+# url = "#pricing"
+# weight = 5
 
-[[Languages.en.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
+# [[Languages.en.menu.main]]
+# name = "blog"
+# url = "#blog"
+# weight = 6
 
 [[Languages.en.menu.main]]
 name = "contact"
 url = "#contact"
 weight = 7
 
-
-[[Languages.en.menu.main]]
-name = "Dropdown"
-weight = 7
-hasChildren = true
-
-[[Languages.en.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 1"
-url = "#"
-weight = 1
-
-[[Languages.en.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 2"
-url = "#"
-weight = 2
-
-[[Languages.en.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
 
 
 ################### French Navigation ########################
@@ -184,10 +163,7 @@ name = "contact"
 url = "#contact"
 weight = 7
 
-[[Languages.fr.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
+
 
 ############################# Default Parameters ##########################
 [params]

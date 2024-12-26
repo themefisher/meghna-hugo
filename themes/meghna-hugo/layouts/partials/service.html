@@ -1,7 +1,7 @@
 {{ $data := index site.Data site.Language.Lang }}
 
-{{ if $data.service.service.enable}}
-{{ with $data.service.service}}
+{{ if $data.service.service.enable }}
+{{ with $data.service.service }}
 {{"<!-- service -->" | safeHTML }}
 <section id="services" class="bg-one section">
 	<div class="container">
@@ -16,19 +16,26 @@
 			</div>
 			{{"<!-- /section title -->" | safeHTML }}
 
-			{{ range .service_item}}
+			{{ range .service_item }}
 			{{"<!-- Single Service Item -->" | safeHTML }}
 			<article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
 				<div class="service-block text-center">
-					<div class="service-icon text-center">
-						<i class="{{ .icon }}"></i>
-					</div>
+					{{ if .image }}
+						<img src="{{ .image }}" alt="{{ .name }}" class="service-image">
+					{{ else }}
+						<div class="service-icon text-center">
+							<i class="{{ .icon }}"></i>
+						</div>
+					{{ end }}
 					<h3>{{ .name | markdownify }}</h3>
 					<p>{{ .content | markdownify }}</p>
 				</div>
 			</article>
 			{{"<!-- End Single Service Item -->" | safeHTML }}
 			{{ end }}
+		</div>
+		<div class="text-center">
+			<a href="{{ .link }}" class="btn btn-primary">View Products</a>
 		</div>
 	</div>
 </section>

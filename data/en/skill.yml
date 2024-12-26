@@ -1,26 +1,18 @@
 ################################# Skill ##################################
 skill:
   enable : true
-  title : Our Skills
-  subtitle : We’ve skilled in wide range of web and Other digital market tools.
-  content : Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni explicabo cum aperiam recusandae sunt accusamus totam. Quidem quos fugiat sapiente numquam accusamus quas hic, itaque in libero reiciendis tempora!
-  image : images/about/company-growth.webp
+  title : Our Values
+  subtitle : Supporting Industrial Transformation - one idea at a time
+  content : With our highly motivated and experienced Engineering and Procurement team, we are able to consistently achieve our goal in making the procurement process simple and efficient for all our clients by being the preferred supplier at highly competitive prices backed with an on-time delivery from global manufacturers and OEMs. MTBS is always on the lookout to diversify our profile and product range to best suit the industrial requirements through partnership and agreements with internationally renowned OEMs and service providers.
   skill_item :
-    # skill item loop
-    - name :  Business Development
-      percent : 90%
-      
-    # skill item loop
-    - name :  Analysis
-      percent : 70%
-      
-    # skill item loop
-    - name :  Design
-      percent : 80%
-      
-    - name :  IOS Development
-      percent : 95%
-      
-    # skill item loop
-    - name :  Android Development
-      percent : 75%
+    - title : New Projects
+      image : images/skills/new-project.jpg
+
+    - title : New Products
+      image : images/skills/new-product.jpg
+
+    - title : New Challenges
+      image : images/skills/new-challenge.jpg
+    - title : New Solutions
+      image : images/skills/new-solution.jpg
+

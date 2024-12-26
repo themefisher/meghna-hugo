@@ -951,11 +951,39 @@ a:hover {
   border-top: 1px solid rgba(236, 239, 241, 0.07);
   margin-bottom: 40px;
   box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
+  text-align: center; 
+  transition: all 0.5s ease-in-out; 
+  
 }
 
-.service-block .service-icon {
-  margin-bottom: 10px;
-  font-size: 50px;
+.service-block:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(44, 44, 44, 0.3); 
+  transition: all 0.5s ease-in-out; 
+}
+
+.service-block img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  padding-bottom: 1rem;
+}
+
+.service-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.btn-primary{
+  border-color: #fff;
+  font-size: 16px;
+}
+.btn-primary:hover{
+  cursor: pointer;
+  background-color: #57cbcc;
+  border-color: #fff;
 }
 
 /*=================================================================
@@ -990,32 +1018,83 @@ a:hover {
   margin-bottom: 20px;
   width: 55px;
   transition: all 0.3s ease 0s;
+
 }
 
 /*=================================================================
   Our skills
 ==================================================================*/
-.skill-bar p {
-  font-size: 18px;
-  margin-bottom: 0;
+#skills {
+  background-color: #f4f7fb; /* Light background for the section */
+  padding: 60px 0;
+  color: #000 ;
+}
+#skills h2{
+  color: #000;
 }
 
-.skill-bar p span {
-  font-style: italic;
-  font-size: 30px;
-  color: rgba(187, 187, 187, 0.34);
-  display: inline-block;
-  vertical-align: middle;
+.skill-card {
+  padding-top: 2rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 30px;
 }
 
-.skill-bar .progress {
-  height: 6px;
-  border-radius: 0;
+.skill-card:hover {
+  transform: translateY(-10px);
 }
 
-.skill-bar .progress .progress-bar {
-  background: #57cbcc;
+.skill-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 20px;
 }
+
+.skill-card h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+#skills .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#skills .col-lg-3,
+#skills .col-md-4,
+#skills .col-6 {
+  padding: 15px;
+  flex: 1 0 21%; 
+  max-width: 23%; 
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  #skills .col-lg-3,
+  #skills .col-md-4,
+  #skills .col-6 {
+    flex: 1 0 46%; 
+    max-width: 46%;
+  }
+}
+@media (max-width: 560px) {
+  #skills .col-lg-3,
+  #skills .col-md-4,
+  #skills .col-6 {
+    flex: 1 0 100%; 
+    max-width: 60%;
+  }
+}
+
+
 
 /*=================================================================
   Our Team
