@@ -1,76 +1,38 @@
-#################################### portfolio ###############################
 portfolio:
-  enable : true
-  title : Our Products
-  portfolio_item :
-    # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-1.jpg
-      image_webp : images/portfolio/portfolio-1.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "https://themefisher.com"
-      
-    # portfolio item loop
-    - name : Sound system
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : ""
-      
-    # portfolio item loop
-    - name : Clock Product
-      image : images/portfolio/portfolio-3.jpg
-      image_webp : images/portfolio/portfolio-3.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Bottol Label
-      image : images/portfolio/portfolio-4.jpg
-      image_webp : images/portfolio/portfolio-4.webp
-      categories : ["photography", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Shopping Bag
-      image : images/portfolio/portfolio-5.jpg
-      image_webp : images/portfolio/portfolio-5.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-6.jpg
-      image_webp : images/portfolio/portfolio-6.webp
-      categories : ["photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Business Card
-      image : images/portfolio/portfolio-7.jpg
-      image_webp : images/portfolio/portfolio-7.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Stationary Design
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["design", "photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
+  enable: true
+  title: Our Products
+  portfolio_item:
+    - name: Voltage Regulator
+      image: images/portfolio/portfolio-1.jpg
+      image_webp: images/portfolio/portfolio-1.webp
+      categories: ["electric"]
+      content: High-quality voltage regulators for industrial use.
+      link: "#"
+
+    - name: Safety Helmet
+      image: images/portfolio/portfolio-2.jpg
+      image_webp: images/portfolio/portfolio-2.webp
+      categories: ["safety"]
+      content: Reliable safety helmets to protect workers.
+      link: "#"
+
+    - name: LED Lighting
+      image: images/portfolio/portfolio-3.jpg
+      image_webp: images/portfolio/portfolio-3.webp
+      categories: ["lighting"]
+      content: Energy-efficient LED lighting solutions.
+      link: "#"
+
+    - name: Precision Instrument
+      image: images/portfolio/portfolio-4.jpg
+      image_webp: images/portfolio/portfolio-4.webp
+      categories: ["instrument"]
+      content: Accurate measuring instruments for laboratories.
+      link: "#"
+
+    - name: Hydraulic Pump
+      image: images/portfolio/portfolio-5.jpg
+      image_webp: images/portfolio/portfolio-5.webp
+      categories: ["mechanical"]
+      content: Durable and efficient hydraulic pumps.
+      link: "#"
