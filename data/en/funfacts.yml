@@ -18,8 +18,3 @@ funfacts:
     - title : "Positive feedback"
       icon : "ti-thumb-up" # themify icon pack : https://themify.me/themify-icons
       count : "158"
-    
-    # counter item loop
-    - title : "Cups of Coffee"
-      icon : "ti-gift" # themify icon pack : https://themify.me/themify-icons
-      count : "250"

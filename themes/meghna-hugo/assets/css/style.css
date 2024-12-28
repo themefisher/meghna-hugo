@@ -15,7 +15,7 @@ html {
 body {
   background-color: #353b43;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: #FFF;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -27,7 +27,7 @@ h5,
 h6 {
   font-weight: 400;
   font-family: "Quattrocento Sans", sans-serif;
-  color: #afbac4;
+  color: #FFA896;
 }
 
 p {
@@ -115,7 +115,7 @@ a:hover {
 
 .btn-transparent:hover,
 .btn-transparent:focus {
-  background-color: #57cbcc;
+  background-color: #cd1c18;
   border: 1px solid transparent;
   color: #fff;
 }
@@ -137,7 +137,7 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #57cbcc;
+  background-color: #FFA896;
 }
 
 .color {
@@ -163,7 +163,7 @@ a:hover {
 }
 
 .bg-one {
-  background-color: #353b43;
+  background-color: #9B1313;
 }
 
 .bg-dark {
@@ -219,7 +219,7 @@ a:hover {
 }
 
 .btn-main {
-  background: #57cbcc;
+  background: #cd1c18;
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -229,7 +229,7 @@ a:hover {
 }
 
 .btn-main:hover {
-  background: #2c9091;
+  background: #ec5551;
   color: #fff;
 }
 
@@ -307,7 +307,7 @@ a:hover {
 }
 
 .title h2 span {
-  color: #57cbcc;
+  color: #FFA896;
 }
 
 .title p {
@@ -323,7 +323,7 @@ a:hover {
 }
 
 .section-bg {
-  background: #292F36;
+  background: #38000A;
 }
 
 .overly {
@@ -407,7 +407,7 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  background-color: #1d2024;
+  background-color: #38000A;
   width: 100%;
   margin-bottom: 0;
 }
@@ -416,7 +416,7 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-  color: #57cbcc;
+  color: #ffa896;
 }
 
 .navbar-toggler:focus {
@@ -496,7 +496,7 @@ a:hover {
 
 .hero-area .block .btn-transparent {
   margin-top: 40px;
-  border-color: #fff;
+  border-color: #ffa896;
   padding: 14px 50px;
   font-size: 18px;
   font-size: 16px;
@@ -547,7 +547,7 @@ a:hover {
   About us section
 ==================================================================*/
 .about .block {
-  background: #242930;
+  background: #38000A;
   padding: 30px;
   border-bottom: 2px solid transparent;
   transition: .5s all;
@@ -555,7 +555,7 @@ a:hover {
 }
 
 .about .block:hover {
-  border-bottom: 2px solid #57cbcc;
+  border-bottom: 2px solid #FFA896;
 }
 
 .about .block:hover .icon-box {
@@ -627,7 +627,7 @@ a:hover {
 
 .about-2 .content-block .media i {
   font-size: 30px;
-  color: #57cbcc;
+  color: #FFA896;
 }
 
 .about-2 .content-block .media h4 {
@@ -852,6 +852,11 @@ a:hover {
 /*=================================================================
   Portfolio section
 ==================================================================*/
+
+#portfolio {
+  background-color: #9b1313;
+}
+
 .portfolio-filter {
   margin-bottom: 40px;
   text-align: center;
@@ -859,18 +864,18 @@ a:hover {
 
 .portfolio-filter .btn {
   outline: 0;
-  border: 1px solid rgba(236, 239, 241, 0.07);
+  border: 1px solid #ffa896;
   background: transparent;
   display: inline-block;
   font-size: 16px;
   padding: 6px 20px;
   font-weight: 700;
-  color: #737f8a;
+  color: #fff;
   transition: .3s all;
 }
 
 .portfolio-filter .btn.active {
-  border-color: #57cbcc;
+  border-color: #fff;
 }
 
 .portfolio-block {
@@ -950,7 +955,7 @@ a:hover {
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
   margin-bottom: 40px;
-  box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
+  box-shadow: 0 10px 20px rgb(57 0 10);
   text-align: center; 
   transition: all 0.5s ease-in-out; 
   
@@ -977,13 +982,14 @@ a:hover {
   margin: 0 auto;
 }
 .btn-primary{
-  border-color: #fff;
+  border-color: #ffa896;
   font-size: 16px;
 }
 .btn-primary:hover{
   cursor: pointer;
-  background-color: #57cbcc;
+  background-color: #ffa896;
   border-color: #fff;
+  color: #000;
 }
 
 /*=================================================================
@@ -1025,12 +1031,12 @@ a:hover {
   Our skills
 ==================================================================*/
 #skills {
-  background-color: #f4f7fb; /* Light background for the section */
+  background-color: #38000A; /* Light background for the section */
   padding: 60px 0;
-  color: #000 ;
+  color: #fff ;
 }
 #skills h2{
-  color: #000;
+  color: #fff;
 }
 
 .skill-card {
@@ -1599,7 +1605,7 @@ input#e-mail,
 }
 
 .social-icon ul li a {
-  background-color: #26292e;
+  background-color: #ffa896;
   border: 1px solid transparent;
   display: block;
   height: 70px;
@@ -1608,7 +1614,7 @@ input#e-mail,
 }
 
 .social-icon ul li a:hover {
-  background: #57cbcc;
+  background: #cd1c18;
 }
 
 .social-icon ul li a:hover i {

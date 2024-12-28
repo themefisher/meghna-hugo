@@ -11,6 +11,10 @@ service:
     image: images/products/instrument.jpg
     content: "Our instrumentation range includes condition monitoring sensors and equipment."
   
+  - name: "Safety and Material Handling Equipment"
+    image: images/products/safety.jpg
+    content: "Reliable and efficient safety solutions for your industrial operations."
+
   - name: "Mechanical, Oil and Gas"
     image: images/products/mech.jpg
     content: "Power up your operations with our top-quality Mechanical, Oil & Gas Equipments."
@@ -22,9 +26,5 @@ service:
   - name: "Turbine Spare Parts"
     image: images/products/turbine.jpg
     content: "Best quality spare parts for your Gas and steam turbines."
-  
-  - name: "Safety and Material Handling Equipment"
-    image: images/products/safety.jpg
-    content: "Reliable and efficient safety solutions for your industrial operations."
   
   link: "#portfolio"
