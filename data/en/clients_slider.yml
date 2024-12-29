@@ -1,0 +1,10 @@
+############################### team ############################
+clients_slider:
+  enable : true
+  title : Clients
+  logo_slider :
+    # team member loop
+    - URL : http://examplesite.com
+      logo : images/clients-logo/client-logo-1.png
+     # designation : CEO/Founder
+     # content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.

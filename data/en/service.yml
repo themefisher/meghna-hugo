@@ -13,7 +13,7 @@ service:
   
   - name: "Safety and Material Handling Equipment"
     image: images/products/safety.jpg
-    content: "Reliable and efficient safety solutions for your industrial operations."
+    content: "We provide tailored strategies and innovative technologies to minimize risks, ensure compliance and overall processes."
 
   - name: "Mechanical, Oil and Gas"
     image: images/products/mech.jpg
