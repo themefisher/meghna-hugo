@@ -5,12 +5,9 @@ about:
   about_item :
   - icon : ti-light-bulb # themify icon pack : https://themify.me/themify-icons
     title : OPTIMUM SOLUTIONS
-    content : Offers tailored industrial solutions designed to meet diverse and specialized client needs.
 
   - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
     title : MANUFACTURERS
-    content : Partnering with top-tier manufacturers, they ensure high-quality and reliable products.
   
   - icon : ti-timer # themify icon pack : https://themify.me/themify-icons
     title : SPEEDY LOGISTICS
-    content : Committed to timely delivery, their logistics ensure efficient supply chain management.
