@@ -795,61 +795,6 @@ a:hover {
 }
 
 /*=================================================================
-  Pricing section
-==================================================================*/
-.price-item {
-  border: 1px solid rgba(236, 239, 241, 0.07);
-  padding-bottom: 30px;
-  margin-bottom: 15px;
-}
-
-.price-title {
-  background-color: #292F36;
-  padding: 30px 0 20px;
-}
-
-.price-title h3 {
-  color: #57cbcc;
-  margin: 0 0 10px;
-  text-transform: uppercase;
-}
-
-.price-title p {
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.price-title .value {
-  color: #57cbcc;
-  font-size: 30px;
-}
-
-.pricing ul,
-.skill-bar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.pricing li {
-  padding: 10px 0;
-}
-
-.pricing li:last-child {
-  border-bottom: 1px solid rgba(236, 239, 241, 0.07);
-  margin-bottom: 20px;
-}
-
-.pricing li:nth-child(2n) {
-  background-color: #292F36;
-}
-
-.pricing li .btn {
-  text-transform: uppercase;
-  margin: 20px 0;
-}
-
-/*=================================================================
   Portfolio section
 ==================================================================*/
 
@@ -946,6 +891,52 @@ a:hover {
 .portfolio-block .caption .search-icon i {
   line-height: 50px;
 }
+
+/* Popup styles */
+.mfp-hide {
+  display: none;
+}
+
+.white-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(224, 224, 19);
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 0px;
+  box-shadow: 0 4px 20px rgba(32, 1, 1, 0.1);
+  z-index: 1001;
+}
+.white-popup:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.white-popup h2 {
+  margin-top: 0;
+  padding: 10px;
+  color: rgb(107, 5, 5);
+  text-align: center;
+}
+
+
+.mfp-bg {
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+}
+
+.search-icon {
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+}
+
+.search-icon:hover {
+  color: #007bff;
+}
+
 
 /*=================================================================
   Services section

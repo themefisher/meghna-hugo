@@ -144,3 +144,12 @@ jQuery(function ($) {
 	});
 
 });
+//popup-product-content
+$(document).ready(function() {
+  $('.popup-with-content').magnificPopup({
+    type: 'inline',
+    midClick: true, 
+    removalDelay: 300, 
+    mainClass: 'mfp-fade', 
+  });
+});
