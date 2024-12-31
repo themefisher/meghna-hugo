@@ -1,0 +1,44 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.skill.skill.enable }}
+{{ with $data.skill.skill }}
+{{"<!-- Skills -->" | safeHTML }}
+<section id="skills" class="parallax-section section section-bg overly">
+	<div class="container">
+		<div class="row">
+			{{"<!-- section title -->" | safeHTML }}
+			<div class="col-lg-12">
+				<div class="title text-center">
+					<h2>{{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+						{{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+			{{"<!-- /section title -->" | safeHTML }}
+		</div>
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>{{ .subtitle | markdownify }}</h2>
+				<p> {{ .content | markdownify }}</p>
+				{{ with .image }}
+				<img class="img-fluid lozad" data-src="{{ . | absURL }}" alt="image">
+				{{ end }}
+			</div>			
+		</div>
+		<div class="row justify-content-center">
+			{{ range .skill_item }}
+				<div class="col-lg-3 col-md-4 col-6 mb-4">
+					<div class="skill-card text-center">
+						<!-- Skill Item Image -->
+						<img src="{{ .image | absURL }}" alt="{{ .title }}" class="img-fluid mb-3">
+						<!-- Skill Item Title -->
+						<h4>{{ .title }}</h4>
+					</div>
+				</div>
+			{{ end }}
+		</div>
+	</div>
+</section>
+{{"<!-- /skill -->" | safeHTML }}
+{{ end }}
+{{ end }}

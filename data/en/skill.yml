@@ -1,0 +1,18 @@
+################################# Skill ##################################
+skill:
+  enable : true
+  title : Our Values
+  subtitle : Supporting Industrial Transformation - One Idea At Time
+  content : With our highly motivated and experienced Engineering and Procurement team, we are able to consistently achieve our goal in making the procurement process simple and efficient for all our clients by being the preferred supplier at highly competitive prices backed with an on-time delivery from global manufacturers and OEMs. MTBS is always on the lookout to diversify our profile and product range to best suit the industrial requirements through partnership and agreements with internationally renowned OEMs and service providers.
+  skill_item :
+    - title : New Projects
+      image : images/skills/project.png
+
+    - title : New Products
+      image : images/skills/product.png
+
+    - title : New Challenges
+      image : images/skills/challenge.png
+    - title : New Solutions
+      image : images/skills/solution.png
+

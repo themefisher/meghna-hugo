@@ -1,0 +1,16 @@
+############################# feature ###################################
+feature:
+  enable : true
+  image : images/about/about-business-man.jpg
+  image_webp : images/about/about-business-man.webp
+  title : Maintaining Quality and A Focus on Innovation
+  
+  feature_item : 
+      
+    - title : MISSION
+      icon : ti-crown # themify icon pack : https://themify.me/themify-icons
+      content : Our mission is to provide our customers with the highest quality industrial equipment, consumables and services, while ensuring that our products are safe and reliable. We strive to be the leading provider of industrial requirements and to meet the needs of our customers through our commitment to excellence, innovation and customer service.
+      
+    - title : VISION
+      icon : ti-eye # themify icon pack : https://themify.me/themify-icons
+      content : Our vision is to be the premier choice for industrial needs, continuously setting the standards in quality, performance, and innovation. We aim to empower businesses to reach their full potential through our innovative solutions and unwavering commitment to customer satisfaction.

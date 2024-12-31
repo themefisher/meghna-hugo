@@ -1,0 +1,11 @@
+############################# call to action ##############################
+cta:
+  enable : true
+  bg_image : "images/backgrounds/bg-white-wall.jpg"
+  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
+  title : "Mahaa Technology & Business Solutions(MBTS)"
+  content: "A leading provider of specialized industrial equipment, consumables, and services in the Sultanate of Oman. With our strong track record of success and international vendor connections, we are dedicated to meeting your unique industry requirements. Our vision is to set new standards in quality, performance, and innovation, empowering businesses to reach their full potential."
+  button:
+    enable : true
+    label : "Our Values"
+    link : "#skills" 

@@ -1,0 +1,88 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.portfolio.portfolio.enable }}
+{{ with $data.portfolio.portfolio }}
+<!-- Portfolio Section -->
+<section class="portfolio section" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+        <!-- Section Title -->
+        <div class="title text-center">
+          <h2>
+            {{ with .title }}{{ index (split . " ") 0 | safeHTML }}{{ end }}
+            <span class="color">
+              {{ with .title }}{{ after (len (index (split . " ") 0)) . | safeHTML }}{{ end }}
+            </span>
+          </h2>
+          <div class="border-meghna"></div>
+        </div>
+        <!-- /Section Title -->
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="btn-group portfolio-filter btn-group-toggle justify-content-center d-flex flex-wrap"
+          data-toggle="buttons">
+          {{ $categories := slice }}
+          {{ range .portfolio_item }}
+          {{ range .categories }}
+          {{ $categories = $categories | append . }}
+          {{ end }}
+          {{ end }}
+          {{ range ( $categories | uniq ) }}
+          {{ if eq . "electric" }}
+          <label class="btn active">
+            <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" checked="checked" />{{ . | humanize }}
+          </label>
+          {{ else }}
+          <label class="btn">
+            <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . | humanize }}
+          </label>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    <div class="row shuffle-wrapper justify-content-center">
+      <!-- Portfolio Items -->
+	{{ range .portfolio_item }}
+	<div class="col-lg-4 col-md-6 shuffle-item"
+		data-groups="[{{ range $index, $element := .categories }}{{ if ne $index 0 }},{{ end }}&quot;{{ . | urlize }}&quot;{{ end }}]">
+	<div class="portfolio-block mb-4">
+		<!-- Image Display -->
+		<img class="img-fluid" src="{{ .image_webp | absURL }}" 
+			onerror="this.onerror=null;this.src='{{ .image | absURL }}'" 
+			alt="{{ .name }}">
+		<div class="caption">
+		<!-- Search Icon -->
+		<a class="search-icon popup-with-content" href="#popup-{{ .name | urlize }}">
+			<i class="ti-search"></i>
+		</a>
+		<h4 class="mt-3">
+			{{ if or (eq .link "#") (eq .link "") }}
+			{{ .name }}
+			{{ else }}
+			<a href="{{ .link | safeURL }}">{{ .name }}</a>
+			{{ end }}
+		</h4>
+		<p>{{ .content | markdownify }}</p>
+		</div>
+	</div>
+	</div>
+
+<!-- Popup Content -->
+	{{ $popupContent := .Site.GetPage "portfolio" .name }}
+	<div id="popup-{{ .name | urlize }}" class="mfp-hide white-popup">
+		<h2>{{ .name }}</h2>
+	</div>
+	{{ end }}
+
+	</div>
+</div>
+</section>
+<!-- /Portfolio Section -->
+{{ end }}
+{{ end }}

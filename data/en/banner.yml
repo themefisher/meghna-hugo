@@ -1,0 +1,13 @@
+############################### Banner ################################
+banner:
+  enable : true
+  bg_image_webp : "images/backgrounds/hero-area.webp"
+  bg_image : "images/backgrounds/hero-area.jpg"
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  title : "All the solutions you need"
+  # content : "Providing exceptional service by bringing you the products and solutions you need, when you need them."
+  image : "images/logo.png"
+  button:
+    enable : true
+    label : "Explore Us"
+    link : "#services"

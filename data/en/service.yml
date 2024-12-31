@@ -1,0 +1,31 @@
+################################# Service #################################
+service:
+  enable : true
+  title : What We Do?
+  content : We offer Specialized Equipment, spare parts, consumables and service in sultanate of oman. We ensure your industrial needs are met with the best-in-class    products and services                        
+  service_item:
+  - name: "Electrical Consumables and Devices"
+    image: images/products/electrical.jpg
+    content: "Power up your production with our advanced electrical industrial equipment."
+  
+  - name: "Instrumentation and Industrial Automation"
+    image: images/products/instrument.jpg
+    content: "Our instrumentation range includes condition monitoring sensors and equipment."
+  
+  - name: "Safety and Material Handling Equipment"
+    image: images/products/safety.jpg
+    content: "We provide tailored strategies and innovative technologies to minimize risks, ensure compliance and overall processes."
+
+  - name: "Mechanical, Oil and Gas"
+    image: images/products/mech.jpg
+    content: "Power up your operations with our top-quality Mechanical, Oil & Gas Equipments."
+  
+  - name: "Lighting"
+    image: images/products/lighting.jpg
+    content: "Brighten up your space with our cutting-edge Lighting Equipment."
+  
+  - name: "Turbine Spare Parts"
+    image: images/products/turbine.jpg
+    content: "Best quality spare parts for your Gas and steam turbines."
+  
+  link: "#portfolio"

@@ -1,0 +1,358 @@
+portfolio:
+  enable: true
+  title: Our Products
+  portfolio_item:
+  # electric
+
+    - name: Cable management systems
+      image: images/products/electrical.jpg
+      categories: ["electric"]
+      content : Cable management systems
+      link: "#"
+
+    - name: Low-medium-high voltage motors & drives
+      image: images/products/electrical.jpg
+      categories: ["electric"]
+      content : Low/medium/high voltage motors & drives
+      link: "#"
+
+    - name:  Power cables, fire Resistant and fire alarm cable
+      image: images/products/electrical.jpg
+      categories: ["electric"]
+      link: "#"
+
+    - name:  Electrical switches, sensors
+      image: images/products/electrical.jpg
+      categories: ["electric"]
+      link: "#"
+
+    - name:  Earthing & lighting systems
+      image: images/products/electrical.jpg
+      categories: ["electric"]
+      link: "#"
+
+    - name:  Explosion proof products – junction boxes, plug & sockets
+      image: images/products/electrical.jpg
+      categories: ["electric"]
+      link: "#"
+
+    - name: Industrial plugs & sockets
+      image: images/products/electrical.jpg
+      categories: ["electric"]
+      link: "#"
+
+    - name: OEM spares
+      image: images/products/electrical.jpg
+      categories: ["electric"]
+      link: "#"
+
+    - name:  Capacitors
+      image: images/products/electrical.jpg
+      categories: ["electric"]
+      link: "#"
+
+    - name:  Voltage regulators
+      image: images/products/electrical.jpg
+      categories: ["electric"]
+      link: "#"
+
+    - name: Switchgear
+      image: images/products/electrical.jpg
+      categories: ["electric"]
+      link: "#"
+
+    - name: Relays
+      image: images/products/electrical.jpg
+      categories: ["electric"]
+      link: "#"
+
+
+
+# safety
+    - name: Sounders, beacons, sirens, alarms
+      content: safety
+      image: images/products/safety.jpg
+      categories: ["safety"]
+      link: "#"
+
+    - name: Anti collision systems for cranes
+      image: images/products/safety.jpg
+      categories: ["safety"]
+      link: "#"
+
+    - name: Hoists and workshop cranes
+      image: images/products/safety.jpg
+      categories: ["safety"]
+      link: "#"
+
+    - name: Trolleys, lifters, stackers
+      image: images/products/safety.jpg
+      categories: ["safety"]
+      link: "#"
+
+    - name: Special PPE (chemical or gas resistant, hazardous environment)
+      image: images/products/safety.jpg
+      categories: ["safety"]
+      link: "#"
+
+    - name: Chain blocks
+      image: images/products/safety.jpg
+      categories: ["safety"]
+      link: "#"
+
+# light 
+
+    - name: Outdoor & indoor lighting, temporary & portable lighting
+      image: images/products/lighting.jpg
+      categories: ["lighting"]
+      link: "#"
+
+    - name: Industrial lighting
+      image: images/products/lighting.jpg
+      categories: ["lighting"]
+      link: "#"
+
+    - name: Sports arena lighting
+      image: images/products/lighting.jpg
+      categories: ["lighting"]
+      link: "#"
+
+    - name: Emergency lighting
+      image: images/products/lighting.jpg
+      categories: ["lighting"]
+      link: "#"
+
+    - name: Street lighting poles & high mast
+      image: images/products/lighting.jpg
+      categories: ["lighting"]
+      link: "#"
+
+    - name: Solar lighting
+      image: images/products/lighting.jpg
+      categories: ["lighting"]
+      link: "#"
+
+    - name: Specialised lighting
+      image: images/products/lighting.jpg
+      categories: ["lighting"]
+      link: "#"
+
+    - name: Explosion proof hazardous lighting
+      image: images/products/lighting.jpg
+      categories: ["lighting"]
+      link: "#"
+
+    - name: Flood lighting
+      image: images/products/lighting.jpg
+      categories: ["lighting"]
+      link: "#"
+
+    - name: High bay lighting
+      image: images/products/lighting.jpg
+      categories: ["lighting"]
+      link: "#"
+
+    - name: Linear and cabinet lighting
+      image: images/products/lighting.jpg
+      categories: ["lighting"]
+      link: "#"
+
+    - name: LED explosion proof flood light
+      image: images/products/lighting.jpg
+      categories: ["lighting"]
+      link: "#"
+
+    - name: LED explosion proof street light
+      image: images/products/lighting.jpg
+      categories: ["lighting"]
+      link: "#"
+
+    - name: LED explosion proof light
+      image: images/products/lighting.jpg
+      categories: ["lighting"]
+      link: "#"
+
+    - name: LED explosion proof floodlight
+      image: images/products/lighting.jpg
+      categories: ["lighting"]
+      link: "#"
+
+    - name: LED explosion proof fluorescent lamp
+      image: images/products/lighting.jpg
+      categories: ["lighting"]
+      link: "#"
+
+# instrument
+    - name: Fire & gas detection systems
+      image: images/products/instrument.jpg
+      categories: ["instrument"]
+      link: "#"
+
+    - name: Temperature measurements
+      image: images/products/instrument.jpg
+      categories: ["instrument"]
+      link: "#"
+
+    - name: Special cables - LAPP cable, data communication cables
+      image: images/products/instrument.jpg
+      categories: ["instrument"]
+      link: "#"
+
+    - name: Pressure gauges & transmitters
+      image: images/products/instrument.jpg
+      categories: ["instrument"]
+      link: "#"
+
+    - name: Sensors & switches
+      image: images/products/instrument.jpg
+      categories: ["instrument"]
+      link: "#"
+
+    - name: OEM spares
+      image: images/products/instrument.jpg
+      categories: ["instrument"]
+      link: "#"
+
+    - name: Power Supply Cabinets
+      image: images/products/instrument.jpg
+      categories: ["instrument"]
+      link: "#"
+
+    - name: Industrial Computers - Nexcom
+      image: images/products/instrument.jpg
+      categories: ["instrument"]
+      link: "#"
+
+    - name: Linescanner - Raytek USA
+      image: images/products/instrument.jpg
+      categories: ["instrument"]
+      link: "#"
+
+    - name: Pyrometer - Land Make
+      image: images/products/instrument.jpg
+      categories: ["instrument"]
+      link: "#"
+
+    - name: Gauges - WIKA
+      image: images/products/instrument.jpg
+      categories: ["instrument"]
+      link: "#"
+
+    - name: Condition monitoring sensors
+      image: images/products/instrument.jpg
+      categories: ["instrument"]
+      link: "#"
+
+    - name: Monitoring gauges
+      image: images/products/instrument.jpg
+      categories: ["instrument"]
+      link: "#"
+
+  # mech
+
+    - name: Valves like gate valve, check valve, globe valve, safety relief valve
+      image: images/products/mech.jpg
+      categories: ["mechanical"]
+      link: "#"
+
+    - name: Pipeline products – fittings, flanges, pipes, isolation kits, stud bolts, gaskets
+      image: images/products/mech.jpg
+      categories: ["mechanical"]
+      link: "#"
+
+    - name: Fittings, CPVC & PVC products, HDPE
+      image: images/products/mech.jpg
+      categories: ["mechanical"]
+      link: "#"
+
+    - name: Pipeline services for on-site engineering
+      image: images/products/mech.jpg
+      categories: ["mechanical"]
+      link: "#"
+
+    - name: Passive fire protection
+      image: images/products/mech.jpg
+      categories: ["mechanical"]
+      link: "#"
+
+    - name: OEM spares
+      image: images/products/mech.jpg
+      categories: ["mechanical"]
+      link: "#"
+
+    - name: Mechanical seals
+      image: images/products/mech.jpg
+      categories: ["mechanical"]
+      link: "#"
+
+    - name: Protective coatings and Paint
+      image: images/products/mech.jpg
+      categories: ["mechanical"]
+      link: "#"
+
+    - name: Welding Equipment
+      image: images/products/mech.jpg
+      categories: ["mechanical"]
+      link: "#"
+
+    - name: Workshop Maintenance Tools
+      image: images/products/mech.jpg
+      categories: ["mechanical"]
+      link: "#"
+
+    - name: Spray nozzles
+      image: images/products/mech.jpg
+      categories: ["mechanical"]
+      link: "#"
+
+    - name: Tank cleaning and washing systems
+      image: images/products/mech.jpg
+      categories: ["mechanical"]
+      link: "#"
+
+    - name: Spray lances
+      image: images/products/mech.jpg
+      categories: ["mechanical"]
+      link: "#"
+
+# turbine
+    - name: 1st and 2nd stage nozzles
+      image: images/products/turbine.jpg
+      categories: ["turbine"]
+      link: "#"
+
+    - name: Nozzle ring
+      image: images/products/turbine.jpg
+      categories: ["turbine"]
+      link: "#"
+
+    - name: Combustion liners
+      image: images/products/turbine.jpg
+      categories: ["turbine"]
+      link: "#"
+
+    - name: Compressor blades and liners
+      image: images/products/turbine.jpg
+      categories: ["turbine"]
+      link: "#"
+
+    - name: Complete HP and LP rotors
+      image: images/products/turbine.jpg
+      categories: ["turbine"]
+      link: "#"
+
+    - name: Centrifugal compressors
+      image: images/products/turbine.jpg
+      categories: ["turbine"]
+      link: "#"
+
+    - name: Heat exchangers
+      image: images/products/turbine.jpg
+      categories: ["turbine"]
+      link: "#"
+
+    - name: Filtration units
+      image: images/products/turbine.jpg
+      categories: ["turbine"]
+      link: "#"
+

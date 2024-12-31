@@ -1,0 +1,28 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.clients_slider.clients_slider.enable }}
+{{ with $data.clients_slider.clients_slider }}
+{{"<!-- Start Client Slider -->" | safeHTML}}
+<section id="client-slider" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+      </div>
+    </div>
+    <div class="client-logo-slider swiper d-flex">
+      <div class="swiper-wrapper align-items-center">
+        {{ range .client_slider_item }}
+        <div class="swiper-slide">
+          <img src="{{ .image | absURL }}" alt="{{ .name }}">
+        </div>
+        {{ end }}
+        
+      </div>
+    </div>
+  </div>
+</section>
+{{"<!-- End Client Slider -->" | safeHTML}}
+{{ end }}
+{{ end }}
+

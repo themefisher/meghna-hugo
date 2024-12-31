@@ -1,0 +1,30 @@
+############################## Contact #############################
+contact:
+  enable : true
+  title : Contact Us
+  subtitle : Contact Details
+  # Contact details
+  contact_list:
+    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
+      info : "PO 395, PC 118, Sultanate of Oman"
+      
+    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+      info : "Phone: +968 92792254"
+      
+    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+      info : "Email: mahaa.oman@mibts.com"
+
+    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+      info : "Email: crm.om@mibts.com"
+            
+
+
+  # Contact form
+  contact_form:
+    enable : true
+    form_action : "#" #contact form works with https://formspree.io
+    name : "Your Name"
+    email : "Your Email"
+    subject : "Subject"
+    message : "Message"
+    submit : "Submit"
