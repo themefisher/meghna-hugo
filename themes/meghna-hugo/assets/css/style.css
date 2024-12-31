@@ -712,7 +712,7 @@ a:hover {
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #57cbcc;
+  background: #ffa896;
   padding: 12px 0;
   width: 100%;
   margin: 0;
@@ -1209,7 +1209,7 @@ a:hover {
 }
 
 .client-thumb img {
-  border-radius: 50%;
+ 
   margin: 0 auto;
   max-width: 115px;
   width: 100%;

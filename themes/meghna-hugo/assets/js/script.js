@@ -63,6 +63,7 @@ jQuery(function ($) {
 		infinite: true,
 		arrows: false,
 		autoplay: true,
+		slidesToShow: 4,
 		autoplaySpeed: 4000
 	});
 

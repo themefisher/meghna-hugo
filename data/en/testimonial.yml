@@ -1,26 +1,80 @@
 ################################# Testimonial #########################
 testimonial:
   enable : true
+  title : Our Partners
   bg_image : images/backgrounds/bg-testimonial.jpg
   bg_image_webp : images/backgrounds/bg-testimonial.webp
   testimonial_item :
     # testimonial item loop
     - name : Jonathon Andrew
-      image : images/client/client-1.jpg
-      image_webp : images/client/client-1.webp
+      image : images/client/1.svg
+      image_webp : images/client/1.svg
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
       
     # testimonial item loop
     - name : Mark Dinn
-      image : images/client/client-2.jpg
-      image_webp : images/client/client-2.webp
+      image : images/client/2.svg
+      image_webp : images/client/2.svg
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
       
     # testimonial item loop
     - name : Lemos Kail
-      image : images/client/client-1.jpg
-      image_webp : images/client/client-1.webp
+      image : images/client/3.svg
+      image_webp : images/client/3.svg
       date : Dec 26, 2018
       content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    # testimonial item loop
+    - name : Jonathon Andrew
+      image : images/client/4.svg
+      image_webp : images/client/4.svg
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+      
+    # testimonial item loop
+    - name : Mark Dinn
+      image : images/client/5.svg
+      image_webp : images/client/5.svg
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+      
+    # testimonial item loop
+    - name : Lemos Kail
+      image : images/client/6.png
+      image_webp : images/client/6.png
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    # testimonial item loop
+    - name : Jonathon Andrew
+      image : images/client/7.png
+      image_webp : images/client/7.png
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+      
+    # testimonial item loop
+    - name : Mark Dinn
+      image : images/client/8.png
+      image_webp : images/client/8.png
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+      
+    # testimonial item loop
+    - name : Lemos Kail
+      image : images/client/9.png
+      image_webp : images/client/9.png
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+    # testimonial item loop
+    - name : Jonathon Andrew
+      image : images/client/10.png
+      image_webp : images/client/10.png
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+      
+    # testimonial item loop
+    - name : Mark Dinn
+      image : images/client/11.jpg
+      image_webp : images/client/11.webp
+      date : Dec 26, 2018
+      content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!    

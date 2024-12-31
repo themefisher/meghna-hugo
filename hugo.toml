@@ -107,7 +107,7 @@ weight = 3
 
 [[Languages.en.menu.main]]
 name = "partners"
-url = "#team"
+url = "#testimonial"
 weight = 4
 
 # [[Languages.en.menu.main]]

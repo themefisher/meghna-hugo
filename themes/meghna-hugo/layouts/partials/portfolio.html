@@ -25,9 +25,6 @@
       <div class="col-lg-12">
         <div class="btn-group portfolio-filter btn-group-toggle justify-content-center d-flex flex-wrap"
           data-toggle="buttons">
-          <label class="btn active">
-            <input type="radio" name="shuffle-filter" value="all" checked="checked" />{{ i18n "all"}}
-          </label>
           {{ $categories := slice }}
           {{ range .portfolio_item }}
           {{ range .categories }}
@@ -35,9 +32,15 @@
           {{ end }}
           {{ end }}
           {{ range ( $categories | uniq ) }}
+          {{ if eq . "electric" }}
+          <label class="btn active">
+            <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" checked="checked" />{{ . | humanize }}
+          </label>
+          {{ else }}
           <label class="btn">
             <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . | humanize }}
           </label>
+          {{ end }}
           {{ end }}
         </div>
       </div>

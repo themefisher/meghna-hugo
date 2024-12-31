@@ -1,6 +1,6 @@
 ############################### team ############################
 clients_slider:
-  enable : true
+  enable : false
   title : Clients
   logo_slider :
     # team member loop

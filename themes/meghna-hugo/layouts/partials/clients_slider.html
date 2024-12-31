@@ -12,6 +12,11 @@
     </div>
     <div class="client-logo-slider swiper d-flex">
       <div class="swiper-wrapper align-items-center">
+        {{ range .client_slider_item }}
+        <div class="swiper-slide">
+          <img src="{{ .image | absURL }}" alt="{{ .name }}">
+        </div>
+        {{ end }}
         
       </div>
     </div>
