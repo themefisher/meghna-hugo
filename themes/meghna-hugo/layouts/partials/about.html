@@ -15,6 +15,11 @@
 				</div>
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<p> {{ .content | markdownify }}</p>
+				</div>			
+			</div>
 
 			{{ range .about_item }}
 			{{"<!-- About item -->" | safeHTML}}

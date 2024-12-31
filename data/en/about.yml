@@ -2,12 +2,13 @@
 about:
   enable : true
   title : About Us
+  content : Mahaa Technology & Business Solutions LLC ( MTBS ) is a novel initiative catering to the needs of specialised industry requirements and authorized distributor of    range of water Proofing system within the Sultanate of Oman. Our well established business operations and international vendor connections have resulted in a track record of success which continues to grow with every new project and supply agreement that we take on. We are catering to Electrical consumables and devices, Instrumentation and industrial automation, Mechanical ,oil and gas equipment, lighting equipment. This is an unique initiative by MTBS to help bridge the the ever widening gap between the existing industry and the emerging technology as it makes itself available globally. Our engineers interact with various solution providers, do the due diligence, witness proof of concepts ( POC) and factory visits, to educate ourselves about the technology on offer.
   about_item :
   - icon : ti-light-bulb # themify icon pack : https://themify.me/themify-icons
     title : OPTIMUM SOLUTIONS
 
   - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
-    title : MANUFACTURERS
+    title : REPUTED MANUFACTURERS
   
   - icon : ti-timer # themify icon pack : https://themify.me/themify-icons
     title : SPEEDY LOGISTICS

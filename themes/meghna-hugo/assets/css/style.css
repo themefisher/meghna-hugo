@@ -227,6 +227,18 @@ a:hover {
   padding: 10px 35px;
   text-transform: uppercase;
 }
+.ban-img {
+  width: 50%; 
+  height: auto;
+  max-width: 100%; 
+}
+
+@media screen and (max-width: 800px) {
+  .ban-img {
+      width: 80%; 
+      max-width: 80%;
+  }
+}
 
 .btn-main:hover {
   background: #ec5551;
@@ -411,6 +423,14 @@ a:hover {
   width: 100%;
   margin-bottom: 0;
 }
+.sticky-top div.container{
+  padding-left: 2px;
+  padding-right: 0px;
+}
+
+nav.navbar{
+  padding-left: 0px;
+}
 
 .navbar-dark .navbar-nav .active>.nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
@@ -548,7 +568,7 @@ a:hover {
 ==================================================================*/
 .about .block {
   background: #38000A;
-  padding: 30px;
+  padding: 20px;
   border-bottom: 2px solid transparent;
   transition: .5s all;
   margin-bottom: 20px;
@@ -562,7 +582,11 @@ a:hover {
   -webkit-transform: translateY(-10px);
   transform: translateY(-10px);
 }
-
+.about p{
+  color: #fff;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
 .about .block .icon-box {
   position: relative;
   width: 160px;
@@ -608,6 +632,11 @@ a:hover {
 
 .about .block .icon-box h3 {
   color: #afbac4;
+}
+@media (max-width: 768px) {
+  .about p{
+    display: none;
+  }
 }
 
 /*=================================================================

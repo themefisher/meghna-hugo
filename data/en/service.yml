@@ -2,6 +2,7 @@
 service:
   enable : true
   title : What We Do?
+  content : We offer Specialized Equipment, spare parts, consumables and service in sultanate of oman. We ensure your industrial needs are met with the best-in-class    products and services                        
   service_item:
   - name: "Electrical Consumables and Devices"
     image: images/products/electrical.jpg
