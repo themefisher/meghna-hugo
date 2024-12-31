@@ -71,30 +71,6 @@
           </li>
           {{ end }} {{ end }}
         </ul>
-        <!-- Language List -->
-        {{- if hugo.IsMultilingual }}
-        <select id="select-language" onchange="location = this.value;">
-          {{ $siteLanguages := site.Languages }} {{ $pageLang := .Page.Lang }}
-          {{ range .Page.AllTranslations }} {{ $translation := . }} {{ range
-          $siteLanguages }} {{ if eq $translation.Lang .Lang }} {{ $selected :=
-          false }} {{ if eq $pageLang .Lang }}
-          <option
-            id="{{ $translation.Language }}"
-            value="{{ $translation.Permalink }}"
-            selected
-          >
-            {{ .LanguageName }}
-          </option>
-          {{ else }}
-          <option
-            id="{{ $translation.Language }}"
-            value="{{ $translation.Permalink }}"
-          >
-            {{ .LanguageName }}
-          </option>
-          {{ end }} {{ end }} {{ end }} {{ end }}
-        </select>
-        {{ end }}
       </div>
     </nav>
   </div>
