@@ -2,7 +2,7 @@
 {{ "<!-- preloader start -->" | safeHTML }}
 <div class="preloader">
   {{ with site.Params.preloader.preloader }}
-  <img src="{{ . | absURL }}" alt="preloader">
+  {{ partial "image.html" (dict "Src" . "Alt" "preloader" ) }}
   {{ end }}
 </div>
 {{ "<!-- preloader end -->" | safeHTML }}

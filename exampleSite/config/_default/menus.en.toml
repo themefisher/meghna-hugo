@@ -1,0 +1,60 @@
+
+################### English Navigation ########################
+[[main]]
+name = "about"
+url = "#about"
+weight = 1
+
+[[main]]
+name = "services"
+url = "#services"
+weight = 2
+
+[[main]]
+name = "portfolio"
+url = "#portfolio"
+weight = 3
+
+[[main]]
+name = "team"
+url = "#team"
+weight = 4
+
+[[main]]
+name = "pricing"
+url = "#pricing"
+weight = 5
+
+[[main]]
+name = "blog"
+url = "#blog"
+weight = 6
+
+[[main]]
+name = "contact"
+url = "#contact"
+weight = 7
+
+
+[[main]]
+name = "Dropdown"
+weight = 7
+hasChildren = true
+
+[[main]]
+parent = "Dropdown"
+name = "Dropdown 1"
+url = "#"
+weight = 1
+
+[[main]]
+parent = "Dropdown"
+name = "Dropdown 2"
+url = "#"
+weight = 2
+
+[[main]]
+name = "themefisher"
+url = "https://themefisher.com/"
+weight = 8
+

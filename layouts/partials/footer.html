@@ -16,7 +16,7 @@
 				{{"<!-- copyright -->" | safeHTML}}
 				<div class="copyright text-center">
 					<a href="{{ site.Home.Permalink }}">
-						<img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" height="42" />
+						{{ partial "image.html" (dict "Src" site.Params.logo "Alt" site.Title ) }}
 					</a>
 					<br>
 					<p>{{ site.Params.copyright | markdownify }}</p>

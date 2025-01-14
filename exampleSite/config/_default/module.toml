@@ -1,0 +1,7 @@
+[hugoVersion]
+extended = true
+min = "0.115.1"
+
+
+[[imports]]
+path = "github.com/gethugothemes/hugo-modules/images"

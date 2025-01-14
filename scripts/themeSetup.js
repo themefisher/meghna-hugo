@@ -16,7 +16,7 @@ const deleteFolder = (folderPath) => {
 const getFolderName = (rootfolder) => {
   const configPath = path.join(
     rootfolder,
-    "exampleSite/hugo.toml"
+    "exampleSite/config/_default/hugo.toml"
   );
   const getConfig = fs.readFileSync(configPath, "utf8");
   const match = getConfig.match(/theme\s*=\s*\[?"([^"\]]+)"\]?/);
@@ -50,6 +50,9 @@ const setupTheme = () => {
 
   if (!fs.existsSync(path.join(rootFolder, "exampleSite"))) {
     const includesFiles = [
+      "tailwind.config.js",
+      "postcss.config.js",
+      "go.mod",
       "hugo.toml",
       "assets",
       "config",
