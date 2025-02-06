@@ -3,9 +3,10 @@
 {{ if $data.funfacts.funfacts.enable }}
 {{ with $data.funfacts.funfacts }}
 {{"<!-- Start Counter Section -->" | safeHTML}}
-<section id="counter" class="parallax-section bg-1 section overly" style='background-image: url("{{ .bg_image_webp | absURL }}")'>
+<section id="counter" class="parallax-section bg-1 section overly" {{ partial `bg-image.html` (dict `Src` .bg_image ) | safeHTMLAttr }}>
 	<!-- this image is for trigger this section fallback background image -->
-	<img class="lozad" style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'" data-src="{{ .bg_image_webp | absURL }}" />
+  {{ partial "image" (dict "Src" .bg_image "Alt"
+  .Title "Class" "d-none") }}
 	<div class="container">
 		<div class="row justify-content-center">
 			{{ range .counter_item }}

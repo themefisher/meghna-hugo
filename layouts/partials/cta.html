@@ -3,9 +3,11 @@
 {{ if $data.cta.cta.enable}}
 {{ with $data.cta.cta}}
 {{"<!-- Start Call To Action -->" | safeHTML}}
-<section id="cta" class="call-to-action section-sm bg-1 overly" style='background-image: url("{{ .bg_image_webp | absURL }}")'>
+<section id="cta" class="call-to-action section-sm bg-1 overly" {{ partial `bg-image.html` (dict `Src` .bg_image_webp ) | safeHTMLAttr }}>
 	<!-- this image is for trigger this section fallback background image -->
-	<img src="{{ .bg_image_webp | absURL }}" style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'">
+	{{ partial "image" (dict "Src" .bg_image "Alt"
+  .Title "Class" "d-none") }}
+
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
