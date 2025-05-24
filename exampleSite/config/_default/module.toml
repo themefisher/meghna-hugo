@@ -1,6 +1,6 @@
 [hugoVersion]
 extended = true
-min = "0.115.1"
+min = "0.147.2"
 
 
 [[imports]]

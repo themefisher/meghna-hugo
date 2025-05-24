@@ -46,6 +46,8 @@
 				<div class="portfolio-block mb-4">
 					{{ partial "image.html" (dict "Src" .image_webp "Alt" .name "Class" "img-fluid") }}
 					<div class="caption">
+						{{ partial "process-image.html" (dict "Src" .image) }}
+
 						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="{{ .image | relURL }}"
 							data-lightbox="image-1">
 							<i class="ti-search"></i>

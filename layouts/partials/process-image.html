@@ -1,0 +1,12 @@
+{{- $src := .Src -}}
+
+{{- $image := resources.Get $src -}}
+
+{{- if $image }}
+  {{/* Process the image but don't render it - just access the RelPermalink to ensure processing */}}
+  {{ $imageUrl := $image.RelPermalink }}
+  {{/* Intentionally empty - no rendering of image */}}
+{{- else }}
+  {{/* Image not found but no rendering needed */}}
+  <!-- Missing image: {{ $src }} -->
+{{- end }}
