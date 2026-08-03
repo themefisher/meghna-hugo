@@ -19,7 +19,15 @@
 						<img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" height="42" />
 					</a>
 					<br>
-					<p>{{ site.Params.copyright | markdownify }}</p>
+					{{ $copyright := site.Language.Params.copyright }}
+					{{ if not $copyright }}
+						{{ $copyright = site.Params.copyright }}
+					{{ end }}
+					{{ if not $copyright }}
+						{{ $copyright = printf "Copyright &copy; %d Erelis Digital Marketing & Web Design" now.Year }}
+					{{ end }}
+					{{ $copyright = replace $copyright "{{< year >}}" (string now.Year) }}
+					<p>{{ $copyright | markdownify }}</p>
 				</div>
 			</div>
 		</div>
