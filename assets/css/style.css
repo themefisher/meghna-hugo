@@ -1287,17 +1287,54 @@ a:hover {
 .post-block {
   background-color: #292F36;
   margin-bottom: 10px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-block:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
+}
+
+.post-block .media-wrapper img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
 }
 
 .post-block .content {
-  padding: 20px;
+  padding: 20px 20px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .post-block .content h3 {
-  margin: 0 0 6px;
+  margin: 0;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.35;
   text-transform: capitalize;
+}
+
+.post-block .content p {
+  margin: 0;
+  color: #dce2ea;
+  font-size: 15px;
+  line-height: 1.7;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.post-block .content .btn {
+  margin-top: auto;
+  align-self: flex-start;
+  padding: 8px 18px;
+  font-size: 14px;
 }
 
 .note .media-wrapper {
